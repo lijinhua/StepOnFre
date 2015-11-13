@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">"Manuale d'uso StepOn"</string> 
+
+<string name="email_title">Scrivici \u0026 Incoraggiarci</string>
+<string name="email_message">\u2605 Mandaci una mail per qualunque problema, domanda o commento. </string>  
+<string name="review_message">\u2605 Sono necessari impegno e lavoro, per sviluppare applicazioni di qualità. LASCIA UNA REVIEW POSITIVA se StepOn ti soddisfa, questo ci aiuterà a sviluppare Applicazioni migliori. Grazie</string>
+<string name="notes_title">Note</string>
+<string name="notes_message">
+\u2605 StepOn è un pedometro che tiene traccia i tuoi passi.\n\n 
+
+\u2605 Un algoritmo intelligente di riconoscimento movimento 3D registra solo le attività di camminata e corsa, ignorando le altre attività. StepOn conta i passi indipendentemente da dove tieni il telefono, tasca, borsa o cintura.\n\n 
+
+\u2605 Mantieniti in salute stabilendo il tuo obiettivo quotidiano e monitorando con precisione i tuoi passi con StepOn.\n\n 
+
+\u2605 StepOn è così semplice. Tutto quello che dovete fare è premere il pulsante di avviamento quando si inizia a camminare.\n\n 
+
+\u2605 Le caratteristiche principali includono:\n 
+
+\u2022 Grafici: conteggia per giorno, settimana, mese, anno.\n 
+\u2022 Diario quotidiano: passi, distanza, calorie, tempo di camminata.\n 
+\u2022 L’algoritmo intelligente comincia a misurare i passi solo dopo 4-12 passi consecutivi, quindi si ferma e ricomincia a contare quando ricominci la camminata.\n 
+\u2022 Facebook distacco.\n 
+\u2022 Backup Google Drive.\n 
+\u2022 Regolazioni personalizzabili: sensibilità, metrico/inglese, distanza, peso, obiettivo quotidiano, ecc.
+</string>
+</resources>

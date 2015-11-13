@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When version & TE changes -->
+    <string name="trial_expired">Cloud (Google Drive) backup er tilgængelig i Pro version.</string>
+    <string name="accupedo_settings_about">Om StepOn</string>
+    <string name="accupdeo_version_title">StepOn versionen</string>
+    <string name="accupdeo_version_summery">Versionen 1.2.5</string>
+
+    <!-- 123 -->
+    <string name="automatic_backup">Automatisk backup</string>
+    <string name="automatic_backup_midnight_sdcard">Gemme en databasefil i SD-kort ved midnat.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Skriv din højde</string>
+    <string name="height">Højde</string>
+    <string name="birthday">Fødselsdag</string>
+    <string name="gender">Køn</string>
+    <string name="gender_female">Kvinde</string>
+    <string name="gender_male">Mand</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Reward</string>
+    <string name="goal_reward_notification">Daglig mål belønning</string>
+    <string name="goal_reward_notification_details">Når den daglige mål er nået ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Gem</string>
+    <string name="stop_dialog_nosave">Gem ikke</string>
+    <string name="widget_steps">trin</string>
+    <string name="widget_st">\u00A0tr</string>
+    <string name="widget_reset">\u2605 Nulstil \u2605</string>
+    <string name="widget_paused">Pause..</string>
+    <string name="steps">trin</string>
+    <string name="minutes">minut</string>
+    <string name="hhmm">tid</string>
+    <string name="reset">Nulstil</string>
+    <string name="power_usage_type_setting">Strømforbrugs tilstand</string>
+    <string name="power_usage_type_setting_details">Strømforbrugs tilstand</string>
+    <string name="power_usage_type_setting_title">Vælg nøjagtig trin tæller eller strømbesparende</string>
+    <string name="power_usage_type_most_accurate">Mest præcise trin tæller</string>
+    <string name="power_usage_type_power_balanced">Balanceret</string>
+    <string name="power_usage_type_power_saving">Strømsparetilstand trin tæller</string>
+    <string name="settings">Indstillinger</string>
+    <string name="sensitivity_setting">Følsomhed</string>
+    <string name="sensitivity_setting_details">Følsomhed</string>
+    <string name="sensitivity_setting_title">Vælg følsomhedsniveau</string>
+    <string name="consecutive_setting">Antal kontinuerlige trin</string>
+    <string name="consecutive_setting_details">Antal kontinuerlige trin</string>
+    <string name="consecutive_setting_title">Indledende kontinuerlige trin</string>
+    <string name="very_high">Mest følsom</string>
+    <string name="high">Mere følsom</string>
+    <string name="medium">Standard</string>
+    <string name="low">Mindre følsom</string>
+    <string name="very_low">Mindst følsom</string>
+    <string name="units_setting">Metriske / Engelsk</string>
+    <string name="units_setting_details">Metriske / Engelsk</string>
+    <string name="units_setting_title">Vælg din enhed</string>
+    <string name="units_metric">Metriske: cm, km, kg</string>
+    <string name="units_imperial">Engelsk: in, mile, pound</string>
+    <string name="body_weight_setting">Kropsvægt</string>
+    <string name="body_weight_setting_details">Kropsvægt</string>
+    <string name="body_weight_setting_title">Skriv din kropsvægt</string>
+    <string name="goal_steps_setting">Mål, antal trin</string>
+    <string name="goal_steps_setting_details">Mål, antal trin</string>
+    <string name="goal_steps_setting_title">Skriv dit daglige mål, antal trin</string>
+    <string name="exercise_type_setting">Gå / Løb</string>
+    <string name="exercise_type_setting_details">Gå / Løb</string>
+    <string name="exercise_type_setting_title">Vælg din aktivitet</string>
+    <string name="exercise_type_running">Løbe</string>
+    <string name="exercise_type_walking">Gå</string>
+    <string name="week_type_setting">Første dag i ugen</string>
+    <string name="week_type_setting_details">Første dag i ugen</string>
+    <string name="week_type_setting_title">Vælg uge format for ugentlige diagram</string>
+    <string name="week_type_american">Søndag</string>
+    <string name="week_type_european">Mandag</string>
+    <string name="help">Hjælp</string>
+    <string name="save">Gem</string>
+    <string name="day">Dag</string>
+    <string name="week">Uge</string>
+    <string name="month">Måned</string>
+    <string name="year">År</string>
+    <string name="chart">Diagram</string>
+    <string name="chart_wait">Vent behandler..</string>
+    <string name="chart_no_data">Ingen data tilgængelig</string>
+    <string name="button_email">Email</string>
+    <string name="button_review">Gennemgang</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Nej</string>
+    <string name="alert_pause_message">Ønsker du at pause StepOn?</string>
+    <string name="alert_resume_message">Ønsker du at genoptage StepOn?</string>
+    <string name="toast_save">Gemt i StepOn mappen.</string>
+    <string name="toast_folder">Kan ikke oprette StepOn mappen.</string>
+    <string name="toast_external_storage_not_writeable">Ekstern lager er skrivebeskyttet.</string>
+    <string name="toast_external_storage_not_available">Ekstern lager er ikke tilgængelig.</string>
+    <string name="history">Historik</string>
+    <string name="daily_steps">Daglig trin</string>
+    <string name="daily_goal">Daglig mål</string>
+    <string name="hourly_step_counts">Timelig trin tæller</string>
+    <string name="hour">Time</string>
+    <string name="weekly_total">Uge i alt</string>
+    <string name="ave">gen.</string>
+    <string name="daily_step_counts">Daglig trin tæller</string>
+    <string name="sun">Søn</string>
+    <string name="mon">Man</string>
+    <string name="tue">Tir</string>
+    <string name="wed">Ons</string>
+    <string name="thu">Tor</string>
+    <string name="fri">Fre</string>
+    <string name="sat">Lør</string>
+    <string name="monthly_total">Månedlig total</string>
+    <string name="yearly_total">Årlig total</string>
+    <string name="monthly_average_step_counts">Månedligt gen. trin</string>
+    <string name="jan">Jan</string>
+    <string name="mar">Mar</string>
+    <string name="may">Maj</string>
+    <string name="jul">Jul</string>
+    <string name="sep">Sep</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Uge</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Aktiv tidsrum</string>
+    <string name="activehours_setting_details">Aktivere / deaktivere Aktiv tidsrum. Der vil blive skiftet til pausetilstand i det ikke-aktiv tidsrum for at spare strøm. Husk at sætte et daglig start / sluttidspunkt.</string>
+    <string name="daily_start_setting">Dagligt starttidspunkt</string>
+    <string name="daily_start_setting_details">Trin tæller starter</string>
+    <string name="daily_start_setting_title">Vælg starttidspunkt</string>
+    <string name="daily_end_setting">Daglig sluttidspunkt</string>
+    <string name="daily_end_setting_details">Trin tæller stopper</string>
+    <string name="daily_end_setting_title">Vælg sluttidspunkt</string>
+    <string name="power_settings_title">Strømforbrug</string>
+    <string name="personal_settings_title">Personlig</string>
+    <string name="daily_goal_title">Mål</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Daglig logbogs historik blev overført fra StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widget temafarve</string>
+    <string name="widget_skin_type_setting_details">Widget temafarve</string>
+    <string name="widget_skin_type_setting_title">Vælg widget temafarve</string>
+    <string name="widget_skin_0">standard</string>
+    <string name="widget_skin_1">sort</string>
+    <string name="widget_skin_2">blå</string>
+    <string name="widget_skin_3">grøn</string>
+    <string name="widget_skin_4">orange</string>
+    <string name="widget_skin_5">pink</string>
+    <string name="widget_skin_6">gennemsigtig</string>
+    <string name="display_settings_title">Skærmen</string>
+    <string name="operation_level_setting">Skærm til / fra</string>
+    <string name="operation_level_setting_details">Skærm til / fra</string>
+    <string name="operation_level_setting_title">Vælg skærm til / fra</string>
+    <string name="run_in_background">Hold skærmen slukket</string>
+    <string name="keep_screen_on">Hold skærmen tændt</string>
+    <string name="wake_up">Tving skærmen, tændt</string>
+    <string name="email_file_subject">StepOn daglige logfiler</string>
+    <string name="toast_need_sdcard">Skal bruge et SD-kort til at gemme og sende daglige logfiler.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">Database fil (StepOn.db) bør være i StepOn mappen på SD-kortet. OBS!!! Den importerede fil erstatter den eksisterende database.</string>
+    <string name="import_success_message">Import.</string>
+    <string name="export_success_message">Eksport.</string>
+    <string name="toast_folder_doesnot_exist">StepOn mappen findes ikke.</string>
+    <string name="run_length_setting">Trin afstand: Løb</string>
+    <string name="run_length_setting_details">Trin afstand: Løb</string>
+    <string name="run_length_setting_title">Skriv din skridt afstand: Løb</string>
+    <string name="step_length_setting">Trin afstand: Gå</string>
+    <string name="step_length_setting_details">Trin afstand: Gå</string>
+    <string name="step_length_setting_title">Skriv din skridt afstand: Går</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Sprog</string>
+    <string name="locale_type_setting_details">Sprog</string>
+    <string name="locale_type_setting_title">Vælg sprog</string>
+    <string name="locale_0">Standard</string>
+    <string name="locale_1">Engelsk</string>
+    <string name="buy_button">Køb Pro</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook er opdateret!</string>
+    <string name="fb_walk_report">StepOn daglige gåtur rapport</string>
+    <string name="fb_lets_walk">Gå 10000 skridt om dagen!</string>
+    <string name="database">Database</string>
+    <string name="send_cvs">Send CSV fil.</string>
+    <string name="share">Del</string>
+    <string name="kilometers_per_hour">km/t</string>
+    <string name="export_success_message2">Database filen vil blive eksporteret til StepOn mappen.</string>
+    <string name="export_limit_te">Database import / eksport funktioner er kun for StepOn-Pro.</string>
+    <string name="import_limit_te">Database import / eksport funktioner er kun for StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Mere præcis antal skridt</string>
+    <string name="power_usage_type_power_less">Mindre strømforbrug</string>
+    <string name="power_usage_type_power_least">Mindst strømforbrug</string>
+    <string name="history_management_setting">Historik redigering</string>
+    <string name="autopause_charging_setting">Automatisk pause</string>
+    <string name="autopause_charging_setting_details">Automatisk pause under opladning</string>
+    <string name="wait_for_data_transfer">Vent database overføres..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Tur</string>
+    <string name="trashcan">Skraldespand</string>
+    <string name="editsteps">Rediger trin</string>
+    <string name="alert_delete_month_message">Slet månedlig historik?</string>
+    <string name="alert_delete_day_message">Slet daglig historik?</string>
+    <string name="alert_next_lap_message">Ønsker du at starte en ny tur?</string>
+    <string name="enter_manual_steps">Skridt tæller</string>
+    <string name="button_manual_steps">Bekræft</string>
+    <string name="alert_set_steps_message">Kan du bekræfte?</string>
+    <string name="chart_statistics">Statistik</string>
+    <string name="wait_for_generating_csv">Skriver CSV-fil..</string>
+    <string name="wait_for_exporting_db">Eksportere database..</string>
+    <string name="wait_for_importing_db">Importere database..</string>
+    <string name="export_to_sdcard">Database fil (StepOn.db) er gemt I StepOn mappen på SD-Card.</string>
+    <string name="cancelled">Annuller</string>
+    <string name="permission_not_granted">Tilladelse er ikke givet.</string>
+    <string name="error">Fejl</string>
+    <string name="status_update">Opdatere status.</string>
+    <string name="success">Udført</string>
+    <string name="successfully_posted_post">Posted udført</string>
+    <string name="alert_new_installation_message">StepOn daglig journal blev fundet. Ønsker du at importere?</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Ønsker du at nulstille daglige skridt tæller?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Database fil (StepOn.db) er uploadet.</string>
+    <string name="google_drive_downloaded">Database fil (StepOn.db) er hentet.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) findes ikke.</string>
+    <string name="dropbox_uploading">Upload ..</string>
+    <string name="dropbox_downloading">Downloading ..</string>
+    <string name="notification_settings_title">Notifikation</string>
+    <string name="goal_achievement_notification">Daily målopfyldelse</string>
+    <string name="goal_achievement_notification_details">Meddelelse, når målet er nået</string>
+    <string name="speed_type_setting">Hastighed</string>
+    <string name="speed_type_setting_details">Hastighed</string>
+    <string name="speed_type_setting_title">Vælg hastighed format</string>
+    <string name="speed_type_average">Gennemsnitlig hastighed</string>
+    <string name="speed_type_realtime">Real-time hastighed</string>
+    <string name="alert_import_gdrive_message">StepOn database fil skal være i Google Drive. \n\n +++ Attention! +++\n Den importerede fil erstatter den eksisterende database.</string>
+    <string name="alert_import_dropbox_message">StepOn database fil skal være i Dropbox. \n\n +++ Attention! +++\n Den importerede fil erstatter den eksisterende database.</string>
+    <string name="try_again">Prøv venligst igen!</string>
+    <string name="network_connection">Netværk skal tilsluttes.</string>
+    <string name="delete">Slet</string>
+    <string name="alert_history_update_version_401_message">+++ OBS! +++\n Tryk ned på skærmen for at redigere eller slette daglige skridt tæller. Eller klik på skærmen for at se detaljer skød historie.</string>
+    <string name="connect_to_mfp">Forbind til MFP</string>
+    <string name="screen_skin_type_setting">Tema farve</string>
+    <string name="screen_skin_type_setting_details">Tema farve</string>
+    <string name="screen_skin_type_setting_title">Vælg tema farve</string>
+    <string name="screen_skin_0">Blå / Mørk</string>
+    <string name="screen_skin_1">Blå / Lys</string>
+    <string name="screen_skin_2">Orange / Lys</string>
+    <string name="no_ad">Annonce</string>
+
+</resources>

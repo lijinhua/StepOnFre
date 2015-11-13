@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When version & TE changes -->
+    <string name="accupedo">스텝온</string>
+    <string name="app_name">스텝온</string>
+    <string name="activity_settings">스텝온</string>
+    <string name="email_subject">스텝온</string>
+    <string name="widget_daily">스텝온</string>
+    <string name="widget_expired">종료</string>
+    <string name="trial_expired">클라우드 (Google Drive) 백업은 프로 버전에서 사용할 수 있습니다.</string>
+    <string name="accupedo_settings_about">스텝온에 관하여</string>
+    <string name="accupdeo_version_title">스텝온 버전</string>
+    <string name="accupdeo_version_summery">버전 1.2.5</string>
+    <string name="app_name3">스텝온 3x1</string>
+    <string name="app_name4">스텝온 4x1</string>
+    <string name="actionbar_for_accupedo_pro">스텝온-프로</string>
+
+    <!-- 123 -->
+    <string name="automatic_backup">자동백업</string>
+    <string name="automatic_backup_midnight_sdcard">자정에 데이터베이스 파일을 SD-Card에 저장.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">신장 기입</string>
+    <string name="height">신장</string>
+    <string name="birthday">생일</string>
+    <string name="gender">성별</string>
+    <string name="gender_female">여성</string>
+    <string name="gender_male">남성</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">상품</string>
+    <string name="goal_reward_notification">매일 목표 상품</string>
+    <string name="goal_reward_notification_details">매일 목표를 달성 할 때 ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">저장</string>
+    <string name="stop_dialog_nosave">저장하지 않음</string>
+    <string name="widget_steps">걸음</string>
+    <string name="widget_reset">\u2605 재설정 \u2605</string>
+    <string name="widget_paused">중지..</string>
+    <string name="steps">걸음</string>
+    <string name="miles">마일</string>
+    <string name="calories_burned">칼로리</string>
+    <string name="centimeters">센티미터</string>
+    <string name="inches">인치</string>
+    <string name="kilograms">킬로그램</string>
+    <string name="pounds">파운드</string>
+    <string name="minutes">분</string>
+    <string name="min">분</string>
+    <string name="hhmm">시간</string>
+    <string name="hm">시:분</string>
+    <string name="reset">초기화</string>
+    <string name="power_usage_type_setting">파워 사용 모드</string>
+    <string name="power_usage_type_setting_details">파워 사용 모드 선택</string>
+    <string name="power_usage_type_setting_title">정밀 걸음 측정 또는 효율적 파워 소비 선택</string>
+    <string name="power_usage_type_most_accurate">정밀 걸음 측정</string>
+    <string name="power_usage_type_power_balanced">균형</string>
+    <string name="power_usage_type_power_saving">최저 파워 소비</string>
+    <string name="settings">설정</string>
+    <string name="accupedo_settings_information">정보</string>
+    <string name="sensitivity_setting">센서 민감도</string>
+    <string name="sensitivity_setting_details">센서 민감도 설정</string>
+    <string name="sensitivity_setting_title">민감도 설정 설정</string>
+    <string name="consecutive_setting">연속적 걸음 횟수</string>
+    <string name="consecutive_setting_details">연속적 걸음 횟수 선택</string>
+    <string name="consecutive_setting_title">초기 연속 걸음 횟수</string>
+    <string name="very_high">가장 민감</string>
+    <string name="high">다소 민감</string>
+    <string name="medium">표준</string>
+    <string name="low">다소 둔감</string>
+    <string name="very_low">가장 둔감</string>
+    <string name="units_setting">한국식 / 미국식</string>
+    <string name="units_setting_details">원하는 단위 선택</string>
+    <string name="units_setting_title">단위 선택</string>
+    <string name="units_metric">미터: 킬로미터, 킬로그램</string>
+    <string name="units_imperial">미국식: 마일, 파운드</string>
+    <string name="body_weight_setting">몸무게</string>
+    <string name="body_weight_setting_details">칼로리 소비량</string>
+    <string name="body_weight_setting_title">몸무게 기입</string>
+    <string name="goal_steps_setting">목표 걸음 숫자</string>
+    <string name="goal_steps_setting_details">매일 걸음 거리 목표</string>
+    <string name="goal_steps_setting_title"> 목표 걸음 거리 기입</string>
+    <string name="exercise_type_setting">걷기 / 뛰기</string>
+    <string name="exercise_type_setting_details">칼로리 소비량</string>
+    <string name="exercise_type_setting_title">걷기 또는 뛰기 선택</string>
+    <string name="exercise_type_running">뛰기</string>
+    <string name="exercise_type_walking">걷기</string>
+    <string name="week_type_setting">주의 첫째날</string>
+    <string name="week_type_setting_details">주의 첫째날</string>
+    <string name="week_type_setting_title">주의 첫째날</string>
+    <string name="week_type_american">일요일</string>
+    <string name="week_type_european">월요일</string>
+    <string name="help">도움</string>
+    <string name="save">저장</string>
+    <string name="day">일</string>
+    <string name="week">주</string>
+    <string name="month">월</string>
+    <string name="year">년</string>
+    <string name="chart">차트</string>
+    <string name="chart_wait">기다려 주세요..</string>
+    <string name="chart_no_data">데이타가 없읍니다..</string>
+    <string name="button_email">이메일</string>
+    <string name="button_review">평가 남김</string>
+    <string name="dialog_yes">예</string>
+    <string name="dialog_no">아니오</string>
+    <string name="alert_pause_message">중지를 원합니까?</string>
+    <string name="alert_resume_message">다시 시작?</string>
+    <string name="toast_save">스텝온 폴더에 저장</string>
+    <string name="toast_folder">스텝온 폴더를 생성할수 없음</string>
+    <string name="toast_external_storage_not_writeable">외부저장 기기에 기록할수 없음</string>
+    <string name="toast_external_storage_not_available">외부저장 기기를 이용할수 없음</string>
+    <string name="history">기록</string>
+    <string name="faq">질문/응답</string>
+    <string name="daily_steps">일일 걸음</string>
+    <string name="daily_goal">일일 목표</string>
+    <string name="hourly_step_counts">시간별 걸은양</string>
+    <string name="hour">시간</string>
+    <string name="weekly_total">주간합계</string>
+    <string name="ave">평균</string>
+    <string name="daily_step_counts">날짜별 걸은양</string>
+    <string name="sun">일</string>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="monthly_total">월별합계</string>
+    <string name="yearly_total">연별합계</string>
+    <string name="monthly_average_step_counts">월별 평균 걸은양</string>
+    <string name="jan">1월</string>
+    <string name="mar">3월</string>
+    <string name="may">5월</string>
+    <string name="jul">7월</string>
+    <string name="sep">9월</string>
+    <string name="nov">11월</string>
+    <string name="week_of">주</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">활동시간</string>
+    <string name="activehours_setting_details">활동시간 기능을 선택하세요. 비활동 시간중에는 정지모드가 됩니다. 활동시간을 선택한경우에는,
+		하루의 시작과 종료시간을 선택하세요.</string>
+    <string name="daily_start_setting">시작시간</string>
+    <string name="daily_start_setting_details">스텝 카운트 시작시간</string>
+    <string name="daily_start_setting_title">시작시간을 선택하세요.</string>
+    <string name="daily_end_setting">종료시간</string>
+    <string name="daily_end_setting_details">스텝 카운트 종료시간</string>
+    <string name="daily_end_setting_title">종료시간을 선택하세요.</string>
+    <string name="power_settings_title">파워 사용</string>
+    <string name="personal_settings_title">개인설정</string>
+    <string name="daily_goal_title">목표</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">일일 로그 기록이 스텝온에서 전송되었습니다.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">위젯 스킨 색상</string>
+    <string name="widget_skin_type_setting_details">위젯 스킨 색상</string>
+    <string name="widget_skin_type_setting_title">위젯 스킨 색상을 선택하세요</string>
+    <string name="widget_skin_0">기본</string>
+    <string name="widget_skin_1">검정색</string>
+    <string name="widget_skin_2">파랑색</string>
+    <string name="widget_skin_3">녹색</string>
+    <string name="widget_skin_4">오렌지색</string>
+    <string name="widget_skin_5">분홍색</string>
+    <string name="display_settings_title">디스플레이 설정</string>
+    <string name="operation_level_setting">스크린 켜기 / 끄기</string>
+    <string name="operation_level_setting_details">스크린 켜기 / 끄기</string>
+    <string name="operation_level_setting_title">스크린 켜기 / 끄기 옵션을 선택</string>
+    <string name="run_in_background">스크린을 끄기</string>
+    <string name="keep_screen_on">스크린 켠 상태 유지</string>
+    <string name="wake_up">스크린을 강제로 켠 상태로 유지</string>
+    <string name="send">송신</string>
+    <string name="email_file_subject">스텝온 일일 기록</string>
+    <string name="toast_need_sdcard">매일 로그를 저장하고 보낼 수있는 SD 카드가 필요합니다.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">스텝온 \u0022StepOn.db\u0022 파일은 SD 카드의 스텝온폴더에
+		있어야합니다. \n\n +++ 주의! +++\n 입력된 파일이 기존 데이터베이스를 대체하게됩니다.</string>
+    <string name="import_success_message">입력</string>
+    <string name="export_success_message">출력</string>
+    <string name="toast_folder_doesnot_exist">스텝온 폴더가 존재하지 않습니다.</string>
+    <string name="run_length_setting">보폭 거리: 뛰기</string>
+    <string name="run_length_setting_details">보폭 거리: 뛰기</string>
+    <string name="run_length_setting_title">걸음 보폭 거리 기입: 뛰기</string>
+    <string name="step_length_setting">보폭 거리: 걷기</string>
+    <string name="step_length_setting_details">보폭 거리: 걷기</string>
+    <string name="step_length_setting_title">걸음 보폭 거리 기입: 걷기</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">언어</string>
+    <string name="locale_type_setting_details">언어</string>
+    <string name="locale_type_setting_title">언어를 선택</string>
+    <string name="locale_0">기본</string>
+    <string name="locale_1">영어</string>
+    <string name="buy_button">프로 구입</string>
+    <string name="widget_st">\u00A0보</string>
+    <string name="widget_skin_6">투명</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">페이스 북이 업데이트됩니다!</string>
+    <string name="fb_walk_report">스텝온 매일 도보</string>
+    <string name="fb_lets_walk">하루 만보걷기!</string>
+    <string name="database">데이터베이스</string>
+    <string name="send_cvs">CSV 파일을 보내기.</string>
+    <string name="share">공유</string>
+    <string name="export_success_message2">데이터베이스 파일 \u0022StepOn.db\u0022이 스텝온 폴더에 출력됩니다.</string>
+    <string name="export_limit_te">데이터베이스 입력/출력 기능은 스텝온-Pro 만 제공되어집니다.</string>
+    <string name="import_limit_te">데이터베이스 입력/출력 기능은 스텝온-Pro 만 제공되어집니다.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">다소 정밀한 걸음 측정</string>
+    <string name="power_usage_type_power_less">적은 전력 소비</string>
+    <string name="power_usage_type_power_least">최소 전력 소비</string>
+    <string name="history_management_setting">기록 관리</string>
+    <string name="autopause_charging_setting">자동 정지</string>
+    <string name="autopause_charging_setting_details">충전시 자동 정지</string>
+    <string name="wait_for_data_transfer">데이터베이스 전송을 위해 잠시 기다려주세요..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">구간</string>
+    <string name="trashcan">휴지통</string>
+    <string name="editsteps">걸음변경</string>
+    <string name="alert_delete_month_message">월 기록을 삭제 하시겠습니까?</string>
+    <string name="alert_delete_day_message">매일 기록을 삭제 하시겠습니까?</string>
+    <string name="alert_next_lap_message">다음 구간을 시작하시겠습니까?</string>
+    <string name="enter_manual_steps">걸음수</string>
+    <string name="button_manual_steps">확인</string>
+    <string name="alert_set_steps_message">확인합니까?</string>
+    <string name="chart_statistics">통계</string>
+    <string name="wait_for_generating_csv">CSV 파일을 작성.</string>
+    <string name="wait_for_exporting_db">데이타베이스 출력..</string>
+    <string name="wait_for_importing_db">데이타베이스 입력..</string>
+    <string name="export_to_sdcard">데이터베이스 파일 (StepOn.db)은 SD-카드의 StepOn 폴더에 저장됩니다.</string>
+    <string name="backup">백업</string>
+    <string name="cancelled">취소</string>
+    <string name="permission_not_granted">권한이 부여되지 않았습니다.</string>
+    <string name="error">오류</string>
+    <string name="status_update">업데이트하는 중입니다.</string>
+    <string name="success">성공</string>
+    <string name="successfully_posted_post">성공적으로 게시되었습니다.</string>
+    <string name="alert_new_installation_message">스텝온 매일 기록 파일이 발견되었습니다. 가져 오시겠습니까?</string>
+    <string name="widget_quit">중지</string>
+    <string name="quit">종료</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">오늘 걸음을 0 으로 하기를 원합니까?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">데이터베이스 파일 (StepOn.db)이 업로드됩니다.</string>
+    <string name="google_drive_downloaded">데이터베이스 파일 (StepOn.db)가 다운로드됩니다.</string>
+    <string name="google_drive_file_not_exist">파일 (StepOn.db)가 존재하지 않습니다.</string>
+    <string name="dropbox_uploading">업로드 ..</string>
+    <string name="dropbox_downloading">다운로드 ..</string>
+    <string name="notification_settings_title">알림</string>
+    <string name="goal_achievement_notification">일일 목표 달성</string>
+    <string name="goal_achievement_notification_details">목표에 도달 할 때 알림</string>
+    <string name="speed_type_setting">속도</string>
+    <string name="speed_type_setting_details">속도</string>
+    <string name="speed_type_setting_title">속도 형식을 선택</string>
+    <string name="speed_type_average">평균 속도</string>
+    <string name="speed_type_realtime">실시간 속도</string>
+    <string name="alert_import_gdrive_message">스텝온 데이터베이스 파일이 구글 드라이브에 있어야합니다. \n\n +++ 주의! +++\n 입력되는 파일이 기존 데이터베이스를 대체합니다.</string>
+    <string name="alert_import_dropbox_message">스텝온 데이터베이스 파일이 드롭박스에 있어야합니다. \n\n +++ 주의! +++\n 입력되는 파일이 기존 데이터베이스를 대체합니다.</string>
+    <string name="try_again">다시 한번 실행해주십시요!</string>
+    <string name="network_connection">네트워크가 연결되어 있어야합니다.</string>
+    <string name="delete">삭제</string>
+    <string name="alert_history_update_version_401_message">+++ 주의! +++\n 해당일의 걸은숫자를 편집하거나 삭제하려면 화면을 오래 눌러주세요. 그리고, 구간의 세부 기록을 보려면 화면을 클릭해주세요.</string>
+    <string name="connect_to_mfp">MFP에 연결</string>
+    <string name="screen_skin_type_setting">테마 색</string>
+    <string name="screen_skin_type_setting_details">테마 색</string>
+    <string name="screen_skin_type_setting_title">테마 색 선택</string>
+    <string name="screen_skin_0">파랑/어두운 배경</string>
+    <string name="screen_skin_1">파랑/밝은 배경</string>
+    <string name="screen_skin_2">오렌지/밝은 배경</string>
+    <string name="no_ad">광고</string>
+
+</resources>

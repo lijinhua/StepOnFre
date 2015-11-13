@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/myblue"
+                android:endColor="@color/myblue"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/myblue" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="2dp"
+                android:top="10dp"
+                android:right="2dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:endColor="@color/myblue"
+                android:startColor="@color/myblue"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/myblue" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="2dp"
+                android:top="10dp"
+                android:right="2dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+            <gradient
+                android:endColor="@null"
+                android:startColor="@null"
+                android:angle="270" />
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/drawable-hdpi/myimagebutton2.xml -->

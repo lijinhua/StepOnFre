@@ -1,0 +1,82 @@
+<resources>
+
+    <color name="main_background">#FFF8DC</color>
+    <color name="main_ht_background">#AA000000</color>
+    <color name="screen_background">#333</color>
+    <color name="display_background">#000</color>
+    <color name="widget_background">#AA000000</color>
+    <color name="widget_gray">#CCCCCCCC</color>
+    <color name="myyellow">#FFF700</color>
+    <color name="mylightyellow">#FFF940</color>
+    <color name="myllightyellow">#FFFC93</color>
+    <color name="mydarkyellow">#BFBB30</color>
+    <color name="myddarkyellow">#A6A000</color>
+    <color name="myorange">#E74310</color>
+    <color name="mylightorange">#FFC740</color>
+    <color name="myllightorange">#88E74310</color>
+    <color name="mydarkorange">#742006</color>
+    <color name="myddarkorange">#2e0d02</color>
+    <color name="myred">#FF4444</color>
+    <color name="mylightred">#FF8040</color>
+    <color name="myllightred">#FFA273</color>
+    <color name="mydarkred">#CC0000</color>
+    <color name="myddarkred">#A63800</color>
+    <color name="mybgwhite">#FFF8DC</color>
+    <color name="mywhite">#FFFFFF</color>
+    <color name="myblack">#000000</color>
+    <color name="my99black">#99000000</color>
+    <color name="myllightgray">#DDDDDD</color>
+    <color name="mylightgray">#ffe2e2e2</color>
+    <color name="mylmidgray">#ffaaaaaa</color>
+    <color name="mygray">#ff8e8e8e</color>
+    <color name="mymidgray">#ff666666</color>
+    <color name="mydarkgray">#ff555555</color>
+    <color name="my99darkgray">#99333333</color>
+    <color name="myddarkgray">#333333</color>
+    <color name="mygold">#C5AD30</color>
+    <color name="mylightbrown">#D6994B</color>
+    <color name="mybrown">#AAFFB400</color>
+    <color name="mybkblue">#002C29</color>
+    <color name="mydarkblue">#009c91</color>
+    <color name="mydkblue">#006059</color>
+    <color name="myblue">#00D2C3</color>
+    <color name="myltblue">#00E6d6</color>
+    <color name="myltpink">#EFAFDD</color>
+    <color name="myyellowgreen">#CDFF33</color>
+    <color name="mygreen">#99CC00</color>
+
+    <!-- widget skin colors -->
+    <color name="mywidgetltblack">#88000000</color>
+    <color name="mywidgetblack">#FF333333</color>
+    <color name="mywidgetdkblack">#EE333333</color>
+    <color name="mywidgetltgreen">#DDD4F870</color>
+    <color name="mywidgetgreen">#CC669900</color>
+    <color name="mywidgetdkgreen">#DD739D00</color>
+    <color name="mywidgetltblue">#DD8BA3D8</color>
+    <color name="mywidgetblue">#DD3E63B0</color>
+    <color name="mywidgetdkblue">#DD143273</color>
+    <color name="mywidgetltpink">#EEEFAFDD</color>
+    <color name="mywidgetpink">#DDDF73C1</color>
+    <color name="mywidgetdkpink">#BB912573</color>
+    <color name="mywidgetltorange">#DDFFD673</color>
+    <color name="mywidgetorange">#CCFF8800</color>
+    <color name="mywidgetdkorange">#DDA67500</color>
+    <color name="mywidgettransparent">#00FFFFFF</color>
+    <color name="mywidgetdktransparent">#88555555</color>
+    <color name="mymfp">#459CD9</color>
+
+    <!-- navigation draw -->
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <!-- <color name="list_background_pressed">#992416</color> -->
+    <color name="list_background_pressed">#00D2C3</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <drawable name="transparent">#00ffffff</drawable>
+    <drawable name="altercolor1">#EEEEEE</drawable>
+    <drawable name="altercolor2">#CCCCCC</drawable>
+    <drawable name="altercolor3">#66666666</drawable>
+
+</resources>

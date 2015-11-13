@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">常問的問題</string>
+<string name="q1">Q: 無法或突然停止計算步伐</string>
+<string name="a1">A: 執行Accupedo小工具，如果仍無法計算，請將手機重新開機。</string>
+<string name="q2">Q: 當螢幕關閉(待機)時無法計算步伐</string>
+<string name="a2">A: 部分手機在待機模式下，會關閉重力感應。我們的APP無法得知重力感應是否被關閉。有此問題請E-mail給我們。</string>
+<string name="q3">Q: 甚麼是連續步伐的設定?</string>
+<string name="a3">A: 計步器會在您連續走多少步時，才開始計算。當您設定10步時，會在第11步開始計算。也就是說10步之內的小小移動，不會當作您的目標步伐數計算。</string>
+<string name="q4">Q: 我可以編輯步數？</string>
+<string name="a4">A: 去歷史窗口。按下屏幕上進行編輯或刪除步數的每一天。</string>
+<string name="q5">Q: 甚麼是暫停模式</string>
+<string name="a5">A: 當畫面顯示為藍色時即為暫停模式，此模式將停止計步也不耗電，要重新計算步伐。</string>
+<string name="q6">Q: 每日的紀錄無法儲存</string>
+<string name="a6">A: 每日的紀錄會在午夜的時候儲存，睡前請不要關閉手機。</string>
+<string name="q7">Q: 如何測量步伐的距離?</string>
+<string name="a7">A: 腳跟到腳跟的距離，或腳趾到腳趾的距離都可以。</string>
+<string name="q8">Q: 我的問題無法在常問問題裡找到</string>
+<string name="a8">A: 請e-mail給我我們，我們會特別處理。</string>
+</resources>

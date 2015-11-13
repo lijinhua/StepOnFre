@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: ウィジェットを一旦削除し、再度配置してみてください。それでも改善しない場合は、ウィジェットを削除し、 端末を再起動した後、再度配置してください。 </string>
+    <string name="a2">A: 一部の携帯電話は、スリープ時にセンサーを使えない仕様になっています。これはアプリケーションの欠陥ではありません。</string>
+    <string name="a3">A: カウント開始歩数以上歩いたときに、歩数が加算されます。カウント開始歩数が10であれば、10歩目に10を加算し以降1歩ごとに加算を行います。10歩未満で歩行をやめた場合、この歩数は破棄されます。</string>
+    <string name="a4">A: 記録ウィンドウに移動します。毎日の歩数を編集または削除するために、画面を下に押してください。</string>
+    <string name="a5">A: 一時停止モード (色が青色) の間は、歩数の計測を行いません。この状態では、アプリはバッテリーを消費しません。カウントを再開するには再開ボタンを押してください。</string>
+    <string name="a6">A: アプリは日付変更時に歩数を保存します。この時に携帯電話の電源が切れていると保存が行えません。日付変更時に携帯電話をOFFにしないでください。</string>
+    <string name="a7">A: つま先（かかと）からつま先（かかと）へ。</string>
+    <string name="a8">A: メールにてご連絡ください。 必ず返信いたします。</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">バージョン 1.2.5</string>
+    <string name="accupdeo_version_title">StepOn のバージョン</string>
+    <string name="accupedo_settings_about">StepOn について</string>
+    <string name="accupedo_settings_information">情報</string>
+    <string name="activehours_setting">活動時間</string>
+    <string name="activehours_setting_details">活動時間を選択してください。非アクティブ時の中には停止モードになります。活動時間を選択した場合には、毎日の開始と終了時間を選択してください。</string>
+    <string name="alert_daily_reset_message">毎日のステップカウントをリセットします</string>
+    <string name="alert_delete_day_message">毎日の履歴を削除しますか？</string>
+    <string name="alert_delete_month_message">毎月の履歴を削除しますか？</string>
+    <string name="alert_history_update_version_401_message">+++ 注目! +++\n 毎日の歩数を編集または削除するために、画面を下に押してください。または、詳細ラップの履歴を表示するには、画面をクリックしてください。</string>
+    <string name="alert_import_dropbox_message">StepOnデータベースファイルは、Dropboxのにする必要があります。 \n\n +++ 注目! +++\n インポートされたファイルは、既存のデータベースを置き換えます。</string>
+    <string name="alert_import_gdrive_message">StepOnデータベースファイルは、Googleドライブにする必要があります。 \n\n +++ 注目! +++\n インポートされたファイルは、既存のデータベースを置き換えます。</string>
+    <string name="alert_import_message">StepOn
+		\u0022StepOn.db\u0022ファイルはSDカードのStepOnフォルダにあるべき。\n\n +++ 注目！+++\n
+		インポートされたファイルは、既存のデータベースに置き換えられます。</string>
+    <string name="alert_new_installation_message">StepOn毎日の履歴ファイルが見つかりました。インポートしたいのですか？</string>
+    <string name="alert_next_lap_message">あなたは次のラップを開始しますか？</string>
+    <string name="alert_pause_message">計測を一時停止します</string>
+    <string name="alert_resume_message">計測を再開します</string>
+    <string name="alert_set_steps_message">確認しますか？</string>
+    <string name="automatic_backup">自動バックアップ</string>
+    <string name="automatic_backup_midnight_sdcard">夜12時にデータベースファイルをSDカードに保存。</string>
+    <string name="autopause_charging_setting">自動休止</string>
+    <string name="autopause_charging_setting_details">充電時の自動休止</string>
+    <string name="ave">平均</string>
+    <string name="backup">バックアップ</string>
+    <string name="birthday">誕生日</string>
+    <string name="body_height_setting_title">身長を入力</string>
+    <string name="body_weight_setting">体重</string>
+    <string name="body_weight_setting_details">カロリー計算</string>
+    <string name="body_weight_setting_title">体重を入力</string>
+    <string name="button_email">メールを送信</string>
+    <string name="button_manual_steps">確認</string>
+    <string name="button_review">評価</string>
+    <string name="buy_button">Pro 購入</string>
+    <string name="calories_burned">カロリー</string>
+    <string name="cancelled">キャンセル</string>
+    <string name="centimeters">センチメートル</string>
+    <string name="chart">チャート</string>
+    <string name="chart_no_data">有効データなし..</string>
+    <string name="chart_statistics">統計</string>
+    <string name="chart_wait">処理を待つ..</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-ja/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Android Wearアプリの更新が必要です。"</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Android Wearアプリを使用するにはアプリの更新が必要です。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wearの更新"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Play開発者サービスの有効化"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>によるリクエスト"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Play開発者サービスの入手"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Play開発者サービスの入手"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無効なアカウント"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"アプリではGoogle Play開発者サービスを有効にする必要があります"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play開発者サービスに接続するには、データ接続が必要です。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"ネットワークエラー"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"アプリではGoogle Play開発者サービスをインストールする必要があります"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"アプリではGoogle Play開発者サービスを更新する必要があります"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。"</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"ログインできませんでした"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play開発者サービスで原因不明の問題が発生しました。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"このアプリの実行には、Google Play開発者サービスの更新が必要です。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Play開発者サービスの更新"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"端末で開く"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Googleでログイン"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"このアプリには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">MFPに接続</string>
+    <string name="consecutive_setting">カウント開始歩数</string>
+    <string name="consecutive_setting_details">連続した歩行のステップ 選択</string>
+    <string name="consecutive_setting_title">カウント開始歩数</string>
+    <string name="daily_end_setting">終了時間</string>
+    <string name="daily_end_setting_details">歩カウント終了時間</string>
+    <string name="daily_end_setting_title">終了時間を選択してください。</string>
+    <string name="daily_goal">目標</string>
+    <string name="daily_goal_title">目標</string>
+    <string name="daily_start_setting">開始時間</string>
+    <string name="daily_start_setting_details">歩カウント開始時間</string>
+    <string name="daily_start_setting_title">開始時間を選択してください。</string>
+    <string name="daily_step_counts">毎日の歩数</string>
+    <string name="daily_steps">毎日の歩数</string>
+    <string name="database">データベース</string>
+    <string name="day">日</string>
+    <string name="delete">削除</string>
+    <string name="dialog_no">いいえ</string>
+    <string name="dialog_yes">はい</string>
+    <string name="display_settings_title">ディスプレイの設定</string>
+    <string name="dropbox_downloading">ダウンロード..</string>
+    <string name="dropbox_uploading">アップロード..</string>
+    <string name="editsteps">歩数を編集</string>
+    <string name="email_file_subject">StepOn毎日記録</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 もし不具合、ご質問等があれば、ご連絡ください。</string>
+    <string name="email_title">メール \u0026 サポート</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">歩数</string>
+    <string name="error">エラー</string>
+    <string name="exercise_type_running">ランニング</string>
+    <string name="exercise_type_setting">歩行/ランニング</string>
+    <string name="exercise_type_setting_details">カロリー計算</string>
+    <string name="exercise_type_setting_title">歩行/ランニング</string>
+    <string name="exercise_type_walking">歩行</string>
+    <string name="export_limit_te">データベースのインポート/エクスポート機能がStepOn-Proのためだけのものです。</string>
+    <string name="export_success_message">エクスポート。</string>
+    <string name="export_success_message2">データベースファイル \u0022StepOn.db\u0022は StepOnフォルダにエクスポートされます。</string>
+    <string name="export_to_sdcard">データベースファイル（StepOn.db）はSDカードのStepOnフォルダに格納されています。</string>
+    <string name="faq">FAQ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">FAQ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">10000ステップまでを歩く！</string>
+    <string name="fb_updated">Facebookが更新！</string>
+    <string name="fb_walk_report">StepOn毎日の散歩レポート</string>
+    <string name="fri">金</string>
+    <string name="gender">性別</string>
+    <string name="gender_female">女性</string>
+    <string name="gender_male">男性</string>
+    <string name="goal_achievement_notification">毎日の目標達成</string>
+    <string name="goal_achievement_notification_details">目標が達成される通知</string>
+    <string name="goal_reward_notification">毎日の目標報酬</string>
+    <string name="goal_reward_notification_details">毎日の目標が達成されたとき...</string>
+    <string name="goal_steps_setting">目標歩数</string>
+    <string name="goal_steps_setting_details">毎日の目標</string>
+    <string name="goal_steps_setting_title">目標歩数</string>
+    <string name="google_drive_downloaded">データベースファイル（StepOn.db）がダウンロードされます。</string>
+    <string name="google_drive_file_not_exist">ファイル（StepOn.db）は存在しません。</string>
+    <string name="google_drive_uploaded">データベースファイル（StepOn.db）がアップロードされます。</string>
+    <string name="height">身長</string>
+    <string name="help">ヘルプ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn ユーザーガイド</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">時間</string>
+    <string name="high">高</string>
+    <string name="history">記録</string>
+    <string name="history_management_setting">履歴管理</string>
+    <string name="hm">時:分</string>
+    <string name="hour">時間</string>
+    <string name="hourly_step_counts">毎時歩行数</string>
+    <string name="import_limit_te">データベースのインポート/エクスポート機能がStepOn-Proのためだけのものです。</string>
+    <string name="import_success_message">インポート。</string>
+    <string name="inches">インチ</string>
+    <string name="jan">1月</string>
+    <string name="jul">7月</string>
+    <string name="keep_screen_on">画面オン</string>
+    <string name="kilograms">キログラム</string>
+    <string name="kilometers">キロ</string>
+    <string name="km">キロ</string>
+    <string name="lap">ラップ</string>
+    <string name="locale_0">デフォルト</string>
+    <string name="locale_1">英語</string>
+    <string name="locale_type_setting">言語</string>
+    <string name="locale_type_setting_details">言語</string>
+    <string name="locale_type_setting_title">言語を選択</string>
+    <string name="low">低</string>
+    <string name="mar">3月</string>
+    <string name="may">5月</string>
+    <string name="medium">標準</string>
+    <string name="miles">マイル</string>
+    <string name="min">分</string>
+    <string name="minutes">分</string>
+    <string name="mon">月</string>
+    <string name="month">月</string>
+    <string name="monthly_average_step_counts">月平均歩数</string>
+    <string name="monthly_total">月合計</string>
+    <string name="network_connection">ネットワークが接続する必要があります。</string>
+    <string name="no_ad">広告</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOnは、あなたの歩いた数を測定する万歩計です。\n\n 
+
+\u2605 StepOnは、毎日の歩数、消費カロリー、歩いた距離、時間をチャートや記録日誌に見やすく表示します。 あなたの最も親しい歩き、友人として、StepOnは、あなたがより多く歩くように助けてくれるでしょう。一日の目標を立ててStepOnと一緒にかけ造られ、さらに元気にジセヨ。\n\n 
+
+\u2605 StepOnは、使用するのは非常に簡単です。あなたが歩くことを始めたときにスタートボタンを押すだけで、ステップ来たこれらすべてのことを実行します。\n\n 
+
+\u2605 3次元モーション認識システムと信号解析を利用して歩くの情報だけをより高精度に測定します。StepOnは、電話機の場所に関係なく（例えば、腰ベルト、ポケット、またはハンドバッグ）あなたのペースを測定します。\n\n 
+
+\u2605 主な機能は次のとおりです。\n 
+
+\u2022 チャート：毎日、毎週、毎月、および毎年の歩数。\n 
+\u2022 毎日の履歴：歩数、距離、カロリー、時間。\n 
+\u2022 3次元モーション認識アルゴリズムを利用した正確なステップカウント。\n 
+\u2022 Facebookの投稿。\n 
+\u2022 Google Driveのバックアップ。\n 
+\u2022 個人用設定：毎日の目標、感度、単位：メートル/インペリアル、歩幅、体重等。
+</string>
+    <string name="notes_title">注意</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">通知</string>
+    <string name="nov">11月</string>
+    <string name="operation_level_setting">画面オン/オフ</string>
+    <string name="operation_level_setting_details">画面オン/オフ</string>
+    <string name="operation_level_setting_title">画面オン/オフを選択する</string>
+    <string name="permission_not_granted">必要なアクセス許可が与えられていませんでした。</string>
+    <string name="personal_settings_title">個人用設定</string>
+    <string name="pounds">ポンド</string>
+    <string name="power_settings_title">バッテリーの使用</string>
+    <string name="power_usage_type_more_accurate">より正確な歩数</string>
+    <string name="power_usage_type_most_accurate">正確な測定</string>
+    <string name="power_usage_type_power_balanced">バランス</string>
+    <string name="power_usage_type_power_least">最小の消費電力</string>
+    <string name="power_usage_type_power_less">少ない消費電力</string>
+    <string name="power_usage_type_power_saving">省電力</string>
+    <string name="power_usage_type_setting">省電力設定</string>
+    <string name="power_usage_type_setting_details">電力の使用法の種類を選択</string>
+    <string name="power_usage_type_setting_title">省電力設定</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: 歩数がカウントされない</string>
+    <string name="q2">Q: 画面がオフの時 (スリープ時) に計 測されない</string>
+    <string name="q3">Q: カウント開始歩数とは</string>
+    <string name="q4">Q: 歩数を編集することはできますか？</string>
+    <string name="q5">Q: 一時停止モードとは</string>
+    <string name="q6">Q: 毎日の歩数が記録されない</string>
+    <string name="q7">Q: ステップの距離を測定するには？</string>
+    <string name="q8">Q: その他の質問がある</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="quit">終了</string>
+    <string name="reset">リセット</string>
+    <string name="resume">一時停止</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 高品質のアプリを開発するためにご意見をお寄せください。StepOnに問題がなければ肯定的なレビューをお 願いします。みなさまの声を励みに開発を行なっております。</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">報酬</string>
+    <string name="run_in_background">画面オフ</string>
+    <string name="run_length_setting">歩幅: ランニング</string>
+    <string name="run_length_setting_details">歩幅: ランニング</string>
+    <string name="run_length_setting_title">歩幅を入力: ランニング</string>
+    <string name="sat">土</string>
+    <string name="save">保存</string>
+    <string name="screen_skin_0">青 / 暗</string>
+    <string name="screen_skin_1">青 / 明</string>
+    <string name="screen_skin_2">オレンジ / 明</string>
+    <string name="screen_skin_type_setting">テーマカラー</string>
+    <string name="screen_skin_type_setting_details">テーマカラー</string>
+    <string name="screen_skin_type_setting_title">テーマカラーを選択</string>
+    <string name="send">送信</string>
+    <string name="send_cvs">CSVファイルを送信する。</string>
+    <string name="sensitivity_setting">感度</string>
+    <string name="sensitivity_setting_details">StepOn 感度レベル 選択</string>
+    <string name="sensitivity_setting_title">感度レベル 選択</string>
+    <string name="sep">9月</string>
+    <string name="settings">設定</string>
+    <string name="share">共有</string>
+    <string name="speed_type_average">平均速度</string>
+    <string name="speed_type_realtime">リアルタイム速度</string>
+    <string name="speed_type_setting">速度</string>
+    <string name="speed_type_setting_details">速度</string>
+    <string name="speed_type_setting_title">速度表示を選択してください</string>
+    <string name="status_update">ステータスを更新しています。</string>
+    <string name="step_length_setting">歩幅: 歩行</string>
+    <string name="step_length_setting_details">歩幅: 歩行</string>
+    <string name="step_length_setting_title">歩幅を入力: 歩行</string>
+    <string name="steps">歩数</string>
+    <string name="stop_dialog_nosave">保存しない</string>
+    <string name="stop_dialog_save">保存</string>
+    <string name="success">成功</string>
+    <string name="successfully_posted_post">正常に送信されました。</string>
+    <string name="sun">日</string>
+    <string name="thu">木</string>
+    <string name="toast_dbtransfered_message">毎日のログの履歴がStepOnから移管された。</string>
+    <string name="toast_external_storage_not_available">外部記憶装置は使用できません。</string>
+    <string name="toast_external_storage_not_writeable">外部記憶装置は書き込み可能ではない。</string>
+    <string name="toast_folder">StepOnフォルダを作成することはできません.</string>
+    <string name="toast_folder_doesnot_exist">StepOnのフォルダが存在しません。</string>
+    <string name="toast_need_sdcard">毎日のログを保存し、送信するためにSDカードが必要です。</string>
+    <string name="toast_save">StepOnフォルダに保存</string>
+    <string name="trashcan">ごみ箱</string>
+    <string name="trial_expired">クラウド（Googleドライブ）のバックアップは、Proバージョンで利用可能です。</string>
+    <string name="try_again">もう一度試してください！</string>
+    <string name="tue">火</string>
+    <string name="units_imperial">英国: マイル、ポンド</string>
+    <string name="units_metric">メトリック: キロ</string>
+    <string name="units_setting">単位</string>
+    <string name="units_setting_details">単位を選択</string>
+    <string name="units_setting_title">単位を選択</string>
+    <string name="very_high">最高</string>
+    <string name="very_low">最低</string>
+    <string name="wait_for_data_transfer">データベース転送のためしばらくお待ちください。</string>
+    <string name="wait_for_exporting_db">データベースのエクスポート..</string>
+    <string name="wait_for_generating_csv">CSVファイルを書き込み。</string>
+    <string name="wait_for_importing_db">データベースのインポート..</string>
+    <string name="wake_up">画面オン（画面をオフにすることはできません）</string>
+    <string name="wed">水</string>
+    <string name="week">週</string>
+    <string name="week_of">週</string>
+    <string name="week_type_american">日曜日</string>
+    <string name="week_type_european">月曜日</string>
+    <string name="week_type_setting">週の始まり</string>
+    <string name="week_type_setting_details">カロリー計算</string>
+    <string name="week_type_setting_title">週足チャート週形式を選択</string>
+    <string name="weekly_total">週合計</string>
+    <string name="widget_expired">期限切れ</string>
+    <string name="widget_paused">一時停止</string>
+    <string name="widget_quit">停止</string>
+    <string name="widget_reset">\u2605 リセット \u2605</string>
+    <string name="widget_skin_0">デフォルト</string>
+    <string name="widget_skin_1">黒</string>
+    <string name="widget_skin_2">ブルー</string>
+    <string name="widget_skin_3">緑</string>
+    <string name="widget_skin_4">オレンジ</string>
+    <string name="widget_skin_5">ピンク</string>
+    <string name="widget_skin_6">透明</string>
+    <string name="widget_skin_type_setting">ウィジェットの肌の色</string>
+    <string name="widget_skin_type_setting_details">ウィジェットの肌の色</string>
+    <string name="widget_skin_type_setting_title">ウィジェットの肌の色を選択する</string>
+    <string name="widget_st">\u00A0歩</string>
+    <string name="widget_steps">歩</string>
+    <string name="year">年</string>
+    <string name="yearly_total">年合計</string>
+</resources>

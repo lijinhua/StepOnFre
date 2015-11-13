@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="power_usage_type_preference">
+        <item>@string/power_usage_type_most_accurate</item>
+        <item>@string/power_usage_type_power_balanced</item>
+        <item>@string/power_usage_type_power_least</item>
+    </string-array>
+    <string-array name="power_usage_type_preference_values">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="operation_level_preference">
+        <item>@string/run_in_background</item>
+        <item>@string/keep_screen_on</item>
+        <item>@string/wake_up</item>
+    </string-array>
+    <string-array name="operation_level_preference_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sensitivity_preference">
+        <item>@string/very_high</item>
+        <item>@string/high</item>
+        <item>@string/medium</item>
+        <item>@string/low</item>
+        <item>@string/very_low</item>
+    </string-array>
+    <string-array name="sensitivity_preference_values">
+        <item>0.05</item>
+        <item>0.075</item>
+        <item>0.1</item>
+        <item>0.15</item>
+        <item>0.20</item>
+    </string-array>
+    <string-array name="consecutive_preference">
+        <item>"4"</item>
+        <item>"6"</item>
+        <item>"8"</item>
+        <item>"10"</item>
+        <item>"12"</item>
+    </string-array>
+    <string-array name="consecutive_preference_values">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="units_preference">
+        <item>@string/units_metric</item>
+        <item>@string/units_imperial</item>
+    </string-array>
+    <string-array name="units_preference_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <string-array name="exercise_type_preference">
+        <item>@string/exercise_type_walking</item>
+        <item>@string/exercise_type_running</item>
+    </string-array>
+    <string-array name="exercise_type_preference_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="week_type_preference">
+        <item>@string/week_type_american</item>
+        <item>@string/week_type_european</item>
+    </string-array>
+    <string-array name="week_type_preference_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="speed_type_preference">
+        <item>@string/speed_type_average</item>
+        <item>@string/speed_type_realtime</item>
+    </string-array>
+    <string-array name="speed_type_preference_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="screen_skin_type_preference">
+        <item>@string/screen_skin_0</item>
+        <item>@string/screen_skin_1</item>
+        <item>@string/screen_skin_2</item>
+    </string-array>
+    <string-array name="screen_skin_type_preference_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="widget_skin_type_preference">
+        <item>@string/widget_skin_0</item>
+        <item>@string/widget_skin_1</item>
+        <item>@string/widget_skin_2</item>
+        <item>@string/widget_skin_3</item>
+        <item>@string/widget_skin_4</item>
+        <item>@string/widget_skin_5</item>
+        <item>@string/widget_skin_6</item>
+    </string-array>
+    <string-array name="widget_skin_type_preference_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="locale_type_preference">
+        <item tools:ignore="MissingTranslation">@string/locale_0</item>
+        <item tools:ignore="MissingTranslation">@string/locale_1</item>
+    </string-array>
+    <string-array name="locale_type_preference_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>@string/accupedo</item>
+        <item>@string/chart</item>
+        <item>@string/history</item>
+        <item>@string/share</item>
+        <item>@string/editsteps</item>
+        <item>@string/backup</item>
+        <item>@string/settings</item>
+        <item>@string/help</item>
+        <item>@string/actionbar_for_accupedo_pro</item>
+        <item>@string/quit</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/stepon_activebar</item>
+        <item>@drawable/chart_ic</item>
+        <item>@drawable/history_ic</item>
+        <item>@drawable/share_ic</item>
+        <item>@drawable/edit_ic</item>
+        <item>@drawable/backup_ic</item>
+        <item>@drawable/settings_ic</item>
+        <item>@drawable/help_ic</item>
+        <item>@drawable/stepon_pro_activebar</item>
+        <item>@drawable/exit_ic</item>
+    </array>
+
+    <string-array name="gender_preference">
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+    </string-array>
+    <string-array name="gender_preference_values">
+        <item>female</item>
+        <item>male</item>
+    </string-array>
+
+</resources>

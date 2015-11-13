@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: 휴지통으로 애큐페도를 제거하세요. 그 다음, 홈 화면에서 애큐페도를 다시 열고 테스트해 주세요. 그래도 작동하지 않으면 다시 휴지통으로 애큐페도를 제거하고 전화의 전원을 껏다 켜시고 다시 테스트하세요.</string>
+    <string name="a2">A: 어떤 전화기는 대기 상태에서 가속도 센서의 작동을 중단시킵니다. 전화기 제조회사에서 강제적으로 중단을 시켜서 현 기술로는 해결할 수 없습니다. </string>
+    <string name="a3">A: 연속적으로 걸어야 스텝 증가가 시작됩니다. 예를 들어, 연속스텝이 10인 경우 10걸음을 걸어야 스텝 증가가 시작됩니다.</string>
+    <string name="a4">A: 일일 기록창으로 이동합니다. 그리고, 화면을 긴시간동안 누르시면 걸음 수를 수정하거나 삭제할 수 있습니다.</string>
+    <string name="a5">A: 정지모드 (파란색) 에서는 스텝을 증가하지 않습니다. 다시 시작을 위해서는 다시 시작 버튼을 누르세요.</string>
+    <string name="a6">A: 하루의 데이타 기록은 자정에 합니다. 자정에 전화기를 켜 두세요.</string>
+    <string name="a7">A: 발끝에서 발끝까지의 거리입니다.</string>
+    <string name="a8">A: 저희에게 이메일을 보내주시면 도움을 드리겠습니다.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">버전 1.2.5</string>
+    <string name="accupdeo_version_title">스텝온 버전</string>
+    <string name="accupedo">스텝온</string>
+    <string name="accupedo_settings_about">스텝온에 관하여</string>
+    <string name="accupedo_settings_information">정보</string>
+    <string name="actionbar_for_accupedo_pro">스텝온-프로</string>
+    <string name="activehours_setting">활동시간</string>
+    <string name="activehours_setting_details">활동시간 기능을 선택하세요. 비활동 시간중에는 정지모드가 됩니다. 활동시간을 선택한경우에는,
+		하루의 시작과 종료시간을 선택하세요.</string>
+    <string name="activity_settings">스텝온</string>
+    <string name="alert_daily_reset_message">오늘 걸음을 0 으로 하기를 원합니까?</string>
+    <string name="alert_delete_day_message">매일 기록을 삭제 하시겠습니까?</string>
+    <string name="alert_delete_month_message">월 기록을 삭제 하시겠습니까?</string>
+    <string name="alert_history_update_version_401_message">+++ 주의! +++\n 해당일의 걸은숫자를 편집하거나 삭제하려면 화면을 오래 눌러주세요. 그리고, 구간의 세부 기록을 보려면 화면을 클릭해주세요.</string>
+    <string name="alert_import_dropbox_message">스텝온 데이터베이스 파일이 드롭박스에 있어야합니다. \n\n +++ 주의! +++\n 입력되는 파일이 기존 데이터베이스를 대체합니다.</string>
+    <string name="alert_import_gdrive_message">스텝온 데이터베이스 파일이 구글 드라이브에 있어야합니다. \n\n +++ 주의! +++\n 입력되는 파일이 기존 데이터베이스를 대체합니다.</string>
+    <string name="alert_import_message">스텝온 \u0022StepOn.db\u0022 파일은 SD 카드의 스텝온폴더에
+		있어야합니다. \n\n +++ 주의! +++\n 입력된 파일이 기존 데이터베이스를 대체하게됩니다.</string>
+    <string name="alert_new_installation_message">스텝온 매일 기록 파일이 발견되었습니다. 가져 오시겠습니까?</string>
+    <string name="alert_next_lap_message">다음 구간을 시작하시겠습니까?</string>
+    <string name="alert_pause_message">중지를 원합니까?</string>
+    <string name="alert_resume_message">다시 시작?</string>
+    <string name="alert_set_steps_message">확인합니까?</string>
+    <string name="app_name">스텝온</string>
+    <string name="app_name3">스텝온 3x1</string>
+    <string name="app_name4">스텝온 4x1</string>
+    <string name="automatic_backup">자동백업</string>
+    <string name="automatic_backup_midnight_sdcard">자정에 데이터베이스 파일을 SD-Card에 저장.</string>
+    <string name="autopause_charging_setting">자동 정지</string>
+    <string name="autopause_charging_setting_details">충전시 자동 정지</string>
+    <string name="ave">평균</string>
+    <string name="backup">백업</string>
+    <string name="birthday">생일</string>
+    <string name="body_height_setting_title">신장 기입</string>
+    <string name="body_weight_setting">몸무게</string>
+    <string name="body_weight_setting_details">칼로리 소비량</string>
+    <string name="body_weight_setting_title">몸무게 기입</string>
+    <string name="button_email">이메일</string>
+    <string name="button_manual_steps">확인</string>
+    <string name="button_review">평가 남김</string>
+    <string name="buy_button">프로 구입</string>
+    <string name="calories_burned">칼로리</string>
+    <string name="cancelled">취소</string>
+    <string name="centimeters">센티미터</string>
+    <string name="chart">차트</string>
+    <string name="chart_no_data">데이타가 없읍니다..</string>
+    <string name="chart_statistics">통계</string>
+    <string name="chart_wait">기다려 주세요..</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">이미지를 다운로드하는 중 예기치 않은 오류가 발생했습니다.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView에 로그인하려면 인터넷 권한이 필요합니다</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest 오류</string>
+    <string name="com_facebook_like_button_liked">좋아요</string>
+    <string name="com_facebook_like_button_not_liked">좋아요</string>
+    <string name="com_facebook_loading">읽어들이는 중...</string>
+    <string name="com_facebook_loginview_cancel_action">취소</string>
+    <string name="com_facebook_loginview_log_in_button">로그인</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook으로 로그인</string>
+    <string name="com_facebook_loginview_log_out_action">로그아웃</string>
+    <string name="com_facebook_loginview_log_out_button">로그아웃</string>
+    <string name="com_facebook_loginview_logged_in_as">로그인할 이름: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook 계정으로 로그인함</string>
+    <string name="com_facebook_send_button_text">보내기</string>
+    <string name="com_facebook_share_button_text">공유하기</string>
+    <string name="com_facebook_tooltip_default">새로운 기능! 이제 앱과 어떤 정보를 공유할지 자유롭게 선택할 수 있습니다.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-ko/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Android Wear 앱을 업데이트해야 합니다."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>은(는) Android Wear 앱을 업데이트하지 않으면 실행되지 않습니다."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear 업데이트"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>에 필요한 하나 이상의 Google Play 서비스를 현재 사용할 수 없습니다. 개발자에게 문의하여 도움을 받으시기 바랍니다."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play 서비스 사용"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"Google Play 서비스를 사용하도록 설정해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 작동합니다."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play 서비스 사용"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 요청"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play 서비스 설치"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"휴대전화에 Google Play 서비스가 설치되어 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"태블릿에 Google Play 서비스가 설치되어 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play 서비스 설치"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"지정한 계정이 이 기기에 존재하지 않습니다. 다른 계정을 선택하세요."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"올바르지 않은 계정"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Google Play 서비스를 사용 설정해야 하는 애플리케이션입니다."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play 서비스에 연결하려면 데이터 연결이 필요합니다."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"네트워크 오류"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Google Play 서비스를 업데이트해야 하는 애플리케이션입니다."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play 서비스 오류"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"지정한 계정에 로그인하는 중에 오류가 발생했습니다. 다른 계정을 선택해 주세요."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"로그인 실패"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play 서비스에 알 수 없는 문제가 발생했습니다."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play 서비스"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"업데이트"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"Google Play 서비스를 업데이트해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play 서비스 업데이트"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"현재 업데이트 중인 Google Play 서비스가 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play 서비스 업데이트 중"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"휴대전화에서 열기"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-ko/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"로그인"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">MFP에 연결</string>
+    <string name="consecutive_setting">연속적 걸음 횟수</string>
+    <string name="consecutive_setting_details">연속적 걸음 횟수 선택</string>
+    <string name="consecutive_setting_title">초기 연속 걸음 횟수</string>
+    <string name="daily_end_setting">종료시간</string>
+    <string name="daily_end_setting_details">스텝 카운트 종료시간</string>
+    <string name="daily_end_setting_title">종료시간을 선택하세요.</string>
+    <string name="daily_goal">일일 목표</string>
+    <string name="daily_goal_title">목표</string>
+    <string name="daily_start_setting">시작시간</string>
+    <string name="daily_start_setting_details">스텝 카운트 시작시간</string>
+    <string name="daily_start_setting_title">시작시간을 선택하세요.</string>
+    <string name="daily_step_counts">날짜별 걸은양</string>
+    <string name="daily_steps">일일 걸음</string>
+    <string name="database">데이터베이스</string>
+    <string name="day">일</string>
+    <string name="delete">삭제</string>
+    <string name="dialog_no">아니오</string>
+    <string name="dialog_yes">예</string>
+    <string name="display_settings_title">디스플레이 설정</string>
+    <string name="dropbox_downloading">다운로드 ..</string>
+    <string name="dropbox_uploading">업로드 ..</string>
+    <string name="editsteps">걸음변경</string>
+    <string name="email_file_subject">스텝온 일일 기록</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 문의사항이 있으시면 저희에게 이메일을 주세요.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="email_subject">스텝온</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_title">이메일 \u0026 지원</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">걸음수</string>
+    <string name="error">오류</string>
+    <string name="exercise_type_running">뛰기</string>
+    <string name="exercise_type_setting">걷기 / 뛰기</string>
+    <string name="exercise_type_setting_details">칼로리 소비량</string>
+    <string name="exercise_type_setting_title">걷기 또는 뛰기 선택</string>
+    <string name="exercise_type_walking">걷기</string>
+    <string name="export_limit_te">데이터베이스 입력/출력 기능은 스텝온-Pro 만 제공되어집니다.</string>
+    <string name="export_success_message">출력</string>
+    <string name="export_success_message2">데이터베이스 파일 \u0022StepOn.db\u0022이 스텝온 폴더에 출력됩니다.</string>
+    <string name="export_to_sdcard">데이터베이스 파일 (StepOn.db)은 SD-카드의 StepOn 폴더에 저장됩니다.</string>
+    <string name="faq">질문/응답</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">질의/응답</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">하루 만보걷기!</string>
+    <string name="fb_updated">페이스 북이 업데이트됩니다!</string>
+    <string name="fb_walk_report">스텝온 매일 도보</string>
+    <string name="fri">금</string>
+    <string name="gender">성별</string>
+    <string name="gender_female">여성</string>
+    <string name="gender_male">남성</string>
+    <string name="goal_achievement_notification">일일 목표 달성</string>
+    <string name="goal_achievement_notification_details">목표에 도달 할 때 알림</string>
+    <string name="goal_reward_notification">매일 목표 상품</string>
+    <string name="goal_reward_notification_details">매일 목표를 달성 할 때 ...</string>
+    <string name="goal_steps_setting">목표 걸음 숫자</string>
+    <string name="goal_steps_setting_details">매일 걸음 거리 목표</string>
+    <string name="goal_steps_setting_title"> 목표 걸음 거리 기입</string>
+    <string name="google_drive_downloaded">데이터베이스 파일 (StepOn.db)가 다운로드됩니다.</string>
+    <string name="google_drive_file_not_exist">파일 (StepOn.db)가 존재하지 않습니다.</string>
+    <string name="google_drive_uploaded">데이터베이스 파일 (StepOn.db)이 업로드됩니다.</string>
+    <string name="height">신장</string>
+    <string name="help">도움</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">스텝온 설명서</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">시간</string>
+    <string name="high">다소 민감</string>
+    <string name="history">기록</string>
+    <string name="history_management_setting">기록 관리</string>
+    <string name="hm">시:분</string>
+    <string name="hour">시간</string>
+    <string name="hourly_step_counts">시간별 걸은양</string>
+    <string name="import_limit_te">데이터베이스 입력/출력 기능은 스텝온-Pro 만 제공되어집니다.</string>
+    <string name="import_success_message">입력</string>
+    <string name="inches">인치</string>
+    <string name="jan">1월</string>
+    <string name="jul">7월</string>
+    <string name="keep_screen_on">스크린 켠 상태 유지</string>
+    <string name="kilograms">킬로그램</string>
+    <string name="lap">구간</string>
+    <string name="locale_0">기본</string>
+    <string name="locale_1">영어</string>
+    <string name="locale_type_setting">언어</string>
+    <string name="locale_type_setting_details">언어</string>
+    <string name="locale_type_setting_title">언어를 선택</string>
+    <string name="low">다소 둔감</string>
+    <string name="mar">3월</string>
+    <string name="may">5월</string>
+    <string name="medium">표준</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">보내기</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="miles">마일</string>
+    <string name="min">분</string>
+    <string name="minutes">분</string>
+    <string name="mon">월</string>
+    <string name="month">월</string>
+    <string name="monthly_average_step_counts">월별 평균 걸은양</string>
+    <string name="monthly_total">월별합계</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"미디어 출력"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"기기 검색 중…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"기기에 연결"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"연결 해제"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"시스템"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"기기"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">네트워크가 연결되어 있어야합니다.</string>
+    <string name="no_ad">광고</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 스텝온은 당신의 걸은 숫자, 소비된 칼로리, 걸은 거리, 그리고 시간을 챠트와 기록창에 보기 쉽게 표시합니다. 당신의 가장 친한 걷기 친구로서, 스텝온은 당신이 더욱 많이 걷도록 도와줄 것입니다. 하루의 목표를 세우고 스텝온과 함께 걸으시고 더욱 건강해지세요.\n\n 
+
+\u2605 스텝온은 사용하기가 아주 간단합니다. 당신이 걷기를 시작할때 스타트 버튼을 누르기만 하면 스텝온이 모든일을 수행합니다.\n\n 
+
+\u2605 3차원 모션 인식 시스템과 신호 분석을 이용하여 걷는 정보만을 보다 정밀하게 측정합니다. 스텝온은 전화기 위치에 상관없이 (예: 허리 벨트, 주머니, 또는 핸드백) 당신의 걸음을 측정합니다.\n\n 
+
+\u2605 주요 기능은 다음과 같습니다.\n 
+
+\u2022 차트 : 시간, 일일, 주간, 월간 및 연간 스텝 카운트\n 
+\u2022 매일 걷기 기록창 : 걸음 수, 칼로리, 거리, 시간\n 
+\u2022 3차원 모션인식 알고리즘을 이용한 정확한 스텝카운트.\n 
+\u2022 페이스북에 포스팅.\n 
+\u2022 Google Drive에 백업.\n 
+\u2022 개인별 셋팅 설정 : 매일 걷기 목표, 센서 감도, 단위 : 표준/미국식, 보폭 길이, 무게 등.
+</string>
+    <string name="notes_title">참조</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">알림</string>
+    <string name="nov">11월</string>
+    <string name="operation_level_setting">스크린 켜기 / 끄기</string>
+    <string name="operation_level_setting_details">스크린 켜기 / 끄기</string>
+    <string name="operation_level_setting_title">스크린 켜기 / 끄기 옵션을 선택</string>
+    <string name="permission_not_granted">권한이 부여되지 않았습니다.</string>
+    <string name="personal_settings_title">개인설정</string>
+    <string name="pounds">파운드</string>
+    <string name="power_settings_title">파워 사용</string>
+    <string name="power_usage_type_more_accurate">다소 정밀한 걸음 측정</string>
+    <string name="power_usage_type_most_accurate">정밀 걸음 측정</string>
+    <string name="power_usage_type_power_balanced">균형</string>
+    <string name="power_usage_type_power_least">최소 전력 소비</string>
+    <string name="power_usage_type_power_less">적은 전력 소비</string>
+    <string name="power_usage_type_power_saving">최저 파워 소비</string>
+    <string name="power_usage_type_setting">파워 사용 모드</string>
+    <string name="power_usage_type_setting_details">파워 사용 모드 선택</string>
+    <string name="power_usage_type_setting_title">정밀 걸음 측정 또는 효율적 파워 소비 선택</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: 스텝이 증가하지 않아요.</string>
+    <string name="q2">Q: 대기상태에서는 스텝이 증가하지 않아요.</string>
+    <string name="q3">Q: 설정에서 연속스텝은 무엇입니까?</string>
+    <string name="q4">Q: 걸은 기록을 수정할 수 있습니까?</string>
+    <string name="q5">Q: 정지 모드는 무엇인지?</string>
+    <string name="q6">Q: 매일 데이타 기록을 하지 않아요.</string>
+    <string name="q7">Q: 보폭은 어떻게 측정합니까? </string>
+    <string name="q8">Q: 저의 문제점이 여기에 없어요.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="quit">종료</string>
+    <string name="reset">초기화</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 스텝온 만보기를 만족하시면 좋은 평가를 남겨주세요. 더 좋은 스텝온을 만들도록 노력하겠습니다. 감사합니다.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">상품</string>
+    <string name="run_in_background">스크린을 끄기</string>
+    <string name="run_length_setting">보폭 거리: 뛰기</string>
+    <string name="run_length_setting_details">보폭 거리: 뛰기</string>
+    <string name="run_length_setting_title">걸음 보폭 거리 기입: 뛰기</string>
+    <string name="sat">토</string>
+    <string name="save">저장</string>
+    <string name="screen_skin_0">파랑/어두운 배경</string>
+    <string name="screen_skin_1">파랑/밝은 배경</string>
+    <string name="screen_skin_2">오렌지/밝은 배경</string>
+    <string name="screen_skin_type_setting">테마 색</string>
+    <string name="screen_skin_type_setting_details">테마 색</string>
+    <string name="screen_skin_type_setting_title">테마 색 선택</string>
+    <string name="send">송신</string>
+    <string name="send_cvs">CSV 파일을 보내기.</string>
+    <string name="sensitivity_setting">센서 민감도</string>
+    <string name="sensitivity_setting_details">센서 민감도 설정</string>
+    <string name="sensitivity_setting_title">민감도 설정 설정</string>
+    <string name="sep">9월</string>
+    <string name="settings">설정</string>
+    <string name="share">공유</string>
+    <string name="speed_type_average">평균 속도</string>
+    <string name="speed_type_realtime">실시간 속도</string>
+    <string name="speed_type_setting">속도</string>
+    <string name="speed_type_setting_details">속도</string>
+    <string name="speed_type_setting_title">속도 형식을 선택</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">업데이트하는 중입니다.</string>
+    <string name="step_length_setting">보폭 거리: 걷기</string>
+    <string name="step_length_setting_details">보폭 거리: 걷기</string>
+    <string name="step_length_setting_title">걸음 보폭 거리 기입: 걷기</string>
+    <string name="steps">걸음</string>
+    <string name="stop_dialog_nosave">저장하지 않음</string>
+    <string name="stop_dialog_save">저장</string>
+    <string name="success">성공</string>
+    <string name="successfully_posted_post">성공적으로 게시되었습니다.</string>
+    <string name="sun">일</string>
+    <string name="thu">목</string>
+    <string name="toast_dbtransfered_message">일일 로그 기록이 스텝온에서 전송되었습니다.</string>
+    <string name="toast_external_storage_not_available">외부저장 기기를 이용할수 없음</string>
+    <string name="toast_external_storage_not_writeable">외부저장 기기에 기록할수 없음</string>
+    <string name="toast_folder">스텝온 폴더를 생성할수 없음</string>
+    <string name="toast_folder_doesnot_exist">스텝온 폴더가 존재하지 않습니다.</string>
+    <string name="toast_need_sdcard">매일 로그를 저장하고 보낼 수있는 SD 카드가 필요합니다.</string>
+    <string name="toast_save">스텝온 폴더에 저장</string>
+    <string name="trashcan">휴지통</string>
+    <string name="trial_expired">클라우드 (Google Drive) 백업은 프로 버전에서 사용할 수 있습니다.</string>
+    <string name="try_again">다시 한번 실행해주십시요!</string>
+    <string name="tue">화</string>
+    <string name="units_imperial">미국식: 마일, 파운드</string>
+    <string name="units_metric">미터: 킬로미터, 킬로그램</string>
+    <string name="units_setting">한국식 / 미국식</string>
+    <string name="units_setting_details">원하는 단위 선택</string>
+    <string name="units_setting_title">단위 선택</string>
+    <string name="very_high">가장 민감</string>
+    <string name="very_low">가장 둔감</string>
+    <string name="wait_for_data_transfer">데이터베이스 전송을 위해 잠시 기다려주세요..</string>
+    <string name="wait_for_exporting_db">데이타베이스 출력..</string>
+    <string name="wait_for_generating_csv">CSV 파일을 작성.</string>
+    <string name="wait_for_importing_db">데이타베이스 입력..</string>
+    <string name="wake_up">스크린을 강제로 켠 상태로 유지</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-ko/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Google로 구매"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="wed">수</string>
+    <string name="week">주</string>
+    <string name="week_of">주</string>
+    <string name="week_type_american">일요일</string>
+    <string name="week_type_european">월요일</string>
+    <string name="week_type_setting">주의 첫째날</string>
+    <string name="week_type_setting_details">주의 첫째날</string>
+    <string name="week_type_setting_title">주의 첫째날</string>
+    <string name="weekly_total">주간합계</string>
+    <string name="widget_daily">스텝온</string>
+    <string name="widget_expired">종료</string>
+    <string name="widget_paused">중지..</string>
+    <string name="widget_quit">중지</string>
+    <string name="widget_reset">\u2605 재설정 \u2605</string>
+    <string name="widget_skin_0">기본</string>
+    <string name="widget_skin_1">검정색</string>
+    <string name="widget_skin_2">파랑색</string>
+    <string name="widget_skin_3">녹색</string>
+    <string name="widget_skin_4">오렌지색</string>
+    <string name="widget_skin_5">분홍색</string>
+    <string name="widget_skin_6">투명</string>
+    <string name="widget_skin_type_setting">위젯 스킨 색상</string>
+    <string name="widget_skin_type_setting_details">위젯 스킨 색상</string>
+    <string name="widget_skin_type_setting_title">위젯 스킨 색상을 선택하세요</string>
+    <string name="widget_st">\u00A0보</string>
+    <string name="widget_steps">걸음</string>
+    <string name="year">년</string>
+    <string name="yearly_total">연별합계</string>
+</resources>

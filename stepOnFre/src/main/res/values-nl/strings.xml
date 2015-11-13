@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When version & TE changes -->
+    <string name="widget_expired">Verlopen</string>
+    <string name="trial_expired">Cloud (Google Drive) back-up beschikbaar in Pro-versie.</string>
+    <string name="accupedo_settings_about">Over StepOn</string>
+    <string name="accupdeo_version_title">StepOn versie</string>
+    <string name="accupdeo_version_summery">Versie 1.2.5</string>
+
+    <!-- V123 -->
+    <string name="automatic_backup">Automatische back-up</string>
+    <string name="automatic_backup_midnight_sdcard">Sla een databasebestand in SD-kaart om middernacht.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Type uw lengte</string>
+    <string name="height">Lengte</string>
+    <string name="birthday">Geboortedatum</string>
+    <string name="gender">Geslacht</string>
+    <string name="gender_female">Vrouw</string>
+    <string name="gender_male">Man</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Beloning</string>
+    <string name="goal_reward_notification">Dagelijkse doel beloning</string>
+    <string name="goal_reward_notification_details">Wanneer de dagelijkse doel is bereikt ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Bewaar</string>
+    <string name="stop_dialog_nosave">Niet Bewaar</string>
+    <string name="widget_steps">stap</string>
+    <string name="widget_paused">Pauze..</string>
+    <string name="steps">stap</string>
+    <string name="miles">mijl</string>
+    <string name="pounds">pond</string>
+    <string name="minutes">notulen</string>
+    <string name="hhmm">tijd</string>
+    <string name="power_usage_type_setting">Stroomverbruik stand</string>
+    <string name="power_usage_type_setting_details">Stroomverbruik stand</string>
+    <string name="power_usage_type_setting_title">selecteer de juiste stappen tellen of energiebesparing</string>
+    <string name="power_usage_type_most_accurate">meest nauwkeurige aantal stappen</string>
+    <string name="power_usage_type_power_balanced">evenwichtige</string>
+    <string name="power_usage_type_power_saving">energiebesparing aantal stappen</string>
+    <string name="settings">Instellingen</string>
+    <string name="accupedo_settings_information">Informatie</string>
+    <string name="sensitivity_setting">Gevoeligheid</string>
+    <string name="sensitivity_setting_details">Gevoeligheid</string>
+    <string name="sensitivity_setting_title">Selecteer gevoeligheid</string>
+    <string name="consecutive_setting">Opeenvolgende stappen</string>
+    <string name="consecutive_setting_details">Opeenvolgende stappen</string>
+    <string name="consecutive_setting_title">Eerste opeenvolgende stappen</string>
+    <string name="very_high">het meest gevoelig</string>
+    <string name="high">gevoeliger</string>
+    <string name="medium">standaard</string>
+    <string name="low">minder gevoelig</string>
+    <string name="very_low">minst gevoelig</string>
+    <string name="units_setting">Metrische / Engels</string>
+    <string name="units_setting_details">Metrische / Engels</string>
+    <string name="units_setting_title">Kies uw apparaat</string>
+    <string name="units_metric">Metrische: cm, km, kg</string>
+    <string name="units_imperial">Engels: in, mile, lbs</string>
+    <string name="body_weight_setting">Lichaamsgewicht</string>
+    <string name="body_weight_setting_details">Lichaamsgewicht</string>
+    <string name="body_weight_setting_title">Typ uw lichaamsgewicht</string>
+    <string name="goal_steps_setting">Doel stappen</string>
+    <string name="goal_steps_setting_details">Doel stappen</string>
+    <string name="goal_steps_setting_title">Type daily goal steps</string>
+    <string name="exercise_type_setting">Wandelen / Lopen</string>
+    <string name="exercise_type_setting_details">Wandelen / Lopen</string>
+    <string name="exercise_type_setting_title">Kies uw activiteit</string>
+    <string name="exercise_type_running">lopen</string>
+    <string name="exercise_type_walking">wandelen</string>
+    <string name="week_type_setting">Eerste dag van de week</string>
+    <string name="week_type_setting_details">Eerste dag van de week</string>
+    <string name="week_type_setting_title">Kies een week indeling voor week-Grafiek</string>
+    <string name="week_type_american">zondag</string>
+    <string name="week_type_european">maandag</string>
+    <string name="help">Help</string>
+    <string name="save">Bespa.</string>
+    <string name="day">Dag</string>
+    <string name="week">Week</string>
+    <string name="month">Maand</string>
+    <string name="year">Jaar</string>
+    <string name="chart">Grafiek</string>
+    <string name="chart_wait">Wacht tot de verwerking van..</string>
+    <string name="chart_no_data">Geen gegevens beschikbaar..</string>
+    <string name="button_email">E-mail</string>
+    <string name="button_review">Herziening</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Niet</string>
+    <string name="alert_pause_message">Wilt u pauzeren StepOn?</string>
+    <string name="alert_resume_message">Wilt u StepOn hervatten?</string>
+    <string name="alert_reset_message">Wilt u dagelijks het aantal stappen opnieuw in te stellen?</string>
+    <string name="toast_save">Opgeslagen in de map StepOn</string>
+    <string name="toast_folder">Kan geen StepOn map</string>
+    <string name="toast_external_storage_not_writeable">Externe opslag is niet beschrijfbaar</string>
+    <string name="toast_external_storage_not_available">Externe opslag is niet beschikbaar</string>
+    <string name="history">Dagboek</string>
+    <string name="cal">kcal</string>
+    <string name="daily_steps">Dagelijks stap</string>
+    <string name="daily_goal">Dagelijkse doel</string>
+    <string name="hourly_step_counts">Per uur stap telt</string>
+    <string name="hour">Uur</string>
+    <string name="weekly_total">Week totaal</string>
+    <string name="ave">gem.</string>
+    <string name="daily_step_counts">Dagelijks stap telt</string>
+    <string name="sun">Zon</string>
+    <string name="mon">Maa</string>
+    <string name="tue">Din</string>
+    <string name="wed">Woe</string>
+    <string name="thu">Don</string>
+    <string name="fri">Vri</string>
+    <string name="sat">Zat</string>
+    <string name="monthly_total">Maand totaal</string>
+    <string name="yearly_total">Jaar Total</string>
+    <string name="monthly_average_step_counts">Maands gemi. stap</string>
+    <string name="jan">Jan</string>
+    <string name="mar">Maa</string>
+    <string name="may">Kun</string>
+    <string name="jul">Jul</string>
+    <string name="sep">Sep</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Week de</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Actieve uur</string>
+    <string name="activehours_setting_details">Inschakelen / uitschakelen actieve uren. Niet
+		actieve uren worden in de pauzestand om energie te besparen. Indien
+		aangevinkt, zet dagelijks start / eindtijd zie ook.</string>
+    <string name="daily_start_setting">Dagelijkse starttijd</string>
+    <string name="daily_start_setting_details">stap tellen start</string>
+    <string name="daily_start_setting_title">Selecteer starttijd</string>
+    <string name="daily_end_setting">Dagelijkse eindtijd</string>
+    <string name="daily_end_setting_details">stap stopt de teller</string>
+    <string name="daily_end_setting_title">Selecteer eindtijd</string>
+    <string name="power_settings_title">Batterij stroomverbruik</string>
+    <string name="personal_settings_title">Persoonlijke instellingen</string>
+    <string name="daily_goal_title">Doel</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Dagelijks een logboek bij geschiedenis werd
+		overgebracht van StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widget huidskleur</string>
+    <string name="widget_skin_type_setting_details">Widget huidskleur</string>
+    <string name="widget_skin_type_setting_title">Selecteer de widget huidskleur</string>
+    <string name="widget_skin_0">default</string>
+    <string name="widget_skin_1">zwart</string>
+    <string name="widget_skin_2">blauw</string>
+    <string name="widget_skin_3">groen</string>
+    <string name="widget_skin_4">oranje</string>
+    <string name="widget_skin_5">roze</string>
+    <string name="display_settings_title">Weergave-instellingen</string>
+    <string name="operation_level_setting">Scherm aan / uit</string>
+    <string name="operation_level_setting_details">Scherm aan / uit</string>
+    <string name="operation_level_setting_title">Selecteer het scherm aan / uit</string>
+    <string name="run_in_background">te houden scherm uit</string>
+    <string name="keep_screen_on">scherm op te houden</string>
+    <string name="wake_up">krachtig scherm op</string>
+    <string name="send">Sturen</string>
+    <string name="email_file_subject">StepOn dagelijkse logs</string>
+    <string name="toast_need_sdcard">Vereisen een SD-kaart opslaan en verzenden
+		dagelijks logs.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">StepOn \u0022StepOn.db\u0022 bestand moet
+		worden in StepOn map van de SD-kaart. \n\n +++ Aandacht! +++\n Het geïmporteerde
+		bestand vervangt de bestaande database.</string>
+    <string name="import_success_message">Importeren.</string>
+    <string name="export_success_message">Export.</string>
+    <string name="toast_folder_doesnot_exist">StepOn map bestaat niet.</string>
+    <string name="run_length_setting">Stap op afstand: Lopen</string>
+    <string name="run_length_setting_details">Stap op afstand: Lopen</string>
+    <string name="run_length_setting_title">Typ uw stap afstand: Lopen</string>
+    <string name="step_length_setting">Stap op afstand: Wandelen</string>
+    <string name="step_length_setting_details">Stap op afstand: Wandelen</string>
+    <string name="step_length_setting_title">Typ uw stap afstand: Wandelen</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Taal</string>
+    <string name="locale_type_setting_details">Taal</string>
+    <string name="locale_type_setting_title">Selecteer taal</string>
+    <string name="locale_0">Default</string>
+    <string name="locale_1">Engels</string>
+    <string name="buy_button">Kopen Pro</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook wordt bijgewerkt!</string>
+    <string name="fb_walk_report">StepOn dagelijkse wandeling</string>
+    <string name="fb_lets_walk">Lopen 10000 stappen per dag!</string>
+    <string name="send_cvs">Stuur CSV bestand</string>
+    <string name="share">Aandeel</string>
+    <string name="export_success_message2">Database bestand \u0022StepOn.db\u0022 zal worden geëxporteerd naar de map StepOn.</string>
+    <string name="export_limit_te">Database import / export-functies zijn alleen voor StepOn-Pro.</string>
+    <string name="import_limit_te">Database import / export-functies zijn alleen voor StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Nauwkeuriger aantal stappen</string>
+    <string name="power_usage_type_power_less">Minder stroomverbruik</string>
+    <string name="power_usage_type_power_least">Minimaal stroomverbruik</string>
+    <string name="history_management_setting">Geschiedenis beheer</string>
+    <string name="autopause_charging_setting">Automatische pauze</string>
+    <string name="autopause_charging_setting_details">Automatische pauze tijdens het opladen</string>
+    <string name="wait_for_data_transfer">Wacht tot de database overdracht ..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Ronde</string>
+    <string name="trashcan">Afvalemmer</string>
+    <string name="editsteps">Bewerk stap</string>
+    <string name="alert_delete_month_message">Verwijder maandelijkse geschiedenis?</string>
+    <string name="alert_delete_day_message">Verwijder dagelijks de geschiedenis?</string>
+    <string name="alert_next_lap_message">Wilt u een volgende ronde beginnen?</string>
+    <string name="enter_manual_steps">Stap tellen</string>
+    <string name="button_manual_steps">Bevestigen</string>
+    <string name="alert_set_steps_message">Heeft u bevestigen?</string>
+    <string name="chart_statistics">Statistische</string>
+    <string name="wait_for_generating_csv">Het schrijven van CSV-bestand..</string>
+    <string name="wait_for_exporting_db">Exporteren database..</string>
+    <string name="wait_for_importing_db">Importeren database..</string>
+    <string name="export_to_sdcard">Databasebestand (StepOn.db) wordt opgeslagen in de StepOn map van SD-Card.</string>
+    <string name="backup">Back-up</string>
+    <string name="cancelled">Annuleren</string>
+    <string name="permission_not_granted">Rechten niet werden toegekend.</string>
+    <string name="error">Fout</string>
+    <string name="status_update">Bijwerken status.</string>
+    <string name="success">Succes</string>
+    <string name="successfully_posted_post">Succesvol geplaatst.</string>
+    <string name="alert_new_installation_message">StepOn dagelijkse geschiedenis bestand is gevonden. Wilt u importeren?</string>
+    <string name="quit">Uitgang</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Wilt u dagelijks het aantal stappen opnieuw in te stellen?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Databasebestand (StepOn.db) wordt geupload.</string>
+    <string name="google_drive_downloaded">Databasebestand (StepOn.db) wordt gedownload.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) bestaat niet.</string>
+    <string name="dropbox_uploading">Uploaden ..</string>
+    <string name="dropbox_downloading">Downloaden ..</string>
+    <string name="notification_settings_title">Notification</string>
+    <string name="goal_achievement_notification">Dagelijks doelbereiking</string>
+    <string name="goal_achievement_notification_details">Melding wanneer doel is bereikt</string>
+    <string name="speed_type_setting">Snelheid</string>
+    <string name="speed_type_setting_details">Snelheid</string>
+    <string name="speed_type_setting_title">Kies snelheid formaat</string>
+    <string name="speed_type_average">Gemiddelde snelheid</string>
+    <string name="speed_type_realtime">Real time snelheid</string>
+    <string name="alert_import_gdrive_message">StepOn databasebestand moet in Google Drive. \n\n +++ Aandacht! +++\n Het geïmporteerde bestand zal de bestaande database te vervangen.</string>
+    <string name="alert_import_dropbox_message">StepOn databasebestand moet in Dropbox. \n\n +++ Aandacht! +++\n Het geïmporteerde bestand zal de bestaande database te vervangen.</string>
+    <string name="try_again">Probeer het opnieuw!</string>
+    <string name="network_connection">Netwerk moet worden aangesloten.</string>
+    <string name="delete">Slett</string>
+    <string name="alert_history_update_version_401_message">+++ Aandacht! +++\n Druk omlaag over het scherm om de dagelijkse stap telt bewerken of verwijderen. Of klik op het scherm voor detail schoot geschiedenis te zien.</string>
+    <string name="connect_to_mfp">Verbinden met MFP</string>
+    <string name="screen_skin_type_setting">Themakleur</string>
+    <string name="screen_skin_type_setting_details">Themakleur</string>
+    <string name="screen_skin_type_setting_title">Selecteer themakleur</string>
+    <string name="screen_skin_0">Blauw / Donker</string>
+    <string name="screen_skin_1">Blauw / Licht</string>
+    <string name="screen_skin_2">Oranje / Licht</string>
+    <string name="no_ad">Advertentie</string>
+
+</resources>

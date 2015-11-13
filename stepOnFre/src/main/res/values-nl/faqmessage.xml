@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: Het stopt met het tellen van de stappen.</string>
+<string name="a1">A: Verwijder Accupedo naar de prullenbak, en open het opnieuw in het beginscherm. En test de app. Als het dan nog niet werkt, verwijder het dan opnieuw naar de prullenbak. Schakel uw telefoon uit en weer aan. Open Accupedo opnieuw en test het.</string>
+<string name="q2">Q: Stappen worden niet geteld als het scherm op standby staat.</string>
+<string name="a2">A: Bij sommige telefoons werkt de G-sensor niet als het scherm op standy gaat. Dit verschilt per fabrikant. Dit ligt niet aan de applicatie.</string>
+<string name="q3">Q: Wat betekent de opeenvolgende stappen in het menu intsellingen</string>
+<string name="a3">A: Als je 4 stappen achter elkaar loopt, gaat de teller beginnen met tellen incl. de 4 genomen stappen. Als je 10 stappen achter elkaar loopt, gaat de teller beginnen met tellen incl de 10 genomen stappen. Blijft je onder de vooraf ingestelde aantal dan zal de stappen niet mee geteld worden.</string>
+<string name="q4">Q: Kan ik stap telt bewerken?</string>
+<string name="a4">A: Ga naar Geschiedenis venster. Druk omlaag over het scherm om stap telt voor elke dag bewerken of verwijderen.</string>
+<string name="q5">Q: Wat betekend de pauze modus.</string>
+<string name="a5">A: Als de pauze modus is ingeschakeld (kleur blauw) zal de genomen stappen niet meegeteld worden. De pauze modus verbruikt geen batterij. Om opnieuw te starten, drukt up op de resume modus.</string>
+<string name="q6">Q: Het houdt geen dagboek bij gedurende de dag.</string>
+<string name="a6">A: Het dagboek wordt eens per dag bijgewerkt om 00:00 uur. Schakelt u de telefoon dan niet uit.</string>
+<string name="q7">Q: Hoe kan ik de stap afstand te meten?</string>
+<string name="a7">A: Van teen (hiel) tot teen (hiel).</string>
+<string name="q8">Q: Mijn probleem kan ik niet terugvinden in FAQ.</string>
+<string name="a8">Stuur ons een email met daarin de beschrijving van uw probleem. We zullen u helpen het probleem op te lossen.</string>
+
+</resources>

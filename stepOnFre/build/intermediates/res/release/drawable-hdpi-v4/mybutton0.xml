@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/mygray"
+                android:endColor="@color/mygray"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/mygray" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="2dp"
+                android:top="6dp"
+                android:right="2dp"
+                android:bottom="6dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:endColor="@color/mylightorange"
+                android:startColor="@color/mylightorange"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/mylightorange" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="2dp"
+                android:top="6dp"
+                android:right="2dp"
+                android:bottom="6dp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+            <gradient
+                android:endColor="@null"
+                android:startColor="@null"
+                android:angle="270" />
+            <stroke
+                android:width="1dp"
+                android:color="@null" />
+            <corners
+                android:radius="5dp" />
+            <padding
+                android:left="2dp"
+                android:top="6dp"
+                android:right="2dp"
+                android:bottom="6dp" />
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/drawable-hdpi/mybutton0.xml -->

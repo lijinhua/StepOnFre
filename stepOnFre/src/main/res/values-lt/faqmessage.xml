@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">DUK</string>
+<string name="q1">K: Programėlė neskaičiuoja žingsnių.</string>
+<string name="a1">A: Darbalaukyje ištrinkite programėlę  ir ją iš naujo atidarykite. Išbandykite. Jeigu ji vis tiek neveikia, vėl ištrinkite iš darbalaukio ir išjunkite, įjunkite telefoną. Pažiūrėkite ar veikia.</string>
+<string name="q2">K: Programėlė neskaičiuoja žingsnių, kai jos ekranas išjungtas. (Standby režimas).</string>
+<string name="a2">A: Kai kurie telefonai nepalaiko G-sensoriaus miego režime (kai ekranas išjungtas) dėl telefono gamintojų nustatymų. Tai nėra Accupedo klaida.</string>
+<string name="q3">K: Kas yra "Nuoseklūs žingsniai" nustatymuose?</string>
+<string name="a3">A: Žingsnių skaičiavimas prasideda po tam tikro  nuoseklių žingsnių skaičiaus. Pavyzdžiui, jeigu nustatėte 10 Nuoseklių žingsnių, tai tik nuėjus nesustojant 10 žingsnių, programa pradės skaičiavimą (įskaičius ir tuos 10 žingsnių). Jeigu nueisite mažiau nei 10 ir sustosite, programa neįskaičiuos tų žingsnių.</string>
+<string name="q4">K: Ar galiu redaguoti žingsnis skaičiuoja?</string>
+<string name="a4">A: Eikite į istorijos lange. Nuspauskite ekraną redaguoti arba ištrinti žingsnis skaičiuoja kiekvieną dieną.</string>
+<string name="q5">K: Kas yra Sustabdymo režimas?</string>
+<string name="a5">A: Sustabdymo režime (kai spalva yra mėlyna) programėlė neskaičiuoja žingsnių ir šis režimas visiškai nevartoja telefono energijos. Norėdami vėl pradėti skaičiuoti žingsnius, paspauskite Pratęsti.</string>
+<string name="q6">K: Dienos įrašai nėra išsaugomi.</string>
+<string name="a6">A: Programėlė išsaugo visus buvusios dienos įrašus vidurnaktį. Neišjunkite tuo metu savo telefono.</string>
+<string name="q7">K: Kaip matuoti žingsnio ilgį?</string>
+<string name="a7">A: Nuo pėdos piršto (kulno) iki kitos pėdos piršto (kulno).</string>
+<string name="q8">K: Mano problema neminima DUK.</string>
+<string name="a8">A: Rašykite mums el. laiškus. Būtinai padėsime.</string>
+
+</resources>

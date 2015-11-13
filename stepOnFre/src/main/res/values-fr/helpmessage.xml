@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">"Guide d’utilisation StepOn"</string> 
+
+<string name="email_title">"Email \u0026 Aidez-nous"</string>
+<string name="email_message">\u2605 Merci de nous contacter par email en cas de problème ou pour toutes autres questions.</string>  
+<string name="review_message">\u2605 Pour améliorer les Apps des efforts et de l\u0027aide sont requis. Merci de poster un avis positif si vous êtes satisfait d\u0027StepOn. Cela nous encouragera à développer de meilleures applications.</string>
+<string name="notes_title">Note</string>
+<string name="notes_message">
+\u2605 StepOn est un podomètre qui permet de suivre vos pas.\n\n 
+
+\u2605 Un algorithme intelligent de reconnaissance de mouvements 3D est intégré afin de filtrer les mouvements qui ne seraient pas liés à des pas. StepOn compte vos pas indépendamment de l’endroit où vous placez votre téléphone (dans votre poche, sur votre ceinture ou dans un sac).\n\n 
+
+\u2605 StepOn est très simple. Tout ce que vous devez faire est d\u0027appuyer sur le bouton de démarrage lorsque vous commencez à marcher.\n\n 
+
+\u2605 Soyez en bonne santé en mettant en définissant votre objectif quotidien et suivez précisément vos pas avec StepOn.\n\n 
+
+\u2605 Les dispositifs principaux incluent:\n 
+
+\u2022 Graphiques : nombre de pas quotidiens, hebdomadaires, mensuels et annuels.\n 
+\u2022 Journal quotidien: le nombre de pas, les calories brûlées, la distance et le temps\n 
+\u2022 Etape précise compte en utilisant des algorithmes de suivi de mouvement 3D intelligents\n 
+\u2022 Facebook publication.\n 
+\u2022 Sauvegarde Google Drive.\n 
+\u2022 Paramètres personnels personnalisés : sensibilité, métrique / anglais, distance de pas, poids corporel, objectif quotidien, etc.
+</string>
+</resources>

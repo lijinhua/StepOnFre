@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When version & TE changes -->
+    <string name="widget_expired">истекать</string>
+    <string name="trial_expired">Облако (Google Drive) резервные копии в Pro версии.</string>
+    <string name="accupedo_settings_about">О StepOn</string>
+    <string name="accupdeo_version_title">StepOn версии</string>
+    <string name="accupdeo_version_summery">версия 1.2.5</string>
+
+    <!-- V123 -->
+    <string name="automatic_backup">Автоматическое резервное копирование</string>
+    <string name="automatic_backup_midnight_sdcard">Сохранить файл базы данных в SD-карты в полночь.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Введите свой рост</string>
+    <string name="height">высота</string>
+    <string name="birthday">день рождения</string>
+    <string name="gender">пол</string>
+    <string name="gender_female">женский</string>
+    <string name="gender_male">мужской</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Награда</string>
+    <string name="goal_reward_notification">Награда Ежедневно цель</string>
+    <string name="goal_reward_notification_details">Когда ежедневно цель достигается ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Сохранить</string>
+    <string name="stop_dialog_nosave">Не сохранять</string>
+    <string name="widget_steps">шаги</string>
+    <string name="widget_st">\u00A0ша</string>
+    <string name="widget_km">\u00A0км</string>
+    <string name="widget_calories">ккал</string>
+    <string name="widget_cal">\u00A0ккал</string>
+    <string name="cal">ккал</string>
+    <string name="inches">дюйм</string>
+    <string name="widget_reset">\u2605 сброс \u2605</string>
+    <string name="widget_paused">Пауза</string>
+    <string name="steps">шаги</string>
+    <string name="miles">миля</string>
+    <string name="calories_burned">ккал</string>
+    <string name="kilometers">км</string>
+    <string name="km">км</string>
+    <string name="centimeters">см</string>
+    <string name="kilograms">кг</string>
+    <string name="pounds">фунт</string>
+    <string name="minutes">минут</string>
+    <string name="hhmm">время</string>
+    <string name="resume">выкл</string>
+    <string name="reset">сброс</string>
+    <string name="power_usage_type_setting">Потребление электроэнергии</string>
+    <string name="power_usage_type_setting_details">Потребление электроэнергии</string>
+    <string name="power_usage_type_setting_title">Выберите точные шаги и энергосбережения</string>
+    <string name="power_usage_type_most_accurate">Наиболее точный подсчет шагов</string>
+    <string name="power_usage_type_power_balanced">сбалансированный</string>
+    <string name="power_usage_type_power_saving">Энергосберегающий подсчет шагов</string>
+    <string name="settings">Настройки</string>
+    <string name="accupedo_settings_information">информация</string>
+    <string name="sensitivity_setting">чувствительность</string>
+    <string name="sensitivity_setting_details">чувствительность</string>
+    <string name="sensitivity_setting_title">Выберите уровень чувствительности</string>
+    <string name="consecutive_setting">Последовательных шагов</string>
+    <string name="consecutive_setting_details">Последовательных шагов</string>
+    <string name="consecutive_setting_title">Первоначальные последовательных шагов</string>
+    <string name="very_high">Наибольшая</string>
+    <string name="high">Высокая</string>
+    <string name="medium">Стандартная</string>
+    <string name="low">Низкая</string>
+    <string name="very_low">Наименьшая</string>
+    <string name="units_setting">Ед. изм.: Метрич./Англ.</string>
+    <string name="units_setting_details">Ед. изм.: Метрич./Англ.</string>
+    <string name="units_setting_title">выбрать единицы измерения</string>
+    <string name="units_metric">Метрические (кг, км, см)</string>
+    <string name="units_imperial">Английские (фунт, миля, дюйм)</string>
+    <string name="body_weight_setting">вес тела</string>
+    <string name="body_weight_setting_details">вес тела</string>
+    <string name="body_weight_setting_title">Выберите свой вес</string>
+    <string name="goal_steps_setting">Цель на день</string>
+    <string name="goal_steps_setting_details">Цель на день</string>
+    <string name="goal_steps_setting_title">Выберите цель на день</string>
+    <string name="exercise_type_setting">Ходьба / Бег</string>
+    <string name="exercise_type_setting_details">Ходьба / Бег</string>
+    <string name="exercise_type_setting_title">Выберите деятельности</string>
+    <string name="exercise_type_running">Бег</string>
+    <string name="exercise_type_walking">Ходьба</string>
+    <string name="week_type_setting">Первый день недели</string>
+    <string name="week_type_setting_details">Первый день недели</string>
+    <string name="week_type_setting_title">Выберите неделю формат недельном графике</string>
+    <string name="week_type_american">Воскресенье</string>
+    <string name="week_type_european">Понедельник</string>
+    <string name="help">Помощь</string>
+    <string name="save">сохра.</string>
+    <string name="day">день</string>
+    <string name="week">неделя</string>
+    <string name="month">месяц</string>
+    <string name="year">год</string>
+    <string name="chart">график</string>
+    <string name="chart_wait">Дождитесь обработки..</string>
+    <string name="chart_no_data">Нет данных..</string>
+    <string name="button_email">Email</string>
+    <string name="button_review">обзор</string>
+    <string name="dialog_yes">да</string>
+    <string name="dialog_no">нет</string>
+    <string name="alert_pause_message">Вы хотите приостановить StepOn\u003F</string>
+    <string name="alert_resume_message">Вы хотите возобновить StepOn\u003F</string>
+    <string name="alert_reset_message">Вы хотите сбросить ежедневно количество шаг\u003F</string>
+    <string name="toast_save">Сохранено в папке StepOn</string>
+    <string name="toast_folder">Не удается создать папку StepOn</string>
+    <string name="toast_external_storage_not_writeable">Внешние накопители данных недоступны для записи.</string>
+    <string name="toast_external_storage_not_available">Внешние накопители данных не доступны.</string>
+    <string name="history">история</string>
+    <string name="faq">ЧАВО</string>
+    <string name="daily_steps">За день</string>
+    <string name="daily_goal">Цель</string>
+    <string name="hourly_step_counts">Сумма за час</string>
+    <string name="hour">час</string>
+    <string name="weekly_total">За неделю</string>
+    <string name="ave">В сре.</string>
+    <string name="daily_step_counts">Сумма за день</string>
+    <string name="sun">вс</string>
+    <string name="mon">пн</string>
+    <string name="tue">вт</string>
+    <string name="wed">ср</string>
+    <string name="thu">чт</string>
+    <string name="fri">пт</string>
+    <string name="sat">сб</string>
+    <string name="monthly_total">За месяц</string>
+    <string name="yearly_total">За год</string>
+    <string name="monthly_average_step_counts">Среднее за месяц</string>
+    <string name="jan">янв</string>
+    <string name="mar">мар</string>
+    <string name="may">май</string>
+    <string name="jul">июл</string>
+    <string name="sep">сен</string>
+    <string name="nov">ноя</string>
+    <string name="week_of">неделя</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Активные часы</string>
+    <string name="activehours_setting_details">ключение / выключение активного часов. Номера
+		активных часов будет находиться в режиме паузы для экономии энергии.
+		Когда проверили, установить ежедневный начала / окончания времени.</string>
+    <string name="daily_start_setting">Время начала</string>
+    <string name="daily_start_setting_details">граф начинается</string>
+    <string name="daily_start_setting_title">Выберите время начала</string>
+    <string name="daily_end_setting">Время завершения</string>
+    <string name="daily_end_setting_details">граф останавливается</string>
+    <string name="daily_end_setting_title">Выберите время окончания</string>
+    <string name="power_settings_title">Потребление электроэнергии</string>
+    <string name="personal_settings_title">Персональные настройки</string>
+    <string name="daily_goal_title">цель</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Ежедневный журнал событий был переведен из
+		StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Цвет скина виджета</string>
+    <string name="widget_skin_type_setting_details">Цвет скина виджета</string>
+    <string name="widget_skin_type_setting_title">Выберете цвет скина виджета</string>
+    <string name="widget_skin_0">умолчание</string>
+    <string name="widget_skin_1">черный</string>
+    <string name="widget_skin_2">синий</string>
+    <string name="widget_skin_3">зеленый</string>
+    <string name="widget_skin_4">оранжевый</string>
+    <string name="widget_skin_5">розовый</string>
+    <string name="display_settings_title">настройки дисплея</string>
+    <string name="operation_level_setting">экран вкл / выкл</string>
+    <string name="operation_level_setting_details">экран вкл / выкл</string>
+    <string name="operation_level_setting_title">экран выбора вкл / выкл</string>
+    <string name="run_in_background">Держать экран выключенным</string>
+    <string name="keep_screen_on">Держать экран включенным</string>
+    <string name="wake_up">насильно экран</string>
+    <string name="send">Отправ.</string>
+    <string name="email_file_subject">StepOn ежедневные журналы событий</string>
+    <string name="toast_need_sdcard">ребовать SD-карта для сохранения и отправки
+		ежедневники.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">StepOn \u0022StepOn.db\u0022 файл должен быть в папке StepOn на SD-карте. 
+        \n\n +++ Внимание! +++\n Импортированный файл заменит существующую базу данных.</string>
+    <string name="import_success_message">Импорт базы данных.</string>
+    <string name="export_success_message">Экспорт базы данных.</string>
+    <string name="toast_folder_doesnot_exist">Папка StepOn не существует.</string>
+    <string name="run_length_setting">Длина шага: Бег</string>
+    <string name="run_length_setting_details">Длина шага: Бег</string>
+    <string name="run_length_setting_title">Выберите длину шага при беге</string>
+    <string name="step_length_setting">Длина шага: Ходьба</string>
+    <string name="step_length_setting_details">Длина шага: Ходьба</string>
+    <string name="step_length_setting_title">Выберите длину шага при ходьбе</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">язык</string>
+    <string name="locale_type_setting_details">язык</string>
+    <string name="locale_type_setting_title">Выберите язык</string>
+    <string name="locale_0">умолчание</string>
+    <string name="locale_1">английский</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="buy_button">купить Pro</string>
+    <string name="widget_skin_6">прозрачный</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook обновляется!</string>
+    <string name="fb_walk_report">Дневной журнал</string>
+    <string name="fb_lets_walk">ходить 10000 шагов в день!</string>
+    <string name="database">база данных</string>
+    <string name="send_cvs">Отправить CSV-файл</string>
+    <string name="share">Подел.</string>
+    <string name="kilometers_per_hour">км/ч</string>
+    <string name="miles_per_hour">миль/ч</string>
+    <string name="export_success_message2">Файл базы данных \u0022StepOn.db\u0022 будет экспортироваться в StepOn папку.</string>
+    <string name="export_limit_te">База данных функции импорта / экспорта предназначены только для StepOn-Pro.</string>
+    <string name="import_limit_te">База данных функции импорта / экспорта предназначены только для StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Более точное число шагов</string>
+    <string name="power_usage_type_power_less">Меньшее энергопотребление</string>
+    <string name="power_usage_type_power_least">Минимальное энергопотребление</string>
+    <string name="history_management_setting">История управления</string>
+    <string name="autopause_charging_setting">Автоматическая пауза</string>
+    <string name="autopause_charging_setting_details">Автоматическая пауза во время зарядки</string>
+    <string name="wait_for_data_transfer">Пожалуйста, подождите для переноса базы данных ..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">круг</string>
+    <string name="trashcan">корзина для мусора</string>
+    <string name="editsteps">Редакт. ша.</string>
+    <string name="alert_delete_month_message">Удалить ежемесячно истории?</string>
+    <string name="alert_delete_day_message">Удалить ежедневно истории?</string>
+    <string name="alert_next_lap_message">Вы хотите, чтобы начать следующий круг?</string>
+    <string name="enter_manual_steps">шаги</string>
+    <string name="button_manual_steps">подтверждать</string>
+    <string name="alert_set_steps_message">Подтверждаете ли вы?</string>
+    <string name="chart_statistics">График</string>
+    <string name="wait_for_generating_csv">Дать CSV файл..</string>
+    <string name="wait_for_exporting_db">Экспорт базы данных..</string>
+    <string name="wait_for_importing_db">Импорт базы данных ..</string>
+    <string name="export_to_sdcard">Файл базы данных (StepOn.db) хранится в StepOn папку SD-карты.</string>
+    <string name="backup">резервная копия</string>
+    <string name="cancelled">отменить</string>
+    <string name="permission_not_granted">Разрешения не были предоставлены.</string>
+    <string name="ok">хорошо</string>
+    <string name="error">ошибка</string>
+    <string name="status_update">Обновление статуса.</string>
+    <string name="success">успех</string>
+    <string name="successfully_posted_post">Готово!</string>
+    <string name="alert_new_installation_message">StepOn ежедневно файл истории не было найдено. Вы хотите, чтобы импортировать?</string>
+    <string name="quit">Выход</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Вы хотите сбросить ежедневно количество шаг?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Файл базы данных (StepOn.db) загружается.</string>
+    <string name="google_drive_downloaded">Файл базы данных (StepOn.db) загружается.</string>
+    <string name="google_drive_file_not_exist">Файл (StepOn.db) не существует.</string>
+    <string name="dropbox_uploading">Загрузка ..</string>
+    <string name="dropbox_downloading">Загрузка ..</string>
+    <string name="notification_settings_title">уведомление</string>
+    <string name="goal_achievement_notification">Ежедневные достижения цели</string>
+    <string name="goal_achievement_notification_details">Уведомление когда цель достигнута</string>
+    <string name="speed_type_setting">скорость</string>
+    <string name="speed_type_setting_details">скорость</string>
+    <string name="speed_type_setting_title">Выберите скорость формате</string>
+    <string name="speed_type_average">Средняя скорость</string>
+    <string name="speed_type_realtime">Реальная скорость времени</string>
+    <string name="alert_import_gdrive_message">StepOn файл базы данных должны быть в Google Drive. \n\n +++ внимание! +++\n Импортируемого файла заменят существующие базы данных.</string>
+    <string name="alert_import_dropbox_message">StepOn файл базы данных должны быть в Dropbox. \n\n +++ внимание! +++\n Импортируемого файла заменят существующие базы данных.</string>
+    <string name="try_again">Пожалуйста, попробуйте еще раз!</string>
+    <string name="network_connection">Сети должны быть соединены.</string>
+    <string name="delete">Удалить</string>
+    <string name="alert_history_update_version_401_message">+++ Внимание! +++\n Нажмите экран вниз, чтобы изменить или удалить ежедневные шаг на счету. Или нажмите на экран, чтобы увидеть историю подробно круга.</string>
+    <string name="connect_to_mfp">Подключение к MFP</string>
+    <string name="screen_skin_type_setting">цвет темы</string>
+    <string name="screen_skin_type_setting_details">цвет темы</string>
+    <string name="screen_skin_type_setting_title">Выберите цвет темы</string>
+    <string name="screen_skin_0">Синий / темно-</string>
+    <string name="screen_skin_1">Синий / Светло-</string>
+    <string name="screen_skin_2">Оранжевый / Светло-</string>
+    <string name="no_ad">реклама</string>
+
+</resources>

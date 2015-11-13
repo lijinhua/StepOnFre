@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: 歩数がカウントされない</string>
+<string name="a1">A: ウィジェットを一旦削除し、再度配置してみてください。それでも改善しない場合は、ウィジェットを削除し、 端末を再起動した後、再度配置してください。 </string>
+<string name="q2">Q: 画面がオフの時 (スリープ時) に計 測されない</string>
+<string name="a2">A: 一部の携帯電話は、スリープ時にセンサーを使えない仕様になっています。これはアプリケーションの欠陥ではありません。</string>
+<string name="q3">Q: カウント開始歩数とは</string>
+<string name="a3">A: カウント開始歩数以上歩いたときに、歩数が加算されます。カウント開始歩数が10であれば、10歩目に10を加算し以降1歩ごとに加算を行います。10歩未満で歩行をやめた場合、この歩数は破棄されます。</string>
+<string name="q4">Q: 歩数を編集することはできますか？</string>
+<string name="a4">A: 記録ウィンドウに移動します。毎日の歩数を編集または削除するために、画面を下に押してください。</string>
+<string name="q5">Q: 一時停止モードとは</string>
+<string name="a5">A: 一時停止モード (色が青色) の間は、歩数の計測を行いません。この状態では、アプリはバッテリーを消費しません。カウントを再開するには再開ボタンを押してください。</string>
+<string name="q6">Q: 毎日の歩数が記録されない</string>
+<string name="a6">A: アプリは日付変更時に歩数を保存します。この時に携帯電話の電源が切れていると保存が行えません。日付変更時に携帯電話をOFFにしないでください。</string>
+<string name="q7">Q: ステップの距離を測定するには？</string>
+<string name="a7">A: つま先（かかと）からつま先（かかと）へ。</string>
+<string name="q8">Q: その他の質問がある</string>
+<string name="a8">A: メールにてご連絡ください。 必ず返信いたします。</string>
+
+</resources>

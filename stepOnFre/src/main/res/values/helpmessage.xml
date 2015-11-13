@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<string name="help_title">StepOn\u00A9 User\u0027s Guide</string> 
+
+<string name="email_title">EMAIL \u0026 SUPPORT US</string>
+<string name="email_message">\u2605 Please email us if you have any problems, questions, or comments.</string>  
+<string name="review_message">\u2605 Much effort and support is needed in order to develop quality Apps. Please leave a POSITIVE REVIEW if you are satisfied with StepOn. It will encourage us to develop better Apps. Thank you.</string>
+<string name="notes_title">NOTES</string>
+<string name="notes_message">
+\u2605 StepOn is a pedometer that tracks your steps.\n\n
+\u2605 With easy to read charts and history logs, monitor your steps, calories burned, distance, and time. As your best walking buddy, StepOn will motivate you to walk more! Set up your daily goal and step towards a healthier you with StepOn step tracker.\n\n
+\u2605 StepOn counts your steps regardless of where you put your phone like your pocket, waist belt, or bag. StepOn is so simple! All you need to do is press the start button when you start walking. Walk 10K steps a day and StepOn towards a healthier you.\n\n
+
+\u2605 Key Features include:\n
+
+\u2022 Charts: daily, weekly, monthly, and yearly step counts\n
+\u2022 Daily log history: step counts, calories burned, distance, and time\n
+\u2022 Accurate step counts using intelligent 3D motion tracking algorithms\n
+\u2022 Share daily log on Facebook\n
+\u2022 Google Drive backup\n
+\u2022 Personalized settings: daily goal, sensitivity, unit: metric/imperial, stride length, weight, etc.\n
+</string>
+
+
+<string name="help_message">\n</string>
+
+<string name="help_ok">OK</string>
+</resources>

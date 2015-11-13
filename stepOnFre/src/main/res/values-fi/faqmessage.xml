@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">UKK</string>
+<string name="q1">Q: Se lopettaa laskemisen vaiheet.</string>
+<string name="a1">A: Poista Accupedo roskakoriin ja avaa se Alkunäytössä, ja testata sitä. Jos se ei vieläkään toimi, poista Accupedo roskakoriin uudelleen ja Sammuta puhelimesi ja, ja avaa ja testata sitä.</string>
+<string name="q2">Q: Sitä ei lasketa kun näyttö on pois päältä (valmiustilaan).</string>
+<string name="a2">A: Jotkin puhelimet eivät tue G-anturi lepotilassa (näyttö on käytössä) puhelimitse valmistajat. Ei ole vikoja tämän App.</string>
+<string name="q3">Q: Mikä on peräkkäiset vaiheet Asetuksissa?</string>
+<string name="a3">A: Vaihe laskenta alkaa jälkeen kävely useita peräkkäisiä vaiheita. Esimerkiksi, jos peräkkäiset vaiheet ovat 10, sinun täytyy kävellä 10 askelta jatkuvasti pysähtymättä. Jos kävelet alle 10 askeleen ja pysähtyy, sitten se poisheitetyt nuo askeleet.</string>
+<string name="q4">Q: Voinko muokata vaihe lasketaan?</string>
+<string name="a4">A: Mene historia-ikkuna. Paina näytön muokata tai poistaa vaihe lasketaan jokaiselle päivälle.</string>
+<string name="q5">Q: Mikä on Taukotilassa?</string>
+<string name="a5">A: Aikana Taukotilassa (kun väri on sininen), se lopettaa laskemisen vaiheet. Tämä Taukotilassa ei kuluta akkua. Voit käynnistää askel laskenta, siirry lepotilaan.</string>
+<string name="q6">Q: Se ei tallenna päivittäin kirjaa.</string>
+<string name="a6">A: Se säästää päivittäin kirjaa keskiyöllä. Älä katkaise virta puhelimesta tuolloin.</string>
+<string name="q7">Q: Miten mitataan vaiheessa etäisyyden?</string>
+<string name="a7">A: Kärjestä (kantapää) ja varvas (kantapää).</string>
+<string name="q8">Q: Minun ongelmani ei ole lueteltu UKK.</string>
+<string name="a8">A: Lähetä meille sähköpostia. Olemme varmasti auttaa sinua.</string>
+
+</resources>

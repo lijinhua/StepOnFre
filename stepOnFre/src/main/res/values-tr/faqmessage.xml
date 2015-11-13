@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">SSS</string>
+<string name="q1">S: Adım sayma duruyor.</string>
+<string name="a1">C: Ana ekranınından Accupedo\u0027yu kaldırın, ardından ana ekrana  tekrar ekleyin. Eğer hala çalışmıyorsa, ana ekrandan tekrar kaldırın, telefonunuzu kapatıp açın ve tekrar ekleyin.</string>
+<string name="q2">S: Ekran kapalıyken adımlarımı saymıyor (Bekleme modu).</string>
+<string name="a2">C: Bazı telefonlar uyku modunda (ekran kapalı) iken G-sensörlerini kullanamazlar. Bu üreticileri tarafından belirlenen bir limittir, uygulama ile bir ilgisi yoktur.</string>
+<string name="q3">S: Ardarda atılan adım ayarı nedir?</string>
+<string name="a3">C: Adım sayma belirli sayıda ardarda adım atılınca saymaya başlar. Örneğin, ardarda adım sayısı 10 ise, saymanın başlaması için önce hiç dıurmadan 10 adım atmalısınız. Eğer 10 adımdan kısa yürür ve durursanız, bu adımlar yok sayılır.</string>
+<string name="q4">S: Ben adım sayar düzenleyebilir miyim?</string>
+<string name="a4">C: Geçmişi penceresine gidin. Her gün için bir adım sayar düzenlemek ya da silmek için ekran aşağı bastırın.</string>
+<string name="q5">S: Duraklatma modu nedir?</string>
+<string name="a5">C: Duraklatma modunda iken (renk mavi olur), adım sayma işlemi durdurulur. Bu durumda pil harcanmaz. Saymaya devam etmek için, Devam moduna geçin.</string>
+<string name="q6">S: Günlük kayıtları saklamıyor.</string>
+<string name="a6">C: Günlük kayıtlar geceyarısı saklanır. Lütfen telefonunuzun geceyarısı açık olduğundan emin olun.</string>
+<string name="q7">S: Adım mesafemi nasıl ölçeceğim?</string>
+<string name="a7">C: Topuktan topuğa.</string>
+<string name="q8">S: Benim sorum SSS içerisinde yok.</string>
+<string name="a8">C: Lütfen bize e-posta atın. Size kesinlikle yardımcı olacağız.</string>
+
+</resources>

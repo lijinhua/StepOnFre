@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">Guia do Usuário StepOn</string> 
+
+<string name="email_title">E-mail \u0026 Apoio</string>
+<string name="email_message">\u2605 Envie um email se você tiver quaisquer problemas, perguntas ou comentários.</string>  
+<string name="review_message">\u2605 Muito esforço e apoio é necessário para desenvolver aplicativos de qualidade. Por favor, deixe um comentário positivo se estiver satisfeito com StepOn. Ele irá encorajar-nos a desenvolver Apps melhor. Obrigado.</string>
+<string name="notes_title">Notas</string>
+<string name="notes_message">
+\u2605 StepOn é um pedômetro que rastreia seus passos.\n\n
+
+\u2605 Com fácil de ler gráficos e registros de história, monitorar seus passos, calorias queimadas, distância e tempo. Tal como o seu melhor amigo andando, StepOn irá motivá-lo a andar mais! Configure sua meta diária e passo para uma saudável você com StepOn passo rastreador.\n\n
+
+\u2605 StepOn conta seus passos, independentemente de onde você colocar o seu telefone como o seu bolso, cinto ou mochila. StepOn é tão simples! Tudo que você precisa fazer é pressionar o botão de início quando você começar a andar. Caminhada 10K passos por dia e StepOn para um você mais saudável.\n\n
+
+\u2605 Principais Características:\n
+
+\u2022 Gráficos: diariamente, contagens semanais, mensais e anuais passo\n
+\u2022 História log diário: contagem de passos, calorias queimadas, distância e tempo\n
+\u2022 Contagem de passos precisos usando algoritmos de rastreamento de movimento 3D inteligente\n
+\u2022 Compartilhe registro diário no Facebook\n
+\u2022 Cópia de segurança Google Drive\n
+\u2022 Configurações personalizadas: meta diária, de sensibilidade, de unidades: métrica / imperial, comprimento do passo, peso, etc\n
+</string>
+
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- When version & TE changes -->
+    <string name="accupedo_settings_about">Sobre StepOn</string>
+    <string name="accupdeo_version_title">Versió StepOn</string>
+    <string name="accupdeo_version_summery">Versió 1.2.5</string>
+    <string name="trial_expired">Núvol de còpia de seguretat (Google Drive) està disponible a la versió PRO.</string>
+
+    <!-- 123 -->
+    <string name="automatic_backup">Guardat automàtic</string>
+    <string name="automatic_backup_midnight_sdcard">Guardar un fitxer de base de dades en SD-Card a mitjanit.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Introdueixi la seva alçada</string>
+    <string name="height">Alçada</string>
+    <string name="birthday">Aniversari</string>
+    <string name="gender">Gènere</string>
+    <string name="gender_female">Femení</string>
+    <string name="gender_male">Home</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Recompensa</string>
+    <string name="goal_reward_notification">Diari recompensa meta</string>
+    <string name="goal_reward_notification_details">Quan s’aconsegueixi l’objectiu diari ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Guardar</string>
+    <string name="stop_dialog_nosave">No guardeu</string>
+    <string name="widget_steps">pas</string>
+    <string name="widget_paused">Pausat.</string>
+    <string name="widget_st">\u00A0pa</string>
+    <string name="steps">passos</string>
+    <string name="miles">milla</string>
+    <string name="inches">polzades</string>
+    <string name="pounds">lliures</string>
+    <string name="minutes">minuts</string>
+    <string name="hhmm">temps</string>
+    <string name="power_usage_type_setting">Mode d’ús d’Energia</string>
+    <string name="power_usage_type_setting_details">Mode d’ús d’Energia</string>
+    <string name="power_usage_type_setting_title">Selecciona comptador pas precís o estalvi d’energia</string>
+    <string name="power_usage_type_most_accurate">Màxima precisió comptador passos</string>
+    <string name="power_usage_type_power_balanced">Equilibrat</string>
+    <string name="power_usage_type_power_saving">Comptador amb estalvi d’energia</string>
+    <string name="settings">Configuració</string>
+    <string name="accupedo_settings_information">Informació</string>
+    <string name="sensitivity_setting">Sensibilitat</string>
+    <string name="sensitivity_setting_details">Sensibilitat</string>
+    <string name="sensitivity_setting_title">Selecciona nivell de sensibilitat</string>
+    <string name="consecutive_setting">Passos consecutius</string>
+    <string name="consecutive_setting_details">Passos consecutius</string>
+    <string name="consecutive_setting_title">Passos inicials consecutius</string>
+    <string name="very_high">Màxima sensibilitat</string>
+    <string name="high">Més sensible</string>
+    <string name="medium">Estàndar</string>
+    <string name="low">Menys sensible</string>
+    <string name="very_low">Mínima sensibilitat</string>
+    <string name="units_setting">Mètric / Anglès</string>
+    <string name="units_setting_details">Mètric / Anglès</string>
+    <string name="units_setting_title">Selecciona la teva unitat</string>
+    <string name="units_metric">Mètric: cm, km, kg</string>
+    <string name="units_imperial">Anglès: in, milla, lliura</string>
+    <string name="body_weight_setting">Pes</string>
+    <string name="body_weight_setting_details">Pes</string>
+    <string name="body_weight_setting_title">Introdueix el teu pes</string>
+    <string name="goal_steps_setting">Objectiu de passos</string>
+    <string name="goal_steps_setting_details">Objectiu de passos</string>
+    <string name="goal_steps_setting_title">Introdueix objectiu diari de passos</string>
+    <string name="exercise_type_setting">Caminant / Corrent</string>
+    <string name="exercise_type_setting_details">Caminant / Corrent</string>
+    <string name="exercise_type_setting_title">Tria la teva activitat</string>
+    <string name="exercise_type_running">Corrent</string>
+    <string name="exercise_type_walking">Caminant</string>
+    <string name="week_type_setting">Primer dia de la setmana</string>
+    <string name="week_type_setting_details">Primer dia de la setmana</string>
+    <string name="week_type_setting_title">Tria format de setmana per al gràfic setmanal</string>
+    <string name="week_type_american">Diumenge</string>
+    <string name="week_type_european">Dilluns</string>
+    <string name="help">Ajuda</string>
+    <string name="save">Guardar</string>
+    <string name="day">Dia</string>
+    <string name="week">Setmana</string>
+    <string name="month">Mes</string>
+    <string name="year">Any</string>
+    <string name="chart">Gràfic</string>
+    <string name="chart_wait">Processant.</string>
+    <string name="chart_no_data">Dades no disponibles</string>
+    <string name="button_email">Correu-e</string>
+    <string name="button_review">Revisió</string>
+    <string name="dialog_yes">Sí</string>
+    <string name="dialog_no">No</string>
+    <string name="alert_pause_message">Vols pausar StepOn?</string>
+    <string name="alert_resume_message">Vols continuar StepOn?</string>
+    <string name="toast_save">Guardat a la carpeta StepOn.</string>
+    <string name="toast_folder">No es pot crear carpeta StepOn.</string>
+    <string name="toast_external_storage_not_writeable">Emmagatzematge Extern no és escrivible.</string>
+    <string name="toast_external_storage_not_available">Emmagatzematge Extern no està disponible.</string>
+    <string name="history">Historial</string>
+    <string name="daily_steps">Passos diaris</string>
+    <string name="daily_goal">Objectiu diari</string>
+    <string name="hourly_step_counts">Comptador de passos per hora</string>
+    <string name="hour">Hora</string>
+    <string name="weekly_total">Total setmana</string>
+    <string name="ave">Mitja.</string>
+    <string name="daily_step_counts">Comptador passos diari</string>
+    <string name="sun">Diu</string>
+    <string name="mon">Dl</string>
+    <string name="tue">Dt</string>
+    <string name="wed">Dc</string>
+    <string name="thu">Dj</string>
+    <string name="fri">Dv</string>
+    <string name="sat">Ds</string>
+    <string name="monthly_total">Total mensual</string>
+    <string name="yearly_total">Total anual</string>
+    <string name="monthly_average_step_counts">Mitjana compte passos mensual</string>
+    <string name="jan">Gen</string>
+    <string name="mar">Mar</string>
+    <string name="may">Mai</string>
+    <string name="jul">Jul</string>
+    <string name="sep">Set</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Setmana de</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Hores actives</string>
+    <string name="activehours_setting_details">Habilita/deshabilita “hores actives”. Hores inactives estarà en mode Pausa per estalviar energia. Quan està seleccionat, establir també a sota hores de començament i fi.</string>
+    <string name="daily_start_setting">Hora de començament diària</string>
+    <string name="daily_start_setting_details">Comptador de passos comença</string>
+    <string name="daily_start_setting_title">Selecciona hora de començament</string>
+    <string name="daily_end_setting">Hora de finalització diària</string>
+    <string name="daily_end_setting_details">Comptador de passos s’atura</string>
+    <string name="daily_end_setting_title">Selecciona hora de finalització</string>
+    <string name="power_settings_title">Ús d’ Energia</string>
+    <string name="personal_settings_title">Personal</string>
+    <string name="daily_goal_title">Objectiu</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Registre històric diari ha estat transferit des de StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Color aparença Widget</string>
+    <string name="widget_skin_type_setting_details">Color aparença Widget</string>
+    <string name="widget_skin_type_setting_title">Seleciona color aparença Widget</string>
+    <string name="widget_skin_0">Per defecte</string>
+    <string name="widget_skin_1">Negre</string>
+    <string name="widget_skin_2">Blau</string>
+    <string name="widget_skin_3">Verd</string>
+    <string name="widget_skin_4">Taronja</string>
+    <string name="widget_skin_5">Rosa</string>
+    <string name="widget_skin_6">Transparent</string>
+    <string name="display_settings_title">Visualització</string>
+    <string name="operation_level_setting">Pantalla on/off</string>
+    <string name="operation_level_setting_details">Pantalla on/off</string>
+    <string name="operation_level_setting_title">Selecciona opció pantalla on/off</string>
+    <string name="run_in_background">Mantenir pantalla apagada</string>
+    <string name="keep_screen_on">Mantenir pantalla encesa</string>
+    <string name="wake_up">Forçar pantalla encesa</string>
+    <string name="send">Enviar</string>
+    <string name="email_file_subject">Registres diari StepOn</string>
+    <string name="toast_need_sdcard">És necessari una targeta SD per guadar i enviar registres.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">Arxiu StepOn “StepOn.db” hauria d’estar a la carpeta de la targeta SD. Atenció! L’arxiu importat reemplaçarà la base de dades existent.</string>
+    <string name="import_success_message">Import.</string>
+    <string name="export_success_message">Export.</string>
+    <string name="toast_folder_doesnot_exist">Carpeta StepOn no existeix.</string>
+    <string name="run_length_setting">Distància de pas: Corrent</string>
+    <string name="run_length_setting_details">Distància de pas: Corrent</string>
+    <string name="run_length_setting_title">Introdueix la teva distància de pas:  Corrent</string>
+    <string name="step_length_setting">Distància de pas: Caminant</string>
+    <string name="step_length_setting_details">Distància de pas: Caminant</string>
+    <string name="step_length_setting_title">Introdueix la teva distància de pas:  Caminant</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Idioma</string>
+    <string name="locale_type_setting_details">Idioma</string>
+    <string name="locale_type_setting_title">Selecciona idioma</string>
+    <string name="locale_0">Per defecte</string>
+    <string name="locale_1">Anglès</string>
+    <string name="buy_button">Compra</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook actualitza!</string>
+    <string name="fb_walk_report">StepOn informe de caminada diària</string>
+    <string name="fb_lets_walk">Camina 10000 passos al dia!</string>
+    <string name="database">Base de dades</string>
+    <string name="send_cvs">Enviar arxiu CSV</string>
+    <string name="share">Part</string>
+    <string name="export_success_message2">Arxiu de base de dades \u0022StepOn.db\u0022 seran exportats a StepOn carpeta.</string>
+    <string name="export_limit_te">Base de dades d\u0027importació / exportació funcions són només per StepOn-Pro.</string>
+    <string name="import_limit_te">Base de dades d\u0027importació / exportació funcions són només per StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Pas més precisa recompte</string>
+    <string name="power_usage_type_power_less">Menor consum d’energia</string>
+    <string name="power_usage_type_power_least">Mínim consum d’energia</string>
+    <string name="history_management_setting">història de gestió</string>
+    <string name="autopause_charging_setting">Pausa automàtica</string>
+    <string name="autopause_charging_setting_details">Pausa automàtica durant l’encesa de càrrega</string>
+    <string name="wait_for_data_transfer">Espereu que la transferència de base de dades ..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Viat.</string>
+    <string name="trashcan">Residus cistella</string>
+    <string name="editsteps">Edita passos</string>
+    <string name="alert_delete_month_message">Suprimeix l’historial de cada mes?</string>
+    <string name="alert_delete_day_message">Suprimeix l’historial de cada dia?</string>
+    <string name="alert_next_lap_message">Vols iniciar un proper viatge?</string>
+    <string name="enter_manual_steps">Passos</string>
+    <string name="button_manual_steps">Confirmar</string>
+    <string name="alert_set_steps_message">Realment vols vostè?</string>
+    <string name="chart_statistics">Estadística</string>
+    <string name="wait_for_generating_csv">Escrivint arxiu CSV..</string>
+    <string name="wait_for_exporting_db">Exportar base de dades..</string>
+    <string name="wait_for_importing_db">Importació de base de dades..</string>
+    <string name="export_to_sdcard">Arxiu de base de dades (StepOn.db) s’emmagatzema a la carpeta StepOn de SD-Card.</string>
+    <string name="backup">Guardar</string>
+    <string name="permission_not_granted">Els permisos no es concedeixen.</string>
+    <string name="status_update">Actualització de l’estat.</string>
+    <string name="success">èxit</string>
+    <string name="successfully_posted_post">Publicat correctament.</string>
+    <string name="alert_new_installation_message">StepOn arxiu històric diari va ser trobat. Voleu importar?</string>
+    <string name="quit">Sortida</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Vols reiniciar comptador de passos?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Es carrega el fitxer de base de dades (StepOn.db).</string>
+    <string name="google_drive_downloaded">Arxiu de base de dades (StepOn.db) es descarrega.</string>
+    <string name="google_drive_file_not_exist">No hi ha arxiu (StepOn.db).</string>
+    <string name="dropbox_uploading">Càrrega..</string>
+    <string name="dropbox_downloading">Descarrega..</string>
+    <string name="notification_settings_title">Notificació</string>
+    <string name="goal_achievement_notification">Assoliment de la meta diària</string>
+    <string name="goal_achievement_notification_details">Notificació quan s’aconsegueix meta</string>
+    <string name="speed_type_setting">Velocitat</string>
+    <string name="speed_type_setting_details">Velocitat</string>
+    <string name="speed_type_setting_title">Trieu el format de velocitat</string>
+    <string name="speed_type_average">Velocitat mitjana</string>
+    <string name="speed_type_realtime">Velocitat en temps real</string>
+    <string name="alert_import_gdrive_message">Arxiu de base de dades StepOn ha d’estar a Google Drive. \n\n +++ Atenció! +++\n L’arxiu importat reemplaçarà a la base de dades existent.</string>
+    <string name="alert_import_dropbox_message">Arxiu de base de dades StepOn ha d’estar en Dropbox. \n\n +++ Atenció! +++\n L’arxiu importat reemplaçarà a la base de dades existent.</string>
+    <string name="try_again">Si us plau, torna a intentar-ho!</string>
+    <string name="network_connection">Xarxa ha d\u0027estar connectat.</string>
+    <string name="delete">Esborrar</string>
+    <string name="alert_history_update_version_401_message">+++ Atenció! +++\n Premeu la pantalla d’editar o esborrar el recompte de passos diaris. O bé, feu clic a la pantalla per veure els detalls d’historial falda.</string>
+    <string name="connect_to_mfp">Connecta’t a MFP</string>
+    <string name="screen_skin_type_setting">Color del tema</string>
+    <string name="screen_skin_type_setting_details">Color del tema</string>
+    <string name="screen_skin_type_setting_title">Seleccionar el color del tema</string>
+    <string name="screen_skin_0">Blau / Fosc</string>
+    <string name="screen_skin_1">Blau / Llum</string>
+    <string name="screen_skin_2">Taronja / Llum</string>
+    <string name="no_ad">Anunci</string>
+
+</resources>

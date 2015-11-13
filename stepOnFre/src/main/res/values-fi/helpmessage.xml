@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn manuaalinen</string> 
+
+<string name="email_title">E-mail \u0026 Tuki</string>
+<string name="email_message">\u2605 Lähetä meille sähköpostia, jos sinulla on ongelmia, kysymyksiä tai kommentteja.</string>  
+<string name="review_message">\u2605 Paljon vaivaa ja tukea tarvitaan, jotta voidaan kehittää laadukasta Apps. Jätä myönteisen arvostelun, jos olet tyytyväinen StepOn. Se kannustaa meitä kehittämään parempia sovelluksia. Kiitos.</string>
+<string name="notes_title">Huomautuksia</string>
+<string name="notes_message">
+\u2605 StepOn on askelmittari, joka seuraa vaiheita.\n\n
+
+\u2605 With helppo lukea kaavioita ja historian lokit, seurata vaiheet, kulutetut kalorit, matka ja aika. Kuin paras kävely kaveri, StepOn motivoi sinua liikkumaan enemmän! Määritä tavoitteesi ja askel kohti terveellisempää sinulle StepOn askel tracker.\n\n
+
+\u2605 StepOn laskee askeleesi riippumatta siitä, missä laitat puhelimen kuten taskussa, vyöhön tai laukkuun. StepOn on niin yksinkertaista! Sinun tarvitsee vain painaa käynnistyspainiketta, kun aloitat kävely. Walk 10K askelta päivässä ja StepOn kohti terveellisempää sinua.\n\n
+
+\u2605 Tärkeimmät ominaisuudet:\n
+
+\u2022 Kaavioita: päivittäin, viikoittain, kuukausittain ja vuosittain vaihe lasketaan\n
+\u2022 Päivittäinen log historia: vaihe lasketaan, kulutetut kalorit, matka ja aika\n
+\u2022 Tarkka vaihe lasketaan käyttämällä älykästä 3D liikkeentunnistus algoritmeja\n
+\u2022 Jaa päivittäinen log Facebookissa\n
+\u2022 Google Drive varmuuskopiointi\n
+\u2022 Henkilökohtainen asetukset: päivittäin tavoite, herkkyys, yksikkö: metrinen / imperial, askeleen pituus, paino, jne.</string>
+
+</resources>

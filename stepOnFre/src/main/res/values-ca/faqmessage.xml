@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: S’atura el comptador de passos.</string>
+<string name="a1">A: Esborra Accupedo i llavors obre’l a l’escriptori i prova-ho. Si continua sense funcionar una altra vegada, esborra Accupedo i apaga i encèn el telèfon, i obre i prova’l.</string>
+<string name="q2">Q: No compta quan la pantalla està apagada (Mode d’espera)</string>
+<string name="a2">A: Alguns telèfons no suporten el G-sensor en mode d’espera (pantalla apagada) pels fabricants de telèfons. No és un defecte d’aquesta aplicació.</string>
+<string name="q3">Q: Què són passos consecutius a la configuració?</string>
+<string name="a3">A: Comptador de passos comença desprès de caminar el nombre consecutiu de passos. Per exemple, si està posat en 10, necessites caminar 10 passos continuats sense parar. Si camines menys de 10 passos i t’atures, llavors es descarten aquests passos.</string>
+<string name="q4">Q: Puc editar pas compte?</string>
+<string name="a4">A: Aneu a la finestra d’Historial. Premeu la pantalla d’editar o esborrar pas compte per a cada dia.</string>
+<string name="q5">Q: Què és el Mode de Pausa?</string>
+<string name="a5">A: Durant el Mode de Pausa (quan està en color blau), s’atura el comptador de passos. Aquest Mode de Pausa no consumeix bateria. Per reiniciar el comptador de passos, canvia al Mode Reinici.</string>
+<string name="q6">Q: No es guarda el registre diari.</string>
+<string name="a6">A: Es guarda el registre diari a Mitjanit. No apaguis el telèfon a aquesta hora.</string>
+<string name="q7">Q: Com mesurar la distància de pas?</string>
+<string name="a7">A: Del taló d’un peu al taló de l’altre.</string>
+<string name="q8">Q: El meu problema no està llistat a les FAQ.</string>
+<string name="a8">A: Si us plau envia’ns un correu-e. T’ajudarem definitivament.</string>
+</resources>

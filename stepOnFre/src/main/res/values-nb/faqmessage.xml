@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: Den stopper å telle skritt</string>
+<string name="a1">A: Fjern Accupedo til papirkurven, og deretter åpne det på startskjermbildet, og teste den. Hvis det fortsatt ikke fungerer, fjern Accupedo til papirkurven igjen, og slå telefonen av og på, og åpne og teste den.</string>
+<string name="q2">Q: Det teller ikke når skjermen er slått av (standby mode).</string>
+<string name="a2">A: Noen telefoner støtter ikke G-sensor i dvale (skjermen er av) på telefon produsenter. Det er ikke feil av denne App.</string>
+<string name="q3">Q: Hva er sammenhengende trinn i Innstillinger?</string>
+<string name="a3">A: Trinn telle starter etter å ha gått antall påfølgende trinn. For eksempel, hvis påfølgende trinnene er 10, så må du gå 10 skritt kontinuerlig uten å stoppe. Hvis du går mindre enn 10 skritt og stopper, så det forkaster disse trinnene.</string>
+<string name="q4">Q: Kan jeg redigere skritt teller?</string>
+<string name="a4">A: Gå til History vinduet. Trykk ned på skjermen for å redigere eller slette skritt teller for hver dag.</string>
+<string name="q5">Q: Hva er Pause modus?</string>
+<string name="a5">A: Under Pause modus (når fargen er blå), stopper den å telle skritt. Dette Pause modus ikke bruker batteriet. For å starte steg teller, bytte til Restart modus.</string>
+<string name="q6">Q: Den lagrer ikke en daglig logg.</string>
+<string name="a6">A: Det sparer en daglig logg ved midnatt. Ikke slå av telefonen på den tiden.</string>
+<string name="q7">Q: Hvordan måle trinnet avstand?</string>
+<string name="a7">A: Fra tå (hæl) til tå (hæl).</string>
+<string name="q8">Q: Mitt problem er ikke oppført i FAQ.</string>
+<string name="a8">A: Send oss​​. Vi vil definitivt hjelpe deg.</string>
+
+</resources>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: 執行Accupedo小工具，如果仍無法計算，請將手機重新開機。</string>
+    <string name="a2">A: 部分手機在待機模式下，會關閉重力感應。我們的APP無法得知重力感應是否被關閉。有此問題請E-mail給我們。</string>
+    <string name="a3">A: 計步器會在您連續走多少步時，才開始計算。當您設定10步時，會在第11步開始計算。也就是說10步之內的小小移動，不會當作您的目標步伐數計算。</string>
+    <string name="a4">A: 去歷史窗口。按下屏幕上進行編輯或刪除步數的每一天。</string>
+    <string name="a5">A: 當畫面顯示為藍色時即為暫停模式，此模式將停止計步也不耗電，要重新計算步伐。</string>
+    <string name="a6">A: 每日的紀錄會在午夜的時候儲存，睡前請不要關閉手機。</string>
+    <string name="a7">A: 腳跟到腳跟的距離，或腳趾到腳趾的距離都可以。</string>
+    <string name="a8">A: 請e-mail給我我們，我們會特別處理。</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">版本1.2.5</string>
+    <string name="accupdeo_version_title">StepOn版本</string>
+    <string name="accupedo">StepOn</string>
+    <string name="accupedo_settings_about">關於StepOn</string>
+    <string name="accupedo_settings_information">相關資訊</string>
+    <string name="activehours_setting">啟用時間</string>
+    <string name="activehours_setting_details">開啟/關閉 啟用時間. 為省電起見，非啟用時間將自動切換至暫停狀態. 設定每天的開始/結束時間</string>
+    <string name="alert_daily_reset_message">你要重置每天的步数？</string>
+    <string name="alert_delete_day_message">要刪除日歷史紀錄嗎?</string>
+    <string name="alert_delete_month_message">要刪除月歷史紀錄嗎?</string>
+    <string name="alert_history_update_version_401_message">+++ 注意! +++\n 按下屏幕上進行編輯或刪除每日步數。或者，點擊屏幕上看到的細節圈的歷史。</string>
+    <string name="alert_import_dropbox_message">StepOn数据库文件应该是在Dropbox。 \n\n +++ 注意! +++\n 导入的文件将替换现有的数据库。</string>
+    <string name="alert_import_gdrive_message">StepOn数据库文件应该是在Google Drive。 \n\n +++ 注意! +++\n 导入的文件将替换现有的数据库。</string>
+    <string name="alert_import_message">資料檔案(StepOn.db)必須位於SD卡的StepOn資料夾中。請注意!!!匯入的檔案將會取代原來的資料庫檔案。</string>
+    <string name="alert_new_installation_message">未發現StepOn日報表，您要匯入嗎?</string>
+    <string name="alert_next_lap_message">您要重新開始下一圈嗎?</string>
+    <string name="alert_pause_message">您要暫停StepOn嗎?</string>
+    <string name="alert_quit_message">您確定要離開StepOn嗎?</string>
+    <string name="alert_reset_message">您要重新啟動StepOn嗎?</string>
+    <string name="alert_resume_message">您要回復StepOn嗎?</string>
+    <string name="alert_set_steps_message">您確定嗎?</string>
+    <string name="automatic_backup">自動保存</string>
+    <string name="automatic_backup_midnight_sdcard">午夜Micro-SD卡存儲數據庫文件。</string>
+    <string name="autopause_charging_setting">自動暫停</string>
+    <string name="autopause_charging_setting_details">充電時自動暫停</string>
+    <string name="ave">平均</string>
+    <string name="backup">備份</string>
+    <string name="birthday">生日</string>
+    <string name="body_height_setting_title">輸入你的身高</string>
+    <string name="body_weight_setting">體重</string>
+    <string name="body_weight_setting_details">體重</string>
+    <string name="body_weight_setting_title">輸入您的體重</string>
+    <string name="button_email">電子郵件</string>
+    <string name="button_manual_steps">確認</string>
+    <string name="button_review">重新檢視</string>
+    <string name="buy_button">購買專業版</string>
+    <string name="cal">卡路里</string>
+    <string name="calories_burned">卡路里</string>
+    <string name="cancelled">取消</string>
+    <string name="centimeters">公分</string>
+    <string name="chart">圖表</string>
+    <string name="chart_no_data">無資料…</string>
+    <string name="chart_statistics">統計圖表</string>
+    <string name="chart_wait">處理中，請稍待….</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">下載圖像時發生非預期的錯誤。</string>
+    <string name="com_facebook_internet_permission_error_message">WebView 登入需要「網際網路」授權</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest 錯誤</string>
+    <string name="com_facebook_like_button_liked">說讚</string>
+    <string name="com_facebook_like_button_not_liked">讚</string>
+    <string name="com_facebook_loading">正在載入…</string>
+    <string name="com_facebook_loginview_cancel_action">取消</string>
+    <string name="com_facebook_loginview_log_in_button">登入</string>
+    <string name="com_facebook_loginview_log_in_button_long">使用 Facebook 登入</string>
+    <string name="com_facebook_loginview_log_out_action">登出</string>
+    <string name="com_facebook_loginview_log_out_button">登出</string>
+    <string name="com_facebook_loginview_logged_in_as">使用下列身分登入：%1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">已使用 Facebook 登入</string>
+    <string name="com_facebook_send_button_text">傳送</string>
+    <string name="com_facebook_share_button_text">分享</string>
+    <string name="com_facebook_tooltip_default">新消息！您已成功登入，請選擇要與應用程式分享的資訊。</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-zh-rTW/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」要求更新 Android Wear 應用程式。"</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"您必須更新 Android Wear 應用程式，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"更新 Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」需要用到一或多項 Google Play 服務才能運作，但這些服務目前未提供存取。請與開發人員聯絡，向對方尋求協助。"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"啟用 Google Play 服務"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，「<ns1:g id="APP_NAME">%1$s</ns1:g>」才能運作。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」提出要求"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"取得 Google Play 服務"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"您的手機並未安裝 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"您的平板電腦並未安裝 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"取得 Google Play 服務"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"這個裝置上沒有您所指定的帳戶，請選擇其他帳戶。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無效的帳戶"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"應用程式要求啟用 Google Play 服務。"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"需要數據連線才能連上 Google Play 服務。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"網路錯誤"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"應用程式要求更新 Google Play 服務。"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play 服務發生錯誤"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"登入指定的帳戶時發生錯誤，請選擇其他帳戶。"</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"登入失敗"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play 服務發生不明問題。"</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」需要用到 Google Play 服務才能運作，但您的裝置並不支援該服務。請與您的裝置製造商聯絡，向對方尋求協助。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play 服務"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"您必須更新 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」需要用到的 Google Play 服務目前在更新中，因此無法執行該應用程式。"</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"正在更新 Google Play 服務"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"在手機上開啟"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-zh-rTW/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"登入"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"使用 Google 帳戶登入"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">連接到MFP</string>
+    <string name="consecutive_setting">連續步伐</string>
+    <string name="consecutive_setting_details">連續步伐</string>
+    <string name="consecutive_setting_title">啟用連續步伐</string>
+    <string name="daily_end_setting">每天結束時間</string>
+    <string name="daily_end_setting_details">步伐計算結束於</string>
+    <string name="daily_end_setting_title">選擇結束時間</string>
+    <string name="daily_goal">每日目標</string>
+    <string name="daily_goal_title">目標</string>
+    <string name="daily_start_setting">每天開始時間</string>
+    <string name="daily_start_setting_details">步伐計算開始於</string>
+    <string name="daily_start_setting_title">選擇開始時間</string>
+    <string name="daily_step_counts">每日步伐數</string>
+    <string name="daily_steps">每日步伐</string>
+    <string name="day">日</string>
+    <string name="delete">刪除</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_yes">是</string>
+    <string name="display_settings_title">顯示</string>
+    <string name="dropbox_downloading">下载..</string>
+    <string name="dropbox_uploading">上传..</string>
+    <string name="editsteps">編輯步伐</string>
+    <string name="email_file_subject">StepOn每日紀錄</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 如果您有任何問題及建議請用電子郵件與我們聯絡。</string>
+    <string name="email_title">電子郵件 \u0026 支援</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">步伐數</string>
+    <string name="error">錯誤</string>
+    <string name="exercise_type_running">跑步</string>
+    <string name="exercise_type_setting">行走/跑步</string>
+    <string name="exercise_type_setting_details">行走/跑步</string>
+    <string name="exercise_type_setting_title">選擇您的活動模式</string>
+    <string name="exercise_type_walking">步行</string>
+    <string name="export_limit_te">只有为StepOn-PRO数据库导入/导出功能。</string>
+    <string name="export_success_message">匯出</string>
+    <string name="export_success_message2">資料檔案將匯出到StepOn資料夾。</string>
+    <string name="export_to_sdcard">資料庫檔案(StepOn.db)儲存於SD卡中的StepOn目錄夾</string>
+    <string name="faq">經常詢問的問題</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">常問的問題</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">每天步行10000步！</string>
+    <string name="fb_updated">臉書已更新!</string>
+    <string name="fb_walk_report">StepOn每日步行報告</string>
+    <string name="fri">周五</string>
+    <string name="gender">性別</string>
+    <string name="gender_female">女性</string>
+    <string name="gender_male">男性</string>
+    <string name="goal_achievement_notification">每日目标的实现</string>
+    <string name="goal_achievement_notification_details">目标实现时的通知</string>
+    <string name="goal_reward_notification">每日目標獎勵</string>
+    <string name="goal_reward_notification_details">當每天的目的也就達到了...</string>
+    <string name="goal_steps_setting">目標設定</string>
+    <string name="goal_steps_setting_details">目標設定</string>
+    <string name="goal_steps_setting_title">輸入您每天的目標步伐數</string>
+    <string name="google_drive_downloaded">数据库文件（StepOn.db）下载</string>
+    <string name="google_drive_file_not_exist">不存在文件（StepOn.db）。</string>
+    <string name="google_drive_uploaded">上传数据库文件（StepOn.db）。</string>
+    <string name="height">身長</string>
+    <string name="help">幫助</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn 使用說明</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">時間</string>
+    <string name="high">稍微敏感</string>
+    <string name="history">紀錄</string>
+    <string name="history_management_setting">历史记录管理</string>
+    <string name="hm">時:分</string>
+    <string name="hour">小时</string>
+    <string name="hourly_step_counts">每小時步伐數</string>
+    <string name="import_limit_te">只有为StepOn-PRO数据库导入/导出功能。</string>
+    <string name="import_success_message">匯入</string>
+    <string name="inches">英吋</string>
+    <string name="jan">一月</string>
+    <string name="jul">七月</string>
+    <string name="keep_screen_on">保持螢幕開啟</string>
+    <string name="kilograms">公斤</string>
+    <string name="kilometers">公里</string>
+    <string name="kilometers_per_hour">公里/小時</string>
+    <string name="km">公里</string>
+    <string name="lap">圈</string>
+    <string name="locale_0">預設</string>
+    <string name="locale_1">英文English</string>
+    <string name="locale_type_setting">語言設定</string>
+    <string name="locale_type_setting_details">語言設定</string>
+    <string name="locale_type_setting_title">選擇語系</string>
+    <string name="low">稍不敏感</string>
+    <string name="mar">三月</string>
+    <string name="may">五月</string>
+    <string name="medium">標準</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">傳送</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="miles">英哩</string>
+    <string name="miles_per_hour">Mph</string>
+    <string name="min">分</string>
+    <string name="minutes">分鐘</string>
+    <string name="mon">周一</string>
+    <string name="month">月</string>
+    <string name="monthly_average_step_counts">月平均</string>
+    <string name="monthly_total">月總計</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"媒體輸出"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"正在搜尋裝置..."</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"連線至裝置"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"中斷連線"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"系統"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"裝置"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">网络应连接。</string>
+    <string name="no_ad">廣告</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn是一个计步器，可以追踪您的步骤。\n\n 
+
+\u2605 一个智能的3D动作识别算法能过滤和驱逐外面非行走的活动。无论你把StepOn 放在哪里，口袋，腰带，还是包里。\n\n 
+
+\u2605 通过建立你的日常目标，准确地利用 StepOn 监测你日常的步伐，您将迈向健康的道路。\n\n 
+
+\u2605 StepOn就是这么简单。所有您需要做的就是按下启动按钮，当您开始走路。 \n\n
+
+\u2605 主要功能包括：\n 
+
+\u2022 图表：每天，每周，每月和每年的步数 \n
+\u2022 每日日志历史记录：步数，消耗的卡路里，距离，时间\n 
+\u2022 精确的步数使用智能3D运动跟踪算法 \n
+\u2022 Facebook上张贴。\n 
+\u2022 Google Drive的备份。\n 
+\u2022 个性化设置：每日目标，灵敏度，单位：公制/英制，步幅长度，重量等。
+</string>
+    <string name="notes_title">註記</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">通知</string>
+    <string name="notification_subtitle">实现每天的目标！</string>
+    <string name="nov">十一月</string>
+    <string name="operation_level_setting">顯示螢幕 開/關</string>
+    <string name="operation_level_setting_details">顯示螢幕 開/關</string>
+    <string name="operation_level_setting_title">選擇螢幕 開/關 選項</string>
+    <string name="permission_not_granted">未取得授權</string>
+    <string name="personal_settings_title">個人的設定</string>
+    <string name="pounds">英磅</string>
+    <string name="power_settings_title">電源使用</string>
+    <string name="power_usage_type_more_accurate">最大步伐數</string>
+    <string name="power_usage_type_most_accurate">經常步伐數</string>
+    <string name="power_usage_type_power_balanced">平均值</string>
+    <string name="power_usage_type_power_least">最低功耗</string>
+    <string name="power_usage_type_power_less">最少電量消耗</string>
+    <string name="power_usage_type_power_saving">省電模式步伐計算</string>
+    <string name="power_usage_type_setting">電源使用模式</string>
+    <string name="power_usage_type_setting_details">電源使用模式</string>
+    <string name="power_usage_type_setting_title">選擇精準步伐計算或省電模式</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: 無法或突然停止計算步伐</string>
+    <string name="q2">Q: 當螢幕關閉(待機)時無法計算步伐</string>
+    <string name="q3">Q: 甚麼是連續步伐的設定?</string>
+    <string name="q4">Q: 我可以編輯步數？</string>
+    <string name="q5">Q: 甚麼是暫停模式</string>
+    <string name="q6">Q: 每日的紀錄無法儲存</string>
+    <string name="q7">Q: 如何測量步伐的距離?</string>
+    <string name="q8">Q: 我的問題無法在常問問題裡找到</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="quit">離開</string>
+    <string name="remove_data_all_setting_title">删除所有的历史吗？</string>
+    <string name="reset">重置</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 如果您對StepOn APP感到滿意，請給我們鼓勵以及留下建議，讓我們可以把此應用程式做得更好，謝謝您!</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">獎勵</string>
+    <string name="run_in_background">保持螢幕關閉</string>
+    <string name="run_length_setting">步伐大小 : 跑步</string>
+    <string name="run_length_setting_details">步伐大小 : 跑步</string>
+    <string name="run_length_setting_title">輸入您跑步時的步伐大小</string>
+    <string name="sat">周六</string>
+    <string name="save">儲存</string>
+    <string name="screen_skin_0">藍/黑</string>
+    <string name="screen_skin_1">藍/光明</string>
+    <string name="screen_skin_2">橙/光明</string>
+    <string name="screen_skin_type_setting">主題顏色</string>
+    <string name="screen_skin_type_setting_details">主題顏色</string>
+    <string name="screen_skin_type_setting_title">選擇主題顏色</string>
+    <string name="sdcard">SD記憶卡</string>
+    <string name="send">傳送</string>
+    <string name="send_cvs">Email CSV檔案</string>
+    <string name="sensitivity_setting">敏感度</string>
+    <string name="sensitivity_setting_details">敏感度</string>
+    <string name="sensitivity_setting_title">選擇敏感度</string>
+    <string name="sep">九月</string>
+    <string name="settings">設定</string>
+    <string name="share">分享</string>
+    <string name="speed_type_average">平均速度</string>
+    <string name="speed_type_realtime">实时速度</string>
+    <string name="speed_type_setting">速度</string>
+    <string name="speed_type_setting_details">速度</string>
+    <string name="speed_type_setting_title">选择速度格式</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">更新狀態</string>
+    <string name="step_length_setting">步伐大小 : 步行</string>
+    <string name="step_length_setting_details">步伐大小 : 步行</string>
+    <string name="step_length_setting_title">輸入您步行時的步伐大小</string>
+    <string name="steps">步伐</string>
+    <string name="stop_dialog_nosave">不保存</string>
+    <string name="stop_dialog_save">保存</string>
+    <string name="success">成功</string>
+    <string name="successfully_posted_post">張貼成功</string>
+    <string name="sun">周日</string>
+    <string name="thu">周四</string>
+    <string name="toast_dbtransfered_message">每日歷史紀錄已從StepOn傳送出</string>
+    <string name="toast_external_storage_not_available">外部儲存記憶體無法使用</string>
+    <string name="toast_external_storage_not_writeable">外部儲存記憶體無法寫入</string>
+    <string name="toast_folder">無法建立StepOn資料夾</string>
+    <string name="toast_folder_doesnot_exist">StepOn資料夾不存在</string>
+    <string name="toast_need_sdcard">儲存或傳送紀錄時需要SD記憶卡</string>
+    <string name="toast_save">儲存於StepOn資料夾中</string>
+    <string name="trashcan">垃圾桶</string>
+    <string name="trial_expired">Google Drive備份可在Pro版本。</string>
+    <string name="try_again">请再试一次！</string>
+    <string name="tue">周二</string>
+    <string name="units_imperial">英制: 英吋，英哩，英磅</string>
+    <string name="units_metric">公制: 公分，公里，公斤</string>
+    <string name="units_setting">公制/英制</string>
+    <string name="units_setting_details">選擇您要使用的計量單位</string>
+    <string name="units_setting_title">選擇您要使用的計量單位</string>
+    <string name="very_high">最敏感</string>
+    <string name="very_low">不敏感</string>
+    <string name="wait_for_data_transfer">資料檔案傳送中，請稍等!</string>
+    <string name="wait_for_exporting_db">資料庫匯出中…</string>
+    <string name="wait_for_generating_csv">CSC檔案寫入中…</string>
+    <string name="wait_for_importing_db">資料庫匯入中…</string>
+    <string name="wake_up">強制螢幕開啟</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-zh-rTW/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"透過 Google 購物"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="wed">周三</string>
+    <string name="week">週</string>
+    <string name="week_of">週次</string>
+    <string name="week_type_american">星期日</string>
+    <string name="week_type_european">星期一</string>
+    <string name="week_type_setting">每週開始日</string>
+    <string name="week_type_setting_details">每週開始日</string>
+    <string name="week_type_setting_title">選擇每週的開始日</string>
+    <string name="weekly_total">一週總計</string>
+    <string name="widget_cal">\u00A0卡路里</string>
+    <string name="widget_calories">卡路里</string>
+    <string name="widget_km">\u00A0公里</string>
+    <string name="widget_mi">\u00A0英哩</string>
+    <string name="widget_paused">暫停</string>
+    <string name="widget_reset">\u2605 重置 \u2605</string>
+    <string name="widget_skin_0">預設</string>
+    <string name="widget_skin_1">黑</string>
+    <string name="widget_skin_2">藍</string>
+    <string name="widget_skin_3">綠</string>
+    <string name="widget_skin_4">橘</string>
+    <string name="widget_skin_5">粉紅</string>
+    <string name="widget_skin_6">透明</string>
+    <string name="widget_skin_type_setting">工具程式背景顏色</string>
+    <string name="widget_skin_type_setting_details">工具程式背景顏色</string>
+    <string name="widget_skin_type_setting_title">選擇工具程式背景顏色</string>
+    <string name="widget_st">\u00A0步伐</string>
+    <string name="widget_steps">步伐</string>
+    <string name="year">年</string>
+    <string name="yearly_total">年總計</string>
+</resources>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">答: 把Accupedo撤销到垃圾箱，然后在主屏幕打开，测试它。如果任然不工作，再次将 Accupedo 撤职到垃圾桶，把电话关机后开启，打开测试。</string>
+    <string name="a2">答: 一些电话不支持G-sensor在待机模式（屏幕关闭）时运转。不是App的缺陷。</string>
+    <string name="a3">答: 步伐计数在连续行走一定步伐的数量之后开始。例如，如果连续步伐是10，你需要没有停顿的连续走10步。它将不会开始计算如果你走少于10步。</string>
+    <string name="a4">答: 去历史窗口。按下屏幕上进行编辑或删除步数的每一天。</string>
+    <string name="a5">答: 在停顿模式期间（颜色是蓝色时），它停止计算步伐。这种停顿模式不消耗电池。如需要重启，切换到恢复模式。</string>
+    <string name="a6">答: 它在午夜保存日常日志。在那时不关闭你的电话。</string>
+    <string name="a7">答: 从脚尖（脚跟）脚尖（脚跟）。</string>
+    <string name="a8">答: 请email给我们。我们一定会尽力而为。</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">版本 1.2.5</string>
+    <string name="accupdeo_version_title">StepOn 版本</string>
+    <string name="accupedo">StepOn</string>
+    <string name="accupedo_settings_about">关于StepOn</string>
+    <string name="accupedo_settings_information">信息</string>
+    <string name="activehours_setting">活动小时</string>
+    <string name="activehours_setting_details">允许/禁用“活动小时”。非活动小时将为能源节约在停顿模式中。被检查时，设置下面日常开始/终止时间。</string>
+    <string name="alert_daily_reset_message">你要重置每天的步数？</string>
+    <string name="alert_delete_day_message">删除每日历史记录吗？</string>
+    <string name="alert_delete_month_message">删除每月的历史吗？</string>
+    <string name="alert_history_update_version_401_message">+++ 注意! +++\n 按下屏幕上进行编辑或删除每日步数。或者，点击屏幕上看到的细节圈的历史。</string>
+    <string name="alert_import_dropbox_message">StepOn数据库文件应该是在Dropbox。 \n\n +++ 注意! +++\n 导入的文件将替换现有的数据库。</string>
+    <string name="alert_import_gdrive_message">StepOn数据库文件应该是在Google Drive。 \n\n +++ 注意! +++\n 导入的文件将替换现有的数据库。</string>
+    <string name="alert_import_message">StepOn “StepOn.db” 文件应该在 SD 卡的 StepOn 文件夹中。注意！被导入的文件将替换现有数据库。</string>
+    <string name="alert_new_installation_message">StepOn每日历史记录文件被发现。你要导入的吗？</string>
+    <string name="alert_next_lap_message">你要开始下一个圈？</string>
+    <string name="alert_pause_message">你想暂停StepOn吗？</string>
+    <string name="alert_quit_message">您確定要離開StepOn嗎?</string>
+    <string name="alert_reset_message">你要重置每天的步数？</string>
+    <string name="alert_resume_message">你想继续StepOn吗？</string>
+    <string name="alert_set_steps_message">你确定吗？</string>
+    <string name="automatic_backup">自动保存</string>
+    <string name="automatic_backup_midnight_sdcard">午夜Micro-SD卡存储数据库文件。</string>
+    <string name="autopause_charging_setting">自动暂停</string>
+    <string name="autopause_charging_setting_details">在充电过程中自动暂停</string>
+    <string name="ave">平均</string>
+    <string name="backup">保存</string>
+    <string name="birthday">生日</string>
+    <string name="body_height_setting_title">输入你的身高</string>
+    <string name="body_weight_setting">体重</string>
+    <string name="body_weight_setting_details">体重</string>
+    <string name="body_weight_setting_title">体重的类型</string>
+    <string name="button_email">发邮件</string>
+    <string name="button_manual_steps">确认</string>
+    <string name="button_review">留下一个审核</string>
+    <string name="buy_button">买Pro</string>
+    <string name="cal">热量</string>
+    <string name="calories_burned">热量</string>
+    <string name="cancelled">取消</string>
+    <string name="centimeters">厘米</string>
+    <string name="chart">图表</string>
+    <string name="chart_no_data">没有可提供的数据</string>
+    <string name="chart_statistics">统计</string>
+    <string name="chart_wait">等候处理。</string>
+    <string name="connect_to_mfp">连接到MFP</string>
+    <string name="consecutive_setting">连续步骤</string>
+    <string name="consecutive_setting_details">连续步骤</string>
+    <string name="consecutive_setting_title">首字母连续步骤</string>
+    <string name="daily_end_setting">每天终止时间</string>
+    <string name="daily_end_setting_details">步伐计数停止</string>
+    <string name="daily_end_setting_title">选择结束时间</string>
+    <string name="daily_goal">日行目标</string>
+    <string name="daily_goal_title">目标</string>
+    <string name="daily_start_setting">日常开始时间</string>
+    <string name="daily_start_setting_details">步伐计数开始</string>
+    <string name="daily_start_setting_title">选择起始时间</string>
+    <string name="daily_step_counts">日行步伐计数</string>
+    <string name="daily_steps">日行步</string>
+    <string name="day">天</string>
+    <string name="delete">删除</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_yes">是</string>
+    <string name="display_settings_title">显示设置</string>
+    <string name="dropbox_downloading">下载..</string>
+    <string name="dropbox_uploading">上传..</string>
+    <string name="editsteps">编辑步</string>
+    <string name="email_file_subject">StepOn 每天记录</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 如果您有任何的问题，疑问，或者评论，请发邮件给我们。</string>
+    <string name="email_title">电子邮件 \u0026 支持我们</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">步数</string>
+    <string name="error">错误</string>
+    <string name="exercise_type_running">跑</string>
+    <string name="exercise_type_setting">步行/跑</string>
+    <string name="exercise_type_setting_details">步行/跑</string>
+    <string name="exercise_type_setting_title">选择你的运动</string>
+    <string name="exercise_type_walking">步行</string>
+    <string name="export_limit_te">只有为StepOn-PRO数据库导入/导出功能。</string>
+    <string name="export_success_message">数据输出</string>
+    <string name="export_success_message2">\u0022StepOn.db\u0022数据库文件将被出口到StepOn文件夹。</string>
+    <string name="export_to_sdcard">数据库文件（StepOn.db）存储在SD卡的文件夹StepOn。</string>
+    <string name="faq">常见问题</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">常见问题</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">每天步行10000步！</string>
+    <string name="fb_updated">Facebook正在更新！</string>
+    <string name="fb_walk_report">StepOn每天城</string>
+    <string name="fri">周五</string>
+    <string name="gender">性别</string>
+    <string name="gender_female">女性</string>
+    <string name="gender_male">男性</string>
+    <string name="goal_achievement_notification">每日目标的实现</string>
+    <string name="goal_achievement_notification_details">目标实现时的通知</string>
+    <string name="goal_reward_notification">每日目标奖励</string>
+    <string name="goal_reward_notification_details">当每天的目的也就达到了...</string>
+    <string name="goal_steps_setting">目标步数</string>
+    <string name="goal_steps_setting_details">目标步数</string>
+    <string name="goal_steps_setting_title">输入日常目标步数</string>
+    <string name="google_drive_downloaded">数据库文件（StepOn.db）下载</string>
+    <string name="google_drive_file_not_exist">不存在文件（StepOn.db）。</string>
+    <string name="google_drive_uploaded">上传数据库文件（StepOn.db）。</string>
+    <string name="height">身长</string>
+    <string name="help">帮助</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn 用户指南</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">时间</string>
+    <string name="high">更敏感</string>
+    <string name="history">历史</string>
+    <string name="history_management_setting">历史记录管理</string>
+    <string name="hm">时间</string>
+    <string name="hour">小时</string>
+    <string name="hourly_step_counts">每小时步伐计数</string>
+    <string name="import_limit_te">只有为StepOn-PRO数据库导入/导出功能。</string>
+    <string name="import_success_message">数据输入</string>
+    <string name="inches">英尺</string>
+    <string name="jan">一月</string>
+    <string name="jul">七月</string>
+    <string name="keep_screen_on">保持屏幕运行</string>
+    <string name="kilograms">公斤</string>
+    <string name="km">公里</string>
+    <string name="lap">计次</string>
+    <string name="locale_0">默认</string>
+    <string name="locale_1">英語</string>
+    <string name="locale_type_setting">语言</string>
+    <string name="locale_type_setting_details">语言</string>
+    <string name="locale_type_setting_title">選擇语言</string>
+    <string name="low">少敏感</string>
+    <string name="mar">三月</string>
+    <string name="may">五月</string>
+    <string name="medium">標準</string>
+    <string name="min">分</string>
+    <string name="minutes">分鐘</string>
+    <string name="mon">周一</string>
+    <string name="month">月</string>
+    <string name="monthly_average_step_counts">每月平均步行计数</string>
+    <string name="monthly_total">月总和</string>
+    <string name="network_connection">网络应连接。</string>
+    <string name="no_ad">广告</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn是一个计步器，可以追踪您的步骤。\n\n 
+
+\u2605 一个智能的3D动作识别算法能过滤和驱逐外面非行走的活动。无论你把StepOn 放在哪里，口袋，腰带，还是包里。\n\n 
+
+\u2605 通过建立你的日常目标，准确地利用 StepOn 监测你日常的步伐，您将迈向健康的道路。\n\n 
+
+\u2605 StepOn就是这么简单。所有您需要做的就是按下启动按钮，当您开始走路。 \n\n
+
+\u2605 主要功能包括：\n 
+
+\u2022 图表：每天，每周，每月和每年的步数 \n
+\u2022 每日日志历史记录：步数，消耗的卡路里，距离，时间\n 
+\u2022 精确的步数使用智能3D运动跟踪算法 \n
+\u2022 Facebook上张贴。\n 
+\u2022 Google Drive的备份。\n 
+\u2022 个性化设置：每日目标，灵敏度，单位：公制/英制，步幅长度，重量等。
+</string>
+    <string name="notes_title">附註</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">通知</string>
+    <string name="notification_subtitle">实现每天的目标！</string>
+    <string name="nov">十一月</string>
+    <string name="operation_level_setting">屏幕 开/关</string>
+    <string name="operation_level_setting_details">屏幕 开/关</string>
+    <string name="operation_level_setting_title">选择屏幕 开/关 选项</string>
+    <string name="permission_not_granted">未授予权限。</string>
+    <string name="personal_settings_title">个人设置</string>
+    <string name="pounds">磅</string>
+    <string name="power_settings_title">能源使用量</string>
+    <string name="power_usage_type_more_accurate">更准确的步数</string>
+    <string name="power_usage_type_most_accurate">大多数是准确步骤数</string>
+    <string name="power_usage_type_power_balanced">平衡</string>
+    <string name="power_usage_type_power_least">最低功耗</string>
+    <string name="power_usage_type_power_less">更低的功耗</string>
+    <string name="power_usage_type_power_saving">省电步骤计数</string>
+    <string name="power_usage_type_setting">能量使用模式</string>
+    <string name="power_usage_type_setting_details">能量使用模式</string>
+    <string name="power_usage_type_setting_title">选择准确步骤数或省电</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">问: 不算计步伐了。</string>
+    <string name="q2">问: 屏幕关闭时（待机模式）不计算。</string>
+    <string name="q3">问: 在设置中连续步伐是什么？</string>
+    <string name="q4">问: 我可以编辑步数？</string>
+    <string name="q5">问: 停顿模式是什么？</string>
+    <string name="q6">问: 它不保存日常日志。</string>
+    <string name="q7">问: 如何测量步距？</string>
+    <string name="q8">问: 我的疑问不在FAQ里。</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="quit">退出</string>
+    <string name="remove_data_all_setting_title">删除所有的历史吗？</string>
+    <string name="reset">重置</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 开发有质量保证的Apps需要很多努力还有支持。如果您对本产品满意请给好评。谢谢</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">奖励</string>
+    <string name="run_in_background">保持屏幕关闭</string>
+    <string name="run_length_setting">步骤距离：跑步中</string>
+    <string name="run_length_setting_details">步骤距离：跑步中</string>
+    <string name="run_length_setting_title">测定你的步伐距离类型：跑步中</string>
+    <string name="sat">周六</string>
+    <string name="save">保存</string>
+    <string name="screen_skin_0">蓝/黑</string>
+    <string name="screen_skin_1">蓝/光明</string>
+    <string name="screen_skin_2">橙/光明</string>
+    <string name="screen_skin_type_setting">主题颜色</string>
+    <string name="screen_skin_type_setting_details">主题颜色</string>
+    <string name="screen_skin_type_setting_title">选择主题颜色</string>
+    <string name="send">发送</string>
+    <string name="send_cvs">发送CSV文件</string>
+    <string name="sensitivity_setting">敏感</string>
+    <string name="sensitivity_setting_details">敏感</string>
+    <string name="sensitivity_setting_title">选择敏感度</string>
+    <string name="sep">九月</string>
+    <string name="settings">设置</string>
+    <string name="share">共享</string>
+    <string name="speed_type_average">平均速度</string>
+    <string name="speed_type_realtime">实时速度</string>
+    <string name="speed_type_setting">速度</string>
+    <string name="speed_type_setting_details">速度</string>
+    <string name="speed_type_setting_title">选择速度格式</string>
+    <string name="status_update">更新状态。</string>
+    <string name="step_length_setting">步骤距离：步行中</string>
+    <string name="step_length_setting_details">步骤距离：步行中</string>
+    <string name="step_length_setting_title">测定你的步伐距离类型：步行中</string>
+    <string name="steps">步数</string>
+    <string name="stop_dialog_nosave">不保存</string>
+    <string name="stop_dialog_save">保存</string>
+    <string name="success">成功</string>
+    <string name="successfully_posted_post">发布成功。</string>
+    <string name="sun">周天</string>
+    <string name="thu">周四</string>
+    <string name="toast_dbtransfered_message">每天记录历史从 StepOn 传输。</string>
+    <string name="toast_external_storage_not_available">不提供外部存储</string>
+    <string name="toast_external_storage_not_writeable">无法写入外部存储</string>
+    <string name="toast_folder">无法创建StepOn文件夹</string>
+    <string name="toast_folder_doesnot_exist">StepOn 文件夹不存在。</string>
+    <string name="toast_need_sdcard">需要一张 SD 卡保存和发送日志。</string>
+    <string name="toast_save">存在了StepOn的文件夹里</string>
+    <string name="trashcan">垃圾桶</string>
+    <string name="trial_expired">Cloud的备份（Google Drive）是Pro版本中可用。</string>
+    <string name="try_again">请再试一次！</string>
+    <string name="tue">周二</string>
+    <string name="units_imperial">英制: 英尺 公里 磅</string>
+    <string name="units_metric">公制：厘米 千米 千克</string>
+    <string name="units_setting">公制/英制</string>
+    <string name="units_setting_details">选择你的单位</string>
+    <string name="units_setting_title">选择你的单位</string>
+    <string name="very_high">最敏感</string>
+    <string name="very_low">最不敏感</string>
+    <string name="wait_for_data_transfer">数据库传输，请稍候 ..</string>
+    <string name="wait_for_exporting_db">导出数据库..</string>
+    <string name="wait_for_generating_csv">写CSV文件..</string>
+    <string name="wait_for_importing_db">导入数据库...</string>
+    <string name="wake_up">强制屏幕运行</string>
+    <string name="wed">周三</string>
+    <string name="week">週</string>
+    <string name="week_of">星期</string>
+    <string name="week_type_american">周天</string>
+    <string name="week_type_european">周一</string>
+    <string name="week_type_setting">一周的第一天</string>
+    <string name="week_type_setting_details">一周的第一天</string>
+    <string name="week_type_setting_title">为每周图表选择星期的格式</string>
+    <string name="weekly_total">星期总和</string>
+    <string name="widget_cal">\u00A0热量</string>
+    <string name="widget_calories">热量</string>
+    <string name="widget_km">\u00A0公里</string>
+    <string name="widget_mi">\u00A0英哩</string>
+    <string name="widget_paused">暂停</string>
+    <string name="widget_reset">\u2605 复位 \u2605</string>
+    <string name="widget_skin_0">默认</string>
+    <string name="widget_skin_1">黑色</string>
+    <string name="widget_skin_2">蓝色</string>
+    <string name="widget_skin_3">绿色</string>
+    <string name="widget_skin_4">桔黄色</string>
+    <string name="widget_skin_5">粉色</string>
+    <string name="widget_skin_6">透明</string>
+    <string name="widget_skin_type_setting">部件皮肤颜色</string>
+    <string name="widget_skin_type_setting_details">部件皮肤颜色</string>
+    <string name="widget_skin_type_setting_title">选择 widget 皮肤颜色</string>
+    <string name="widget_st">\u00A0步伐</string>
+    <string name="widget_steps">步数</string>
+    <string name="year">年</string>
+    <string name="yearly_total">年总和</string>
+</resources>

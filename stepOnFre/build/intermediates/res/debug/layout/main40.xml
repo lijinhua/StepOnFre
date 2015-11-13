@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+ 	<LinearLayout
+	    android:id="@+id/widget_main40"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+    
+	   <LinearLayout
+        android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:paddingTop="4dp" android:paddingBottom="4dp" >
+
+		<LinearLayout android:gravity="right" android:layout_weight="1"
+			android:layout_marginRight="8dp" 
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+			    android:id="@+id/widget_textview"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="right"
+			    android:text=""
+			    android:textColor="@color/mywhite"
+			    android:textSize="23dp" />
+
+			<TextView
+			    android:id="@+id/widget_textview_steps"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:text="@string/widget_steps"
+			    android:textColor="@color/myllightgray"
+			    android:textSize="12dp" />
+		</LinearLayout>
+
+		<TextView android:layout_width="1px" android:layout_height="match_parent" 
+      		android:background="@color/widget_gray" />
+		
+		<LinearLayout android:gravity="right" android:layout_weight="1"
+			android:layout_marginRight="8dp" 
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+			    android:id="@+id/widget_distance_value"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="right"
+			    android:padding="0dp"
+			    android:text=""
+			    android:textColor="@color/mywhite"
+			    android:textSize="23dp" />
+
+			<TextView
+			    android:id="@+id/widget_distance_units"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:text="@string/km"
+			    android:textColor="@color/myllightgray"
+			    android:textSize="12dp" />
+		</LinearLayout>
+
+		<TextView android:layout_width="1px" android:layout_height="match_parent" 
+      		android:background="@color/widget_gray" />
+		
+		<LinearLayout android:gravity="right" android:layout_weight="1"
+			android:layout_marginRight="8dp" 
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+			    android:id="@+id/widget_calories_value"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="right"
+			    android:padding="0dp"
+			    android:text=""
+			    android:textColor="@color/mywhite"
+			    android:textSize="23dp" />
+
+			<TextView
+			    android:id="@+id/widget_calories_units"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:text="@string/widget_calories"
+			    android:textColor="@color/myllightgray"
+			    android:textSize="12dp" />
+		</LinearLayout>
+
+		<TextView android:layout_width="1px" android:layout_height="match_parent" 
+      		android:background="@color/widget_gray" />
+		
+		<LinearLayout android:gravity="right" android:layout_weight="1"
+			android:layout_marginRight="8dp" 
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+			    android:id="@+id/widget_time_value"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="right"
+			    android:padding="0dp"
+			    android:text=""
+			    android:textColor="@color/mywhite"
+			    android:textSize="23dp" />
+
+			<TextView
+			    android:id="@+id/widget_time_units"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:text="@string/hhmm"
+			    android:textColor="@color/myllightgray"
+			    android:textSize="12dp" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:paddingBottom="4dp"
+	    android:layout_gravity="center"
+	    android:baselineAligned="false"
+	    android:orientation="horizontal" >
+
+		<TextView
+		    android:id="@+id/widget_textview_daily"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:paddingLeft="8dp"
+		    android:paddingRight="12dp"
+		    android:text="@string/widget_daily"
+		    android:textColor="@color/mywhite"
+		    android:textSize="12dp" />
+
+		<ProgressBar
+		    android:id="@+id/widget_trainprogressbar"
+		    style="?android:attr/progressBarStyleHorizontal"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:max="100"
+		    android:maxHeight="4dip"
+		    android:minHeight="4dip"
+		    android:progress="0"
+	 	    android:layout_weight="1"
+	    	android:layout_gravity="center"
+		    android:paddingRight="8dp"
+		    android:progressDrawable="@drawable/blueprogress" />
+		
+		</LinearLayout>
+		
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/layout/main40.xml -->

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When version & TE changes -->
+    <string name="widget_expired">Upphör</string>
+    <string name="trial_expired">Cloud (Google Drive) backup finns tillgänglig i Pro-versionen.</string>
+    <string name="accupedo_settings_about">Om StepOn</string>
+    <string name="accupdeo_version_summery">Version 1.2.5</string>
+
+    <!-- V123 -->
+    <string name="automatic_backup">Automatisk spara</string>
+    <string name="automatic_backup_midnight_sdcard">Spara en databasfil i SD-kort vid midnatt.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Skriv din längd</string>
+    <string name="height">Höjd</string>
+    <string name="birthday">Födelsedag</string>
+    <string name="gender">Kön</string>
+    <string name="gender_female">Kvinna</string>
+    <string name="gender_male">Man</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Belöning</string>
+    <string name="goal_reward_notification">Daglig mål belöning</string>
+    <string name="goal_reward_notification_details">När dagliga mål uppnås ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Spara</string>
+    <string name="stop_dialog_nosave">Spara inte</string>
+    <string name="widget_steps">steg</string>
+    <string name="widget_reset">\u2605Återställ\u2605</string>
+    <string name="widget_paused">Paus ..</string>
+    <string name="steps">steg</string>
+    <string name="miles">mil</string>
+    <string name="calories_burned">kcal</string>
+    <string name="inches">inch</string>
+    <string name="pounds">pund</string>
+    <string name="minutes">minuter</string>
+    <string name="hhmm">tid</string>
+    <string name="reset">Återstä.</string>
+    <string name="power_usage_type_setting">Strömförbrukning läge</string>
+    <string name="power_usage_type_setting_details">Strömförbrukning läge</string>
+    <string name="power_usage_type_setting_title">älj korrekt stegräkning eller energisparläge</string>
+    <string name="power_usage_type_most_accurate">mest exakta stegräkning</string>
+    <string name="power_usage_type_power_balanced">balanserad</string>
+    <string name="power_usage_type_power_saving">energibesparing stegräkning</string>
+    <string name="settings">Inställningar</string>
+    <string name="accupedo_settings_information">Information</string>
+    <string name="sensitivity_setting">Känslighet</string>
+    <string name="sensitivity_setting_details">Känslighet</string>
+    <string name="sensitivity_setting_title">Välj känsligheten</string>
+    <string name="consecutive_setting">På varandra följande steg</string>
+    <string name="consecutive_setting_details">På varandra följande steg</string>
+    <string name="consecutive_setting_title">Inledande varandra följande steg</string>
+    <string name="very_high">mest känslig</string>
+    <string name="high">känsligare</string>
+    <string name="medium">standard</string>
+    <string name="low">mindre känslig</string>
+    <string name="very_low">minst känslig</string>
+    <string name="units_setting">Metrisk / Engelska</string>
+    <string name="units_setting_details">Metrisk / Engelska</string>
+    <string name="units_setting_title">Välj din enhet</string>
+    <string name="units_metric">Metrisk: cm, km, kg</string>
+    <string name="units_imperial">Engelska: inch, mile, pound</string>
+    <string name="body_weight_setting">Kroppsvikt</string>
+    <string name="body_weight_setting_details">Kroppsvikt</string>
+    <string name="body_weight_setting_title">Skriv din kroppsvikt</string>
+    <string name="goal_steps_setting">Stegmål</string>
+    <string name="goal_steps_setting_details">Stegmål</string>
+    <string name="goal_steps_setting_title">Typ dagliga stegmål</string>
+    <string name="exercise_type_setting">Promenera / löpning</string>
+    <string name="exercise_type_setting_details">Promenera / löpning</string>
+    <string name="exercise_type_setting_title">Välj din aktivitet</string>
+    <string name="exercise_type_running">löpning</string>
+    <string name="exercise_type_walking">Promenera</string>
+    <string name="week_type_setting">Veckans första dag</string>
+    <string name="week_type_setting_details">Veckans första dag</string>
+    <string name="week_type_setting_title">Välj vecka format för vecka diagrammet</string>
+    <string name="week_type_american">Söndag</string>
+    <string name="week_type_european">Måndag</string>
+    <string name="help">Hjälp</string>
+    <string name="save">Spara</string>
+    <string name="day">Dag</string>
+    <string name="week">Vecka</string>
+    <string name="month">Månad</string>
+    <string name="year">År</string>
+    <string name="chart">Diagram</string>
+    <string name="chart_wait">Vänta på behandling..</string>
+    <string name="chart_no_data">Inga data tillgängliga..</string>
+    <string name="button_email">E-mail</string>
+    <string name="button_review">Granska</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Inte</string>
+    <string name="alert_pause_message">Vill du pausa StepOn?</string>
+    <string name="alert_resume_message">Vill du återuppta StepOn?</string>
+    <string name="alert_reset_message">Vill du återställa steg per dag?</string>
+    <string name="toast_save">Sparas i StepOn mapp</string>
+    <string name="toast_folder">Kan inte skapa StepOn mapp</string>
+    <string name="toast_external_storage_not_writeable">Extern lagring är inte skrivbar</string>
+    <string name="toast_external_storage_not_available">Extern lagring är inte tillgänglig</string>
+    <string name="history">Historia</string>
+    <string name="daily_steps">Daglig steg</string>
+    <string name="daily_goal">Dagliga mål</string>
+    <string name="hourly_step_counts">Steg per timme</string>
+    <string name="hour">Timme</string>
+    <string name="weekly_total">Vecka total</string>
+    <string name="ave">gen.</string>
+    <string name="daily_step_counts">Steg per dag</string>
+    <string name="sun">Sön</string>
+    <string name="mon">Mån</string>
+    <string name="tue">Tis</string>
+    <string name="wed">Ons</string>
+    <string name="thu">Tor</string>
+    <string name="fri">Fre</string>
+    <string name="sat">Lör</string>
+    <string name="monthly_total">Månad total</string>
+    <string name="yearly_total">År totalt</string>
+    <string name="monthly_average_step_counts">Månad genomsnitt steg</string>
+    <string name="jan">Jan</string>
+    <string name="mar">Mar</string>
+    <string name="may">Maj</string>
+    <string name="jul">Jul</string>
+    <string name="sep">Sep</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Veckan:\u00A0</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Aktiva timmar</string>
+    <string name="activehours_setting_details">Aktivera / inaktivera de aktiva timmarna. Icke
+		aktiva timmar kommer att vara i pausläge för energibesparing. Om
+		markerad, fast daglig start / sluttid.</string>
+    <string name="daily_start_setting">Daglig starttid</string>
+    <string name="daily_start_setting_details">Steg räkna startar</string>
+    <string name="daily_start_setting_title">Välj starttid</string>
+    <string name="daily_end_setting">Daglig sluttid</string>
+    <string name="daily_end_setting_details">Steg räkna stannar</string>
+    <string name="daily_end_setting_title">Välj sluttid</string>
+    <string name="power_settings_title">Strömförbrukning</string>
+    <string name="personal_settings_title">Personliga inställningar</string>
+    <string name="daily_goal_title">Mål</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Dagligen loggar historia flyttades från
+		StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widgetfärg</string>
+    <string name="widget_skin_type_setting_details">Widgetfärg</string>
+    <string name="widget_skin_type_setting_title">Välj Widgetfärg</string>
+    <string name="widget_skin_0">standard</string>
+    <string name="widget_skin_1">svart</string>
+    <string name="widget_skin_2">blå</string>
+    <string name="widget_skin_3">grön</string>
+    <string name="widget_skin_4">apelsin</string>
+    <string name="widget_skin_5">rosa</string>
+    <string name="display_settings_title">Skärminställningar</string>
+    <string name="operation_level_setting">Skärmen på / av</string>
+    <string name="operation_level_setting_details">Skärmen på / av</string>
+    <string name="operation_level_setting_title">Välja skärm på / av</string>
+    <string name="run_in_background">Skärma av</string>
+    <string name="keep_screen_on">Skärmen på</string>
+    <string name="wake_up">Skärmen på (kraftfullt)</string>
+    <string name="send">Skicka</string>
+    <string name="email_file_subject">StepOn dagligen loggar</string>
+    <string name="toast_need_sdcard">Kräv ett SD-kort för att spara och skicka dagligen
+		loggar.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">StepOn \u0022StepOn.db\u0022 filen ska vara i
+		StepOn mapp på SD-kortet. \n\n +++ OBS! +++\n Den importerade filen kommer att
+		ersätta den befintliga databasen.</string>
+    <string name="import_success_message">Importera.</string>
+    <string name="export_success_message">Export.</string>
+    <string name="toast_folder_doesnot_exist">StepOn mappen finns inte.</string>
+    <string name="run_length_setting">Steglängd: löpning</string>
+    <string name="run_length_setting_details">Steglängd: löpning</string>
+    <string name="run_length_setting_title">Skriv in din steget avstånd: löpning</string>
+    <string name="step_length_setting">Steglängd: promenera</string>
+    <string name="step_length_setting_details">Steglängd: promenera</string>
+    <string name="step_length_setting_title">Skriv in din steget avstånd: promenera</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Språk</string>
+    <string name="locale_type_setting_details">Språk</string>
+    <string name="locale_type_setting_title">Välj språk</string>
+    <string name="locale_0">standard</string>
+    <string name="locale_1">engelska</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="buy_button">Köp Pro</string>
+    <string name="widget_skin_6">transparent</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook är uppdaterad!</string>
+    <string name="fb_walk_report">StepOn dagliga promenad</string>
+    <string name="fb_lets_walk">Går 10000 steg om dagen!</string>
+    <string name="database">Databasen</string>
+    <string name="send_cvs">Sända CSV fil</string>
+    <string name="share">Andel</string>
+    <string name="export_success_message2">Databasfil \u0022StepOn.db\u0022 kommer att exporteras till StepOn mapp.</string>
+    <string name="export_limit_te">Databas import / export-funktioner är endast för StepOn-Pro.</string>
+    <string name="import_limit_te">Databas import / export-funktioner är endast för StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Mer exakt stegräkning</string>
+    <string name="power_usage_type_power_less">Lägre strömförbrukning</string>
+    <string name="power_usage_type_power_least">Minimal strömförbrukning</string>
+    <string name="history_management_setting">Historik hantering</string>
+    <string name="autopause_charging_setting">automatisk paus</string>
+    <string name="autopause_charging_setting_details">Automatisk paus under laddning</string>
+    <string name="wait_for_data_transfer">Vänta för databas överföring ..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Varv</string>
+    <string name="trashcan">Papperskorg</string>
+    <string name="editsteps">Redigera steg</string>
+    <string name="alert_delete_month_message">Radera månad historia?</string>
+    <string name="alert_delete_day_message">Radera dagliga historia?</string>
+    <string name="alert_next_lap_message">Vill du starta en nästa varv?</string>
+    <string name="enter_manual_steps">Stegräkning</string>
+    <string name="button_manual_steps">Bekräfta</string>
+    <string name="alert_set_steps_message">Vill bekräfta att du?</string>
+    <string name="chart_statistics">Statistik</string>
+    <string name="wait_for_generating_csv">Skriva CSV-fil ..</string>
+    <string name="wait_for_exporting_db">Exportera databas..</string>
+    <string name="wait_for_importing_db">Importera databas..</string>
+    <string name="export_to_sdcard">Databasfil (StepOn.db) lagras vid StepOn mappen SD-kort.</string>
+    <string name="backup">Spara</string>
+    <string name="cancelled">Avbryt</string>
+    <string name="permission_not_granted">Behörigheter inte beviljades.</string>
+    <string name="error">Fel</string>
+    <string name="status_update">Uppdaterar status.</string>
+    <string name="success">Framgång</string>
+    <string name="successfully_posted_post">Har lagts upp.</string>
+    <string name="alert_new_installation_message">StepOn daglig historia filen hittades. Vill du importera?</string>
+    <string name="quit">Utgång</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Vill du återställa steg per dag?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Databasfil (StepOn.db) laddas upp.</string>
+    <string name="google_drive_downloaded">Databasfil (StepOn.db) hämtas.</string>
+    <string name="google_drive_file_not_exist">Fil (StepOn.db) existerar inte.</string>
+    <string name="dropbox_uploading">Uppladdning ..</string>
+    <string name="dropbox_downloading">Nedladdning ..</string>
+    <string name="notification_settings_title">Notification</string>
+    <string name="goal_achievement_notification">Daglig måluppfyllelse</string>
+    <string name="goal_achievement_notification_details">Anmälan när målet är uppnått</string>
+    <string name="speed_type_setting">Hastighet</string>
+    <string name="speed_type_setting_details">Hastighet</string>
+    <string name="speed_type_setting_title">Välj hastighet format</string>
+    <string name="speed_type_average">Medelhastighet</string>
+    <string name="speed_type_realtime">Realtid hastighet</string>
+    <string name="alert_import_gdrive_message">StepOn databasfil ska vara i Google Drive. \n\n +++ Uppmärksamhet! +++\n Den importerade filen ska ersätta den befintliga databasen.</string>
+    <string name="alert_import_dropbox_message">StepOn databasfil ska vara i Dropbox. \n\n +++ Uppmärksamhet! +++\n Den importerade filen ska ersätta den befintliga databasen.</string>
+    <string name="try_again">Försök igen!</string>
+    <string name="network_connection">Nätverket ska anslutas.</string>
+    <string name="delete">Radera</string>
+    <string name="alert_history_update_version_401_message">+++ OBS! +++\n Tryck nedåt på skärmen för att redigera eller radera dagliga steg räknas. Eller klicka på skärmen för att se detaljer knä historia.</string>
+    <string name="connect_to_mfp">Anslut till MFP</string>
+    <string name="screen_skin_type_setting">Temafärg</string>
+    <string name="screen_skin_type_setting_details">Temafärg</string>
+    <string name="screen_skin_type_setting_title">Välj temafärg</string>
+    <string name="screen_skin_0">Blå / Mörk</string>
+    <string name="screen_skin_1">Blå / Ljus</string>
+    <string name="screen_skin_2">Orange / Ljus</string>
+    <string name="no_ad">Annons</string>
+
+</resources>

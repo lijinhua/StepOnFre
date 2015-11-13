@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">常见问题</string>
+<string name="q1">问: 不算计步伐了。</string>
+<string name="a1">答: 把Accupedo撤销到垃圾箱，然后在主屏幕打开，测试它。如果任然不工作，再次将 Accupedo 撤职到垃圾桶，把电话关机后开启，打开测试。</string>
+<string name="q2">问: 屏幕关闭时（待机模式）不计算。</string>
+<string name="a2">答: 一些电话不支持G-sensor在待机模式（屏幕关闭）时运转。不是App的缺陷。</string>
+<string name="q3">问: 在设置中连续步伐是什么？</string>
+<string name="a3">答: 步伐计数在连续行走一定步伐的数量之后开始。例如，如果连续步伐是10，你需要没有停顿的连续走10步。它将不会开始计算如果你走少于10步。</string>
+<string name="q4">问: 我可以编辑步数？</string>
+<string name="a4">答: 去历史窗口。按下屏幕上进行编辑或删除步数的每一天。</string>
+<string name="q5">问: 停顿模式是什么？</string>
+<string name="a5">答: 在停顿模式期间（颜色是蓝色时），它停止计算步伐。这种停顿模式不消耗电池。如需要重启，切换到恢复模式。</string>
+<string name="q6">问: 它不保存日常日志。</string>
+<string name="a6">答: 它在午夜保存日常日志。在那时不关闭你的电话。</string>
+<string name="q7">问: 如何测量步距？</string>
+<string name="a7">答: 从脚尖（脚跟）脚尖（脚跟）。</string>
+<string name="q8">问: 我的疑问不在FAQ里。</string>
+<string name="a8">答: 请email给我们。我们一定会尽力而为。</string>
+
+</resources>

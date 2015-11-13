@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: It stops counting steps.</string>
+<string name="a1">A: Remove Accupedo to the Trash can, and then open it on the Home screen, and test it. If it still does not work, turn your phone Off and On, and test it. </string>
+<string name="q2">Q: It does not count when screen is off (Standby mode).</string>
+<string name="a2">A: Some phones do not support the G-sensor in sleep mode (screen is off) by phone manufacturers. It is not defects of this App.</string>
+<string name="q3">Q: What is Consecutive steps in Settings?</string>
+<string name="a3">A: Step count starts after walking the number of Consecutive steps. For example, if Consecutive steps are 10, then you need to walk 10 steps continuously without stopping. If you walk less than 10 steps and stop, then it discards those steps.</string>
+<string name="q4">Q: Can I edit step counts?</string>
+<string name="a4">Go to History window. Press down the screen to edit or delete step counts for each day.</string>
+<string name="q5">Q: What is the Pause mode?</string>
+<string name="a5">A: During the Pause mode (when color is blue), it stops counting steps. This Pause mode does not consume battery. To restart step counting, switch to the Resume mode.</string>
+<string name="q6">Q: It does not save a daily log.</string>
+<string name="a6">A: It saves a daily log at Midnight. Do not turn your phone off at that time.</string>
+<string name="q7">Q: How to measure the step distance?</string>
+<string name="a7">A: From toe (heel) to toe (heel)</string>
+<string name="q8">Q: My problem is not listed in FAQ.</string>
+<string name="a8">A: Please email us. We will definitely help you.</string>
+
+</resources>

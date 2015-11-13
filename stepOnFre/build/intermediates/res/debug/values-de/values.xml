@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">"! Entfernen Sie das Widget (verschieben Sie es in den Mülleimer) und installieren Sie es erneut auf der Startseite. Testen Sie, ob es jetzt funktioniert. Wenn nicht, entfernen Sie das Widget erneut, schalten Sie Ihr Smartphone aus und wieder ein, installieren das Widget wieder und testen erneut die Funktion."</string>
+    <string name="a2">"! Einige Smartphones schalten herstellerseitig ihren Bewegungssensor ab, wenn sie in den Standby wechseln. Das ist kein Fehler von Accupedo."</string>
+    <string name="a3">"! Erst wenn Accupedo mehr als die eingegebene Zahl an Schritten direkt hintereinander registriert hat, fängt es an, die Schritte weiter zu zählen. Das soll verhindern, dass versehentliche Wackler als Schritt gezählt werden und sicherstellen, dass Sie wirklich gehen. Wird die eingebene Zahl nicht erreicht, z.B. nur 9 registrierte Schritte bei Vorgabe von 10 Schritten, dann werden die 9 Schritte verworfen."</string>
+    <string name="a4">"! Zum History-Fenster. Drücken Sie den Bildschirm, um Schritt zählt für jeden Tag, bearbeiten oder löschen.</string>
+    <string name="a5">"! Wenn Pause bzw. pausiert angezeigt wird, zählt Accupedo keine Schritte [AUS]. Es wird kein Strom verbraucht und der Bewegungssensor wird abgeschaltet. Um die Schrittzählung wieder zu aktivieren, schalten Sie Accupedo wieder [EIN].</string>
+    <string name="a6">"! Der Tagesbericht wird automatisch um Mitternacht gespeichert. Achten Sie also darauf, dass Ihr Smartphone dann eingeschaltet ist."</string>
+    <string name="a7">"! Machen Sie einen Schritt. Messen Sie entweder von den Zehen zu den Zehen oder von der Ferse zur Ferse."</string>
+    <string name="a8">"! Schreiben Sie mir bitte eine E-Mail. Wir werden Ihnen auf jeden Fall helfen."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="accupedo_settings_about">Über StepOn</string>
+    <string name="accupedo_settings_information">Informationen</string>
+    <string name="activehours_setting">Aktive Stunden</string>
+    <string name="activehours_setting_details">Vorgabe aktiver Stunden. Außerhalb der aktiven Stunden pausiert StepOn und spart Energie.</string>
+    <string name="alert_daily_reset_message">Auf Null zurücksetzen?</string>
+    <string name="alert_delete_day_message">Löschen täglichen Geschichte?</string>
+    <string name="alert_delete_month_message">Löschen monatlichen Geschichte?</string>
+    <string name="alert_history_update_version_401_message">+++ Vorsicht! +++\n Drücken Sie den Bildschirm, um täglich Schritt zählt bearbeiten oder löschen. Oder klicken Sie auf den Bildschirm, um Detail Schoß der Geschichte zu sehen.</string>
+    <string name="alert_import_dropbox_message">StepOn Datenbank-Datei sollte in Dropbox sein. \n\n +++ Achtung! +++\n Die importierte Datei ersetzt die vorhandene Datenbank.</string>
+    <string name="alert_import_gdrive_message">StepOn Datenbank-Datei sollte in Google Drive sein. \n\n +++ Achtung! +++\n Die importierte Datei ersetzt die vorhandene Datenbank.</string>
+    <string name="alert_import_message">Die StepOn-Sicherungsdatei sollte sich im StepOn-Ordner auf der SD-Karte befinden. Vorsicht! Bereits existierende Daten werden mit dem Import überschrieben.</string>
+    <string name="alert_new_installation_message">StepOn täglichen History-Datei gefunden wurde. Wollen Sie importieren?</string>
+    <string name="alert_next_lap_message">Wollen Sie einen nächsten Runde zu starten?</string>
+    <string name="alert_pause_message">Schrittzähler pausieren?</string>
+    <string name="alert_resume_message">Schrittzähler aktivieren?</string>
+    <string name="alert_set_steps_message">Sie bestätigen?</string>
+    <string name="automatic_backup">Automatische Sicherung</string>
+    <string name="automatic_backup_midnight_sdcard">Speichern Sie eine Datenbankdatei in SD-Karte um Mitternacht.</string>
+    <string name="autopause_charging_setting">Automatische Pause</string>
+    <string name="autopause_charging_setting_details">Automatische Pause während Stromladestation</string>
+    <string name="ave">Ø</string>
+    <string name="backup">Sichern</string>
+    <string name="birthday">Geburtstag</string>
+    <string name="body_height_setting_title">Geben Sie Ihre Körpergröße</string>
+    <string name="body_weight_setting">Körpergewicht</string>
+    <string name="body_weight_setting_details">Körpergewicht</string>
+    <string name="body_weight_setting_title">Körpergewicht eingeben:</string>
+    <string name="button_email">E-Mail</string>
+    <string name="button_manual_steps">Bestätigen</string>
+    <string name="button_review">Aktualisierung</string>
+    <string name="buy_button">Pro kaufen</string>
+    <string name="cancelled">Kündigen</string>
+    <string name="chart">Diagr.</string>
+    <string name="chart_no_data">Keine Daten vorhanden …</string>
+    <string name="chart_statistics">Statistiken</string>
+    <string name="chart_wait">Arbeite, bitte warten …</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes.</string>
+    <string name="com_facebook_internet_permission_error_message">Die WebView-Anmeldung erfordert die INTERNET-Berechtigung</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest-Fehler</string>
+    <string name="com_facebook_like_button_liked">Gefällt dir</string>
+    <string name="com_facebook_like_button_not_liked">Gefällt mir</string>
+    <string name="com_facebook_loading">Wird geladen ...</string>
+    <string name="com_facebook_loginview_cancel_action">Abbrechen</string>
+    <string name="com_facebook_loginview_log_in_button">Anmelden</string>
+    <string name="com_facebook_loginview_log_in_button_long">Über Facebook anmelden</string>
+    <string name="com_facebook_loginview_log_out_action">Abmelden</string>
+    <string name="com_facebook_loginview_log_out_button">Abmelden</string>
+    <string name="com_facebook_loginview_logged_in_as">Angemeldet als: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Über Facebook angemeldet</string>
+    <string name="com_facebook_send_button_text">Senden</string>
+    <string name="com_facebook_share_button_text">Teilen</string>
+    <string name="com_facebook_tooltip_default">Neu! Es liegt ganz an dir – du kannst dir aussuchen, was du mit Apps teilen möchtest.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-de/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"Für <ns1:g id="APP_NAME">%1$s</ns1:g> ist eine Aktualisierung der Android Wear App erforderlich."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktualisierung der Android Wear App."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear aktualisieren"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> erfordert einen oder mehrere Google Play-Dienste, die derzeit nicht verfügbar sind. Bitte wenden Sie sich an den Entwickler, um Unterstützung zu erhalten."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-Dienste aktivieren"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Angefordert von <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-Dienste installieren"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf Ihrem Smartphone nicht installiert sind."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Das angegebene Konto ist auf diesem Gerät nicht vorhanden. Bitte wählen Sie ein anderes Konto aus."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ungültiges Konto"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"App erfordert die Aktivierung der Google Play-Dienste"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Um eine Verbindung zu den Google Play-Diensten herzustellen, ist eine Datenverbindung erforderlich."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netzwerkfehler"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"App erfordert ein Update der Google Play-Dienste"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Fehler beim Anmelden im angegebenen Konto. Bitte wählen Sie ein anderes Konto aus."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Anmeldung fehlgeschlagen"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Unbekanntes Problem mit Google Play-Diensten"</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich. Diese werden auf Ihrem Gerät jedoch nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-Dienste"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play-Dienste werden aktualisiert"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Auf Telefon öffnen"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-de/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Verbinden mit MFP</string>
+    <string name="consecutive_setting">Zähler aktiv nach … Schritten</string>
+    <string name="consecutive_setting_details">Zähler aktiv nach … Schritten</string>
+    <string name="consecutive_setting_title">Benötige Schritte einstellen</string>
+    <string name="daily_end_setting">Tägliches Ende</string>
+    <string name="daily_end_setting_details">Einstellen, wann die Schrittzählung endet.</string>
+    <string name="daily_end_setting_title">Stellen Sie die Endzeit ein:</string>
+    <string name="daily_goal">Tägliches Ziel</string>
+    <string name="daily_goal_title">Ziel</string>
+    <string name="daily_start_setting">Täglicher Start</string>
+    <string name="daily_start_setting_details">Einstellen, wann die Schrittzählung beginnt.</string>
+    <string name="daily_start_setting_title">Stellen Sie die Startzeit ein:</string>
+    <string name="daily_step_counts">Schritte am Tag</string>
+    <string name="daily_steps">Tägliche Schritte</string>
+    <string name="database">Datenbank</string>
+    <string name="day">Tag</string>
+    <string name="delete">Löschen</string>
+    <string name="dialog_no">Nein</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="display_settings_title">Display-Einstellungen</string>
+    <string name="dropbox_downloading">Herunterladen ..</string>
+    <string name="dropbox_uploading">Hochladen ..</string>
+    <string name="editsteps">Ändern Schritte</string>
+    <string name="email_file_subject">StepOn Tagesberichte</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Bitte schreiben Sie uns eine E-Mail, wenn Sie Probleme, Fragen oder Anregungen haben.</string>
+    <string name="email_title">E-Mail \u0026 Unterstützen</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Schritt</string>
+    <string name="error">Fehler</string>
+    <string name="exercise_type_running">Laufen</string>
+    <string name="exercise_type_setting">Gehen / Laufen</string>
+    <string name="exercise_type_setting_details">Gehen / Laufen</string>
+    <string name="exercise_type_setting_title">Modus wählen</string>
+    <string name="exercise_type_walking">Gehen</string>
+    <string name="export_limit_te">Database Import / Export-Funktionen sind nur für StepOn-Pro.</string>
+    <string name="export_success_message">Exportieren</string>
+    <string name="export_success_message2">Datenbank-Datei \u0022StepOn.db\u0022 wird exportiert, um Ordner StepOn werden.</string>
+    <string name="export_to_sdcard">Datenbank-Datei (StepOn.db) am StepOn Ordner SD-Card gespeichert.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">Häufig gestellte Fragen</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Gehe 10000 Schritte am Tag!</string>
+    <string name="fb_updated">Facebook wurde aktualisiert!</string>
+    <string name="fb_walk_report">StepOn Schrittzähler Tagesbericht</string>
+    <string name="fri">Fr</string>
+    <string name="gender">Geschlecht </string>
+    <string name="gender_female">Weiblich</string>
+    <string name="gender_male">Männlich</string>
+    <string name="goal_achievement_notification">Tägliche Zielerreichung</string>
+    <string name="goal_achievement_notification_details">Benachrichtigung, wenn Ziel erreicht wird</string>
+    <string name="goal_reward_notification">Tägliche Ziel Belohnung</string>
+    <string name="goal_reward_notification_details">Als Tagesziel erreicht ist ...</string>
+    <string name="goal_steps_setting">Tägliches Ziel an Schritten</string>
+    <string name="goal_steps_setting_details">Tägliches Ziel an Schritten</string>
+    <string name="goal_steps_setting_title">Anzahl der Schritte bis zum Ziel eingeben:</string>
+    <string name="google_drive_downloaded">Datenbank-Datei (StepOn.db) heruntergeladen wird.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) existiert nicht.</string>
+    <string name="google_drive_uploaded">Datenbank-Datei (StepOn.db) hochgeladen wird.</string>
+    <string name="height">Körpergröße</string>
+    <string name="help">Hilfe</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn Anleitung</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">zeit</string>
+    <string name="high">Sehr empfindlich</string>
+    <string name="history">Verlauf</string>
+    <string name="history_management_setting">History Management</string>
+    <string name="hour">Stunde</string>
+    <string name="hourly_step_counts">Schritte in der Stunde</string>
+    <string name="import_limit_te">Database Import / Export-Funktionen sind nur für StepOn-Pro.</string>
+    <string name="import_success_message">Importieren</string>
+    <string name="inches">Zoll</string>
+    <string name="jan">Jan</string>
+    <string name="jul">Juli</string>
+    <string name="keep_screen_on">Display anlassen</string>
+    <string name="lap">Runde</string>
+    <string name="locale_0">Standard</string>
+    <string name="locale_1">Englisch</string>
+    <string name="locale_type_setting">Sprache</string>
+    <string name="locale_type_setting_details">Sprache</string>
+    <string name="locale_type_setting_title">Sprache auswählen:</string>
+    <string name="low">Weniger empfindlich</string>
+    <string name="mar">März</string>
+    <string name="may">Mai</string>
+    <string name="medium">Standard</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Senden</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="miles">meil.</string>
+    <string name="minutes">min.</string>
+    <string name="mon">Mo</string>
+    <string name="month">Monat</string>
+    <string name="monthly_average_step_counts">Schritte im Monat</string>
+    <string name="monthly_total">Monat gesamt</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Medienausgabe"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Geräte werden gesucht…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Mit Gerät verbinden"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Verbindung aufheben"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Geräte"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">Netzwerk verbunden werden soll.</string>
+    <string name="no_ad">Werbung</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn ist ein Schrittzähler, der Ihre Schritte verfolgt.\n\n 
+
+\u2605 Die eingebaute intelligente 3D-Bewegungserkennung filtert nur die Schritte aus allen anderen Bewegungen Ihres Smartphones heraus. StepOn zählt Ihre Schritte, egal ob Sie Ihr Smartphone in der Hosentasche, an Ihrem Gürtel oder in der Handtasche tragen.\n\n 
+
+\u2605 Werden Sie gesünder, in dem Sie sich ein Tagesziel setzen und Ihre Schritte mit StepOn genau überwachen.\n\n 
+
+\u2605 StepOn so einfach ist. Alles was Sie tun müssen, ist, drücken Sie die Start-Taste, wenn Sie zu Fuß starten.\n\n 
+
+\u2605 Key Features zählen:\n 
+
+\u2022 Tagesberichte: Schrittzahlen, Kilometer, Kalorien, Gehzeiten.\n
+\u2022 Diagramme: Tägliche, wöchentliche, monatliche und jährliche Schrittzahlen.\n
+\u2022 Die intelligente Schritterfassung beginnt die Schrittzählung nach 4-12 aufeinander folgenden Schritten, stoppt automatisch und startet wieder, sobald sie erneut losgehen.\n 
+\u2022 Facebook-Posting.\n 
+\u2022 Google Drive-Backup.\n 
+\u2022 Persönliche Einstellmöglichkeiten: Empfindlichkeit des Schrittzählers, metrische oder englische Maße, Schrittlängen, Körpergewicht, Tagesziel u.v.m.
+    
+</string>
+    <string name="notes_title">Hinweise</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Benachrichtigung</string>
+    <string name="nov">Nov</string>
+    <string name="operation_level_setting">Display an / aus</string>
+    <string name="operation_level_setting_details">Display an / aus</string>
+    <string name="operation_level_setting_title">Anzeigeeinstellungen</string>
+    <string name="permission_not_granted">Berechtigungen wurden nicht gewährt.</string>
+    <string name="personal_settings_title">Persönliche Einstellungen</string>
+    <string name="pounds">Pfund</string>
+    <string name="power_settings_title">Stromverbrauch</string>
+    <string name="power_usage_type_more_accurate">Genauere Schrittzahl</string>
+    <string name="power_usage_type_most_accurate">Genaueste Schrittzahl</string>
+    <string name="power_usage_type_power_balanced">Optimierter Verbrauch</string>
+    <string name="power_usage_type_power_least">Minimaler Stromverbrauch</string>
+    <string name="power_usage_type_power_less">Weniger Stromverbrauch</string>
+    <string name="power_usage_type_power_saving">Energiesparen</string>
+    <string name="power_usage_type_setting">Verbrauchseinstellungen</string>
+    <string name="power_usage_type_setting_details">Verbrauchseinstellungen</string>
+    <string name="power_usage_type_setting_title">Zwischen Stromsparen und Genauigkeit wählen</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">"? Es werden überhaupt keine Schritte mehr gezählt."</string>
+    <string name="q2">"? Es werden keine Schritte mehr gezählt, wenn das Display aus ist oder das Smartphone im Standby ist."</string>
+    <string name="q3">"? Was bedeutet die Einstellung Zähler aktiv nach … Schritten?"</string>
+    <string name="q4">"? Kann ich Schritt zählt bearbeiten?"</string>
+    <string name="q5">"? Was bedeutet Pause?"</string>
+    <string name="q6">"? Der Tagesbericht wird nicht gespeichert."</string>
+    <string name="q7">"? Wie messe ich meine Schrittlänge?"</string>
+    <string name="q8">"? Mein Problem ist hier nicht aufgelistet."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Beenden</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Um qualitativ hochwertige Apps zu entwickeln, ist viel Aufwand und Hilfe nötig. Bitte schreiben Sie eine positive Bewertung, wenn Sie mit StepOn zufrieden sind. Das wird uns antreiben, unsere Apps weiter zu verbessern. Vielen Dank!</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">Belohnung</string>
+    <string name="run_in_background">Display ausschalten</string>
+    <string name="run_length_setting">Schrittlänge beim Laufen</string>
+    <string name="run_length_setting_details">Schrittlänge beim Laufen</string>
+    <string name="run_length_setting_title">Schrittlänge beim Laufen eingeben:</string>
+    <string name="sat">Sa</string>
+    <string name="save">Speich.</string>
+    <string name="screen_skin_0">Blau / Dunkel</string>
+    <string name="screen_skin_1">Blau / Hell</string>
+    <string name="screen_skin_2">Orange / Hell</string>
+    <string name="screen_skin_type_setting">Thema Farbe</string>
+    <string name="screen_skin_type_setting_details">Thema Farbe</string>
+    <string name="screen_skin_type_setting_title">Thema auswählen Farbe</string>
+    <string name="send">Senden</string>
+    <string name="send_cvs">CSV-Datei senden</string>
+    <string name="sensitivity_setting">Empfindlichkeit</string>
+    <string name="sensitivity_setting_details">Empfindlichkeit</string>
+    <string name="sensitivity_setting_title">Empfindlichkeit einstellen</string>
+    <string name="sep">Sept</string>
+    <string name="settings">Einstellungen</string>
+    <string name="share">Teilen</string>
+    <string name="speed_type_average">Durchschnittliche Geschwindigkeit</string>
+    <string name="speed_type_realtime">Echtzeit-Geschwindigkeit</string>
+    <string name="speed_type_setting">Geschwindigkeit</string>
+    <string name="speed_type_setting_details">Geschwindigkeit</string>
+    <string name="speed_type_setting_title">Wählen Geschwindigkeit Format</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">Update-Status.</string>
+    <string name="step_length_setting">Schrittlänge beim Gehen</string>
+    <string name="step_length_setting_details">Schrittlänge beim Gehen</string>
+    <string name="step_length_setting_title">Schrittlänge beim Gehen eingeben:</string>
+    <string name="steps">Schrit.</string>
+    <string name="stop_dialog_nosave">Nicht speichern</string>
+    <string name="stop_dialog_save">Speichern</string>
+    <string name="success">Erfolg</string>
+    <string name="successfully_posted_post">Erfolgreich geschrieben.</string>
+    <string name="sun">So</string>
+    <string name="thu">Do</string>
+    <string name="toast_dbtransfered_message">Der Tagesbericht wurde von StepOn übertragen.</string>
+    <string name="toast_external_storage_not_available">Externer Speicher ist nicht verfügbar.</string>
+    <string name="toast_external_storage_not_writeable">Der externe Speicher ist nicht beschreibbar.</string>
+    <string name="toast_folder">Der StepOn-Ordner kann nicht erstellt werden.</string>
+    <string name="toast_folder_doesnot_exist">Der StepOn-Ordner fehlt.</string>
+    <string name="toast_need_sdcard">Zum Speichern und Senden von Berichten wird eine SD-Karte benötigt.</string>
+    <string name="toast_save">Im StepOn-Ordner gespeichert.</string>
+    <string name="trashcan">Mülleimer</string>
+    <string name="trial_expired">Cloud (Google Drive) Sicherung vorhanden ist in der Pro-Version.</string>
+    <string name="try_again">Bitte versuchen Sie es erneut!</string>
+    <string name="tue">Di</string>
+    <string name="units_imperial">Englisch: zoll, meile, pfund</string>
+    <string name="units_metric">Metrisch: cm, km, kg</string>
+    <string name="units_setting">Metrisch / Englisch</string>
+    <string name="units_setting_details">Metrisch / Englisch</string>
+    <string name="units_setting_title">Einheitensystem wählen</string>
+    <string name="very_high">Hoch empfindlich</string>
+    <string name="very_low">Am wenigsten empfindlich</string>
+    <string name="wait_for_data_transfer">Bitte warten Sie auf Datenbank-Transfer..</string>
+    <string name="wait_for_exporting_db">Exportieren Datenbank..</string>
+    <string name="wait_for_generating_csv">Schreiben CSV-Datei..</string>
+    <string name="wait_for_importing_db">Importieren Datenbank..</string>
+    <string name="wake_up">Display an erzwingen</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-de/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Mit Google einkaufen"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="wed">Mi</string>
+    <string name="week">Woche</string>
+    <string name="week_of">Woche vom</string>
+    <string name="week_type_american">Sonntag</string>
+    <string name="week_type_european">Montag</string>
+    <string name="week_type_setting">Erster Wochentag</string>
+    <string name="week_type_setting_details">Erster Wochentag</string>
+    <string name="week_type_setting_title">Wochenbeginn einstellen:</string>
+    <string name="weekly_total">Woche gesamt</string>
+    <string name="widget_calories">kcal</string>
+    <string name="widget_expired">Abgelaufen</string>
+    <string name="widget_paused">Pause..</string>
+    <string name="widget_skin_0">Standard</string>
+    <string name="widget_skin_1">Schwarz</string>
+    <string name="widget_skin_2">Blau</string>
+    <string name="widget_skin_3">Grün</string>
+    <string name="widget_skin_4">Orange</string>
+    <string name="widget_skin_5">Rosa</string>
+    <string name="widget_skin_6">Transparent</string>
+    <string name="widget_skin_type_setting">Widget-Farbe</string>
+    <string name="widget_skin_type_setting_details">Widget-Farbe</string>
+    <string name="widget_skin_type_setting_title">Widget-Hintergrundfarbe auswählen:</string>
+    <string name="widget_st">\u00A0sc</string>
+    <string name="widget_steps">Schr.</string>
+    <string name="year">Jahr</string>
+    <string name="yearly_total">Jahr gesamt</string>
+</resources>

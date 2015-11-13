@@ -1,0 +1,240 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/mywhite"
+    android:orientation="vertical">
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="1dp"
+		    android:background="@color/mylightgray"    
+		    android:layout_gravity="center"
+		    android:orientation="vertical" />
+    
+       <LinearLayout
+           	android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+    		android:background="@color/mywhite"
+           	android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/daily_percent_value"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="8dp"
+               android:text=""
+               android:textColor="@color/myblue"
+               android:textSize="@dimen/text_xlarge" />
+
+	       <ProgressBar
+	           android:id="@+id/trainprogressbar"
+	           style="?android:attr/progressBarStyleHorizontal"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="center"
+	           android:layout_marginLeft="8dp"
+	           android:layout_weight="1"
+	           android:max="100"
+	           android:maxHeight="4dp"
+	           android:minHeight="4dp"
+	           android:progress="0"
+	           android:progressDrawable="@drawable/blueprogress" />
+
+	       <LinearLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="center"
+	           android:background="@drawable/goal_arrow"
+	           android:layout_marginRight="8dp"
+	           android:orientation="vertical" />
+       
+	       <LinearLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="center"
+	           android:layout_marginBottom="1dp"
+	           android:background="@color/mygray"
+	           android:orientation="vertical" >
+	       
+	           <TextView
+	               android:id="@+id/daily_goal_txt"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_gravity="center"
+	               android:paddingLeft="12dp"
+	               android:paddingRight="12dp"
+	               android:paddingTop="8dp"
+	               android:text="@string/daily_goal_title"
+	               android:textColor="@color/mylightgray"
+	               android:textSize="@dimen/text_small" />
+	
+	           <TextView
+	               android:id="@+id/daily_goal_value"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_gravity="center"
+	               android:paddingBottom="8dp"
+	               android:paddingLeft="12dp"
+	               android:paddingRight="12dp"
+	               android:text=""
+	               android:textColor="@color/mylightgray"
+	               android:textSize="@dimen/text_small" />
+	
+	       </LinearLayout>
+           
+     </LinearLayout>
+    
+    <TextView
+        android:id="@+id/step_value"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@color/mylightgray"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textColor="@color/myblue"
+        android:textSize="@dimen/step_count" />
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:layout_marginTop="1dp"
+	    android:layout_marginBottom="1dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/mylightgray"
+            android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/calories_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="4dp"
+                        android:text=""
+                        android:textColor="@color/mydarkgray"
+                        android:textSize="@dimen/text_xxlarge" />
+
+                    <TextView
+                        android:id="@+id/calories_units"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="8dp"
+                        android:text="@string/calories_burned"
+                        android:textColor="@color/mydarkgray"
+                        android:textSize="@dimen/text_small" />
+                    
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/mylightgray"
+	        android:layout_marginRight="1dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/distance_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="4dp"
+                    android:text=""
+                    android:textColor="@color/mydarkgray"
+                    android:textSize="@dimen/text_xxlarge" />
+
+                <TextView
+                    android:id="@+id/distance_units"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:paddingBottom="8dp"
+                    android:text="@string/miles"
+                    android:textColor="@color/mydarkgray"
+                    android:textSize="@dimen/text_small" />
+
+            </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/mylightgray"
+            android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/steptime_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="4dp"
+                        android:text=""
+                        android:textColor="@color/mydarkgray"
+                        android:textSize="@dimen/text_xxlarge" />
+            
+            		<TextView
+            		    android:layout_width="wrap_content"
+            		    android:layout_height="wrap_content"
+            		    android:layout_gravity="center"
+            		    android:paddingBottom="8dp"
+            		    android:text="@string/hm"
+            		    android:textColor="@color/mydarkgray"
+            		    android:textSize="@dimen/text_small" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:background="@color/mylightgray"
+	    android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/chart_hourly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:padding="8dp"
+        android:background="@color/mygray">
+
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"            
+            android:stretchColumns="0,1,2,3,4,5" >
+
+            <TableRow
+                android:id="@+id/TableRow01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/layout-small/light_blue_fragment_statistics.xml -->

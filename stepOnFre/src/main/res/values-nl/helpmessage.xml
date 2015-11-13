@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">handleiding StepOn</string> 
+
+<string name="email_title">E-mail \u0026 Ondersteuning</string>
+<string name="email_message">\u2605 Stuur ons een email als u problemen, vragen of opmerkingen.</string>  
+<string name="review_message">\u2605 Veel inzet en steun is nodig om de kwaliteit Apps te ontwikkelen. Laat een positieve beoordeling als u tevreden bent met StepOn. Het zal moedigen ons aan om beter te Apps te ontwikkelen. Dank u.</string>
+<string name="notes_title">Opmerkingen</string>
+<string name="notes_message">
+\u2605 StepOn is een stappenteller die je stappen bijhoudt.\n\n 
+
+\u2605 Een intelligente 3D motion herkenning algoritme is ingebed om alleen looppatronen spoor door te filteren en uitwerpen uit niet-wandelen-activiteiten. StepOn telt je stappen, ongeacht waar je je telefoon als je zak, taille riem, of tas.\n\n 
+
+\u2605 StepOn is zo simpel. Het enige wat u hoeft te doen is druk op de startknop wanneer u begint te lopen.\n\n 
+
+\u2605 Gezond zijn door het opzetten van je dagelijkse doel en nauwkeurig monitoren van uw stappen met StepOn.\n\n 
+
+\u2605 De belangrijkste kenmerken zijn:\n 
+
+\u2022 Grafieken : dagelijks, wekelijks, maandelijks en jaarlijks stap telt\n 
+\u2022 Dagelijkse log geschiedenis : stap telt, verbrande calorieën, afstand en tijd\n 
+\u2022 Nauwkeurig stap telt met behulp van intelligente 3D motion tracking algoritmen\n 
+\u2022 Deel dagelijks een logboek op Facebook\n 
+\u2022 Google Drive backup\n 
+\u2022 Persoonlijke instellingen: dagelijkse doel, gevoeligheid, eenheid : metrisch / Engels, paslengte, gewicht, enz.
+</string>
+</resources>

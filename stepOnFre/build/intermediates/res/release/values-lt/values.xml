@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: Darbalaukyje ištrinkite programėlę  ir ją iš naujo atidarykite. Išbandykite. Jeigu ji vis tiek neveikia, vėl ištrinkite iš darbalaukio ir išjunkite, įjunkite telefoną. Pažiūrėkite ar veikia.</string>
+    <string name="a2">A: Kai kurie telefonai nepalaiko G-sensoriaus miego režime (kai ekranas išjungtas) dėl telefono gamintojų nustatymų. Tai nėra Accupedo klaida.</string>
+    <string name="a3">A: Žingsnių skaičiavimas prasideda po tam tikro  nuoseklių žingsnių skaičiaus. Pavyzdžiui, jeigu nustatėte 10 Nuoseklių žingsnių, tai tik nuėjus nesustojant 10 žingsnių, programa pradės skaičiavimą (įskaičius ir tuos 10 žingsnių). Jeigu nueisite mažiau nei 10 ir sustosite, programa neįskaičiuos tų žingsnių.</string>
+    <string name="a4">A: Eikite į istorijos lange. Nuspauskite ekraną redaguoti arba ištrinti žingsnis skaičiuoja kiekvieną dieną.</string>
+    <string name="a5">A: Sustabdymo režime (kai spalva yra mėlyna) programėlė neskaičiuoja žingsnių ir šis režimas visiškai nevartoja telefono energijos. Norėdami vėl pradėti skaičiuoti žingsnius, paspauskite Pratęsti.</string>
+    <string name="a6">A: Programėlė išsaugo visus buvusios dienos įrašus vidurnaktį. Neišjunkite tuo metu savo telefono.</string>
+    <string name="a7">A: Nuo pėdos piršto (kulno) iki kitos pėdos piršto (kulno).</string>
+    <string name="a8">A: Rašykite mums el. laiškus. Būtinai padėsime.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">Versija 1.2.5</string>
+    <string name="accupdeo_version_title">StepOn versija</string>
+    <string name="accupedo_settings_about">Apie StepOn</string>
+    <string name="accupedo_settings_information">Informacija</string>
+    <string name="activehours_setting">Veikimo valandos</string>
+    <string name="activehours_setting_details">Įj./Išj. Veikimo valandas. Norint sutaupyti energijos, ne veikimo valandų metu programa bus pristabdyta. Nustatykite veikimo pradž./pab. laiką.</string>
+    <string name="alert_daily_reset_message">Ar norite atstatyti dienos žingsnių skaičių?</string>
+    <string name="alert_delete_day_message">Ištrinti dienos įrašus?</string>
+    <string name="alert_delete_month_message">Ištrinti buvusius mėnesio įrašus?</string>
+    <string name="alert_history_update_version_401_message">+++ Dėmesio! +++\n Nuspauskite ekraną redaguoti arba ištrinti kasdien žingsnis skaičių. Arba spustelėkite ekraną, norėdami pamatyti išsamiai juosmens istoriją.</string>
+    <string name="alert_import_dropbox_message">StepOn duomenų bazės failas turi būti Dropbox. \n\n +++ Dėmesio! +++\n Importuotas failas bus pakeisti esamą duomenų bazę.</string>
+    <string name="alert_import_gdrive_message">StepOn duomenų bazės failas turi būti Google Drive. \n\n +++ Dėmesio! +++\n Importuotas failas bus pakeisti esamą duomenų bazę.</string>
+    <string name="alert_import_message">Duom. bazės failas (StepOn.db) turėtų būti SD kortelės StepOn aplanke. Dėmesio!!! Importuotas failas pakeis dabar esančią duom. bazę.</string>
+    <string name="alert_new_installation_message">Rastas StepOn buvusių įrašų failas. Ar norite importuoti?</string>
+    <string name="alert_next_lap_message">Ar norite pradėti naują ratą?</string>
+    <string name="alert_pause_message">Ar norite pristabdyti StepOn?</string>
+    <string name="alert_quit_message">Ar norite mesti StepOn?</string>
+    <string name="alert_resume_message">Ar norite pratęsti StepOn?</string>
+    <string name="alert_set_steps_message">Ar patvirtinate?</string>
+    <string name="automatic_backup">Automatinis išsaugoti</string>
+    <string name="automatic_backup_midnight_sdcard">Išsaugoti duomenų bazės failą į SD-kortele vidurnaktį. </string>
+    <string name="autopause_charging_setting">Automatinis sustabdymas</string>
+    <string name="autopause_charging_setting_details">Automatinis sustabdymas kraunant telefoną</string>
+    <string name="ave">Vid.</string>
+    <string name="backup">Duomenų kopija</string>
+    <string name="birthday">Gimimo diena</string>
+    <string name="body_height_setting_title">Įveskite savo ūgį</string>
+    <string name="body_weight_setting">Kūno masė</string>
+    <string name="body_weight_setting_details">Kūno masė</string>
+    <string name="body_weight_setting_title">Įveskite savo kūno masę</string>
+    <string name="button_email">El. paštas</string>
+    <string name="button_manual_steps">Patvirtinti</string>
+    <string name="button_review">Atsiliepimas</string>
+    <string name="buy_button">Pirkti Pro</string>
+    <string name="cancelled">Atšaukti</string>
+    <string name="chart">Diagrama</string>
+    <string name="chart_no_data">Nėra duomenų..</string>
+    <string name="chart_statistics">Statistika</string>
+    <string name="chart_wait">Palaukite kol apdorojama...</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-lt/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Programai reikalingas „Android Wear“ programos naujinys."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Ši programa veiks tik atnaujinus „Android Wear“ programą."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Atnaujinkite „Android Wear“"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Įgal. „Google Play“ paslaugas"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Ši programa neveiks, jei neįgalinsite „Google Play“ paslaugų."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Įgalinti „Google Play“ paslaugas"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Užklausą pateikė „<ns1:g id="APP_NAME">%1$s</ns1:g>“"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Gauti „Google Play“ paslaugų"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Ši programa neveiks be „Google Play“ paslaugų, kurios neįdiegtos telefone."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Ši programa neveiks be „Google Play“ paslaugų, kurios neįdiegtos planšetiniame kompiuteryje."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Gauti „Google Play“ paslaugų"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Nurodytos paskyros šiame įrenginyje nėra. Pasirinkite kitą paskyrą."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Netinkama paskyra"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Norint naudoti programą būtina įgalinti „Google Play“ paslaugas."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Norint prisijungti prie „Google Play“ paslaugų reikia duomenų ryšio."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Tinklo klaida"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Norint naudoti programą būtina įdiegti „Google Play“ paslaugas."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Norint naudoti programą būtina atnaujinti „Google Play“ paslaugas."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"„Google Play“ paslaugų klaida"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Klaida prisijungiant prie nurodytos paskyros. Pasirinkite kitą paskyrą."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Nepavyko prisijungti"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Nežinoma „Google Play“ paslaugų problema."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Jūsų įrenginys nepalaiko „Google Play“ paslaugų, kuriomis remiasi kai kurios programos. Jei reikia pagalbos, susisiekite su gamintoju."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"„Google Play“ paslaugos"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Atnaujinti"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Ši programa neveiks, jei neatnaujinsite „Google Play“ paslaugų."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Atnaujinti „Google Play“ paslaugas"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Atidaryti telefonu"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Prisij."</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Prisij. naud. „Google“"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Norint naudoti šią programą reikalinga viena ar kelios „Google Play“ paslaugos, kurios šiuo metu nepasiekiamos. Susisiekite su kūrėju, kad jums būtų suteikta pagalba."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Prisijunkite prie MFP</string>
+    <string name="consecutive_setting">Nuoseklieji žingsniai</string>
+    <string name="consecutive_setting_details">Nuoseklieji žingsniai</string>
+    <string name="consecutive_setting_title">Pirmų nuosekliųjų žingsnių skaičius</string>
+    <string name="daily_end_setting">Dienos pabaigos laikas</string>
+    <string name="daily_end_setting_details">Žingsnių skaičiavimas baigiasi</string>
+    <string name="daily_end_setting_title">Pasirinkite sustabdymo laiką</string>
+    <string name="daily_goal">Kasdienis tikslas</string>
+    <string name="daily_goal_title">Tikslas</string>
+    <string name="daily_start_setting">Dienos pradžios laikas</string>
+    <string name="daily_start_setting_details">Žingsnių skaičiavimas prasideda</string>
+    <string name="daily_start_setting_title">Pasirinkite paleidimo laiką</string>
+    <string name="daily_step_counts">Kasdienis žingsnių skaičius</string>
+    <string name="daily_steps">Dienos žng.</string>
+    <string name="database">Duomenų bazė</string>
+    <string name="day">Diena</string>
+    <string name="delete">Panaikinti</string>
+    <string name="dialog_no">Ne</string>
+    <string name="dialog_yes">Taip</string>
+    <string name="display_settings_title">Ekranas</string>
+    <string name="dropbox_downloading">Atsisiųsti ..</string>
+    <string name="dropbox_uploading">Siuntimas ..</string>
+    <string name="editsteps">Rdg. žings.</string>
+    <string name="email_file_subject">StepOn kasdieniai įrašai</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Susisiekite su mumis, jei turite problemų, klausimų ar komentarų.</string>
+    <string name="email_title">Susisiekite ir Palaikykite mus</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Žingsnių skaičius </string>
+    <string name="error">Klaida</string>
+    <string name="exercise_type_running">Bėgimas</string>
+    <string name="exercise_type_setting">Ėjimas, Bėgimas</string>
+    <string name="exercise_type_setting_details">Ėjimas, Bėgimas</string>
+    <string name="exercise_type_setting_title">Pasirinkite savo veiklą</string>
+    <string name="exercise_type_walking">Ėjimas</string>
+    <string name="export_success_message">Eksportuoti</string>
+    <string name="export_success_message2">Duomenų bazės failas bus perkeltas į StepOn aplankalą.</string>
+    <string name="export_to_sdcard">Duomenų bazės failas (StepOn.db) saugomas SD kortelės StepOn aplanke.</string>
+    <string name="faq">DUK</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">DUK</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Pasivaikščiojimas 1000 žingsnių per dieną!</string>
+    <string name="fb_updated">Facebook atnaujintas!</string>
+    <string name="fb_walk_report">StepOn dienos vaikščiojimo ataskaita</string>
+    <string name="fri">Pn</string>
+    <string name="gender">Lytis</string>
+    <string name="gender_female">Moteris</string>
+    <string name="gender_male">Patinas</string>
+    <string name="goal_achievement_notification">Dienos tikslas pasiekimas</string>
+    <string name="goal_achievement_notification_details">Pranešimą, kai tikslas pasiekiamas</string>
+    <string name="goal_reward_notification">Dienos tikslas atlygis</string>
+    <string name="goal_reward_notification_details">Kai dienos tikslas pasiektas ...</string>
+    <string name="goal_steps_setting">Tikslas</string>
+    <string name="goal_steps_setting_details">Tikslas</string>
+    <string name="goal_steps_setting_title">Įveskite siekiamą žingsnių skaičių per dieną</string>
+    <string name="google_drive_downloaded">Duomenų bazės failas (StepOn.db) atsisiųsti.</string>
+    <string name="google_drive_file_not_exist">Failas (StepOn.db) neegzistuoja.</string>
+    <string name="google_drive_uploaded">Duomenų bazės failas (StepOn.db) yra įkeltas.</string>
+    <string name="height">Ūgis</string>
+    <string name="help">Pagalba</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn Naudojimo Vadovas</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">laikas</string>
+    <string name="high">Jautresnis</string>
+    <string name="history">Istorija</string>
+    <string name="history_management_setting">Istorijos redagavimas</string>
+    <string name="hm">v:m</string>
+    <string name="hour">Valanda</string>
+    <string name="hourly_step_counts">Valandos žings. skaičius</string>
+    <string name="import_success_message">Importuoti</string>
+    <string name="inches">coliai</string>
+    <string name="jan">Saus.</string>
+    <string name="jul">Liep.</string>
+    <string name="keep_screen_on">Laikyti ekraną įjungtą</string>
+    <string name="lap">Ratas</string>
+    <string name="locale_0">Numatyta</string>
+    <string name="locale_1">Anglų</string>
+    <string name="locale_type_setting">Kalba</string>
+    <string name="locale_type_setting_details">Kalba</string>
+    <string name="locale_type_setting_title">Pasirinkite kalbą</string>
+    <string name="low">Mažiau jautrus</string>
+    <string name="mar">Kov.</string>
+    <string name="may">Geg.</string>
+    <string name="medium">Įprastas</string>
+    <string name="miles">mylia</string>
+    <string name="minutes">minutės</string>
+    <string name="mon">Pr</string>
+    <string name="month">Mėnesis</string>
+    <string name="monthly_average_step_counts">Vid. mėnesio žng. skaičius</string>
+    <string name="monthly_total">Viso mėnes.</string>
+    <string name="network_connection">Tinklas turėtų būti sujungti.</string>
+    <string name="no_ad">Reklama</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn yra žingsniamatis, kuri stebi jūsų veiksmus.\n\n
+
+\u2605 Su lengva skaityti diagramas ir istorija rąstų, stebėti savo veiksmus, sudegintas kalorijas, atstumą ir laiką. , Kaip Jūsų geriausias pėsčiomis bičiulių, StepOn bus motyvuoti jums daugiau vaikščioti! Nustatykite savo dienos tikslą ir žingsnis link sveikesnio jums su StepOn žingsnio tracker.\n\n
+
+\u2605 StepOn skaičiuoja savo veiksmus, nesvarbu, kur jūs įtraukėte savo telefoną kaip kišenėje, juosmens diržo ar maišelį. StepOn yra taip paprasta! Viskas, ką jums reikia padaryti, tai paspauskite paleidimo mygtuką, kai jums pradėti vaikščioti. Pasivaikščiojimas 10K žingsnius dieną ir StepOn link sveikesnio jums.\n\n
+
+\u2605 Pagrindinės funkcijos:\n
+
+\u2022 Grafikai: dienos, savaitės, mėnesio, ir kasmet žingsnis skaičius\n
+\u2022 Dienos žurnaluose: žingsnis skaičiuoja, sudegintas kalorijas, atstumas ir laikas\n
+\u2022 Tikslus žingsnis skaičiuoja, naudojant pažangiąsias 3D judesio sekimo algoritmai\n
+\u2022 Dalytis kasdien Prisijungti Facebook\n
+\u2022 Google Drive atsarginę kopiją\n
+\u2022 Asmeninės nustatymai: dienos tikslas, padidėjęs jautrumas, vieneto: metriniai / imperiniai, žingsnis ilgis, svoris, ir tt
+</string>
+    <string name="notes_title">Pastabos</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Pranešimas</string>
+    <string name="nov">Lapkr.</string>
+    <string name="ok">Gerai</string>
+    <string name="operation_level_setting">Įj./Išj. ekraną</string>
+    <string name="operation_level_setting_details">Įj./Išj. ekraną</string>
+    <string name="operation_level_setting_title">Pasirinkite ekrano įj./išj. nustatymą</string>
+    <string name="permission_not_granted">Ledimai nesuteikti</string>
+    <string name="personal_settings_title">Asmeniniai nust.</string>
+    <string name="pounds">svarai</string>
+    <string name="power_settings_title">Energijos vartojimas</string>
+    <string name="power_usage_type_more_accurate">Tikslesnis žingsnių skaičiavimas</string>
+    <string name="power_usage_type_most_accurate">Tiksliausias žingsnių skaičiavimas</string>
+    <string name="power_usage_type_power_balanced">Subalansuotas</string>
+    <string name="power_usage_type_power_least">Mažiausias energijos vartojimas</string>
+    <string name="power_usage_type_power_less">Mažesnis energijos vartojimas</string>
+    <string name="power_usage_type_power_saving">Energiją taupantis žingsnių skaičiavimas</string>
+    <string name="power_usage_type_setting">Energijos vartojimo režimas</string>
+    <string name="power_usage_type_setting_details">Energijos vartojimo režimas</string>
+    <string name="power_usage_type_setting_title">Pasirinkti tarp tikslesnio žingsnių skaičiavimo ir energijos taupymo</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">K: Programėlė neskaičiuoja žingsnių.</string>
+    <string name="q2">K: Programėlė neskaičiuoja žingsnių, kai jos ekranas išjungtas. (Standby režimas).</string>
+    <string name="q3">K: Kas yra "Nuoseklūs žingsniai" nustatymuose?</string>
+    <string name="q4">K: Ar galiu redaguoti žingsnis skaičiuoja?</string>
+    <string name="q5">K: Kas yra Sustabdymo režimas?</string>
+    <string name="q6">K: Dienos įrašai nėra išsaugomi.</string>
+    <string name="q7">K: Kaip matuoti žingsnio ilgį?</string>
+    <string name="q8">K: Mano problema neminima DUK.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Išeiti</string>
+    <string name="reset">Atstatyti</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Kokybiškoms programėlėms kurti reikalingos didžiulės pastangos ir palaikymas. Prašome palikti teigiamą atsiliepimą, jeigu esate patenkinti programėle StepOn. Tai paskatins mus kurti geresnes Programėles. Ačiū!</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">Apdovanojimas</string>
+    <string name="run_in_background">Laikyti ekraną išjungtą</string>
+    <string name="run_length_setting">Žingsnio nuotolis: Bėgimas</string>
+    <string name="run_length_setting_details">Žingsnio nuotolis: Bėgimas</string>
+    <string name="run_length_setting_title">Įveskite savo žingsnio nuotolį bėgimo režime</string>
+    <string name="sat">Š</string>
+    <string name="save">Išsaugoti</string>
+    <string name="screen_skin_0">Mėlyna / Tamsiai</string>
+    <string name="screen_skin_1">Mėlyna / Šviesa</string>
+    <string name="screen_skin_2">Oranžinė / Šviesa</string>
+    <string name="screen_skin_type_setting">Tema spalva</string>
+    <string name="screen_skin_type_setting_details">Tema spalva</string>
+    <string name="screen_skin_type_setting_title">Pasirinkite temą spalvą</string>
+    <string name="send">Išsiųsti</string>
+    <string name="send_cvs">Siųsti CSV failą el. paštu</string>
+    <string name="sensitivity_setting">Jautrumas</string>
+    <string name="sensitivity_setting_details">Jautrumas</string>
+    <string name="sensitivity_setting_title">Pasirinkite jautrumo lygį</string>
+    <string name="sep">Rugs.</string>
+    <string name="settings">Nustatymai</string>
+    <string name="share">Dalintis</string>
+    <string name="speed_type_average">Vidutinis greitis</string>
+    <string name="speed_type_realtime">Realaus laiko greitis</string>
+    <string name="speed_type_setting">Greitis</string>
+    <string name="speed_type_setting_details">Greitis</string>
+    <string name="speed_type_setting_title">Pasirinkite greičio formatą</string>
+    <string name="status_update">Atnaujinama būsena</string>
+    <string name="step_length_setting">Žingsnio nuotolis: Ėjimas</string>
+    <string name="step_length_setting_details">Žingsnio nuotolis: Ėjimas</string>
+    <string name="step_length_setting_title">Įveskite savo žingsnio nuotolį ėjimo režime</string>
+    <string name="steps">žings.</string>
+    <string name="stop_dialog_nosave">Negalima išsaugoti</string>
+    <string name="stop_dialog_save">Išsaugoti</string>
+    <string name="success">Atlikta</string>
+    <string name="successfully_posted_post">Sėkmingai paskelbta.</string>
+    <string name="sun">S</string>
+    <string name="thu">Kt</string>
+    <string name="toast_dbtransfered_message">Dienos įrašai buvo perkelti iš StepOn.</string>
+    <string name="toast_external_storage_not_available">Išorinė talpykla negalima.</string>
+    <string name="toast_external_storage_not_writeable">Išorinė talpykla neskirta įrašyti.</string>
+    <string name="toast_folder">Negaliu sukurti StepOn aplanko.</string>
+    <string name="toast_folder_doesnot_exist">StepOn aplankas neegzistuoja.</string>
+    <string name="toast_need_sdcard">Įrašų išsaugojimui ir siuntimui reikalinga SD kortelė.</string>
+    <string name="toast_save">Išsaugota StepOn aplanke.</string>
+    <string name="trashcan">Šiukšliadežė</string>
+    <string name="trial_expired">Cloud (Google Drive) atsarginės prieinama Pro versijoje.</string>
+    <string name="try_again">Bandykite dar kartą!</string>
+    <string name="tue">An</string>
+    <string name="units_imperial">Angliškoji: coliai, mylios, svarai</string>
+    <string name="units_metric">Metrinė: cm, km, kg</string>
+    <string name="units_setting">Metrinė/Angliškoji</string>
+    <string name="units_setting_details">Metrinė/Angliškoji</string>
+    <string name="units_setting_title">Pasirinkite savo matavimo vienetą</string>
+    <string name="very_high">Jautriausias</string>
+    <string name="very_low">Mažiausiai jautrus</string>
+    <string name="wait_for_data_transfer">Palaukite, perkeliama duomenų bazė..</string>
+    <string name="wait_for_exporting_db">Eksportuojama duom. bazė..</string>
+    <string name="wait_for_generating_csv">Kuriamas CSV failas..</string>
+    <string name="wait_for_importing_db">Importuojama duom. bazė..</string>
+    <string name="wake_up">Priversti įjungti ekraną</string>
+    <string name="wed">Tr</string>
+    <string name="week">Savaitė</string>
+    <string name="week_of">savaitė</string>
+    <string name="week_type_american">Sekmadienis</string>
+    <string name="week_type_european">Pirmadienis</string>
+    <string name="week_type_setting">Pirmoji savaitės diena</string>
+    <string name="week_type_setting_details">Pirmoji savaitės diena</string>
+    <string name="week_type_setting_title">Pasirinkite pirmą savaitės dieną savaitinei diagramai</string>
+    <string name="weekly_total">Visos savait.</string>
+    <string name="widget_paused">Pauzė..</string>
+    <string name="widget_quit">Išj.</string>
+    <string name="widget_reset">\u2605 Atstat. \u2605</string>
+    <string name="widget_skin_0">Numatyta</string>
+    <string name="widget_skin_1">Juoda</string>
+    <string name="widget_skin_2">Mėlyna</string>
+    <string name="widget_skin_3">Žalia</string>
+    <string name="widget_skin_4">Oranžinė</string>
+    <string name="widget_skin_5">Rožinė</string>
+    <string name="widget_skin_6">Permatoma</string>
+    <string name="widget_skin_type_setting">Prietaiso spalva</string>
+    <string name="widget_skin_type_setting_details">Prietaiso spalva</string>
+    <string name="widget_skin_type_setting_title">Pasirinkite prietaiso (widget) spalvą</string>
+    <string name="widget_st">\u00A0žng.</string>
+    <string name="widget_steps">žings.</string>
+    <string name="year">Metai</string>
+    <string name="yearly_total">Visų metų</string>
+</resources>

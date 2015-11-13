@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- When version & TE changes -->
+    <string name="widget_expired">Päättyä</string>
+    <string name="trial_expired">Cloud (Google Drive) varmuuskopio on käytettävissä Pro versiossa.</string>
+    <string name="accupedo_settings_about">Tietoja StepOn</string>
+    <string name="accupdeo_version_title">StepOn versio</string>
+    <string name="accupdeo_version_summery">Versio 1.2.5</string>
+
+    <!-- 123 -->
+    <string name="automatic_backup">Automaattinen varmuuskopiointi</string>
+    <string name="automatic_backup_midnight_sdcard">Säästä tietokantaan tiedosto vuonna SD-kortti keskiyöllä.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Kirjoita korkeus</string>
+    <string name="height">Korkeus</string>
+    <string name="birthday">Syntymäpäivä</string>
+    <string name="gender">Sukupuoli</string>
+    <string name="gender_female">Nainen</string>
+    <string name="gender_male">Mies</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Palkinto</string>
+    <string name="goal_reward_notification">Päivittäin tavoite palkita</string>
+    <string name="goal_reward_notification_details">Kun päivittäinen tavoite on saavutettu ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Tallentaa</string>
+    <string name="stop_dialog_nosave">Älä tallenna</string>
+    <string name="widget_steps">askel</string>
+    <string name="widget_reset">\u2605 Nollaa \u2605</string>
+    <string name="widget_paused">Tauko..</string>
+    <string name="steps">askel</string>
+    <string name="miles">mi.</string>
+    <string name="pounds">lbs</string>
+    <string name="minutes">min.</string>
+    <string name="hhmm">aika</string>
+    <string name="reset">Nollaa</string>
+    <string name="power_usage_type_setting">Virrankulutus tilassa</string>
+    <string name="power_usage_type_setting_details">Virrankulutus tilassa</string>
+    <string name="power_usage_type_setting_title">alitse tarkka vaihe laskea tai virransäästö</string>
+    <string name="power_usage_type_most_accurate">tarkin askel luottaa</string>
+    <string name="power_usage_type_power_balanced">tasapainoinen</string>
+    <string name="power_usage_type_power_saving">virransäästö askel luottaa</string>
+    <string name="settings">Asetukset</string>
+    <string name="accupedo_settings_information">Tiedot</string>
+    <string name="sensitivity_setting">Herkkyys</string>
+    <string name="sensitivity_setting_details">Herkkyys</string>
+    <string name="sensitivity_setting_title">Valitse herkkyystaso</string>
+    <string name="consecutive_setting">Peräkkäisen askel</string>
+    <string name="consecutive_setting_details">Peräkkäisen askel</string>
+    <string name="consecutive_setting_title">Alkuperäinen peräkkäiset askel</string>
+    <string name="very_high">erittäin herkkä</string>
+    <string name="high">herkempiä</string>
+    <string name="medium">standardi</string>
+    <string name="low">vähemmän herkkä</string>
+    <string name="very_low">vähiten herkkä</string>
+    <string name="units_setting">Metrinen / Englanti</string>
+    <string name="units_setting_details">Metrinen / Englanti</string>
+    <string name="units_setting_title">Valitse yksikkö</string>
+    <string name="units_metric">Metrinen: cm, km, kg</string>
+    <string name="units_imperial">Englanti: in, mi., lbs</string>
+    <string name="body_weight_setting">Ruumiinpaino</string>
+    <string name="body_weight_setting_details">Ruumiinpaino</string>
+    <string name="body_weight_setting_title">Tyyppi ruumiinpaino</string>
+    <string name="goal_steps_setting">Tavoitteena askel</string>
+    <string name="goal_steps_setting_details">Tavoitteena askel</string>
+    <string name="goal_steps_setting_title">Tyyppi päivittäinen tavoite askel</string>
+    <string name="exercise_type_setting">Kävely / Juokseva</string>
+    <string name="exercise_type_setting_details">Kävely / Juokseva</string>
+    <string name="exercise_type_setting_title">Valitse toiminta</string>
+    <string name="exercise_type_running">Juokseva</string>
+    <string name="exercise_type_walking">Kävely</string>
+    <string name="week_type_setting">Ensimmäinen viikonpäivä</string>
+    <string name="week_type_setting_details">Ensimmäinen viikonpäivä</string>
+    <string name="week_type_setting_title">Valitse viikko muodossa viikoittain kaavio</string>
+    <string name="week_type_american">Sunnuntai</string>
+    <string name="week_type_european">Maanantai</string>
+    <string name="help">Apua</string>
+    <string name="save">Säästä</string>
+    <string name="day">Päivä</string>
+    <string name="week">Viikko</string>
+    <string name="month">Kuuka.</string>
+    <string name="year">Vuosi</string>
+    <string name="chart">Kaavio</string>
+    <string name="chart_wait">Odota käsittely..</string>
+    <string name="chart_no_data">Ei tietoja..</string>
+    <string name="button_email">Email</string>
+    <string name="button_review">Tarkastelu</string>
+    <string name="dialog_yes">Kyllä</string>
+    <string name="dialog_no">Ei</string>
+    <string name="alert_pause_message">Haluatko tauon StepOn\u003F</string>
+    <string name="alert_resume_message">Haluatko käynnistää StepOn\u003F</string>
+    <string name="toast_save">Tallennetaan StepOn kansioon</string>
+    <string name="toast_folder">Ei voi luoda StepOn kansio</string>
+    <string name="toast_external_storage_not_writeable">Ulkoinen tallennus ei voi kirjoittaa.</string>
+    <string name="toast_external_storage_not_available">Ulkoinen tallennus ei ole saatavilla.</string>
+    <string name="history">Historia</string>
+    <string name="cal">kcal</string>
+    <string name="daily_steps">Päivittäin askel</string>
+    <string name="daily_goal">Päivittäinen tavoite</string>
+    <string name="hourly_step_counts">Tunnin askel laskee</string>
+    <string name="hour">Tunti</string>
+    <string name="weekly_total">Viik. viest.</string>
+    <string name="ave">kes.</string>
+    <string name="daily_step_counts">Päivittäin askel conunts</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Man</string>
+    <string name="tue">Tii</string>
+    <string name="wed">Kes</string>
+    <string name="thu">Tor</string>
+    <string name="fri">Per</string>
+    <string name="sat">Lau</string>
+    <string name="monthly_total">Kuuka. viest.</string>
+    <string name="yearly_total">Vuosi viest.</string>
+    <string name="monthly_average_step_counts">Kuuka. kes. askel laskee</string>
+    <string name="jan">Tam</string>
+    <string name="mar">Maa</string>
+    <string name="may">Tou</string>
+    <string name="jul">Hei</string>
+    <string name="sep">Syy</string>
+    <string name="nov">Mar</string>
+    <string name="week_of">Viikolla</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Aktiivinen tuntia</string>
+    <string name="activehours_setting_details">Päälle / pois aktiivista tuntia. Ei aktiiviset
+		tuntia on Taukotilassa virransäästöä. Kun tämä on valittuna, asettaa
+		päivittäiset alku / loppu ajan alle myös.</string>
+    <string name="daily_start_setting">Päivittäinen alkamisaika</string>
+    <string name="daily_start_setting_details">Askel laskenta alkaa</string>
+    <string name="daily_start_setting_title">Valitse aloitusaika</string>
+    <string name="daily_end_setting">Päivittäinen päättymisaika</string>
+    <string name="daily_end_setting_details">Askel laskenta pysähtyy</string>
+    <string name="daily_end_setting_title">Valitse päättymisaika</string>
+    <string name="power_settings_title">Tehonkulutus</string>
+    <string name="personal_settings_title">Henkilökohtaiset asetukset</string>
+    <string name="daily_goal_title">Tavoite</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Päivittäinen log historia siirrettiin StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widget ihonvärin</string>
+    <string name="widget_skin_type_setting_details">Widget ihonvärin</string>
+    <string name="widget_skin_type_setting_title">Valitse widget ihonvärin</string>
+    <string name="widget_skin_0">oletusarvo</string>
+    <string name="widget_skin_1">musta</string>
+    <string name="widget_skin_2">sininen</string>
+    <string name="widget_skin_3">vihreä</string>
+    <string name="widget_skin_4">oranssi</string>
+    <string name="widget_skin_5">vaaleanpunainen</string>
+    <string name="display_settings_title">Näyttöasetukset</string>
+    <string name="operation_level_setting">Näyttö päälle / pois</string>
+    <string name="operation_level_setting_details">Näyttö päälle / pois</string>
+    <string name="operation_level_setting_title">Valita näytön päälle / pois</string>
+    <string name="run_in_background">pitää näyttö pois</string>
+    <string name="keep_screen_on">pitää näytön</string>
+    <string name="wake_up">voimakkaasti näyttö</string>
+    <string name="send">Lähetä</string>
+    <string name="email_file_subject">StepOn päivittäin lokit</string>
+    <string name="toast_need_sdcard">Vaadi SD kortti tallentaa ja lähettää päivittäin lokit.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">ccupedo \u0022StepOn.db\u0022 tiedoston pitäisi
+		olla StepOn kansioon SD-kortille. \n\n +++ Huomio! +++\n Tuotu tiedosto korvaa
+		olemassa olevaan tietokantaan.</string>
+    <string name="import_success_message">Tuoda</string>
+    <string name="export_success_message">Vienti</string>
+    <string name="toast_folder_doesnot_exist">StepOn kansiota ei ole.</string>
+    <string name="run_length_setting">Vaihe etäisyys: juokseva</string>
+    <string name="run_length_setting_details">Vaihe etäisyys: juokseva</string>
+    <string name="run_length_setting_title">Tyyppi askel etäisyys: juokseva</string>
+    <string name="step_length_setting">Vaihe etäisyys: Kävely</string>
+    <string name="step_length_setting_details">Vaihe etäisyys: Kävely</string>
+    <string name="step_length_setting_title">Tyyppi askel etäisyys: Kävely</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Kieli</string>
+    <string name="locale_type_setting_details">Kieli</string>
+    <string name="locale_type_setting_title">Valitse kieli</string>
+    <string name="locale_0">oletusarvo</string>
+    <string name="locale_1">englanti</string>
+    <string name="buy_button">Osta</string>
+    <string name="widget_st">\u00A0as</string>
+    <string name="widget_skin_6">läpinäkyvä</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook päivitetty!</string>
+    <string name="fb_walk_report">StepOn päivittäin kävellä raportti</string>
+    <string name="fb_lets_walk">Kävele 10000 askelta päivässä!</string>
+    <string name="send_cvs">Lähetä CVS-tiedoston</string>
+    <string name="share">Osuus</string>
+    <string name="export_success_message2">Tietokanta tiedosto \u0022StepOn.db\u0022 viedään StepOn kansioon.</string>
+    <string name="export_limit_te">Tietokanta import / export-toiminnot ovat vain StepOn-Pro.</string>
+    <string name="import_limit_te">Tietokanta import / export-toiminnot ovat vain StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Tarkempi askelmäärän</string>
+    <string name="power_usage_type_power_less">Pienempi virrankulutus</string>
+    <string name="power_usage_type_power_least">Minimi virrankulutus</string>
+    <string name="history_management_setting">Historia hallinta</string>
+    <string name="autopause_charging_setting">Automaattinen tauko</string>
+    <string name="autopause_charging_setting_details">Automaattinen tauon teho latauksen</string>
+    <string name="wait_for_data_transfer">Odota tietokannan siirto ..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Matka</string>
+    <string name="trashcan">jäteastia</string>
+    <string name="editsteps">Muokkaa askel</string>
+    <string name="alert_delete_month_message">Poista kuukausittain historiaa?</string>
+    <string name="alert_delete_day_message">Poista päivittäinen historia?</string>
+    <string name="alert_next_lap_message">Haluatko aloittaa seuraavan matkan?</string>
+    <string name="enter_manual_steps">Askelmäärän</string>
+    <string name="button_manual_steps">Vahvistaa</string>
+    <string name="alert_set_steps_message">Oletteko vahvistaa?</string>
+    <string name="chart_statistics">Tilasto</string>
+    <string name="wait_for_generating_csv">Kirjoittaminen CSV-tiedosto..</string>
+    <string name="wait_for_exporting_db">Vieminen tietokantaan ..</string>
+    <string name="wait_for_importing_db">Tuominen tietokantaan ..</string>
+    <string name="export_to_sdcard">Tietokantatiedosto (StepOn.db) tallennetaan StepOn kansio SD-kortin.</string>
+    <string name="backup">Varmuuskopiointi</string>
+    <string name="cancelled">Peruuttaa</string>
+    <string name="permission_not_granted">Permissions ei myönnetty.</string>
+    <string name="error">Virhe</string>
+    <string name="status_update">Päivittäminen tila.</string>
+    <string name="success">menestys</string>
+    <string name="successfully_posted_post">Onnistuneesti lähetettyjen.</string>
+    <string name="alert_new_installation_message">StepOn päivittäin historiasta löytyi. Haluatko tuoda?</string>
+    <string name="quit">Poistua</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Haluatko palauttaa päivittäin askelmäärä?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Tietokanta tiedosto (StepOn.db) on ladattu.</string>
+    <string name="google_drive_downloaded">Tietokanta tiedosto (StepOn.db) on ladattu.</string>
+    <string name="google_drive_file_not_exist">Tiedosto (StepOn.db) ei ole olemassa.</string>
+    <string name="dropbox_uploading">Lataaminen ..</string>
+    <string name="dropbox_downloading">Lataaminen ..</string>
+    <string name="notification_settings_title">Notification</string>
+    <string name="goal_achievement_notification">Daily tavoitteen saavuttamiseksi</string>
+    <string name="goal_achievement_notification_details">Ilmoituksen, kun tavoite on saavutettu</string>
+    <string name="speed_type_setting">Nopeus</string>
+    <string name="speed_type_setting_details">Nopeus</string>
+    <string name="speed_type_setting_title">Valitse nopeusyksikköä</string>
+    <string name="speed_type_average">Keskinopeus</string>
+    <string name="speed_type_realtime">Reaaliaikainen nopeus</string>
+    <string name="alert_import_gdrive_message">StepOn tietokanta tiedosto pitäisi olla Google Drive. \n\n +++ Huomio! +++\n Tuotu tiedosto korvaa olemassa olevaan tietokantaan.</string>
+    <string name="alert_import_dropbox_message">StepOn tietokanta tiedosto on Dropbox. \n\n +++ Huomio! +++\n Tuotu tiedosto korvaa olemassa olevaan tietokantaan.</string>
+    <string name="try_again">Ole hyvä ja yritä uudelleen!</string>
+    <string name="network_connection">Verkko tulee kytkeä.</string>
+    <string name="delete">Poistaa</string>
+    <string name="alert_history_update_version_401_message">+++ Huomio! +++\n Paina näytön muokata tai poistaa päivittäin vaihe lasketaan. Tai napsauta näytön nähdä yksityiskohtia kierros historiaa.</string>
+    <string name="connect_to_mfp">Yhdistä MFP</string>
+    <string name="screen_skin_type_setting">Teeman väri</string>
+    <string name="screen_skin_type_setting_details">Teeman väri</string>
+    <string name="screen_skin_type_setting_title">Valitse teema väri</string>
+    <string name="screen_skin_0">Sininen / Tumma</string>
+    <string name="screen_skin_1">Sininen / Valo</string>
+    <string name="screen_skin_2">Oranssi / Valo</string>
+    <string name="no_ad">Mainos</string>
+
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- When version & TE changes -->
+    <string name="trial_expired">Cloud dự phòng có sẵn trong phiên bản Pro.</string>
+    <string name="accupedo_settings_about">Về StepOn</string>
+    <string name="accupdeo_version_title">Phiên bản StepOn</string>
+    <string name="accupdeo_version_summery">Phiên bản 1.2.5</string>
+
+    <!-- V123 -->
+    <string name="automatic_backup">Dự phòng tự động</string>
+    <string name="automatic_backup_midnight_sdcard">Lưu một tập tin cơ sở dữ liệu trong SDcard vào lúc nửa đêm.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Nhập chiều cao của bạn</string>
+    <string name="height">cao</string>
+    <string name="birthday">sinh nhật</string>
+    <string name="gender">giới tính</string>
+    <string name="gender_female">nữ</string>
+    <string name="gender_male">nam</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">thưởng</string>
+    <string name="goal_reward_notification">Phần thưởng mục tiêu hàng ngày</string>
+    <string name="goal_reward_notification_details">Khi mục tiêu hàng ngày được thực hiện ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Lưu</string>
+    <string name="stop_dialog_nosave">Không lưu</string>
+    <string name="widget_steps">bước</string>
+    <string name="widget_reset">\u2605Cài đặt lại\u2605</string>
+    <string name="widget_paused">Dừng...</string>
+    <string name="steps">bước</string>
+    <string name="miles">dặm</string>
+    <string name="inches">inch</string>
+    <string name="minutes">phút</string>
+    <string name="min">ph</string>
+    <string name="hhmm">thời gian</string>
+    <string name="hm">h:m</string>
+    <string name="reset">Cài đặt lại</string>
+    <string name="power_usage_type_setting">Chế độ dùng pin</string>
+    <string name="power_usage_type_setting_details">Chế độ dùng pin</string>
+    <string name="power_usage_type_setting_title">Chọn số bước đếm chính xác và tiết kiệm pin</string>
+    <string name="power_usage_type_most_accurate">Đếm bước chính xác nhất</string>
+    <string name="power_usage_type_power_balanced">Cân bằng</string>
+    <string name="power_usage_type_power_saving">Đếm bước tiết kiệm pin</string>
+    <string name="settings">Cài đặt</string>
+    <string name="accupedo_settings_information">Thông tin</string>
+    <string name="sensitivity_setting">Nhạy cảm</string>
+    <string name="sensitivity_setting_details">Nhạy cảm</string>
+    <string name="sensitivity_setting_title">Chọn mức độ nhạy cảm</string>
+    <string name="consecutive_setting">Liên tiếp</string>
+    <string name="consecutive_setting_details">Liên tiếp</string>
+    <string name="consecutive_setting_title">Các bước liên tiếp đầu tiên</string>
+    <string name="very_high">Nhạy cảm nhất</string>
+    <string name="high">Nhạy cảm hơn</string>
+    <string name="medium">Chuẩn</string>
+    <string name="low">Ít nhạy cảm hơn</string>
+    <string name="very_low">Ít nhạy cảm nhất</string>
+    <string name="units_setting">Đo lường/Đơn vị Anh</string>
+    <string name="units_setting_details">Đo lường/Đơn vị Anh</string>
+    <string name="units_setting_title">Chọn đơn vị</string>
+    <string name="units_metric">Đo lường: cm, km, kg</string>
+    <string name="units_imperial">Đơn vị Anh: in, dặm, pound</string>
+    <string name="body_weight_setting">Trọng lượng</string>
+    <string name="body_weight_setting_details">Trọng lượng</string>
+    <string name="body_weight_setting_title">Nhập trọng lượng cơ thể</string>
+    <string name="goal_steps_setting">Các bước mục tiêu</string>
+    <string name="goal_steps_setting_details">Các bước mục tiêu</string>
+    <string name="goal_steps_setting_title">Nhập các bước mục tiêu hàng ngày</string>
+    <string name="exercise_type_setting">Đi bộ/Chạy bộ</string>
+    <string name="exercise_type_setting_details">Đi bộ/Chạy bộ</string>
+    <string name="exercise_type_setting_title">Chọn hoạt động</string>
+    <string name="exercise_type_running">Chạy bộ</string>
+    <string name="exercise_type_walking">Đi bộ</string>
+    <string name="week_type_setting">Ngày đầu tuần</string>
+    <string name="week_type_setting_details">Ngày đầu tuần</string>
+    <string name="week_type_setting_title">Chọn định dạng cho biểu đồ tuần</string>
+    <string name="week_type_american">Chủ nhật</string>
+    <string name="week_type_european">Thứ hai</string>
+    <string name="help">Trợ giúp</string>
+    <string name="save">Lưu</string>
+    <string name="day">Ngày</string>
+    <string name="week">Tuần</string>
+    <string name="month">Tháng</string>
+    <string name="year">Năm</string>
+    <string name="chart">Biểu đồ</string>
+    <string name="chart_wait">Chờ xử lý ...</string>
+    <string name="chart_no_data">Không có dữ liệu sẵn ...</string>
+    <string name="button_email">Email</string>
+    <string name="button_review">Phản hồi</string>
+    <string name="dialog_yes">Có</string>
+    <string name="dialog_no">Không</string>
+    <string name="alert_pause_message">Bạn có muốn dừng StepOn?</string>
+    <string name="alert_resume_message">Bạn có muốn tiếp tục StepOn?</string>
+    <string name="toast_save">Lưu trong thư mục StepOn.</string>
+    <string name="toast_folder">Không thể tạo thư mục StepOn.</string>
+    <string name="toast_external_storage_not_writeable">Lưu bộ nhớ ngoài không thể chỉnh sửa.</string>
+    <string name="toast_external_storage_not_available">Lưu bộ nhớ ngoài không có sẵn.</string>
+    <string name="history">Lịch sử</string>
+    <string name="faq">Hỏi đáp</string>
+    <string name="cal">kcal</string>
+    <string name="daily_steps">Bước hàng ngày</string>
+    <string name="daily_goal">Mục tiêu hàng ngày</string>
+    <string name="hourly_step_counts">Đếm bước theo giờ</string>
+    <string name="hour">Giờ</string>
+    <string name="weekly_total">Tổng hàng tuần</string>
+    <string name="ave">TB</string>
+    <string name="daily_step_counts">Đếm bước hàng ngày</string>
+    <string name="sun">CN</string>
+    <string name="mon">T2</string>
+    <string name="tue">T3</string>
+    <string name="wed">T4</string>
+    <string name="thu">T5</string>
+    <string name="fri">T6</string>
+    <string name="sat">T7</string>
+    <string name="monthly_total">Tổng tháng</string>
+    <string name="yearly_total">Tổng năm</string>
+    <string name="monthly_average_step_counts">Đếm bước trung bình tháng</string>
+    <string name="jan">Th 1</string>
+    <string name="mar">Th 3</string>
+    <string name="may">Th 5</string>
+    <string name="jul">Th 7</string>
+    <string name="sep">Th 9</string>
+    <string name="nov">Th 11</string>
+    <string name="week_of">Tuần</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Giờ hoạt động</string>
+    <string name="activehours_setting_details">Bật/tắt giờ hoạt động. Thiết bị sẽ được chuyển sang chế độ dừng khi không hoạt động để tiết kiệm pin. Cài đặt thời gian bắt đầu/kết thúc hàng ngày.</string>
+    <string name="daily_start_setting">Thời gian khởi động hàng ngày</string>
+    <string name="daily_start_setting_details">Bắt đầu đếm bước</string>
+    <string name="daily_start_setting_title">Chọn thời gian bắt đầu</string>
+    <string name="daily_end_setting">Thời gian kết thúc hàng ngày</string>
+    <string name="daily_end_setting_details">Dừng đếm bước</string>
+    <string name="daily_end_setting_title">Chọn thời gian kết thúc</string>
+    <string name="power_settings_title">Dùng pin</string>
+    <string name="personal_settings_title">Cá nhân</string>
+    <string name="daily_goal_title">Mục tiêu</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Lịch sử hàng ngày được chuyển từ StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Màu Widget</string>
+    <string name="widget_skin_type_setting_details">Màu Widget</string>
+    <string name="widget_skin_type_setting_title">Chọn màu Widget</string>
+    <string name="widget_skin_0">Mặc định</string>
+    <string name="widget_skin_1">Đen</string>
+    <string name="widget_skin_2">Xanh dương</string>
+    <string name="widget_skin_3">Xanh lá</string>
+    <string name="widget_skin_4">Cam</string>
+    <string name="widget_skin_5">Hồng</string>
+    <string name="display_settings_title">Hiện</string>
+    <string name="operation_level_setting">Bật/tắt màn hình </string>
+    <string name="operation_level_setting_details">Bật/tắt màn hình </string>
+    <string name="operation_level_setting_title">Chọn bật/tắt màn hình </string>
+    <string name="run_in_background">Tắt màn hình</string>
+    <string name="keep_screen_on">Bật màn hình</string>
+    <string name="wake_up">Buộc màn hình mở</string>
+    <string name="send">Gửi</string>
+    <string name="email_file_subject">Nhật ký StepOn</string>
+    <string name="toast_need_sdcard">Cần một thẻ SD để lưu và gửi các bảng theo dõi.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">Tập tin cơ sở dữ liệu (StepOn.db) phải ở trong thư mục StepOn của thẻ SD. Chú ý! Các tập tin nhập vào sẽ thay thế các cơ sở dữ liệu hiện có.</string>
+    <string name="import_success_message">Nhập</string>
+    <string name="export_success_message">Xuất</string>
+    <string name="toast_folder_doesnot_exist">Thư mục StepOn không tồn tại.</string>
+    <string name="run_length_setting">Khoảng cách bước: Chạy</string>
+    <string name="run_length_setting_details">Khoảng cách bước: Chạy</string>
+    <string name="run_length_setting_title">Nhập khoảng cách bước: Chạy</string>
+    <string name="step_length_setting">Khoảng cách bước: Đi bộ</string>
+    <string name="step_length_setting_details">Khoảng cách bước: Đi bộ</string>
+    <string name="step_length_setting_title">Nhập khoảng cách bước: Đi bộ</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Ngôn ngữ</string>
+    <string name="locale_type_setting_details">Ngôn ngữ</string>
+    <string name="locale_type_setting_title">Chọn ngôn ngữ</string>
+    <string name="locale_0">Mặc định</string>
+    <string name="locale_1">Tiếng Anh</string>
+    <string name="buy_button">Mua Pro</string>
+    <string name="widget_st">\u00A0bước</string>
+    <string name="widget_mi">\u00A0dặm</string>
+    <string name="widget_skin_6">Trong suốt</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Đã cập nhật Facebook!</string>
+    <string name="fb_walk_report">Báo cáo hàng ngày của StepOn </string>
+    <string name="fb_lets_walk">Walk 10000 steps a day!</string>
+    <string name="database">Cơ sở dữ liệu</string>
+    <string name="send_cvs">Gửi tập tin CSV</string>
+    <string name="share">Chia sẻ</string>
+    <string name="export_success_message2">Tập tin cơ sở dữ liệu sẽ được xuất sang thư mục StepOn.</string>
+    <string name="export_limit_te">Chức năng cơ sở dữ liệu nhập khẩu / xuất khẩu chỉ dành cho phiên bản Pro.</string>
+    <string name="import_limit_te">Chức năng cơ sở dữ liệu nhập khẩu / xuất khẩu chỉ dành cho phiên bản Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Đếm bước chính xác hơn</string>
+    <string name="power_usage_type_power_less">Ít tiêu thụ pin hơn</string>
+    <string name="power_usage_type_power_least">Ít tiêu thụ pin nhất</string>
+    <string name="history_management_setting">Quản lý lịch sử</string>
+    <string name="autopause_charging_setting">Tự động dừng</string>
+    <string name="autopause_charging_setting_details">Tự động dừng khi sạc pin</string>
+    <string name="wait_for_data_transfer">Vui lòng chờ chuyển cơ sở dữ liệu...</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Vòng</string>
+    <string name="trashcan">Thùng rác</string>
+    <string name="editsteps">Chỉnh các bước</string>
+    <string name="alert_delete_month_message">Xóa lịch sử tháng?</string>
+    <string name="alert_delete_day_message">Xóa lịch sử ngày?</string>
+    <string name="alert_next_lap_message">Bạn có muốn bắt đầu một vòng tiếp theo?</string>
+    <string name="enter_manual_steps">Đếm bước</string>
+    <string name="button_manual_steps">OK</string>
+    <string name="alert_set_steps_message">Bạn có chắc chắn?</string>
+    <string name="chart_statistics">Thống kê</string>
+    <string name="wait_for_generating_csv">Đang viết tập tin CSV…</string>
+    <string name="wait_for_exporting_db">Xuất dữ liệu…</string>
+    <string name="wait_for_importing_db">Nhập dữ liệu…</string>
+    <string name="export_to_sdcard">Tập dữ liệu (StepOn.db) được lưu trữ tại thư mục StepOn của Thẻ SD.</string>
+    <string name="backup">Dự phòng</string>
+    <string name="cancelled">Hủy</string>
+    <string name="permission_not_granted">Không được cấp phép.</string>
+    <string name="error">Lỗi</string>
+    <string name="status_update">Đang cập nhật trạng thái</string>
+    <string name="success">Thành công</string>
+    <string name="successfully_posted_post">Đăng thành công.</string>
+    <string name="alert_new_installation_message">Tập tin lịch sử ngày của StepOn đã được tìm thấy. Bạn có muốn nhập vào?</string>
+    <string name="quit">Thoát</string>
+    <string name="alert_quit_message">Bạn có muốn thoát StepOn?</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Bạn có muốn cài đặt lại các bước đếm hàng ngày?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="sdcard">Thẻ SD</string>
+    <string name="google_drive_uploaded">Tập tin cơ sở dữ liệu (StepOn.db) được tải lên.</string>
+    <string name="google_drive_downloaded">Tập tin cơ sở dữ liệu (StepOn.db) được tải về.</string>
+    <string name="google_drive_file_not_exist">Tập tin (StepOn.db) không tồn tại.</string>
+    <string name="dropbox_uploading">Đang tải lên...</string>
+    <string name="dropbox_downloading">Đang tải về...</string>
+    <string name="notification_settings_title">Thông báo</string>
+    <string name="goal_achievement_notification">Thông báo hoàn thành mục tiêu</string>
+    <string name="goal_achievement_notification_details">Thông báo khi đạt mục tiêu</string>
+    <string name="speed_type_setting">Hiện tốc độ</string>
+    <string name="speed_type_setting_details">Hiện tốc độ</string>
+    <string name="speed_type_setting_title">Chọn hiển thị tốc độ</string>
+    <string name="speed_type_average">Tốc độ trung bình</string>
+    <string name="speed_type_realtime">Tốc độ thời gian thực</string>
+    <string name="alert_import_gdrive_message">StepOn tập tin cơ sở dữ liệu phải được tồn tại trong Google Drive. \n\n +++ Chú ý! +++ \n Các tập tin nhập khẩu sẽ thay thế cơ sở dữ liệu hiện hành.</string>
+    <string name="alert_import_dropbox_message">StepOn tập tin cơ sở dữ liệu phải được tồn tại trong Dropbox. \n\n +++ Chú ý! +++ \n Các tập tin nhập khẩu sẽ thay thế cơ sở dữ liệu hiện hành.</string>
+    <string name="try_again">Vui lòng thử lại!</string>
+    <string name="network_connection">Mạng sẽ được kết nối.</string>
+    <string name="delete">Xóa</string>
+    <string name="alert_history_update_version_401_message">+++ sự chú ý! +++\n Ấn xuống màn hình để chỉnh sửa hoặc xóa số lượng bước hàng ngày. Hoặc, nhấp vào màn hình để xem chi tiết lịch sử lòng.</string>
+    <string name="connect_to_mfp">Kết nối với MFP</string>
+    <string name="screen_skin_type_setting">Chủ đề màu sắc</string>
+    <string name="screen_skin_type_setting_details">Chủ đề màu sắc</string>
+    <string name="screen_skin_type_setting_title">Chọn màu sắc chủ đề</string>
+    <string name="screen_skin_0">Xanh / đen</string>
+    <string name="screen_skin_1">Xanh / Ánh sáng</string>
+    <string name="screen_skin_2">Cam / Ánh sáng</string>
+    <string name="no_ad">quảng cáo</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn 使用說明</string> 
+
+<string name="email_title">電子郵件 \u0026 支援</string>
+<string name="email_message">\u2605 如果您有任何問題及建議請用電子郵件與我們聯絡。</string>  
+<string name="review_message">\u2605 如果您對StepOn APP感到滿意，請給我們鼓勵以及留下建議，讓我們可以把此應用程式做得更好，謝謝您!</string>
+<string name="notes_title">註記</string>
+<string name="notes_message">
+\u2605 StepOn是一个计步器，可以追踪您的步骤。\n\n 
+
+\u2605 一个智能的3D动作识别算法能过滤和驱逐外面非行走的活动。无论你把StepOn 放在哪里，口袋，腰带，还是包里。\n\n 
+
+\u2605 通过建立你的日常目标，准确地利用 StepOn 监测你日常的步伐，您将迈向健康的道路。\n\n 
+
+\u2605 StepOn就是这么简单。所有您需要做的就是按下启动按钮，当您开始走路。 \n\n
+
+\u2605 主要功能包括：\n 
+
+\u2022 图表：每天，每周，每月和每年的步数 \n
+\u2022 每日日志历史记录：步数，消耗的卡路里，距离，时间\n 
+\u2022 精确的步数使用智能3D运动跟踪算法 \n
+\u2022 Facebook上张贴。\n 
+\u2022 Google Drive的备份。\n 
+\u2022 个性化设置：每日目标，灵敏度，单位：公制/英制，步幅长度，重量等。
+</string>
+</resources>

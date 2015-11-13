@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<string name="help_title" tools:ignore="MissingTranslation,MissingTranslation,MissingTranslation">StepOn\u00A9 User\u0027s Guide</string> 
+
+<string name="email_title">Email \u0026 hỗ trợ chúng tôi</string>
+<string name="email_message">\u2605 Xin vui lòng email cho chúng tôi nếu bạn có bất kỳ vấn đề, câu hỏi, hoặc ý kiến nào.</string>  
+<string name="review_message">\u2605 Cần nhiều nỗ lực và hỗ trợ để phát triển một ứng dụng chất lượng. Vui lòng để lại một đánh giá tích cực nếu bạn hài lòng với StepOn. Điều đó sẽ khuyến khích chúng tôi phát triển ứng dụng tốt hơn. Cảm ơn bạn.</string>
+<string name="notes_title">Ghi chú</string>
+<string name="notes_message">
+\u2605 StepOn là một pedometer theo dõi các bước của bạn.\n\n
+
+\u2605 Dễ dàng để đọc biểu đồ và bản ghi lịch sử, theo dõi các bước của bạn, lượng calo đốt cháy, khoảng cách và thời gian. Như bạn thân đi bộ tốt nhất của bạn, StepOn sẽ thúc đẩy bạn đi bộ nhiều hơn nữa! Thiết lập mục tiêu hàng ngày của bạn và bước hướng tới một khỏe mạnh bạn với StepOn bước theo dõi.\n\n
+
+\u2605 StepOn đếm bước của bạn bất kể nơi bạn đặt điện thoại của bạn như túi, quần, hoặc túi xách. StepOn rất đơn giản! Tất cả bạn cần làm là nhấn nút bắt đầu khi bạn bắt đầu đi bộ. Đi bộ 10K bước mỗi ngày và StepOn hướng tới một bạn khỏe mạnh.\n\n
+
+\u2605 Các tính năng chính:\n
+
+\u2022 Bảng xếp hạng: hàng ngày, hàng tuần, hàng tháng, hàng năm và số lượng bước\n
+\u2022 Lịch sử đăng nhập hàng ngày: đếm bước, lượng calo đốt cháy, khoảng cách và thời gian\n
+\u2022 Đếm bước chính xác bằng cách sử dụng các thuật toán theo dõi chuyển động 3D thông minh\n
+\u2022 Chia sẻ đăng nhập hàng ngày trên Facebook\n
+\u2022 Google Drive sao lưu\n
+\u2022 Thiết lập cá nhân: mục tiêu hàng ngày, nhạy cảm, đơn vị: mét / đế quốc, chiều dài sải chân, trọng lượng, vv
+</string>
+</resources>

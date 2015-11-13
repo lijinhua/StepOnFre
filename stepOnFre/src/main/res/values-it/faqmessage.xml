@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ (Domande più frequenti)</string>
+<string name="q1">Domanda: Smette di contare i passi.</string>
+<string name="a1">Risposta: Spostare Accupedo nel Cestino,  quindi aprirlo nella schermata iniziale (Home screen) e provarlo. Se non funziona, spostare di nuovo Accupedo nel cestino, spegnere e riaccendere il telefono.</string>
+<string name="q2">D: Non conteggia i passi a schermo spento (in standby).</string>
+<string name="a2">"R: Alcuni dispositivi non supportano l'accelerometro (G-sensor) nella modalità "sleep". Non è un difetto dell'applicazione."</string>
+<string name="q3">D: Qual è il numero consecutivo di passi nelle Regolazioni?</string>
+<string name="a3">R: Il conteggio comincia dopo il numero di passi consecutivi stabilito. Esempio: se il valore è settato su 10 necessitano 10 passi consecutivi senza interruzione per iniziare il conteggio, altrimenti i passi verranno tralasciati.</string>
+<string name="q4">"D: Posso modificare passo conta?"</string>
+<string name="a4">"R: Vai a finestra Cronologia. Premere verso il basso dello schermo per modificare o eliminare i conteggi passo per ogni giorno."</string>
+<string name="q5">"D: Che cos'è la modalità "Pausa"?"</string>
+<string name="a5">"R: Durante la modalità "Pausa" (quando il colore diventa blu) non vengono contati i passi. In questa modalità non viene consumata energia. Per ricominciare il conteggio, settare su "Riprendi"."</string>
+<string name="q6">D: Non salva diario giornaliero</string>
+<string name="a6">"R: Accupedo salva il diario giornaliero alle 24. Non spegnere il dispositivo a quell'ora."</string>
+<string name="q7">"D: Come misurare l'ampiezza del passo?"</string>
+<string name="a7">R: Dalla punta (tallone) alla punta (tallone).</string>
+<string name="q8">D: Il mio problema  non è menzionato nelle FAQ.</string>
+<string name="a8">R: Mandaci una mail. Ti aiuteremo in dettaglio.</string>
+
+</resources>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- When version & TE changes -->
+    <string name="widget_expired">Expirar</string>
+    <string name="trial_expired">Nuvem de backup (Google Drive) está disponível na versão Pro.</string>
+    <string name="accupedo_settings_about">Sobre StepOn</string>
+    <string name="accupdeo_version_title">StepOn versão</string>
+    <string name="accupdeo_version_summery">Versão 1.2.5</string>
+
+    <!-- V123 -->
+    <string name="automatic_backup">Automatic salvar</string>
+    <string name="automatic_backup_midnight_sdcard">Salvar um arquivo de banco de dados em SDcard à meia-noite.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Digite sua altura</string>
+    <string name="height">Altura</string>
+    <string name="birthday">Aniversário</string>
+    <string name="gender">Sexo</string>
+    <string name="gender_female">Feminino</string>
+    <string name="gender_male">Masculino</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Recompensa</string>
+    <string name="goal_reward_notification">Recompensa meta diária</string>
+    <string name="goal_reward_notification_details">Quando meta diária é alcançada ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Salvar</string>
+    <string name="stop_dialog_nosave">Não salvar</string>
+    <string name="widget_steps">passo</string>
+    <string name="widget_reset">\u2605 Redefi. \u2605</string>
+    <string name="widget_paused">Pausa..</string>
+    <string name="steps">passo</string>
+    <string name="miles">milha</string>
+    <string name="inches">inch</string>
+    <string name="pounds">libra</string>
+    <string name="minutes">minutos</string>
+    <string name="hhmm">tempo</string>
+    <string name="reset">Redefi.</string>
+    <string name="power_usage_type_setting">Modo de uso de energia</string>
+    <string name="power_usage_type_setting_details">Modo de uso de energia</string>
+    <string name="power_usage_type_setting_title">Elecione contagem de passos precisos ou de poupança de energia</string>
+    <string name="power_usage_type_most_accurate">contagem de passos mais precisos</string>
+    <string name="power_usage_type_power_balanced">equilibrado</string>
+    <string name="power_usage_type_power_saving">poder contar etapa de salvamento</string>
+    <string name="settings">Configurações</string>
+    <string name="accupedo_settings_information">Informação</string>
+    <string name="sensitivity_setting">Sensibilidade</string>
+    <string name="sensitivity_setting_details">Sensibilidade</string>
+    <string name="sensitivity_setting_title">Selecione nível de sensibilidade</string>
+    <string name="consecutive_setting">Consecutivos passos</string>
+    <string name="consecutive_setting_details">Consecutivos passos</string>
+    <string name="consecutive_setting_title">Os primeiros passos consecutivos</string>
+    <string name="very_high">mais mais sensíveis</string>
+    <string name="high">mais sensíveis</string>
+    <string name="medium">padrão</string>
+    <string name="low">menos sensível</string>
+    <string name="very_low">menos menos sensível</string>
+    <string name="units_setting">Métricas / Inglês</string>
+    <string name="units_setting_details">Métricas / Inglês</string>
+    <string name="units_setting_title">Selecione sua unidade</string>
+    <string name="units_metric">Métricas: cm, km, kg</string>
+    <string name="units_imperial">Inglês: in, mile, pound</string>
+    <string name="body_weight_setting">Peso corporal</string>
+    <string name="body_weight_setting_details">Peso corporal</string>
+    <string name="body_weight_setting_title">Digite seu peso corporal</string>
+    <string name="goal_steps_setting">Objetivo passo</string>
+    <string name="goal_steps_setting_details">Objetivo passo</string>
+    <string name="goal_steps_setting_title">Tipo de diária objetivo passo</string>
+    <string name="exercise_type_setting">Caminhada / Corrida</string>
+    <string name="exercise_type_setting_details">Caminhada / Corrida</string>
+    <string name="exercise_type_setting_title">Escolha sua atividade</string>
+    <string name="exercise_type_running">corrida</string>
+    <string name="exercise_type_walking">caminhada</string>
+    <string name="week_type_setting">Primeiro dia da semana</string>
+    <string name="week_type_setting_details">Primeiro dia da semana</string>
+    <string name="week_type_setting_title">Scolha o formato semana para gráfico semanal</string>
+    <string name="week_type_american">Domingo</string>
+    <string name="week_type_european">Segunda-feira</string>
+    <string name="help">Ajuda</string>
+    <string name="save">Salvar</string>
+    <string name="day">Dia</string>
+    <string name="week">Sema.</string>
+    <string name="month">Mês</string>
+    <string name="year">Ano</string>
+    <string name="chart">Gráfico</string>
+    <string name="chart_wait">Aguarde o processamento..</string>
+    <string name="chart_no_data">Não há dados disponíveis..</string>
+    <string name="button_email">E-mail</string>
+    <string name="button_review">Revisão</string>
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+    <string name="alert_pause_message">Você quer fazer uma pausa StepOn?</string>
+    <string name="alert_resume_message">Você quer retomar StepOn?</string>
+    <string name="alert_reset_message">Você quer redefinir a contagem passo diariamente?</string>
+    <string name="toast_save">Salvos na pasta StepOn</string>
+    <string name="toast_folder">Não é possível criar pasta StepOn</string>
+    <string name="toast_external_storage_not_writeable">Armazenamento externo não é gravável</string>
+    <string name="toast_external_storage_not_available">Armazenamento externo não está disponível</string>
+    <string name="history">Diário</string>
+    <string name="daily_steps">Passos diária</string>
+    <string name="daily_goal">Meta diária</string>
+    <string name="hourly_step_counts">Passo horas</string>
+    <string name="hour">Hora</string>
+    <string name="weekly_total">Total seman.</string>
+    <string name="ave">méd.</string>
+    <string name="daily_step_counts">Passos diários</string>
+    <string name="sun">Dom</string>
+    <string name="mon">Seg</string>
+    <string name="tue">Ter</string>
+    <string name="wed">Qua</string>
+    <string name="thu">Qui</string>
+    <string name="fri">Sex</string>
+    <string name="sat">Sáb</string>
+    <string name="monthly_total">Total mensal</string>
+    <string name="yearly_total">Total anual</string>
+    <string name="monthly_average_step_counts">Mensal média passos</string>
+    <string name="jan">Jan</string>
+    <string name="mar">Mar</string>
+    <string name="may">Mai</string>
+    <string name="jul">Jul</string>
+    <string name="sep">Set</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Wek de</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Horas de atividade</string>
+    <string name="activehours_setting_details">Ativar / desativar horas de atividade. Horário não
+		será ativo em modo de pausa para economizar energia. Quando marcada,
+		set diária de início / fim do tempo.</string>
+    <string name="daily_start_setting">Horário de início diário</string>
+    <string name="daily_start_setting_details">Contagem começa</string>
+    <string name="daily_start_setting_title">Selecione o tempo de partida</string>
+    <string name="daily_end_setting">Tempo do fim diária</string>
+    <string name="daily_end_setting_details">Contagem é interrompida</string>
+    <string name="daily_end_setting_title">Selecione hora de término</string>
+    <string name="power_settings_title">Uso de energia</string>
+    <string name="personal_settings_title">Configurações pessoais</string>
+    <string name="daily_goal_title">Objet.</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">História registo diário foi transferido de
+		StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widget cor da pele</string>
+    <string name="widget_skin_type_setting_details">Widget cor da pele</string>
+    <string name="widget_skin_type_setting_title">Selecione a cor da pele widget</string>
+    <string name="widget_skin_0">padrão</string>
+    <string name="widget_skin_1">negro</string>
+    <string name="widget_skin_2">azul</string>
+    <string name="widget_skin_3">verde</string>
+    <string name="widget_skin_4">laranja</string>
+    <string name="widget_skin_5">rosa</string>
+    <string name="display_settings_title">Configurações de exibição</string>
+    <string name="operation_level_setting">Tela de on / off</string>
+    <string name="operation_level_setting_details">Tela de on / off</string>
+    <string name="operation_level_setting_title">Tela de seleção on / off</string>
+    <string name="run_in_background">manter fora da tela</string>
+    <string name="keep_screen_on">manter na tela</string>
+    <string name="wake_up">com força na tela</string>
+    <string name="send">Enviar</string>
+    <string name="email_file_subject">StepOn diária logs</string>
+    <string name="toast_need_sdcard">Requerem um cartão SD para salvar e enviar registros diários.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">StepOn \u0022StepOn.db\u0022 arquivo deve estar
+		na pasta StepOn do cartão SD. \n\n +++ Atenção! +++\n O arquivo importado irá
+		substituir o banco de dados existente.</string>
+    <string name="import_success_message">Importar.</string>
+    <string name="export_success_message">Exportação.</string>
+    <string name="toast_folder_doesnot_exist">StepOn pasta não existe.</string>
+    <string name="run_length_setting">Distância de passo: Corrida</string>
+    <string name="run_length_setting_details">Distância de passo: Corrida</string>
+    <string name="run_length_setting_title">Tipo a sua distância da etapa: Corrida</string>
+    <string name="step_length_setting">Distância de passo: Caminhada</string>
+    <string name="step_length_setting_details">Distância de passo: Caminhada</string>
+    <string name="step_length_setting_title">Tipo a sua distância da etapa: Caminhada</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Linguagem</string>
+    <string name="locale_type_setting_details">Linguagem</string>
+    <string name="locale_type_setting_title">Selecione o idioma</string>
+    <string name="locale_0">padrão</string>
+    <string name="locale_1">Inglês</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="buy_button">Comprar Pro</string>
+    <string name="widget_st">\u00A0pa</string>
+    <string name="widget_skin_6">transparente</string>
+    <string name="fb_updated">Facebook é atualizado!</string>
+    <string name="fb_walk_report">StepOn caminhada diária</string>
+    <string name="fb_lets_walk">Andar 10000 passos por dia!</string>
+    <string name="send_cvs">Enviar arquivo CSV</string>
+    <string name="share">Ação</string>
+    <string name="export_success_message2">Arquivo de banco de dados \u0022StepOn.db\u0022 será exportado para Accupedo pasta.</string>
+    <string name="export_limit_te">Banco de dados de importação / exportação funções são apenas para Accupedo-Pro.</string>
+    <string name="import_limit_te">Banco de dados de importação / exportação funções são apenas para Accupedo-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="remove_data_all_setting_title">Eliminar toda a história?</string>
+    <string name="power_usage_type_more_accurate">Contagem de passos mais precisa</string>
+    <string name="power_usage_type_power_less">Menor consumo de energia</string>
+    <string name="power_usage_type_power_least">Consumo mínimo de energia</string>
+    <string name="history_management_setting">gerenciamento de histórico</string>
+    <string name="autopause_charging_setting">Pausa automática</string>
+    <string name="autopause_charging_setting_details">Pausa automática durante o carregamento</string>
+    <string name="wait_for_data_transfer">Por favor, aguarde para transferência de banco de dados ..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Via.</string>
+    <string name="trashcan">Cesto de lixo</string>
+    <string name="editsteps">Editar passo</string>
+    <string name="alert_delete_month_message">Excluir histórico mensal?</string>
+    <string name="alert_delete_day_message">Excluir histórico diária?</string>
+    <string name="alert_next_lap_message">Você quer começar uma próxima volta?</string>
+    <string name="enter_manual_steps">Passo contar</string>
+    <string name="button_manual_steps">Confirmar</string>
+    <string name="alert_set_steps_message">Você confirma?</string>
+    <string name="chart_statistics">Estatística</string>
+    <string name="wait_for_generating_csv">Escrevendo arquivo CSV..</string>
+    <string name="wait_for_exporting_db">Exportar banco de dados..</string>
+    <string name="wait_for_importing_db">Importação de banco de dados..</string>
+    <string name="export_to_sdcard">Arquivo de banco de dados é armazenado na pasta Accupedo da SD-Card.</string>
+    <string name="backup">Salvar</string>
+    <string name="cancelled">Cancelar</string>
+    <string name="permission_not_granted">Permissões não foram concedidas.</string>
+    <string name="error">Erro</string>
+    <string name="status_update">Actualização do estado.</string>
+    <string name="success">Sucesso</string>
+    <string name="successfully_posted_post">Postado com sucesso.</string>
+    <string name="alert_new_installation_message">Accupedo arquivo histórico diário foi encontrado. Você deseja importar?</string>
+    <string name="quit">Sair</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Você quer redefinir a contagem passo diariamente?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Arquivo de banco de dados é carregado.</string>
+    <string name="google_drive_downloaded">Arquivo de banco de dados é baixado.</string>
+    <string name="google_drive_file_not_exist">Arquivo não existe.</string>
+    <string name="dropbox_uploading">Upload ..</string>
+    <string name="dropbox_downloading">Baixando ..</string>
+    <string name="notification_settings_title">Notificação</string>
+    <string name="goal_achievement_notification">Realização meta diária</string>
+    <string name="goal_achievement_notification_details">Notificação quando objetivo é alcançado</string>
+    <string name="speed_type_setting">Velocidade</string>
+    <string name="speed_type_setting_details">Velocidade</string>
+    <string name="speed_type_setting_title">Escolha o formato de Velocidade</string>
+    <string name="speed_type_average">Velocidade média</string>
+    <string name="speed_type_realtime">Velocidade em tempo real</string>
+    <string name="alert_import_gdrive_message">Accupedo arquivo de banco de dados deve estar em Google Drive. \n\n +++ Atenção! +++\n O arquivo importado irá substituir o banco de dados existente.</string>
+    <string name="alert_import_dropbox_message">Accupedo arquivo de banco de dados deve estar no Dropbox. \n\n +++ Atenção! +++\n O arquivo importado irá substituir o banco de dados existente.</string>
+    <string name="try_again">Por favor, tente novamente!</string>
+    <string name="network_connection">Rede deve estar conectado.</string>
+    <string name="delete">Excluir</string>
+    <string name="alert_history_update_version_401_message">+++ Atenção! +++\n Pressione para baixo a tela de editar ou apagar as contagens diárias da etapa. Ou, clique na tela para ver a história detalhadamente colo.</string>
+    <string name="connect_to_mfp">Conecte-se ao MFP</string>
+    <string name="screen_skin_type_setting">Cor do tema</string>
+    <string name="screen_skin_type_setting_details">Cor do tema</string>
+    <string name="screen_skin_type_setting_title">Selecione o tema da cor</string>
+    <string name="screen_skin_0">Azul / Escuro</string>
+    <string name="screen_skin_1">Azul / Luz</string>
+    <string name="screen_skin_2">Laranja / Luz</string>
+    <string name="no_ad">Anúncio</string>
+
+</resources>

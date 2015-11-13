@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn Anleitung</string> 
+
+<string name="email_title">E-Mail \u0026 Unterstützen</string>
+<string name="email_message">\u2605 Bitte schreiben Sie uns eine E-Mail, wenn Sie Probleme, Fragen oder Anregungen haben.</string>  
+<string name="review_message">\u2605 Um qualitativ hochwertige Apps zu entwickeln, ist viel Aufwand und Hilfe nötig. Bitte schreiben Sie eine positive Bewertung, wenn Sie mit StepOn zufrieden sind. Das wird uns antreiben, unsere Apps weiter zu verbessern. Vielen Dank!</string>
+<string name="notes_title">Hinweise</string>
+<string name="notes_message">
+\u2605 StepOn ist ein Schrittzähler, der Ihre Schritte verfolgt.\n\n 
+
+\u2605 Die eingebaute intelligente 3D-Bewegungserkennung filtert nur die Schritte aus allen anderen Bewegungen Ihres Smartphones heraus. StepOn zählt Ihre Schritte, egal ob Sie Ihr Smartphone in der Hosentasche, an Ihrem Gürtel oder in der Handtasche tragen.\n\n 
+
+\u2605 Werden Sie gesünder, in dem Sie sich ein Tagesziel setzen und Ihre Schritte mit StepOn genau überwachen.\n\n 
+
+\u2605 StepOn so einfach ist. Alles was Sie tun müssen, ist, drücken Sie die Start-Taste, wenn Sie zu Fuß starten.\n\n 
+
+\u2605 Key Features zählen:\n 
+
+\u2022 Tagesberichte: Schrittzahlen, Kilometer, Kalorien, Gehzeiten.\n
+\u2022 Diagramme: Tägliche, wöchentliche, monatliche und jährliche Schrittzahlen.\n
+\u2022 Die intelligente Schritterfassung beginnt die Schrittzählung nach 4-12 aufeinander folgenden Schritten, stoppt automatisch und startet wieder, sobald sie erneut losgehen.\n 
+\u2022 Facebook-Posting.\n 
+\u2022 Google Drive-Backup.\n 
+\u2022 Persönliche Einstellmöglichkeiten: Empfindlichkeit des Schrittzählers, metrische oder englische Maße, Schrittlängen, Körpergewicht, Tagesziel u.v.m.
+    
+</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="value">80sp</dimen>
+    <dimen name="small_value">24sp</dimen>
+    <dimen name="step_count">60sp</dimen>
+    <dimen name="daily_log">18sp</dimen>
+   
+    <dimen name="units">11sp</dimen>
+    <dimen name="nor_size">14sp</dimen>
+    <dimen name="hist_size">16sp</dimen>
+     <dimen name="small_size">12sp</dimen>
+
+    <dimen name="text_micro">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_xlarge">26sp</dimen>
+    <dimen name="text_xxlarge">30sp</dimen>
+    <dimen name="text_lap">32sp</dimen>
+
+    <dimen name="title_20">20sp</dimen>
+    
+</resources>

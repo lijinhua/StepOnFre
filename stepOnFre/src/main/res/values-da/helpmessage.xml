@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn bruger Manual</string> 
+
+<string name="email_title">E-mail \u0026 Støtte</string>
+<string name="email_message">\u2605 Du kan kontakte os, hvis du har nogen problemer, spørgsmål eller kommentare.</string>  
+<string name="review_message">\u2605 Stor indsats og støtte er nødvendig for at udvikle kvalitets Apps. Giv os en positiv anmeldelse, hvis du er tilfreds med StepOn. Det vil motivere os til at udvikle bedre Apps. Tak.</string>
+<string name="notes_title">Noter</string>
+<string name="notes_message">
+\u2605 StepOn er en skridttæller, der sporer dine skridt.\n\n
+
+\u2605 Med nem at læse diagrammer og historie logs, overvåge dine trin, forbrændte kalorier, distance og tid. Som din bedste walking kammerat, vil StepOn motivere dig til at gå mere! Opsæt dit daglige mål og trin i retning af et sundere dig med StepOn trin tracker.\n\n
+
+\u2605 StepOn tæller dine skridt, uanset hvor du lægger din telefon som din lomme, talje bælte eller taske. StepOn er så simpelt! Alt du skal gøre er at trykke på startknappen, når du begynder at gå. Walk 10K skridt om dagen og StepOn mod et sundere dig.\n\n
+
+\u2605 Nøglefunktioner:\n
+
+\u2022 Diagrammer: dagligt, ugentligt, månedligt, og årlige skridt tæller\n
+\u2022 Daglig log historie: skridt tæller, forbrændte kalorier, distance og tid\n
+\u2022 Nøjagtige skridt tæller anvendelse af intelligente 3D Motion sporingsalgoritmerne\n
+\u2022 Del daglig logbog på Facebook\n
+\u2022 Google Drev backup\n
+\u2022 Personlige indstillinger: daglige mål, følsomhed, enhed: metrisk / Imperial, skridtlængde, vægt osv.\n
+</string>
+</resources>

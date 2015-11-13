@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: Den stopper med at tælle skridt.</string>
+<string name="a1">A: Fjern Accupedo til papirkurven, og derefter åbne den på startskærmen, og test om det virker. Hvis det stadig ikke virker, skal du fjerne Accupedo til papirkurven igen, og så slukke og tænde telefonen, og så teste om det virker.</string>
+<string name="q2">Q: Det tæller ikke, når skærmen er slukket (standby).</string>
+<string name="a2">A: Nogle telefoner understøtter ikke G-sensor i dvaletilstand (skærmen er slukket i standby). Dette er ikke en fejl i Appen.</string>
+<string name="q3">Q: Hvad er kontinuerlige trin i Indstillinger?</string>
+<string name="a3">A: Trin tæller starter efter et antallet efterfølgene trin. For eksempel, hvis  efterfølgende trin er sat til 10 så er du nødt til at gå 10 skridt kontinuerligt uden at stoppe. Hvis du gå mindre end 10 skridt og stopper, så bliver disse trin frasorterert.</string>
+<string name="q4">Q: Kan jeg redigere skridt tæller?</string>
+<string name="a4">A: Gå til History vinduet. Tryk ned på skærmen for at redigere eller slette skridt tæller for hver dag.</string>
+<string name="q5">Q: Hvad er pause tilstand?</string>
+<string name="a5">A: Under pause tilstand (når farven er blå), stopper den med at tælle skridt. Pause tilstand forbruger ikke batteriet. Hvis du vil genstarte trin tælling, skift til Resume mode.</string>
+<string name="q6">Q: Den gemmer ikke en daglig log.</string>
+<string name="a6">A: Den gemmer en daglig logbog ved midnat. Du må ikke slukke telefonen på det tidspunkt.</string>
+<string name="q7">Q: Hvordan måle man sin skridt afstand?</string>
+<string name="a7">A: Fra tå (hæl) til tå (hæl).</string>
+<string name="q8">Q: Mit problem er ikke opført i FAQ.</string>
+<string name="a8">A: Du kan kontakte os. Vi vil helt sikkert hjælpe dig.</string>
+
+</resources>

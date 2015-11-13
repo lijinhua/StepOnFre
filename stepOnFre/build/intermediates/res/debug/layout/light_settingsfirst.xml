@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myddarkgray" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/init_ok_button"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="2dp" >
+            
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp" >
+
+                <TextView
+                    android:id="@+id/textGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender" />
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/gender_male" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/gender_female" />
+            </RadioGroup>
+
+			<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="16dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/birthday"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" : "/>
+
+                <Button
+                    android:id="@+id/btnChangeDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="1980-1-1"/>
+            </LinearLayout>	
+            
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp" >
+
+                <TextView
+                    android:id="@+id/textWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/units_setting_title" />
+
+                <RadioButton
+                    android:id="@+id/radioMetric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/units_metric" />
+
+                <RadioButton
+                    android:id="@+id/radioEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/units_imperial" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/height" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/textHeightValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="170" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekBarHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/body_weight_setting" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/textWeightValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="150" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekBarWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/init_ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/layout/light_settingsfirst.xml -->

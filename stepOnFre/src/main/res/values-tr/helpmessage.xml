@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn Kullanıcı Rehberi</string> 
+
+<string name="email_title">E-Posta ve Destek</string>
+<string name="email_message">\u2605 Lütfen problem, soru ve önerileriniz için bize e-posta yazın.</string>  
+<string name="review_message">\u2605 Kaliteli App\u0027leri geliştirmek çok zaman ve çaba isteyen bir iştir. Eğer StepOn\u0027dan memnun kaldıysanız lütfen market sayfamıza olumlu bir izlenim nırakın. Bu bizi daha iyi App\u0027ler geliştirmemiz için motive edecektir. Teşekkürler.</string>
+<string name="notes_title">Notlar</string>
+<string name="notes_message">
+\u2605 StepOn adımlarınızı izleyen bir pedometre olduğunu.\n\n
+
+\u2605 Çizelgeleri ve tarih günlüklerini okumak için kolay, sizin adımlar, yakılan kalori, mesafe ve zaman izlemek. En iyi yürüyüş dostum olarak, StepOn daha fazla yürümek motive edecek! Günlük gol kurmak ve StepOn adım izci ile sağlıklı bir doğru adım.\n\n
+
+\u2605 StepOn olursa cebinizde, bel kemeri, ya da çanta gibi telefonunuzu koymak nerede senin adımlarını sayar. StepOn kadar basit! Eğer yürüyüş başladığınızda yapmanız gereken tüm başlangıç ​​düğmesine basmaktır. Yürüyüş 10K sağlıklı bir size doğru bir gün ve StepOn adımları.\n\n
+
+\u2605 Temel Özellikler:\n
+
+\u2022 Grafikler: günlük, haftalık, aylık ve yıllık adım sayar\n
+\u2022 Günlük günlük geçmişi: adım sayar, yakılan kalori, mesafe ve zaman\n
+\u2022 Akıllı 3D hareket izleme algoritmaları kullanarak doğru adım sayar\n
+\u2022 Facebook\u0027ta günlük günlük paylaş\n
+\u2022 Google Drive yedekleme\n
+\u2022 Kişiselleştirilmiş ayarları: günlük hedef, duyarlılık, birim: metrik / emperyal, adım uzunluğu, ağırlık, vs
+</string>
+</resources>

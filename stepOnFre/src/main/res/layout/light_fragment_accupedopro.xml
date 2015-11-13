@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mylightgray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_buypro"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="16dip"
+                android:layout_marginTop="16dip"
+                android:background="@color/mygreen"
+                android:paddingLeft="40dip"
+                android:paddingRight="40dip"
+                android:text="@string/buy_button"
+                android:textColor="@color/mywhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="4dip"
+                android:text="\u2605"
+                android:textColor="@color/mygreen"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/google_drive"
+                android:textColor="@color/myddarkgray"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:text="@string/backup"
+                android:textColor="@color/myddarkgray"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="4dip"
+                android:text="\u2605"
+                android:textColor="@color/mygreen"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_ad"
+                android:layout_marginRight="4dip"
+                android:textColor="@color/myddarkgray"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u03A7"
+                android:textColor="@color/myred"
+                android:textSize="@dimen/text_medium" />
+         </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="16dip"
+            android:src="@drawable/themecolors" />
+    </LinearLayout>
+    </LinearLayout>

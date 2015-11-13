@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When version & TE changes -->
+    <string name="widget_expired">Abgelaufen</string>
+    <string name="trial_expired">Cloud (Google Drive) Sicherung vorhanden ist in der Pro-Version.</string>
+    <string name="accupedo_settings_about">Über StepOn</string>
+
+    <!-- 123 -->
+    <string name="automatic_backup">Automatische Sicherung</string>
+    <string name="automatic_backup_midnight_sdcard">Speichern Sie eine Datenbankdatei in SD-Karte um Mitternacht.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Geben Sie Ihre Körpergröße</string>
+    <string name="height">Körpergröße</string>
+    <string name="birthday">Geburtstag</string>
+    <string name="gender">Geschlecht </string>
+    <string name="gender_female">Weiblich</string>
+    <string name="gender_male">Männlich</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Belohnung</string>
+    <string name="goal_reward_notification">Tägliche Ziel Belohnung</string>
+    <string name="goal_reward_notification_details">Als Tagesziel erreicht ist ...</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Speichern</string>
+    <string name="stop_dialog_nosave">Nicht speichern</string>
+    <string name="widget_steps">Schr.</string>
+    <string name="widget_calories">kcal</string>
+    <string name="widget_paused">Pause..</string>
+    <string name="steps">Schrit.</string>
+    <string name="miles">meil.</string>
+    <string name="inches">Zoll</string>
+    <string name="pounds">Pfund</string>
+    <string name="minutes">min.</string>
+    <string name="hhmm">zeit</string>
+    <string name="power_usage_type_setting">Verbrauchseinstellungen</string>
+    <string name="power_usage_type_setting_details">Verbrauchseinstellungen</string>
+    <string name="power_usage_type_setting_title">Zwischen Stromsparen und Genauigkeit wählen</string>
+    <string name="power_usage_type_most_accurate">Genaueste Schrittzahl</string>
+    <string name="power_usage_type_power_balanced">Optimierter Verbrauch</string>
+    <string name="power_usage_type_power_saving">Energiesparen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="accupedo_settings_information">Informationen</string>
+    <string name="sensitivity_setting">Empfindlichkeit</string>
+    <string name="sensitivity_setting_details">Empfindlichkeit</string>
+    <string name="sensitivity_setting_title">Empfindlichkeit einstellen</string>
+    <string name="consecutive_setting">Zähler aktiv nach … Schritten</string>
+    <string name="consecutive_setting_details">Zähler aktiv nach … Schritten</string>
+    <string name="consecutive_setting_title">Benötige Schritte einstellen</string>
+    <string name="very_high">Hoch empfindlich</string>
+    <string name="high">Sehr empfindlich</string>
+    <string name="medium">Standard</string>
+    <string name="low">Weniger empfindlich</string>
+    <string name="very_low">Am wenigsten empfindlich</string>
+    <string name="units_setting">Metrisch / Englisch</string>
+    <string name="units_setting_details">Metrisch / Englisch</string>
+    <string name="units_setting_title">Einheitensystem wählen</string>
+    <string name="units_metric">Metrisch: cm, km, kg</string>
+    <string name="units_imperial">Englisch: zoll, meile, pfund</string>
+    <string name="body_weight_setting">Körpergewicht</string>
+    <string name="body_weight_setting_details">Körpergewicht</string>
+    <string name="body_weight_setting_title">Körpergewicht eingeben:</string>
+    <string name="goal_steps_setting">Tägliches Ziel an Schritten</string>
+    <string name="goal_steps_setting_details">Tägliches Ziel an Schritten</string>
+    <string name="goal_steps_setting_title">Anzahl der Schritte bis zum Ziel eingeben:</string>
+    <string name="exercise_type_setting">Gehen / Laufen</string>
+    <string name="exercise_type_setting_details">Gehen / Laufen</string>
+    <string name="exercise_type_setting_title">Modus wählen</string>
+    <string name="exercise_type_running">Laufen</string>
+    <string name="exercise_type_walking">Gehen</string>
+    <string name="week_type_setting">Erster Wochentag</string>
+    <string name="week_type_setting_details">Erster Wochentag</string>
+    <string name="week_type_setting_title">Wochenbeginn einstellen:</string>
+    <string name="week_type_american">Sonntag</string>
+    <string name="week_type_european">Montag</string>
+    <string name="help">Hilfe</string>
+    <string name="save">Speich.</string>
+    <string name="day">Tag</string>
+    <string name="week">Woche</string>
+    <string name="month">Monat</string>
+    <string name="year">Jahr</string>
+    <string name="chart">Diagr.</string>
+    <string name="chart_wait">Arbeite, bitte warten …</string>
+    <string name="chart_no_data">Keine Daten vorhanden …</string>
+    <string name="button_email">E-Mail</string>
+    <string name="button_review">Aktualisierung</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Nein</string>
+    <string name="alert_pause_message">Schrittzähler pausieren?</string>
+    <string name="alert_resume_message">Schrittzähler aktivieren?</string>
+    <string name="toast_save">Im StepOn-Ordner gespeichert.</string>
+    <string name="toast_folder">Der StepOn-Ordner kann nicht erstellt werden.</string>
+    <string name="toast_external_storage_not_writeable">Der externe Speicher ist nicht beschreibbar.</string>
+    <string name="toast_external_storage_not_available">Externer Speicher ist nicht verfügbar.</string>
+    <string name="history">Verlauf</string>
+    <string name="daily_steps">Tägliche Schritte</string>
+    <string name="daily_goal">Tägliches Ziel</string>
+    <string name="hourly_step_counts">Schritte in der Stunde</string>
+    <string name="hour">Stunde</string>
+    <string name="weekly_total">Woche gesamt</string>
+    <string name="ave">Ø</string>
+    <string name="daily_step_counts">Schritte am Tag</string>
+    <string name="sun">So</string>
+    <string name="mon">Mo</string>
+    <string name="tue">Di</string>
+    <string name="wed">Mi</string>
+    <string name="thu">Do</string>
+    <string name="fri">Fr</string>
+    <string name="sat">Sa</string>
+    <string name="monthly_total">Monat gesamt</string>
+    <string name="yearly_total">Jahr gesamt</string>
+    <string name="monthly_average_step_counts">Schritte im Monat</string>
+    <string name="jan">Jan</string>
+    <string name="mar">März</string>
+    <string name="may">Mai</string>
+    <string name="jul">Juli</string>
+    <string name="sep">Sept</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Woche vom</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Aktive Stunden</string>
+    <string name="activehours_setting_details">Vorgabe aktiver Stunden. Außerhalb der aktiven Stunden pausiert StepOn und spart Energie.</string>
+    <string name="daily_start_setting">Täglicher Start</string>
+    <string name="daily_start_setting_details">Einstellen, wann die Schrittzählung beginnt.</string>
+    <string name="daily_start_setting_title">Stellen Sie die Startzeit ein:</string>
+    <string name="daily_end_setting">Tägliches Ende</string>
+    <string name="daily_end_setting_details">Einstellen, wann die Schrittzählung endet.</string>
+    <string name="daily_end_setting_title">Stellen Sie die Endzeit ein:</string>
+    <string name="power_settings_title">Stromverbrauch</string>
+    <string name="personal_settings_title">Persönliche Einstellungen</string>
+    <string name="daily_goal_title">Ziel</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Der Tagesbericht wurde von StepOn übertragen.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widget-Farbe</string>
+    <string name="widget_skin_type_setting_details">Widget-Farbe</string>
+    <string name="widget_skin_type_setting_title">Widget-Hintergrundfarbe auswählen:</string>
+    <string name="widget_skin_0">Standard</string>
+    <string name="widget_skin_1">Schwarz</string>
+    <string name="widget_skin_2">Blau</string>
+    <string name="widget_skin_3">Grün</string>
+    <string name="widget_skin_4">Orange</string>
+    <string name="widget_skin_5">Rosa</string>
+    <string name="display_settings_title">Display-Einstellungen</string>
+    <string name="operation_level_setting">Display an / aus</string>
+    <string name="operation_level_setting_details">Display an / aus</string>
+    <string name="operation_level_setting_title">Anzeigeeinstellungen</string>
+    <string name="run_in_background">Display ausschalten</string>
+    <string name="keep_screen_on">Display anlassen</string>
+    <string name="wake_up">Display an erzwingen</string>
+    <string name="send">Senden</string>
+    <string name="email_file_subject">StepOn Tagesberichte</string>
+    <string name="toast_need_sdcard">Zum Speichern und Senden von Berichten wird eine SD-Karte benötigt.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">Die StepOn-Sicherungsdatei sollte sich im StepOn-Ordner auf der SD-Karte befinden. Vorsicht! Bereits existierende Daten werden mit dem Import überschrieben.</string>
+    <string name="import_success_message">Importieren</string>
+    <string name="export_success_message">Exportieren</string>
+    <string name="toast_folder_doesnot_exist">Der StepOn-Ordner fehlt.</string>
+    <string name="run_length_setting">Schrittlänge beim Laufen</string>
+    <string name="run_length_setting_details">Schrittlänge beim Laufen</string>
+    <string name="run_length_setting_title">Schrittlänge beim Laufen eingeben:</string>
+    <string name="step_length_setting">Schrittlänge beim Gehen</string>
+    <string name="step_length_setting_details">Schrittlänge beim Gehen</string>
+    <string name="step_length_setting_title">Schrittlänge beim Gehen eingeben:</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Sprache</string>
+    <string name="locale_type_setting_details">Sprache</string>
+    <string name="locale_type_setting_title">Sprache auswählen:</string>
+    <string name="locale_0">Standard</string>
+    <string name="locale_1">Englisch</string>
+    <string name="buy_button">Pro kaufen</string>
+    <string name="widget_st">\u00A0sc</string>
+    <string name="widget_skin_6">Transparent</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook wurde aktualisiert!</string>
+    <string name="fb_walk_report">StepOn Schrittzähler Tagesbericht</string>
+    <string name="fb_lets_walk">Gehe 10000 Schritte am Tag!</string>
+    <string name="database">Datenbank</string>
+    <string name="send_cvs">CSV-Datei senden</string>
+    <string name="share">Teilen</string>
+    <string name="export_success_message2">Datenbank-Datei \u0022StepOn.db\u0022 wird exportiert, um Ordner StepOn werden.</string>
+    <string name="export_limit_te">Database Import / Export-Funktionen sind nur für StepOn-Pro.</string>
+    <string name="import_limit_te">Database Import / Export-Funktionen sind nur für StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">Genauere Schrittzahl</string>
+    <string name="power_usage_type_power_less">Weniger Stromverbrauch</string>
+    <string name="power_usage_type_power_least">Minimaler Stromverbrauch</string>
+    <string name="history_management_setting">History Management</string>
+    <string name="autopause_charging_setting">Automatische Pause</string>
+    <string name="autopause_charging_setting_details">Automatische Pause während Stromladestation</string>
+    <string name="wait_for_data_transfer">Bitte warten Sie auf Datenbank-Transfer..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Runde</string>
+    <string name="trashcan">Mülleimer</string>
+    <string name="editsteps">Ändern Schritte</string>
+    <string name="alert_delete_month_message">Löschen monatlichen Geschichte?</string>
+    <string name="alert_delete_day_message">Löschen täglichen Geschichte?</string>
+    <string name="alert_next_lap_message">Wollen Sie einen nächsten Runde zu starten?</string>
+    <string name="enter_manual_steps">Schritt</string>
+    <string name="button_manual_steps">Bestätigen</string>
+    <string name="alert_set_steps_message">Sie bestätigen?</string>
+    <string name="chart_statistics">Statistiken</string>
+    <string name="wait_for_generating_csv">Schreiben CSV-Datei..</string>
+    <string name="wait_for_exporting_db">Exportieren Datenbank..</string>
+    <string name="wait_for_importing_db">Importieren Datenbank..</string>
+    <string name="export_to_sdcard">Datenbank-Datei (StepOn.db) am StepOn Ordner SD-Card gespeichert.</string>
+    <string name="backup">Sichern</string>
+    <string name="cancelled">Kündigen</string>
+    <string name="permission_not_granted">Berechtigungen wurden nicht gewährt.</string>
+    <string name="error">Fehler</string>
+    <string name="status_update">Update-Status.</string>
+    <string name="success">Erfolg</string>
+    <string name="successfully_posted_post">Erfolgreich geschrieben.</string>
+    <string name="alert_new_installation_message">StepOn täglichen History-Datei gefunden wurde. Wollen Sie importieren?</string>
+    <string name="quit">Beenden</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Auf Null zurücksetzen?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="google_drive_uploaded">Datenbank-Datei (StepOn.db) hochgeladen wird.</string>
+    <string name="google_drive_downloaded">Datenbank-Datei (StepOn.db) heruntergeladen wird.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) existiert nicht.</string>
+    <string name="dropbox_uploading">Hochladen ..</string>
+    <string name="dropbox_downloading">Herunterladen ..</string>
+    <string name="notification_settings_title">Benachrichtigung</string>
+    <string name="goal_achievement_notification">Tägliche Zielerreichung</string>
+    <string name="goal_achievement_notification_details">Benachrichtigung, wenn Ziel erreicht wird</string>
+    <string name="speed_type_setting">Geschwindigkeit</string>
+    <string name="speed_type_setting_details">Geschwindigkeit</string>
+    <string name="speed_type_setting_title">Wählen Geschwindigkeit Format</string>
+    <string name="speed_type_average">Durchschnittliche Geschwindigkeit</string>
+    <string name="speed_type_realtime">Echtzeit-Geschwindigkeit</string>
+    <string name="alert_import_gdrive_message">StepOn Datenbank-Datei sollte in Google Drive sein. \n\n +++ Achtung! +++\n Die importierte Datei ersetzt die vorhandene Datenbank.</string>
+    <string name="alert_import_dropbox_message">StepOn Datenbank-Datei sollte in Dropbox sein. \n\n +++ Achtung! +++\n Die importierte Datei ersetzt die vorhandene Datenbank.</string>
+    <string name="try_again">Bitte versuchen Sie es erneut!</string>
+    <string name="network_connection">Netzwerk verbunden werden soll.</string>
+    <string name="delete">Löschen</string>
+    <string name="alert_history_update_version_401_message">+++ Vorsicht! +++\n Drücken Sie den Bildschirm, um täglich Schritt zählt bearbeiten oder löschen. Oder klicken Sie auf den Bildschirm, um Detail Schoß der Geschichte zu sehen.</string>
+    <string name="connect_to_mfp">Verbinden mit MFP</string>
+    <string name="screen_skin_type_setting">Thema Farbe</string>
+    <string name="screen_skin_type_setting_details">Thema Farbe</string>
+    <string name="screen_skin_type_setting_title">Thema auswählen Farbe</string>
+    <string name="screen_skin_0">Blau / Dunkel</string>
+    <string name="screen_skin_1">Blau / Hell</string>
+    <string name="screen_skin_2">Orange / Hell</string>
+    <string name="no_ad">Werbung</string>
+
+</resources>

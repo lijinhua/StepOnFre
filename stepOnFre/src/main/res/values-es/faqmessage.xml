@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">Preguntas Frecuentes</string>
+<string name="q1">P: ¿Qué puedo hacer si el contador de pasos deja de funcionar?</string>
+<string name="a1">R: Quite Accupedo de la pantalla de inicio y llévelo a la papelera, luego vuelva a ponerla en la pantalla de inicio y pruebe. Si no funciona vuelva a remover Accupedo hacia la papelera, apague su teléfono, vuelva a encenderlo y ponga la aplicación en la pantalla de inicio nuevamente y pruebe.</string>
+<string name="q2">P: No cuenta cuando la pantalla está apagada (modo Standby).</string>
+<string name="a2">R: En algunos teléfonos el acelerómetro (G-Sensor) no funciona en modo dormir (Pantalla apagada) debido a especificaciones de sus fabricantes. Esto no es una falla de la aplicación.</string>
+<string name="q3">P: ¿Qué significa pasos consecutivos en ajustes?</string>
+<string name="a3">R: Número de pasos se inicia después de caminar el número de pasos consecutivos. Por ejemplo, si los pasos consecutivos son 10, entonces tiene que caminar 10 pasos continuamente sin parar. Si usted camina menos de 10 pasos y dejar, entonces desecha esos pasos.</string>
+<string name="q4">P: ¿Puedo editar paso cuenta?</string>
+<string name="a4">R: Vaya a la ventana de Historial. Presione hacia abajo la pantalla de editar o borrar paso cuenta para cada día.</string>
+<string name="q5">P: ¿Que es el modo pausa?</string>
+<string name="a5">R: Durante el modo de pausa (cuando el color es azul), se detiene contar los pasos. Este modo de pausa no consume batería. Para reiniciar conteo paso, cambiar al modo de Reanudar.</string>
+<string name="q6">P: No se guarda el registro diario.</string>
+<string name="a6">R: El registro diario se guarda a medianoche. No apague su teléfono a esa hora.</string>
+<string name="q7">P: ¿Cómo medir la distancia de paso?</string>
+<string name="a7">R: De pie (talón) a los pies (talón).</string>
+<string name="q8">P: Mi problema no aparece en las preguntas frecuentes.</string>
+<string name="a8">R: Por favor, envíenos un e-mail. Definitivamente les ayudaremos.</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+android:minWidth="250dp"
+android:minHeight="40dp"
+android:updatePeriodMillis="0"
+android:initialLayout="@layout/main40"
+android:previewImage="@drawable/preview4"
+/><!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/xml/widget_pedo_provider4.xml -->

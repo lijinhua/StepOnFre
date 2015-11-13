@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">C: Ana ekranınından Accupedo\u0027yu kaldırın, ardından ana ekrana  tekrar ekleyin. Eğer hala çalışmıyorsa, ana ekrandan tekrar kaldırın, telefonunuzu kapatıp açın ve tekrar ekleyin.</string>
+    <string name="a2">C: Bazı telefonlar uyku modunda (ekran kapalı) iken G-sensörlerini kullanamazlar. Bu üreticileri tarafından belirlenen bir limittir, uygulama ile bir ilgisi yoktur.</string>
+    <string name="a3">C: Adım sayma belirli sayıda ardarda adım atılınca saymaya başlar. Örneğin, ardarda adım sayısı 10 ise, saymanın başlaması için önce hiç dıurmadan 10 adım atmalısınız. Eğer 10 adımdan kısa yürür ve durursanız, bu adımlar yok sayılır.</string>
+    <string name="a4">C: Geçmişi penceresine gidin. Her gün için bir adım sayar düzenlemek ya da silmek için ekran aşağı bastırın.</string>
+    <string name="a5">C: Duraklatma modunda iken (renk mavi olur), adım sayma işlemi durdurulur. Bu durumda pil harcanmaz. Saymaya devam etmek için, Devam moduna geçin.</string>
+    <string name="a6">C: Günlük kayıtlar geceyarısı saklanır. Lütfen telefonunuzun geceyarısı açık olduğundan emin olun.</string>
+    <string name="a7">C: Topuktan topuğa.</string>
+    <string name="a8">C: Lütfen bize e-posta atın. Size kesinlikle yardımcı olacağız.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-tr/values-tr.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Tamamlandı"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">Sürüm 1.2.5</string>
+    <string name="accupdeo_version_title">StepOn sürümü</string>
+    <string name="accupedo_settings_about">StepOn hakkında</string>
+    <string name="accupedo_settings_information">Bilgi</string>
+    <string name="activehours_setting">Aktif saatler</string>
+    <string name="activehours_setting_details">"Aktif Saatler"i aç/kapat. Aktif olmayan saatlerde uygulama güç koruma moduna girecektir. Seçenek açıldığında, aşağıdan günlük başlama/bitiş saatlerini seçin.</string>
+    <string name="alert_daily_reset_message">Günlük adım sayısını sıfırlamak istiyor musunuz?</string>
+    <string name="alert_delete_day_message">Günlük geçmişi silinsin mi?</string>
+    <string name="alert_delete_month_message">Aylık geçmişi silinsin mi?</string>
+    <string name="alert_history_update_version_401_message">+++ Uyarı! +++\n Günlük adım sayısını düzenlemek ya da silmek için ekran aşağı bastırın. Yoksa, detay kucak geçmişini görmek için ekranı tıklatın.</string>
+    <string name="alert_import_dropbox_message">StepOn veritabanı dosyası Dropbox olmalıdır. \n\n +++ Dikkat! +++\n Alınan dosya mevcut veritabanı yerini alacak.</string>
+    <string name="alert_import_gdrive_message">StepOn veritabanı dosyası Google Drive olmalıdır. \n\n +++ Dikkat! +++\n Alınan dosya mevcut veritabanı yerini alacak.</string>
+    <string name="alert_import_message">StepOn \u0022StepOn.db\u0022 dosyası SD kart üzerindeki StepOn dizininde bulunmalıdır. Uyarı! İçeri aktarılan dosya varolan veritabanı kayıtlarınızın üzerine yazılacaktır.</string>
+    <string name="alert_new_installation_message">StepOn günlük geçmiş dosyası bulunamadı. Almak ister misiniz?</string>
+    <string name="alert_next_lap_message">Bir sonraki tura başlatmak istiyor musunuz?</string>
+    <string name="alert_pause_message">StepOn\u0027yu duraklatmak istiyor musunuz?</string>
+    <string name="alert_reset_message">Günlük adım sayısını sıfırlamak istiyor musunuz?</string>
+    <string name="alert_resume_message">StepOn yu devam ettirmek istiyor musunuz?</string>
+    <string name="alert_set_steps_message">Eğer teyit misiniz?</string>
+    <string name="automatic_backup">Kurtarmak otomatik</string>
+    <string name="automatic_backup_midnight_sdcard">Gece yarısı bir veritabanı dosyası SD-karta kaydedin.</string>
+    <string name="autopause_charging_setting">Otomatik duraklatma</string>
+    <string name="autopause_charging_setting_details">Şarj esnasında otomatik duraklama</string>
+    <string name="ave">Avrj.</string>
+    <string name="backup">Kurtarmak</string>
+    <string name="birthday">doğum günü</string>
+    <string name="body_height_setting_title">Boyunuzu yazın</string>
+    <string name="body_weight_setting">Vücut ağırlığı</string>
+    <string name="body_weight_setting_details">Vücut ağırlığı</string>
+    <string name="body_weight_setting_title">Vücut ağırlığınızı girin</string>
+    <string name="button_email">E-Posta</string>
+    <string name="button_manual_steps">Onaylamak</string>
+    <string name="button_review">Gözden geçir</string>
+    <string name="buy_button">Satın Al</string>
+    <string name="cancelled">Iptal</string>
+    <string name="centimeters">santimetre</string>
+    <string name="chart">Grafik</string>
+    <string name="chart_no_data">Hiç veri yok.</string>
+    <string name="chart_statistics">Istatistik</string>
+    <string name="chart_wait">İşlem yapılırken bekleyiniz.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-tr/values-tr.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">Görsel indirilirken beklenmeyen hata.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView girişi için İNTERNET izni gerekir</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Hatası</string>
+    <string name="com_facebook_like_button_liked">Beğendin</string>
+    <string name="com_facebook_like_button_not_liked">Beğen</string>
+    <string name="com_facebook_loading">Yükleniyor...</string>
+    <string name="com_facebook_loginview_cancel_action">İptal</string>
+    <string name="com_facebook_loginview_log_in_button">Giriş yap</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook ile giriş yap</string>
+    <string name="com_facebook_loginview_log_out_action">Çıkış yap</string>
+    <string name="com_facebook_loginview_log_out_button">Çıkış yap</string>
+    <string name="com_facebook_loginview_logged_in_as">Giriş yapan: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook ile giriş yapıldı</string>
+    <string name="com_facebook_send_button_text">Gönder</string>
+    <string name="com_facebook_share_button_text">Paylaş</string>
+    <string name="com_facebook_tooltip_default">Yeni! Kontrol sende. Uygulamalarla paylaşmak istediğin bilgileri seç.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-tr/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Android Wear uygulamasında güncelleme yapılmasını gerektiriyor."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Android Wear uygulaması güncellenene kadar çalışmayacak."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear\'ı Güncelle"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> şu anda kullanılamayan bir veya daha fazla Google Play hizmetini gerektiriyor. Lütfen yardım için geliştiriciyle iletişime geçin."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play hizmetlerini etkinleştir"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmayacak."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştir"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"İstekte bulunan: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play hizmetlerini edin"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda telefonunuzda bulunmayan Google Play hizmetleri olmadan çalışmayacak."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda tabletinizde bulunmayan Google Play hizmetleri olmadan çalışmayacak."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play hizmetlerini edinin"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Belirtilen hesap bu cihazda mevcut değil. Lütfen farklı bir hesap seçin."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Geçersiz Hesap"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Bir uygulama, Google Play Hizmetleri\'nin etkin olmasını gerektiriyor."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play hizmetlerine bağlanmak için bir veri bağlantısı gerekiyor."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Ağ Hatası"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Bir uygulama, Google Play Hizmetleri için bir güncelleme gerektiriyor."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play Hizmetleri hatası"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Belirtilen hesapta oturum açılırken hata oluştu. Lütfen farklı bir hesap seçin."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Oturum açılamadı"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play hizmetleriyle ilgili bilinmeyen sorun."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, cihazınız tarafından desteklenmeyen Google Play hizmetlerine ihtiyaç duyuyor. Yardım için üreticiyle görüşün."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play hizmetleri"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Güncelle"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"Google Play hizmetlerini güncellemezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmayacak."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play hizmetlerini güncelle"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmayacak."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play hizmetleri güncelleniyor"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Telefonda aç"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-tr/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Oturum aç"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">MFP’a bağlanmak</string>
+    <string name="consecutive_setting">Ardarda atılan adımlar</string>
+    <string name="consecutive_setting_details">Ardarda atılan adımlar</string>
+    <string name="consecutive_setting_title">Başta ardarda atılan adımlar</string>
+    <string name="daily_end_setting">Günlük bitiş zamanı</string>
+    <string name="daily_end_setting_details">Adım sayma biter</string>
+    <string name="daily_end_setting_title">Bitiş zamanını seçin</string>
+    <string name="daily_goal">Günlük hedef</string>
+    <string name="daily_goal_title">Hedef</string>
+    <string name="daily_start_setting">Günlük başlangıç zamanı</string>
+    <string name="daily_start_setting_details">Adım sayma başlar</string>
+    <string name="daily_start_setting_title">Başlama zamanını seçin</string>
+    <string name="daily_step_counts">Günlük adım sayısı</string>
+    <string name="daily_steps">Günlük adım</string>
+    <string name="database">Veritabanı</string>
+    <string name="day">Gün</string>
+    <string name="delete">Radera</string>
+    <string name="dialog_no">Hayır</string>
+    <string name="dialog_yes">Evet</string>
+    <string name="display_settings_title">Görünüm ayarları</string>
+    <string name="dropbox_downloading">Indirme ..</string>
+    <string name="dropbox_uploading">Yükleme ..</string>
+    <string name="editsteps">adımlar Düzenle</string>
+    <string name="email_file_subject">StepOn günlük kayıtları</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Lütfen problem, soru ve önerileriniz için bize e-posta yazın.</string>
+    <string name="email_title">E-Posta ve Destek</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Adımlar</string>
+    <string name="error">Hata</string>
+    <string name="exercise_type_running">Koşu</string>
+    <string name="exercise_type_setting">Yürüyüş/Koşu</string>
+    <string name="exercise_type_setting_details">Yürüyüş/Koşu</string>
+    <string name="exercise_type_setting_title">Aktivitenizi seçin</string>
+    <string name="exercise_type_walking">Yürüyüş</string>
+    <string name="export_limit_te">Veritabanı ithalat / ihracat fonksiyonları StepOn-Pro içindir.</string>
+    <string name="export_success_message">Veritabanı dışarı aktar.</string>
+    <string name="export_success_message2">Veritabanı dosyası \u0022StepOn.db\u0022 klasörü StepOn ihraç edilecektir.</string>
+    <string name="export_to_sdcard">Veritabanı dosyası (StepOn.db) SD-Kart StepOn klasöründe saklanır.</string>
+    <string name="faq">SSS</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">SSS</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Walk 10000 steps a day!</string>
+    <string name="fb_updated">Facebook güncellenir!</string>
+    <string name="fb_walk_report">StepOn günlük yürüyüş</string>
+    <string name="fri">Cum</string>
+    <string name="gender">cinsiyet</string>
+    <string name="gender_female">kadın</string>
+    <string name="gender_male">erkek</string>
+    <string name="goal_achievement_notification">Günlük hedef başarı</string>
+    <string name="goal_achievement_notification_details">Hedefi elde edilir Bildirim</string>
+    <string name="goal_reward_notification">Günlük hedef ödül</string>
+    <string name="goal_reward_notification_details">Günlük hedef ulaşıldığı zaman ...</string>
+    <string name="goal_steps_setting">Hedef adım</string>
+    <string name="goal_steps_setting_details">Hedef adım</string>
+    <string name="goal_steps_setting_title">Günlük hedef adım sayınızı girin</string>
+    <string name="google_drive_downloaded">Veritabanı dosyası (StepOn.db) indirilir.</string>
+    <string name="google_drive_file_not_exist">Dosya (StepOn.db) yok.</string>
+    <string name="google_drive_uploaded">Veritabanı dosyası (StepOn.db) yüklenir.</string>
+    <string name="height">yükseklik</string>
+    <string name="help">Yardım</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn Kullanıcı Rehberi</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">zaman</string>
+    <string name="high">Yüksek hassasiyet</string>
+    <string name="history">Geçmiş</string>
+    <string name="history_management_setting">Tarihçe yönetimi</string>
+    <string name="hm">s:d</string>
+    <string name="hour">Saat</string>
+    <string name="hourly_step_counts">Saatlik adım sayısı</string>
+    <string name="import_limit_te">Veritabanı ithalat / ihracat fonksiyonları StepOn-Pro içindir.</string>
+    <string name="import_success_message">Veritabanı içeri al.</string>
+    <string name="inches">inç</string>
+    <string name="jan">Oca</string>
+    <string name="jul">Tem</string>
+    <string name="keep_screen_on">Ekranı açık tut</string>
+    <string name="lap">Güzer.</string>
+    <string name="locale_0">Varsayılan</string>
+    <string name="locale_1">İngilizce</string>
+    <string name="locale_type_setting">Dil</string>
+    <string name="locale_type_setting_details">Dil</string>
+    <string name="locale_type_setting_title">Dil seçin</string>
+    <string name="low">Az hassasiyet</string>
+    <string name="mar">Mar</string>
+    <string name="may">May</string>
+    <string name="medium">Standart</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-tr/values-tr.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Gönder</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="miles">mil</string>
+    <string name="min">dak</string>
+    <string name="minutes">dakika</string>
+    <string name="mon">Pzt</string>
+    <string name="month">Ay</string>
+    <string name="monthly_average_step_counts">Aylık ortalama adım sayısı</string>
+    <string name="monthly_total">Aylık topl.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-tr/values-tr.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Medya çıkışı"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Cihaz arayın…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Cihaza bağlanın"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Bağlantıyı kes"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistem"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Cihazlar"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">Ağ bağlı olmalıdır.</string>
+    <string name="no_ad">Reklâm</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn adımlarınızı izleyen bir pedometre olduğunu.\n\n
+
+\u2605 Çizelgeleri ve tarih günlüklerini okumak için kolay, sizin adımlar, yakılan kalori, mesafe ve zaman izlemek. En iyi yürüyüş dostum olarak, StepOn daha fazla yürümek motive edecek! Günlük gol kurmak ve StepOn adım izci ile sağlıklı bir doğru adım.\n\n
+
+\u2605 StepOn olursa cebinizde, bel kemeri, ya da çanta gibi telefonunuzu koymak nerede senin adımlarını sayar. StepOn kadar basit! Eğer yürüyüş başladığınızda yapmanız gereken tüm başlangıç ​​düğmesine basmaktır. Yürüyüş 10K sağlıklı bir size doğru bir gün ve StepOn adımları.\n\n
+
+\u2605 Temel Özellikler:\n
+
+\u2022 Grafikler: günlük, haftalık, aylık ve yıllık adım sayar\n
+\u2022 Günlük günlük geçmişi: adım sayar, yakılan kalori, mesafe ve zaman\n
+\u2022 Akıllı 3D hareket izleme algoritmaları kullanarak doğru adım sayar\n
+\u2022 Facebook\u0027ta günlük günlük paylaş\n
+\u2022 Google Drive yedekleme\n
+\u2022 Kişiselleştirilmiş ayarları: günlük hedef, duyarlılık, birim: metrik / emperyal, adım uzunluğu, ağırlık, vs
+</string>
+    <string name="notes_title">Notlar</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Notification</string>
+    <string name="nov">Kas</string>
+    <string name="ok">Tamam</string>
+    <string name="operation_level_setting">Ekran açık/kapalı</string>
+    <string name="operation_level_setting_details">Ekran açık/kapalı</string>
+    <string name="operation_level_setting_title">Ekran açık/kapalı ayarını seçin</string>
+    <string name="pause">Açık</string>
+    <string name="permission_not_granted">İzinler verilmiş değildi.</string>
+    <string name="personal_settings_title">Kişisel Ayarlar</string>
+    <string name="power_settings_title">Güç kullanımı</string>
+    <string name="power_usage_type_more_accurate">Daha doğru adım sayısı</string>
+    <string name="power_usage_type_most_accurate">En kesin adım sayısı</string>
+    <string name="power_usage_type_power_balanced">Dengeli</string>
+    <string name="power_usage_type_power_least">Minimum güç tüketimi</string>
+    <string name="power_usage_type_power_less">Daha az güç tüketimi</string>
+    <string name="power_usage_type_power_saving">Güç koruma adım sayısı</string>
+    <string name="power_usage_type_setting">Güç kullanımı modu</string>
+    <string name="power_usage_type_setting_details">Güç kullanımı modu</string>
+    <string name="power_usage_type_setting_title">Adım sayısı keskinliği ya da güç korumayı seçin</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">S: Adım sayma duruyor.</string>
+    <string name="q2">S: Ekran kapalıyken adımlarımı saymıyor (Bekleme modu).</string>
+    <string name="q3">S: Ardarda atılan adım ayarı nedir?</string>
+    <string name="q4">S: Ben adım sayar düzenleyebilir miyim?</string>
+    <string name="q5">S: Duraklatma modu nedir?</string>
+    <string name="q6">S: Günlük kayıtları saklamıyor.</string>
+    <string name="q7">S: Adım mesafemi nasıl ölçeceğim?</string>
+    <string name="q8">S: Benim sorum SSS içerisinde yok.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Çıkış</string>
+    <string name="reset">Sıfırla</string>
+    <string name="resume">Kapalı</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Kaliteli App\u0027leri geliştirmek çok zaman ve çaba isteyen bir iştir. Eğer StepOn\u0027dan memnun kaldıysanız lütfen market sayfamıza olumlu bir izlenim nırakın. Bu bizi daha iyi App\u0027ler geliştirmemiz için motive edecektir. Teşekkürler.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">ödül</string>
+    <string name="run_in_background">Ekranı kapalı tut</string>
+    <string name="run_length_setting">Adım mesafesi: Koşu</string>
+    <string name="run_length_setting_details">Adım mesafesi: Koşu</string>
+    <string name="run_length_setting_title">Koşu adım mesafenizi girin</string>
+    <string name="sat">Cmt</string>
+    <string name="save">Kaydet</string>
+    <string name="screen_skin_0">Mavi / Koyu</string>
+    <string name="screen_skin_1">Mavi / Işık</string>
+    <string name="screen_skin_2">Turuncu / Işık</string>
+    <string name="screen_skin_type_setting">Tema renk</string>
+    <string name="screen_skin_type_setting_details">Tema renk</string>
+    <string name="screen_skin_type_setting_title">Tema rengi seçin</string>
+    <string name="send">Gönder</string>
+    <string name="send_cvs">CSV dosya göndermek.</string>
+    <string name="sensitivity_setting">Hassaslık</string>
+    <string name="sensitivity_setting_details">Hassaslık</string>
+    <string name="sensitivity_setting_title">Hassaslık seviyesini seçin</string>
+    <string name="sep">Eyl</string>
+    <string name="settings">Ayarlar</string>
+    <string name="share">Hisse</string>
+    <string name="speed_type_average">Ortalama hız</string>
+    <string name="speed_type_realtime">Gerçek zamanlı hız</string>
+    <string name="speed_type_setting">Hız</string>
+    <string name="speed_type_setting_details">Hız</string>
+    <string name="speed_type_setting_title">Hız biçimi seçin</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-tr/values-tr.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">Durum güncelleniyor.</string>
+    <string name="step_length_setting">Adım mesafesi: Yürüyüş</string>
+    <string name="step_length_setting_details">Adım mesafesi: Yürüyüş</string>
+    <string name="step_length_setting_title">Yürüyüş adım mesafenizi girin</string>
+    <string name="steps">adımlar</string>
+    <string name="stop_dialog_nosave">Kaydetmek etmeyin</string>
+    <string name="stop_dialog_save">Kaydet</string>
+    <string name="success">Başarı</string>
+    <string name="successfully_posted_post">Başarıyla gönderdi.</string>
+    <string name="sun">Paz</string>
+    <string name="thu">Per</string>
+    <string name="toast_dbtransfered_message">Günlük kayıt geçmişi StepOn\u0027dan aktarıldı.</string>
+    <string name="toast_external_storage_not_available">Dış bellek mevcut değil.</string>
+    <string name="toast_external_storage_not_writeable">Dış bellek yazılabilir değil.</string>
+    <string name="toast_folder">StepOn dizini oluşturulamadı.</string>
+    <string name="toast_folder_doesnot_exist">StepOn dizini mevcut değil.</string>
+    <string name="toast_need_sdcard">Kayıtları göndermek için bir SD kart gereklidir.</string>
+    <string name="toast_save">StepOn dizinine kaydedildi.</string>
+    <string name="trashcan">çöp sepeti</string>
+    <string name="trial_expired">Bulut (Google Drive) yedekleme Pro sürümü mevcuttur.</string>
+    <string name="try_again">Lütfen tekrar deneyiniz!</string>
+    <string name="tue">Sal</string>
+    <string name="units_imperial">Emperyal: inç, mil, pound</string>
+    <string name="units_metric">Metrik: cm, km, kg</string>
+    <string name="units_setting">Metrik / Emperyal</string>
+    <string name="units_setting_details">Metrik / Emperyal</string>
+    <string name="units_setting_title">Biriminizi seçin</string>
+    <string name="very_high">En yüksek hassasiyet</string>
+    <string name="very_low">En az hassasiyet</string>
+    <string name="wait_for_data_transfer">Veritabanı transferi için Lütfen bekleyin ..</string>
+    <string name="wait_for_exporting_db">Veritabanı İhracat ..</string>
+    <string name="wait_for_generating_csv">CSV dosyası yazma..</string>
+    <string name="wait_for_importing_db">Veritabanı İthalat ..</string>
+    <string name="wake_up">Ekranı açık kalmaya zorla</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-tr/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Google ile satın al"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="wed">Çrş</string>
+    <string name="week">Hafta</string>
+    <string name="week_of">Hafta</string>
+    <string name="week_type_american">Pazar</string>
+    <string name="week_type_european">Pazartesi</string>
+    <string name="week_type_setting">Haftanın ilk günü</string>
+    <string name="week_type_setting_details">Haftanın ilk günü</string>
+    <string name="week_type_setting_title">Haftalık grafik için format seçin</string>
+    <string name="weekly_total">Haftalık topl.</string>
+    <string name="widget_expired">Tükendi</string>
+    <string name="widget_paused">Durduru.</string>
+    <string name="widget_reset">\u2605 Sıfırla \u2605</string>
+    <string name="widget_skin_0">Varsayılan</string>
+    <string name="widget_skin_1">Siyah</string>
+    <string name="widget_skin_2">Mavi</string>
+    <string name="widget_skin_3">Yeşil</string>
+    <string name="widget_skin_4">Turuncu</string>
+    <string name="widget_skin_5">Pembe</string>
+    <string name="widget_skin_6">Transparan</string>
+    <string name="widget_skin_type_setting">Widget rengi</string>
+    <string name="widget_skin_type_setting_details">Widget rengi</string>
+    <string name="widget_skin_type_setting_title">Widget rengini seçin</string>
+    <string name="widget_st">ad</string>
+    <string name="widget_steps">adımlar</string>
+    <string name="year">Yıl</string>
+    <string name="yearly_total">Yıllık topl.</string>
+</resources>

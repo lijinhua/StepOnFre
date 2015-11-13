@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<string name="faq_title">Hỏi đáp</string>
+<string name="q1">Q: Máy dừng đếm bước.</string>
+<string name="a1">A: Đưa Accupedo vào thùng rác sau đó mở nó trên màn hình chủ, và thử nghiệm. Nếu nó vẫn không hoạt động, đưa Accupedo vào Thùng rác một lần nữa và tắt rồi bật lại điện thoại sau đó mở ra và thử nghiệm.</string>
+<string name="q2">Q: Không đếm khi màn hình tắt (chế độ chờ)</string>
+<string name="a2">A: Một số điện thoại không hỗ trợ G-sensor ở chế độ ngủ (màn hình tắt). Đó không phải là lỗi của ứng dụng này.</string>
+<string name="q3">Q: Các bước liên tiếp trong Cài đặt là gì?</string>
+<string name="a3">A: Bắt đầu đếm bước sau khi đi một số bước liên tiếp. Ví dụ, nếu các bước liên tiếp là 10 thì bạn cần phải đi bộ 10 bước liên tục. Nếu bạn đi bộ ít hơn 10 bước và dừng lại, thì những bước này sẽ bị hủy.</string>
+<string name="q4">Q: Tôi có thể sửa tính bước?</string>
+<string name="a4">A: Đi đến cửa sổ lịch sử. Ấn xuống màn hình để chỉnh sửa hoặc xóa số lượng bước cho mỗi ngày.</string>
+<string name="q5">Q: Chế độ tạm dừng là gì?</string>
+<string name="a5">A: Trong chế độ Dừng (khi có màu xanh dương), sẽ ngừng đếm bước. Chế độ dừng không tiêu thụ pin. Để khởi động lại đếm bước, chuyển sang chế độ Tiếp tục.</string>
+<string name="q6">Q: Không lưu nhật ký hàng ngày.</string>
+<string name="a6">A: Nhật ký hằng ngày được lưu lúc nửa đêm. Đừng tắt điện thoại tại thời điểm đó.</string>
+<string name="q7">Q: Làm thế nào để đo khoảng cách bước?</string>
+<string name="a7">A: Từ gót chân đến gót chân</string>
+<string name="q8">Q: Vấn đề của tôi không được liệt kê trong Hỏi đáp.</string>
+<string name="a8">A: Xin vui lòng email cho chúng tôi. Chúng tôi chắc chắn sẽ hỗ trợ bạn.</string>
+
+</resources>

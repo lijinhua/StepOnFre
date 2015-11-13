@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">Guia d\u0027Usuari d\u0027StepOn</string> 
+
+<string name="email_title">Correu-e i valora\u0027ns</string>
+<string name="email_message">\u2605 Si us plau, envia\u0027ns un correu si tens qualsevol problema, pregunta o comentaris.</string>  
+<string name="review_message">\u2605 Es necessita molt esforç i suport per desenvolupar aplicacions de qualitat.
+Si us plau deixa una valoració positiva si estàs satisfet amb StepOn. Ens encoratjarà per desenvolupar millors aplicacions. Gràcies.
+</string>
+<string name="notes_title">Notes</string>
+
+<string name="notes_message">
+\u2605 StepOn és un podòmetre que registra els teus passos.\n\n 
+
+\u2605 Amb fàcil de llegir les cartes i registres d\u0027història, monitoritzar els seus passos, les calories cremades, distància i temps. A mesura que el seu millor amic per caminar, StepOn motivarà a caminar més! Configureu el vostre meta diària i fer un pas cap a una més saludable amb StepOn pas rastrejador.\n\n
+
+\u2605 StepOn compte els seus passos independentment d\u0027on es col loca el telèfon com la seva butxaca, cinturó o bossa. StepOn és tan simple! Tot el que necessites fer és prémer el botó d\u0027inici quan es comença a caminar. Caminada 10K passos al dia i StepOn cap a una persona més sana.\n\n
+
+\u2605 Característiques principals:\n
+
+\u2022 Gràfics: tots els dies, els recomptes setmanals, mensuals i anuals de passos\n
+\u2022 Historial de registre diari: pas compte, les calories cremades, la distància i el temps\n
+\u2022 Pas compte precises utilitzant algoritmes de seguiment intelligent del moviment 3D\n
+\u2022 Comparteix registre diari a Facebook\n
+\u2022 Còpia de seguretat de Google Drive\n
+\u2022 Paràmetres personalitzats: meta diària, de sensibilitat, d\u0027unitats: mètrica / imperial, la longitud de gambada, el pes, etc 
+</string>
+
+</resources>

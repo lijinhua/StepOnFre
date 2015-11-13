@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn manual</string> 
+
+<string name="email_title">E-mail \u0026 Support</string>
+<string name="email_message">\u2605 Skicka ett mail till oss om du har några problem, frågor eller kommentarer.</string>  
+<string name="review_message">\u2605 Mycket arbete och stöd behövs för att utveckla kvalitativa appar. Lämna gärna en positiv recension om du är nöjd med StepOn. Det kommer att uppmuntra oss att utveckla bättre appar. Tack.</string>
+<string name="notes_title">Anteckningar</string>
+<string name="notes_message">
+\u2605 StepOn är en stegräknare som spårar dina steg.\n\n 
+
+\u2605 En intelligent 3D rörelseigenkännande algoritm känner av gångmönster. Den filtrerar och tar bort icke gångaktiviteter. StepOn räknar dina steg oavsett var du har telefonen, som i fickan, i midjebälte, eller i väskan.\n\n 
+
+\u2605 Håll dig frisk genom att sätta upp ett dagligt mål och övervaka noggrant dina steg med StepOn.\n\n 
+
+\u2605 StepOn är så enkelt. Startknappen Allt du behöver göra är att trycka på när du börjar gå.\n\n 
+
+\u2605 Viktiga funktioner:\n 
+
+\u2022 Diagram: dagligt, veckovis, månadsvis och årligt antal steg visas.\n 
+\u2022 Daglig logghistorik: antal steg, distans, kalorier och gångtid.\n 
+\u2022 Den intelligenta algoritmen börjar räkna efter 4-12 på varandra följande steg. Den stannar och startar automatiskt när du går.\n 
+\u2022 Facebook-inlägg.\n 
+\u2022 Google Drive backup.\n 
+\u2022 Anpassade personliga inställningar: Känslighet, metriska / engelska, steglängd, kroppsvikt, dagligt mål, etc.
+</string>
+</resources>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: Esborra Accupedo i llavors obre’l a l’escriptori i prova-ho. Si continua sense funcionar una altra vegada, esborra Accupedo i apaga i encèn el telèfon, i obre i prova’l.</string>
+    <string name="a2">A: Alguns telèfons no suporten el G-sensor en mode d’espera (pantalla apagada) pels fabricants de telèfons. No és un defecte d’aquesta aplicació.</string>
+    <string name="a3">A: Comptador de passos comença desprès de caminar el nombre consecutiu de passos. Per exemple, si està posat en 10, necessites caminar 10 passos continuats sense parar. Si camines menys de 10 passos i t’atures, llavors es descarten aquests passos.</string>
+    <string name="a4">A: Aneu a la finestra d’Historial. Premeu la pantalla d’editar o esborrar pas compte per a cada dia.</string>
+    <string name="a5">A: Durant el Mode de Pausa (quan està en color blau), s’atura el comptador de passos. Aquest Mode de Pausa no consumeix bateria. Per reiniciar el comptador de passos, canvia al Mode Reinici.</string>
+    <string name="a6">A: Es guarda el registre diari a Mitjanit. No apaguis el telèfon a aquesta hora.</string>
+    <string name="a7">A: Del taló d’un peu al taló de l’altre.</string>
+    <string name="a8">A: Si us plau envia’ns un correu-e. T’ajudarem definitivament.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ca/values-ca.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navega cap a dalt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Mostra\'ls tots"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Comparteix amb %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Replega"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">Versió 1.2.5</string>
+    <string name="accupdeo_version_title">Versió StepOn</string>
+    <string name="accupedo_settings_about">Sobre StepOn</string>
+    <string name="accupedo_settings_information">Informació</string>
+    <string name="activehours_setting">Hores actives</string>
+    <string name="activehours_setting_details">Habilita/deshabilita “hores actives”. Hores inactives estarà en mode Pausa per estalviar energia. Quan està seleccionat, establir també a sota hores de començament i fi.</string>
+    <string name="alert_daily_reset_message">Vols reiniciar comptador de passos?</string>
+    <string name="alert_delete_day_message">Suprimeix l’historial de cada dia?</string>
+    <string name="alert_delete_month_message">Suprimeix l’historial de cada mes?</string>
+    <string name="alert_history_update_version_401_message">+++ Atenció! +++\n Premeu la pantalla d’editar o esborrar el recompte de passos diaris. O bé, feu clic a la pantalla per veure els detalls d’historial falda.</string>
+    <string name="alert_import_dropbox_message">Arxiu de base de dades StepOn ha d’estar en Dropbox. \n\n +++ Atenció! +++\n L’arxiu importat reemplaçarà a la base de dades existent.</string>
+    <string name="alert_import_gdrive_message">Arxiu de base de dades StepOn ha d’estar a Google Drive. \n\n +++ Atenció! +++\n L’arxiu importat reemplaçarà a la base de dades existent.</string>
+    <string name="alert_import_message">Arxiu StepOn “StepOn.db” hauria d’estar a la carpeta de la targeta SD. Atenció! L’arxiu importat reemplaçarà la base de dades existent.</string>
+    <string name="alert_new_installation_message">StepOn arxiu històric diari va ser trobat. Voleu importar?</string>
+    <string name="alert_next_lap_message">Vols iniciar un proper viatge?</string>
+    <string name="alert_pause_message">Vols pausar StepOn?</string>
+    <string name="alert_resume_message">Vols continuar StepOn?</string>
+    <string name="alert_set_steps_message">Realment vols vostè?</string>
+    <string name="automatic_backup">Guardat automàtic</string>
+    <string name="automatic_backup_midnight_sdcard">Guardar un fitxer de base de dades en SD-Card a mitjanit.</string>
+    <string name="autopause_charging_setting">Pausa automàtica</string>
+    <string name="autopause_charging_setting_details">Pausa automàtica durant l’encesa de càrrega</string>
+    <string name="ave">Mitja.</string>
+    <string name="backup">Guardar</string>
+    <string name="birthday">Aniversari</string>
+    <string name="body_height_setting_title">Introdueixi la seva alçada</string>
+    <string name="body_weight_setting">Pes</string>
+    <string name="body_weight_setting_details">Pes</string>
+    <string name="body_weight_setting_title">Introdueix el teu pes</string>
+    <string name="button_email">Correu-e</string>
+    <string name="button_manual_steps">Confirmar</string>
+    <string name="button_review">Revisió</string>
+    <string name="buy_button">Compra</string>
+    <string name="chart">Gràfic</string>
+    <string name="chart_no_data">Dades no disponibles</string>
+    <string name="chart_statistics">Estadística</string>
+    <string name="chart_wait">Processant.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-ca/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necessita que s\'actualitzi l\'aplicació Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà fins que no actualitzis l\'aplicació Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Actualitza Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necessita un o més serveis de Google Play que actualment no estan disponibles. Posa\'t en contacte amb el desenvolupador per obtenir ajuda."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Activa els serveis de Google Play"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionarà si no actives els serveis de Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Activa els serveis de Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Sol·licitada per <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Baixa els serveis de Google Play"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà si el telèfon no té instal·lats els serveis de Google Play."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà si la tauleta no té instal·lats els serveis de Google Play."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Baixa els serveis de Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"El compte especificat no existeix en aquest dispositiu. Tria un compte diferent."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Compte no vàlid"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Una aplicació requereix que s\'activin els serveis de Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Es requereix una connexió de dades per connectar amb els serveis de Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Error de xarxa"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Una aplicació requereix que s\'actualitzin els serveis de Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Error dels serveis de Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"S\'ha produït un error en iniciar la sessió al compte especificat. Selecciona un altre compte."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"S\'ha produït un error en iniciar sessió."</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Error desconegut relacionat amb els serveis de Google Play."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depèn dels serveis de Google Play, que no són compatibles amb el teu dispositiu. Posa\'t en contacte amb el fabricant per obtenir ajuda."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Serveis de Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Actualitza"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà si no actualitzes els serveis de Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Actualitza els serveis de Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà sense els serveis de Google Play, que s\'estan actualitzant en aquest moment."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Actualitzant els serveis de Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Obre al telèfon"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-ca/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Inicia sessió"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Inicia la sessió amb Google"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Connecta’t a MFP</string>
+    <string name="consecutive_setting">Passos consecutius</string>
+    <string name="consecutive_setting_details">Passos consecutius</string>
+    <string name="consecutive_setting_title">Passos inicials consecutius</string>
+    <string name="daily_end_setting">Hora de finalització diària</string>
+    <string name="daily_end_setting_details">Comptador de passos s’atura</string>
+    <string name="daily_end_setting_title">Selecciona hora de finalització</string>
+    <string name="daily_goal">Objectiu diari</string>
+    <string name="daily_goal_title">Objectiu</string>
+    <string name="daily_start_setting">Hora de començament diària</string>
+    <string name="daily_start_setting_details">Comptador de passos comença</string>
+    <string name="daily_start_setting_title">Selecciona hora de començament</string>
+    <string name="daily_step_counts">Comptador passos diari</string>
+    <string name="daily_steps">Passos diaris</string>
+    <string name="database">Base de dades</string>
+    <string name="day">Dia</string>
+    <string name="delete">Esborrar</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_yes">Sí</string>
+    <string name="display_settings_title">Visualització</string>
+    <string name="dropbox_downloading">Descarrega..</string>
+    <string name="dropbox_uploading">Càrrega..</string>
+    <string name="editsteps">Edita passos</string>
+    <string name="email_file_subject">Registres diari StepOn</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Si us plau, envia\u0027ns un correu si tens qualsevol problema, pregunta o comentaris.</string>
+    <string name="email_title">Correu-e i valora\u0027ns</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Passos</string>
+    <string name="exercise_type_running">Corrent</string>
+    <string name="exercise_type_setting">Caminant / Corrent</string>
+    <string name="exercise_type_setting_details">Caminant / Corrent</string>
+    <string name="exercise_type_setting_title">Tria la teva activitat</string>
+    <string name="exercise_type_walking">Caminant</string>
+    <string name="export_limit_te">Base de dades d\u0027importació / exportació funcions són només per StepOn-Pro.</string>
+    <string name="export_success_message">Export.</string>
+    <string name="export_success_message2">Arxiu de base de dades \u0022StepOn.db\u0022 seran exportats a StepOn carpeta.</string>
+    <string name="export_to_sdcard">Arxiu de base de dades (StepOn.db) s’emmagatzema a la carpeta StepOn de SD-Card.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">FAQ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Camina 10000 passos al dia!</string>
+    <string name="fb_updated">Facebook actualitza!</string>
+    <string name="fb_walk_report">StepOn informe de caminada diària</string>
+    <string name="fri">Dv</string>
+    <string name="gender">Gènere</string>
+    <string name="gender_female">Femení</string>
+    <string name="gender_male">Home</string>
+    <string name="goal_achievement_notification">Assoliment de la meta diària</string>
+    <string name="goal_achievement_notification_details">Notificació quan s’aconsegueix meta</string>
+    <string name="goal_reward_notification">Diari recompensa meta</string>
+    <string name="goal_reward_notification_details">Quan s’aconsegueixi l’objectiu diari ...</string>
+    <string name="goal_steps_setting">Objectiu de passos</string>
+    <string name="goal_steps_setting_details">Objectiu de passos</string>
+    <string name="goal_steps_setting_title">Introdueix objectiu diari de passos</string>
+    <string name="google_drive_downloaded">Arxiu de base de dades (StepOn.db) es descarrega.</string>
+    <string name="google_drive_file_not_exist">No hi ha arxiu (StepOn.db).</string>
+    <string name="google_drive_uploaded">Es carrega el fitxer de base de dades (StepOn.db).</string>
+    <string name="height">Alçada</string>
+    <string name="help">Ajuda</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">Guia d\u0027Usuari d\u0027StepOn</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">temps</string>
+    <string name="high">Més sensible</string>
+    <string name="history">Historial</string>
+    <string name="history_management_setting">història de gestió</string>
+    <string name="hour">Hora</string>
+    <string name="hourly_step_counts">Comptador de passos per hora</string>
+    <string name="import_limit_te">Base de dades d\u0027importació / exportació funcions són només per StepOn-Pro.</string>
+    <string name="import_success_message">Import.</string>
+    <string name="inches">polzades</string>
+    <string name="jan">Gen</string>
+    <string name="jul">Jul</string>
+    <string name="keep_screen_on">Mantenir pantalla encesa</string>
+    <string name="lap">Viat.</string>
+    <string name="locale_0">Per defecte</string>
+    <string name="locale_1">Anglès</string>
+    <string name="locale_type_setting">Idioma</string>
+    <string name="locale_type_setting_details">Idioma</string>
+    <string name="locale_type_setting_title">Selecciona idioma</string>
+    <string name="low">Menys sensible</string>
+    <string name="mar">Mar</string>
+    <string name="may">Mai</string>
+    <string name="medium">Estàndar</string>
+    <string name="miles">milla</string>
+    <string name="minutes">minuts</string>
+    <string name="mon">Dl</string>
+    <string name="month">Mes</string>
+    <string name="monthly_average_step_counts">Mitjana compte passos mensual</string>
+    <string name="monthly_total">Total mensual</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-ca/values-ca.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Sortida de contingut multimèdia"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"S\'estan cercant dispositius…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Connecta al dispositiu"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Desconnecta"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositius"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">Xarxa ha d\u0027estar connectat.</string>
+    <string name="no_ad">Anunci</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn és un podòmetre que registra els teus passos.\n\n 
+
+\u2605 Amb fàcil de llegir les cartes i registres d\u0027història, monitoritzar els seus passos, les calories cremades, distància i temps. A mesura que el seu millor amic per caminar, StepOn motivarà a caminar més! Configureu el vostre meta diària i fer un pas cap a una més saludable amb StepOn pas rastrejador.\n\n
+
+\u2605 StepOn compte els seus passos independentment d\u0027on es col loca el telèfon com la seva butxaca, cinturó o bossa. StepOn és tan simple! Tot el que necessites fer és prémer el botó d\u0027inici quan es comença a caminar. Caminada 10K passos al dia i StepOn cap a una persona més sana.\n\n
+
+\u2605 Característiques principals:\n
+
+\u2022 Gràfics: tots els dies, els recomptes setmanals, mensuals i anuals de passos\n
+\u2022 Historial de registre diari: pas compte, les calories cremades, la distància i el temps\n
+\u2022 Pas compte precises utilitzant algoritmes de seguiment intelligent del moviment 3D\n
+\u2022 Comparteix registre diari a Facebook\n
+\u2022 Còpia de seguretat de Google Drive\n
+\u2022 Paràmetres personalitzats: meta diària, de sensibilitat, d\u0027unitats: mètrica / imperial, la longitud de gambada, el pes, etc 
+</string>
+    <string name="notes_title">Notes</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Notificació</string>
+    <string name="nov">Nov</string>
+    <string name="operation_level_setting">Pantalla on/off</string>
+    <string name="operation_level_setting_details">Pantalla on/off</string>
+    <string name="operation_level_setting_title">Selecciona opció pantalla on/off</string>
+    <string name="permission_not_granted">Els permisos no es concedeixen.</string>
+    <string name="personal_settings_title">Personal</string>
+    <string name="pounds">lliures</string>
+    <string name="power_settings_title">Ús d’ Energia</string>
+    <string name="power_usage_type_more_accurate">Pas més precisa recompte</string>
+    <string name="power_usage_type_most_accurate">Màxima precisió comptador passos</string>
+    <string name="power_usage_type_power_balanced">Equilibrat</string>
+    <string name="power_usage_type_power_least">Mínim consum d’energia</string>
+    <string name="power_usage_type_power_less">Menor consum d’energia</string>
+    <string name="power_usage_type_power_saving">Comptador amb estalvi d’energia</string>
+    <string name="power_usage_type_setting">Mode d’ús d’Energia</string>
+    <string name="power_usage_type_setting_details">Mode d’ús d’Energia</string>
+    <string name="power_usage_type_setting_title">Selecciona comptador pas precís o estalvi d’energia</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: S’atura el comptador de passos.</string>
+    <string name="q2">Q: No compta quan la pantalla està apagada (Mode d’espera)</string>
+    <string name="q3">Q: Què són passos consecutius a la configuració?</string>
+    <string name="q4">Q: Puc editar pas compte?</string>
+    <string name="q5">Q: Què és el Mode de Pausa?</string>
+    <string name="q6">Q: No es guarda el registre diari.</string>
+    <string name="q7">Q: Com mesurar la distància de pas?</string>
+    <string name="q8">Q: El meu problema no està llistat a les FAQ.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Sortida</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Es necessita molt esforç i suport per desenvolupar aplicacions de qualitat.
+Si us plau deixa una valoració positiva si estàs satisfet amb StepOn. Ens encoratjarà per desenvolupar millors aplicacions. Gràcies.
+</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">Recompensa</string>
+    <string name="run_in_background">Mantenir pantalla apagada</string>
+    <string name="run_length_setting">Distància de pas: Corrent</string>
+    <string name="run_length_setting_details">Distància de pas: Corrent</string>
+    <string name="run_length_setting_title">Introdueix la teva distància de pas:  Corrent</string>
+    <string name="sat">Ds</string>
+    <string name="save">Guardar</string>
+    <string name="screen_skin_0">Blau / Fosc</string>
+    <string name="screen_skin_1">Blau / Llum</string>
+    <string name="screen_skin_2">Taronja / Llum</string>
+    <string name="screen_skin_type_setting">Color del tema</string>
+    <string name="screen_skin_type_setting_details">Color del tema</string>
+    <string name="screen_skin_type_setting_title">Seleccionar el color del tema</string>
+    <string name="send">Enviar</string>
+    <string name="send_cvs">Enviar arxiu CSV</string>
+    <string name="sensitivity_setting">Sensibilitat</string>
+    <string name="sensitivity_setting_details">Sensibilitat</string>
+    <string name="sensitivity_setting_title">Selecciona nivell de sensibilitat</string>
+    <string name="sep">Set</string>
+    <string name="settings">Configuració</string>
+    <string name="share">Part</string>
+    <string name="speed_type_average">Velocitat mitjana</string>
+    <string name="speed_type_realtime">Velocitat en temps real</string>
+    <string name="speed_type_setting">Velocitat</string>
+    <string name="speed_type_setting_details">Velocitat</string>
+    <string name="speed_type_setting_title">Trieu el format de velocitat</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ca/values-ca.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">Actualització de l’estat.</string>
+    <string name="step_length_setting">Distància de pas: Caminant</string>
+    <string name="step_length_setting_details">Distància de pas: Caminant</string>
+    <string name="step_length_setting_title">Introdueix la teva distància de pas:  Caminant</string>
+    <string name="steps">passos</string>
+    <string name="stop_dialog_nosave">No guardeu</string>
+    <string name="stop_dialog_save">Guardar</string>
+    <string name="success">èxit</string>
+    <string name="successfully_posted_post">Publicat correctament.</string>
+    <string name="sun">Diu</string>
+    <string name="thu">Dj</string>
+    <string name="toast_dbtransfered_message">Registre històric diari ha estat transferit des de StepOn.</string>
+    <string name="toast_external_storage_not_available">Emmagatzematge Extern no està disponible.</string>
+    <string name="toast_external_storage_not_writeable">Emmagatzematge Extern no és escrivible.</string>
+    <string name="toast_folder">No es pot crear carpeta StepOn.</string>
+    <string name="toast_folder_doesnot_exist">Carpeta StepOn no existeix.</string>
+    <string name="toast_need_sdcard">És necessari una targeta SD per guadar i enviar registres.</string>
+    <string name="toast_save">Guardat a la carpeta StepOn.</string>
+    <string name="trashcan">Residus cistella</string>
+    <string name="trial_expired">Núvol de còpia de seguretat (Google Drive) està disponible a la versió PRO.</string>
+    <string name="try_again">Si us plau, torna a intentar-ho!</string>
+    <string name="tue">Dt</string>
+    <string name="units_imperial">Anglès: in, milla, lliura</string>
+    <string name="units_metric">Mètric: cm, km, kg</string>
+    <string name="units_setting">Mètric / Anglès</string>
+    <string name="units_setting_details">Mètric / Anglès</string>
+    <string name="units_setting_title">Selecciona la teva unitat</string>
+    <string name="very_high">Màxima sensibilitat</string>
+    <string name="very_low">Mínima sensibilitat</string>
+    <string name="wait_for_data_transfer">Espereu que la transferència de base de dades ..</string>
+    <string name="wait_for_exporting_db">Exportar base de dades..</string>
+    <string name="wait_for_generating_csv">Escrivint arxiu CSV..</string>
+    <string name="wait_for_importing_db">Importació de base de dades..</string>
+    <string name="wake_up">Forçar pantalla encesa</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-ca/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Compra amb Google"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <string name="wed">Dc</string>
+    <string name="week">Setmana</string>
+    <string name="week_of">Setmana de</string>
+    <string name="week_type_american">Diumenge</string>
+    <string name="week_type_european">Dilluns</string>
+    <string name="week_type_setting">Primer dia de la setmana</string>
+    <string name="week_type_setting_details">Primer dia de la setmana</string>
+    <string name="week_type_setting_title">Tria format de setmana per al gràfic setmanal</string>
+    <string name="weekly_total">Total setmana</string>
+    <string name="widget_paused">Pausat.</string>
+    <string name="widget_skin_0">Per defecte</string>
+    <string name="widget_skin_1">Negre</string>
+    <string name="widget_skin_2">Blau</string>
+    <string name="widget_skin_3">Verd</string>
+    <string name="widget_skin_4">Taronja</string>
+    <string name="widget_skin_5">Rosa</string>
+    <string name="widget_skin_6">Transparent</string>
+    <string name="widget_skin_type_setting">Color aparença Widget</string>
+    <string name="widget_skin_type_setting_details">Color aparença Widget</string>
+    <string name="widget_skin_type_setting_title">Seleciona color aparença Widget</string>
+    <string name="widget_st">\u00A0pa</string>
+    <string name="widget_steps">pas</string>
+    <string name="year">Any</string>
+    <string name="yearly_total">Total anual</string>
+</resources>

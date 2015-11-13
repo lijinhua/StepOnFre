@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">Häufig gestellte Fragen</string>
+<string name="q1">"? Es werden überhaupt keine Schritte mehr gezählt."</string>
+<string name="a1">"! Entfernen Sie das Widget (verschieben Sie es in den Mülleimer) und installieren Sie es erneut auf der Startseite. Testen Sie, ob es jetzt funktioniert. Wenn nicht, entfernen Sie das Widget erneut, schalten Sie Ihr Smartphone aus und wieder ein, installieren das Widget wieder und testen erneut die Funktion."</string>
+<string name="q2">"? Es werden keine Schritte mehr gezählt, wenn das Display aus ist oder das Smartphone im Standby ist."</string>
+<string name="a2">"! Einige Smartphones schalten herstellerseitig ihren Bewegungssensor ab, wenn sie in den Standby wechseln. Das ist kein Fehler von Accupedo."</string>
+<string name="q3">"? Was bedeutet die Einstellung Zähler aktiv nach … Schritten?"</string>
+<string name="a3">"! Erst wenn Accupedo mehr als die eingegebene Zahl an Schritten direkt hintereinander registriert hat, fängt es an, die Schritte weiter zu zählen. Das soll verhindern, dass versehentliche Wackler als Schritt gezählt werden und sicherstellen, dass Sie wirklich gehen. Wird die eingebene Zahl nicht erreicht, z.B. nur 9 registrierte Schritte bei Vorgabe von 10 Schritten, dann werden die 9 Schritte verworfen."</string>
+<string name="q4">"? Kann ich Schritt zählt bearbeiten?"</string>
+<string name="a4">"! Zum History-Fenster. Drücken Sie den Bildschirm, um Schritt zählt für jeden Tag, bearbeiten oder löschen.</string>
+<string name="q5">"? Was bedeutet Pause?"</string>
+<string name="a5">"! Wenn Pause bzw. pausiert angezeigt wird, zählt Accupedo keine Schritte [AUS]. Es wird kein Strom verbraucht und der Bewegungssensor wird abgeschaltet. Um die Schrittzählung wieder zu aktivieren, schalten Sie Accupedo wieder [EIN].</string>
+<string name="q6">"? Der Tagesbericht wird nicht gespeichert."</string>
+<string name="a6">"! Der Tagesbericht wird automatisch um Mitternacht gespeichert. Achten Sie also darauf, dass Ihr Smartphone dann eingeschaltet ist."</string>
+<string name="q7">"? Wie messe ich meine Schrittlänge?"</string>
+<string name="a7">"! Machen Sie einen Schritt. Messen Sie entweder von den Zehen zu den Zehen oder von der Ferse zur Ferse."</string>
+<string name="q8">"? Mein Problem ist hier nicht aufgelistet."</string>
+<string name="a8">"! Schreiben Sie mir bitte eine E-Mail. Wir werden Ihnen auf jeden Fall helfen."</string>
+
+</resources>

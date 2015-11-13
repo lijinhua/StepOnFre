@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- When version & TE changes -->
+
+    <string name="version_number">1.3.1</string>
+    <string name="app_facebook_te_id">1433555883540476</string>  <!--Facebook app id for TE-->
+    <string name="app_facebook_pro_id">000</string>  <!--Facebook app id for NEW Pro-->
+
+    <string name="app_name_te">StepOn</string>
+    <string name="app_name3_te">StepOn 3x1</string>
+    <string name="app_name4_te">StepOn 4x1</string>
+
+    <string name="app_name_pro">StepOn-Pro</string>
+    <string name="app_name3_pro">StepOn-Pro 3x1</string>
+    <string name="app_name4_pro">StepOn-Pro 4x1</string>
+
+    <string name="accupedo">StepOn</string>
+    <string name="accupedo_settings_about">About StepOn</string>
+    <string name="accupdeo_version_title">StepOn version</string>
+    <string name="actionbar_for_accupedo_pro">StepOn-Pro</string>
+    <string name="accupdeo_version_summery">@string/version_number</string>
+
+
+    <!-- V231 -->
+    <string name="connect">Connect</string>
+    <string name="switch_account">Switch account</string>
+
+    <!-- V123 -->
+    <string name="automatic_backup">Automatic backup</string>
+    <string name="automatic_backup_midnight_sdcard">Save a database file in SD-Card at midnight.</string>
+
+    <!-- V117 -->
+    <string name="body_height_setting_title">Type your height</string>
+    <string name="height">Height</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_male">Male</string>
+
+    <!-- V115 -->
+    <string name="reward_notification_settings_title">Reward</string>
+    <string name="goal_reward_notification">Daily goal reward</string>
+    <string name="goal_reward_notification_details">When daily goal is achieved...</string>
+
+    <!-- Ver. 1.1.3 Nav Drawer Menu Items -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- When version & TE changes -->
+    <string name="stop_dialog_save">Save</string>
+    <string name="stop_dialog_nosave">Don’t save</string>
+    <string name="widget_steps">step</string>
+    <string name="widget_calories">kcal</string>
+    <string name="widget_st">\u00A0st</string>
+    <string name="widget_mi">\u00A0mi</string>
+    <string name="widget_km">\u00A0km</string>
+    <string name="widget_cal">\u00A0kcal</string>
+    <string name="widget_reset">\u2605 Reset \u2605</string>
+    <string name="widget_paused">Paused..</string>
+    <string name="steps">step</string>
+    <string name="kilometers">km</string>
+    <string name="miles">mile</string>
+    <string name="kilometers_per_hour">km/h</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="calories_burned">kcal</string>
+    <string name="cal">kcal</string>
+    <string name="centimeters">cm</string>
+    <string name="inches">inch</string>
+    <string name="kilograms">kg</string>
+    <string name="pounds">pound</string>
+    <string name="km">km</string>
+    <string name="minutes">minute</string>
+    <string name="min">min</string>
+    <string name="hhmm">time</string>
+    <string name="hm">h:m</string>
+    <string name="reset">Reset</string>
+    <string name="power_usage_type_setting">Power usage mode</string>
+    <string name="power_usage_type_setting_details">Power usage mode</string>
+    <string name="power_usage_type_setting_title">Select accurate step count or power saving</string>
+    <string name="power_usage_type_most_accurate">Most accurate step count</string>
+    <string name="power_usage_type_power_balanced">Balanced</string>
+    <string name="power_usage_type_power_saving">Power saving step count</string>
+    <string name="settings">Settings</string>
+    <string name="accupedo_settings_information">Information</string>
+    <string name="sensitivity_setting">Sensitivity</string>
+    <string name="sensitivity_setting_details">Sensitivity</string>
+    <string name="sensitivity_setting_title">Select sensitivity level</string>
+    <string name="consecutive_setting">Consecutive steps</string>
+    <string name="consecutive_setting_details">Consecutive steps</string>
+    <string name="consecutive_setting_title">Initial consecutive steps</string>
+    <string name="very_high">Most sensitive</string>
+    <string name="high">More sensitive</string>
+    <string name="medium">Standard</string>
+    <string name="low">Less sensitive</string>
+    <string name="very_low">Least sensitive</string>
+    <string name="units_setting">Unit: Metric / English</string>
+    <string name="units_setting_details">Unit: Metric / English</string>
+    <string name="units_setting_title">Select your unit</string>
+    <string name="units_metric">Metric: cm, km, kg</string>
+    <string name="units_imperial">English: in, mile, pound</string>
+    <string name="body_weight_setting">Body weight</string>
+    <string name="body_weight_setting_details">Body weight</string>
+    <string name="body_weight_setting_title">Type your body weight</string>
+    <string name="goal_steps_setting">Goal steps</string>
+    <string name="goal_steps_setting_details">Goal steps</string>
+    <string name="goal_steps_setting_title">Type daily goal steps</string>
+    <string name="exercise_type_setting">Walking / Running</string>
+    <string name="exercise_type_setting_details">Walking / Running</string>
+    <string name="exercise_type_setting_title">Choose your activity</string>
+    <string name="exercise_type_running">Running</string>
+    <string name="exercise_type_walking">Walking</string>
+    <string name="week_type_setting">First day of week</string>
+    <string name="week_type_setting_details">First day of week</string>
+    <string name="week_type_setting_title">Choose week format for weekly chart</string>
+    <string name="week_type_american">Sunday</string>
+    <string name="week_type_european">Monday</string>
+    <string name="help">Help</string>
+    <string name="save">Save</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="chart">Chart</string>
+    <string name="chart_wait">Wait for processing..</string>
+    <string name="chart_no_data">No data available..</string>
+    <string name="button_email">Email us</string>
+    <string name="button_review">Leave a review</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="alert_pause_message">Do you want to pause StepOn?</string>
+    <string name="alert_resume_message">Do you want to resume StepOn?</string>
+    <string name="toast_save">Saved in StepOn folder.</string>
+    <string name="toast_folder">Cannot create StepOn folder.</string>
+    <string name="toast_external_storage_not_writeable">External storage is not writable.</string>
+    <string name="toast_external_storage_not_available">External storage is not available.</string>
+    <string name="history">History</string>
+    <string name="faq">FAQ</string>
+    <string name="daily_steps">Daily steps</string>
+    <string name="daily_goal">Daily goal</string>
+    <string name="hourly_step_counts">Hourly step counts</string>
+    <string name="hour">Hour</string>
+    <string name="weekly_total">Weekly total</string>
+    <string name="ave">Ave.</string>
+    <string name="daily_step_counts">Daily step counts</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="monthly_total">Monthly total</string>
+    <string name="yearly_total">Yearly total</string>
+    <string name="monthly_average_step_counts">Monthly ave. step counts</string>
+    <string name="jan">Jan</string>
+    <string name="mar">Mar</string>
+    <string name="may">May</string>
+    <string name="jul">Jul</string>
+    <string name="sep">Sep</string>
+    <string name="nov">Nov</string>
+    <string name="week_of">Week of</string>
+
+    <!-- added on version 1.3.8 -->
+    <string name="activehours_setting">Active hours</string>
+    <string name="activehours_setting_details">Enable/disable active hours. Non active hours will be in Pause mode for power saving. When checked, set daily start/end time below.</string>
+    <string name="daily_start_setting">Daily start time</string>
+    <string name="daily_start_setting_details">Step counting starts</string>
+    <string name="daily_start_setting_title">Select starting time</string>
+    <string name="daily_end_setting">Daily end time</string>
+    <string name="daily_end_setting_details">Step counting stops</string>
+    <string name="daily_end_setting_title">Select ending time</string>
+    <string name="power_settings_title">Power usage</string>
+    <string name="personal_settings_title">Personal</string>
+    <string name="daily_goal_title">GOAL</string>
+
+    <!-- added on version 1.3.9 -->
+    <string name="toast_dbtransfered_message">Daily log history was transferred from StepOn.</string>
+
+    <!-- added on version 1.4.0 -->
+    <string name="widget_skin_type_setting">Widget skin color</string>
+    <string name="widget_skin_type_setting_details">Widget skin color</string>
+    <string name="widget_skin_type_setting_title">Select widget skin color</string>
+    <string name="widget_skin_0">Default</string>
+    <string name="widget_skin_1">Black</string>
+    <string name="widget_skin_2">Blue</string>
+    <string name="widget_skin_3">Green</string>
+    <string name="widget_skin_4">Orange</string>
+    <string name="widget_skin_5">Pink</string>
+    <string name="widget_skin_6">Transparent</string>
+    <string name="display_settings_title">Display</string>
+    <string name="operation_level_setting">Screen On/Off</string>
+    <string name="operation_level_setting_details">Screen On/Off</string>
+    <string name="operation_level_setting_title">Select screen On/Off option</string>
+    <string name="run_in_background">Keep screen off</string>
+    <string name="keep_screen_on">Keep screen on </string>
+    <string name="wake_up">Force screen on</string>
+    <string name="send">Send</string>
+    <string name="email_file_subject">StepOn daily logs</string>
+    <string name="toast_need_sdcard">Need a SD card to save and send daily logs.</string>
+
+    <!-- added on version 1.4.1 -->
+    <string name="alert_import_message">StepOn database file should be already existed in StepOn folder of the SD card. \n\n +++ Attention! +++\n The imported file will replace current database.</string>
+    <string name="import_success_message">Import</string>
+    <string name="export_success_message">Export</string>
+    <string name="toast_folder_doesnot_exist">StepOn folder does not exist.</string>
+    <string name="run_length_setting">Step distance: Running</string>
+    <string name="run_length_setting_details">Step distance: Running</string>
+    <string name="run_length_setting_title">Type your step distance: Running</string>
+    <string name="step_length_setting">Step distance: Walking</string>
+    <string name="step_length_setting_details">Step distance: Walking</string>
+    <string name="step_length_setting_title">Type your step distance: Walking</string>
+
+    <!-- added on version 1.5.1 -->
+    <string name="locale_type_setting">Language</string>
+    <string name="locale_type_setting_details">Language</string>
+    <string name="locale_type_setting_title">Select language</string>
+    <string name="locale_0">Default</string>
+    <string name="locale_1">English</string>
+    <string name="buy_button">Buy Pro</string>
+    <string name="widget_pause">\u00A0 \u2588  \u2588 \u00A0</string>
+    <string name="widget_resume">\u25b6  \u25b6  \u25b6</string>
+
+    <!-- added on version 2.0.1 -->
+    <string name="fb_updated">Facebook is updated!</string>
+    <string name="fb_walk_report">StepOn daily walk report</string>
+    <string name="fb_lets_walk">Walk 10000 steps a day!</string>
+    <string name="database">Database</string>
+    <string name="send_cvs">Email CSV file</string>
+    <string name="share">Share</string>
+    <string name="export_success_message2">Database file will be exported to StepOn folder.</string>
+    <string name="export_limit_te">Database import/export functions are only for StepOn-Pro.</string>
+    <string name="import_limit_te">Database import/export functions are only for StepOn-Pro.</string>
+
+    <!-- added on version 2.4.1 -->
+    <string name="power_usage_type_more_accurate">More accurate step count</string>
+    <string name="power_usage_type_power_less">Less power consumption</string>
+    <string name="power_usage_type_power_least">Least power consumption</string>
+    <string name="history_management_setting">History Management</string>
+    <string name="autopause_charging_setting">Automatic pause</string>
+    <string name="autopause_charging_setting_details">Automatic pause during power charging</string>
+    <string name="wait_for_data_transfer">Please wait for database transfer..</string>
+
+    <!-- added on version 3.0.5 -->
+    <string name="lap">Lap</string>
+    <string name="trashcan">Trash can</string>
+    <string name="editsteps">Edit Steps</string>
+    <string name="alert_delete_month_message">Delete monthly history?</string>
+    <string name="alert_delete_day_message">Delete daily history?</string>
+    <string name="alert_next_lap_message">Do you want to start a next lap?</string>
+    <string name="enter_manual_steps">Step counts</string>
+    <string name="button_manual_steps">Confirm</string>
+    <string name="alert_set_steps_message">Do you confirm?</string>
+    <string name="chart_statistics">Statistics</string>
+    <string name="wait_for_generating_csv">Writing CSV file..</string>
+    <string name="wait_for_exporting_db">Exporting database..</string>
+    <string name="wait_for_importing_db">Importing database..</string>
+    <string name="export_to_sdcard">Database file (StepOn.db) is stored at the StepOn folder of SD-Card.</string>
+    <string name="backup">Backup</string>
+    <string name="cancelled">Cancel</string>
+    <string name="permission_not_granted">Permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted.</string>
+    <string name="alert_new_installation_message">StepOn daily history file was found. Do you want to import?</string>
+    <string name="widget_quit">OFF</string>
+    <string name="quit">Exit</string>
+    <string name="alert_quit_message">Do you want to quit StepOn?</string>
+
+    <!-- added on version 3.2.1 -->
+    <string name="alert_daily_reset_message">Do you want to reset step count?</string>
+
+    <!-- added on version 3.3.1 -->
+    <string name="sdcard">SD Card</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="google_drive_uploaded">Database file (StepOn.db) is uploaded.</string>
+    <string name="google_drive_downloaded">Database file (StepOn.db) is downloaded.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) does not exist.</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="dropbox_uploading">Uploading..</string>
+    <string name="dropbox_downloading">Downloading..</string>
+    <string name="dropbox_error_message1">Dropbox error #1</string>
+    <string name="dropbox_error_message2">Dropbox error #2</string>
+    <string name="dropbox_error_message3">Dropbox error #3</string>
+    <string name="dropbox_error_message4">Dropbox error #4</string>
+    <string name="dropbox_error_message5">Dropbox error #5</string>
+    <string name="dropbox_error_message6">Dropbox error #6</string>
+    <string name="dropbox_error_message7">Dropbox error #7</string>
+    <string name="notification_settings_title">Notification</string>
+    <string name="goal_achievement_notification">Daily goal achievement</string>
+    <string name="goal_achievement_notification_details">Notification when goal is achieved</string>
+    <string name="speed_type_setting">Speed</string>
+    <string name="speed_type_setting_details">Speed</string>
+    <string name="speed_type_setting_title">Choose speed display</string>
+    <string name="speed_type_average">Average speed</string>
+    <string name="speed_type_realtime">Real-time speed</string>
+    <string name="alert_import_gdrive_message">StepOn database file should be existed in Google Drive. \n\n +++ Attention! +++\n The imported file will replace current database.</string>
+    <string name="alert_import_dropbox_message">StepOn database file should be existed in Dropbox. \n\n +++ Attention! +++\n The imported file will replace current database.</string>
+    <string name="try_again">Please try again!</string>
+    <string name="network_connection">Network should be connected.</string>
+    <string name="delete">Delete</string>
+    <string name="alert_history_update_version_401_message">+++ Attention! +++\n Press down the screen to edit or delete daily step counts. Or, click the screen to see detail lap history.</string>
+    <string name="connect_to_mfp">Connect to MFP</string>
+    <string name="screen_skin_type_setting">Theme colors</string>
+    <string name="screen_skin_type_setting_details">Theme colors</string>
+    <string name="screen_skin_type_setting_title">Select theme color</string>
+    <string name="screen_skin_0">Blue / Dark</string>
+    <string name="screen_skin_1">Blue / Light</string>
+    <string name="screen_skin_2">Orange / Light</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+
+    <!-- New for StepOn -->
+    <string name="exercise_type_hiking">Hiking</string>
+    <string name="exercise_type_stairway">Waking on stairway</string>
+    <string name="no_ad">Ad</string>
+
+</resources>

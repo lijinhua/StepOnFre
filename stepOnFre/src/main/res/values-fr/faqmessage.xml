@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: Le téléphone arrête de compter les pas.</string>
+<string name="a1">"R: Déplacez Accupedo dans la corbeille, puis relancez-la sous l'écran principal et testez-la à nouveau. Si l'application ne fonctionne toujours pas, déplacez-la dans la corbeille à nouveau, éteignez puis rallumez votre téléphone, relancez puis testez l'application."</string>
+<string name="q2">"Q: Les pas ne sont pas comptés lorsque l'écran est éteint (mode Standby)."</string>
+<string name="a2">"R: Certains téléphones ne supportent pas le G-sensor en mode veille (écran éteint). Ce n'est pas une défaillance de l'application."</string>
+<string name="q3">"Q:Qu'est-ce que Pas consécutifs dans les paramètres?"</string>
+<string name="a3">"R: Le début du calcul des pas débute après avoir marché le nombre de Pas consécutifs donné. Par exemple, si vous programmez 10 pas consécutifs, vous devrez donc marcher 10 pas non-stop. Si vous marchez moins de 10 pas, ces pas ne seront pas pris en compte."</string>
+<string name="q4">"Q: Puis-je modifier le nombre de pas?"</string>
+<string name="a4">"R: Allez à la fenêtre Historique. Appuyez sur l'écran pour modifier ou supprimer le nombre de pas pour chaque jour."</string>
+<string name="q5">"Q: Qu'est-ce que le mode Pause?"</string>
+<string name="a5">"R: Pendant le mode Pause (quand la couleur est bleue), aucun pas n'est comptabilisé. Ce mode Pause ne consomme pas de batterie. Pour reprendre le calcul des pas, repassez en mode Reprise."</string>
+<string name="q6">"Q: Aucune sauvegarde quotidienne dans les dossiers."</string>
+<string name="a6">"R: La sauvegarde quotidienne intervient à minuit. N'éteignez pas votre téléphone à cet horaire."</string>
+<string name="q7">"Q:Comment mesurer la distance de pas?"</string>
+<string name="a7">"R: De l’orteil (talon) à l’orteil (talon)."</string>
+<string name="q8">"Q: Mon problème n'est pas listé dans la FAQ."</string>
+<string name="a8">"R: Merci de nous contacter par email, nous vous contacterons afin de vous aider."</string>
+
+</resources>

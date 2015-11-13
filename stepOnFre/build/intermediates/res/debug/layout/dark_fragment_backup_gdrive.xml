@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myddarkgray"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mymfpbutton"
+        android:gravity="center_vertical"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="@string/connect"
+        android:textColor="@color/mywhite"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/dbaseexportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/myimagebuttonblue"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:src="@drawable/blue_dbase_export_ic" >
+        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/export_success_message"
+            android:textColor="@color/myllightgray"
+            android:textSize="@dimen/text_medium" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/dbaseimportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/myimagebuttonblue"
+            android:padding="10dp"
+            android:src="@drawable/blue_dbase_import_ic" >
+        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/import_success_message"
+            android:textColor="@color/myllightgray"
+            android:textSize="@dimen/text_medium" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/export_to_gdrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/export_to_sdcard"
+        android:textColor="@color/myllightgray"
+        android:textSize="@dimen/text_small" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/myddarkgray"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingBottom="2dp" >-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1" >-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/dbaseexportButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@drawable/myimagebuttonblue"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:padding="10dp"-->
+                <!--android:src="@drawable/blue_dbase_export_ic" >-->
+            <!--</ImageButton>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:padding="4dp"-->
+                <!--android:text="@string/export_success_message"-->
+                <!--android:textColor="@color/myllightgray"-->
+                <!--android:textSize="@dimen/text_medium" >-->
+            <!--</TextView>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1" >-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/dbaseimportButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@drawable/myimagebuttonblue"-->
+                <!--android:padding="10dp"-->
+                <!--android:src="@drawable/blue_dbase_import_ic" >-->
+            <!--</ImageButton>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:padding="4dp"-->
+                <!--android:text="@string/import_success_message"-->
+                <!--android:textColor="@color/myllightgray"-->
+                <!--android:textSize="@dimen/text_medium" >-->
+            <!--</TextView>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1" >-->
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/export_to_gdrive"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/export_to_sdcard"-->
+            <!--android:textColor="@color/myllightgray"-->
+            <!--android:textSize="@dimen/text_small" />-->
+    <!--</LinearLayout>-->
+
+<!--</LinearLayout>--><!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/layout/dark_fragment_backup_gdrive.xml -->

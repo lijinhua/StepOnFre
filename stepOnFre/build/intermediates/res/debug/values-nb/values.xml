@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: Fjern Accupedo til papirkurven, og deretter åpne det på startskjermbildet, og teste den. Hvis det fortsatt ikke fungerer, fjern Accupedo til papirkurven igjen, og slå telefonen av og på, og åpne og teste den.</string>
+    <string name="a2">A: Noen telefoner støtter ikke G-sensor i dvale (skjermen er av) på telefon produsenter. Det er ikke feil av denne App.</string>
+    <string name="a3">A: Trinn telle starter etter å ha gått antall påfølgende trinn. For eksempel, hvis påfølgende trinnene er 10, så må du gå 10 skritt kontinuerlig uten å stoppe. Hvis du går mindre enn 10 skritt og stopper, så det forkaster disse trinnene.</string>
+    <string name="a4">A: Gå til History vinduet. Trykk ned på skjermen for å redigere eller slette skritt teller for hver dag.</string>
+    <string name="a5">A: Under Pause modus (når fargen er blå), stopper den å telle skritt. Dette Pause modus ikke bruker batteriet. For å starte steg teller, bytte til Restart modus.</string>
+    <string name="a6">A: Det sparer en daglig logg ved midnatt. Ikke slå av telefonen på den tiden.</string>
+    <string name="a7">A: Fra tå (hæl) til tå (hæl).</string>
+    <string name="a8">A: Send oss​​. Vi vil definitivt hjelpe deg.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-nb/values-nb.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Gå til startsiden"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s – %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s – %2$s – %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Gå opp"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Flere alternativer"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Ferdig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Velg en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Søk …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Slett søket"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Søkeord"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Søk"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Utfør søket"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Talesøk"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Del med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">Versjon 1.2.5</string>
+    <string name="accupdeo_version_title">StepOn versjon</string>
+    <string name="accupedo_settings_about">Om StepOn</string>
+    <string name="accupedo_settings_information">Informasjon</string>
+    <string name="activehours_setting">Aktiv timer</string>
+    <string name="activehours_setting_details">Aktivere / deaktivere aktive timer. Ikke aktive
+		timer vil være i Pause modus for strømsparing. Når avkrysset, angi
+		daglige start / slutt tid.</string>
+    <string name="alert_daily_reset_message">Vil du tilbakestille daglig skritt teller?</string>
+    <string name="alert_delete_day_message">Slett daglig historie?</string>
+    <string name="alert_delete_month_message">Slett månedlig historie?</string>
+    <string name="alert_history_update_version_401_message">+++ Attention! +++\n Trykk ned på skjermen for å redigere eller slette daglige skritt teller. Eller klikk på skjermen for å se detaljer lap historie.</string>
+    <string name="alert_import_dropbox_message">StepOn database filen skal være i Dropbox. \n\n +++ ppmerksomhet! +++\n TDen importerte filen vil erstatte den eksisterende database.</string>
+    <string name="alert_import_gdrive_message">StepOn database filen skal være i Google Drive. \n\n +++ ppmerksomhet! +++\n TDen importerte filen vil erstatte den eksisterende database.</string>
+    <string name="alert_import_message">StepOn datalagring filen skal ligge i StepOn
+		mappe av SD-kortet. \n\n +++ Attention! +++\n Den importerte filen vil erstatte den
+		eksisterende database.</string>
+    <string name="alert_new_installation_message">StepOn daglig historie filen ble funnet. Vil du importere?</string>
+    <string name="alert_next_lap_message">Ønsker du å starte en neste tur?</string>
+    <string name="alert_pause_message">Vil du pause StepOn?</string>
+    <string name="alert_resume_message">Ønsker du å starte StepOn?</string>
+    <string name="alert_set_steps_message">Bekrefter du?</string>
+    <string name="automatic_backup">Automatisk lagring</string>
+    <string name="automatic_backup_midnight_sdcard">Lagre en databasefil i SD-kortet ved midnatt.</string>
+    <string name="autopause_charging_setting">Pauseautomatikken</string>
+    <string name="autopause_charging_setting_details">Pauseautomatikken under lading</string>
+    <string name="ave">gje.</string>
+    <string name="backup">Lagre</string>
+    <string name="birthday">Bursdag</string>
+    <string name="body_height_setting_title">Skriv inn din høyde</string>
+    <string name="body_weight_setting">Kroppsvekt</string>
+    <string name="body_weight_setting_details">Kroppsvekt</string>
+    <string name="body_weight_setting_title">Skriv din kroppsvekt</string>
+    <string name="button_email">E-mail</string>
+    <string name="button_manual_steps">Bekreft</string>
+    <string name="button_review">Gjennomgang</string>
+    <string name="buy_button">Kjøp Pro</string>
+    <string name="cal">kcal</string>
+    <string name="cancelled">Avbryt</string>
+    <string name="chart">Diagram</string>
+    <string name="chart_no_data">Ingen data tilgjengelig..</string>
+    <string name="chart_statistics">Statistikk</string>
+    <string name="chart_wait">Vent til behandling..</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-nb/values-nb.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">Det oppstod en uventet feil ved nedlasting av et bilde.</string>
+    <string name="com_facebook_internet_permission_error_message">Webvisning-innlogging krever INTERNETT-tillatelse</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest-feil</string>
+    <string name="com_facebook_like_button_liked">Likt</string>
+    <string name="com_facebook_like_button_not_liked">Liker</string>
+    <string name="com_facebook_loading">Laster inn …</string>
+    <string name="com_facebook_loginview_cancel_action">Avbryt</string>
+    <string name="com_facebook_loginview_log_in_button">Logg inn</string>
+    <string name="com_facebook_loginview_log_in_button_long">Logg inn med Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Logg ut</string>
+    <string name="com_facebook_loginview_log_out_button">Logg ut</string>
+    <string name="com_facebook_loginview_logged_in_as">Logget inn som: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logget inn med Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Del</string>
+    <string name="com_facebook_tooltip_default">Nyhet! Du bestemmer – velg hvilke opplysninger du vil dele med appene.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-nb/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> krever en oppdatering av Android Wear-appen."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke med mindre du oppdaterer Android Wear-appen."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Oppdater Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> krever én eller flere Google Play Tjenester som ikke er tilgjengelige for øyeblikket. Ta kontakt med utvikleren for å få hjelp."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Aktiver Google Play Tjenester"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke med mindre du slår på Google Play Tjenester."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Aktiver Google Play Tjenester"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Forespurt av <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installer Google Play Tjenester"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke uten Google Play Tjenester, som ikke er installert på telefonen din."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke uten Google Play Tjenester, som ikke er installert på nettbrettet ditt."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installer Google Play Tjenester"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Den angitte kontoen finnes ikke på enheten. Velg en annen konto."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ugyldig konto"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"En app krever Google Play Tjenester for å aktiveres."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Du må ha datatilkobling for å koble deg til Google Play Tjenester."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Nettverksfeil"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"En app krever at Google Play Tjenester oppdateres."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play Tjenester-feil"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Det oppsto en feil ved pålogging til den angitte kontoen. Velg en annen konto."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Pålogging mislyktes"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Det oppsto et ukjent problem med Google Play Tjenester."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> er avhengig av Google Play Tjenester, som ikke støttes av enheten din. Ta kontakt med produsenten for å få hjelp."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play Tjenester"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Oppdater"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke med mindre du oppdaterer Google Play Tjenester."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Oppdater Google Play Tjenester"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke uten Google Play Tjenester, som oppdateres akkurat nå."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play Tjenester oppdateres"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Åpne på telefonen"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-nb/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Logg på"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Logg på med Google"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Koble til MFP</string>
+    <string name="consecutive_setting">fortløpende steg</string>
+    <string name="consecutive_setting_details">fortløpende steg</string>
+    <string name="consecutive_setting_title">Første påfølgende steg</string>
+    <string name="daily_end_setting">Daglig sluttid</string>
+    <string name="daily_end_setting_details">Steg teller stopper</string>
+    <string name="daily_end_setting_title">Velg sluttid</string>
+    <string name="daily_goal">Daglige mål</string>
+    <string name="daily_goal_title">Mål</string>
+    <string name="daily_start_setting">Daglig starttid</string>
+    <string name="daily_start_setting_details">Steg teller starter</string>
+    <string name="daily_start_setting_title">Velg starttid</string>
+    <string name="daily_step_counts">Daglig steg teller</string>
+    <string name="daily_steps">Daglig steg</string>
+    <string name="day">Dag</string>
+    <string name="delete">Slett</string>
+    <string name="dialog_no">NEI</string>
+    <string name="dialog_yes">JA</string>
+    <string name="display_settings_title">Vise</string>
+    <string name="dropbox_downloading">Nedlasting ..</string>
+    <string name="dropbox_uploading">Opplasting ..</string>
+    <string name="editsteps">Redigere steg</string>
+    <string name="email_file_subject">StepOn daglig logger</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Vennligst kontakt oss dersom du har noen problemer, spørsmål eller kommentarer.</string>
+    <string name="email_title">E-mail \u0026 Støtte</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Steg teller</string>
+    <string name="error">Feil</string>
+    <string name="exercise_type_running">Kjøre</string>
+    <string name="exercise_type_setting">Går / Kjøre</string>
+    <string name="exercise_type_setting_details">Går / Kjøre</string>
+    <string name="exercise_type_setting_title">Velg din aktivitet</string>
+    <string name="exercise_type_walking">Går</string>
+    <string name="export_limit_te">Database import / eksport funksjoner er kun for StepOn-Pro.</string>
+    <string name="export_success_message">Eksport.</string>
+    <string name="export_success_message2">Databasefilen \u0022StepOn.db\u0022 vil bli eksportert til StepOn mappe.</string>
+    <string name="export_to_sdcard">Databasefil (StepOn.db) lagres på StepOn mappen for SD-kort.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">FAQ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Gå 10000 skritt om dagen!</string>
+    <string name="fb_updated">Facebook er oppdatert!</string>
+    <string name="fb_walk_report">StepOn daglig spasertur</string>
+    <string name="fri">Fre</string>
+    <string name="gender">Kjønn</string>
+    <string name="gender_female">Kvinne</string>
+    <string name="gender_male">Mann</string>
+    <string name="goal_achievement_notification">Daglig måloppnåelse</string>
+    <string name="goal_achievement_notification_details">Varsling når mål er nådd</string>
+    <string name="goal_reward_notification">Daglig mål belønning</string>
+    <string name="goal_reward_notification_details">Når daglig mål er nådd ...</string>
+    <string name="goal_steps_setting">Måltrinnet</string>
+    <string name="goal_steps_setting_details">Måltrinnet</string>
+    <string name="goal_steps_setting_title">Type daglig måltrinn</string>
+    <string name="google_drive_downloaded">Database fil (StepOn.db) er lastet ned.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) finnes ikke.</string>
+    <string name="google_drive_uploaded">Database fil (StepOn.db) er lastet opp.</string>
+    <string name="height">Høyde</string>
+    <string name="help">Hjelp</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">StepOn manuell</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">tid</string>
+    <string name="high">mer følsom</string>
+    <string name="history">Dagbok</string>
+    <string name="history_management_setting">Historie ledelse</string>
+    <string name="hour">Time</string>
+    <string name="hourly_step_counts">Time stegteller</string>
+    <string name="import_limit_te">Database import / eksport funksjoner er kun for StepOn-Pro.</string>
+    <string name="import_success_message">Import.</string>
+    <string name="inches">inch</string>
+    <string name="jan">Jan</string>
+    <string name="jul">Jul</string>
+    <string name="keep_screen_on">holde skjermen på</string>
+    <string name="lap">Tur</string>
+    <string name="locale_0">standard</string>
+    <string name="locale_1">engelsk</string>
+    <string name="locale_type_setting">Språk</string>
+    <string name="locale_type_setting_details">Språk</string>
+    <string name="locale_type_setting_title">Velg språk</string>
+    <string name="low">mindre følsom</string>
+    <string name="mar">Mar</string>
+    <string name="may">Mai</string>
+    <string name="medium">standard</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-nb/values-nb.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Send</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="miles">mile</string>
+    <string name="minutes">minutter</string>
+    <string name="mon">Mon</string>
+    <string name="month">Måned</string>
+    <string name="monthly_average_step_counts">Månedlig gje. steg teller</string>
+    <string name="monthly_total">Måned totalt</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-nb/values-nb.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Medieutgang"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Søker etter enheter …"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Koble til enheten"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Koble fra"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Enheter"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">Nettverket skal være tilkoblet.</string>
+    <string name="no_ad">Annonse</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn er en skritteller som sporer dine skritt.\n\n
+
+\u2605 Med lett å lese diagrammer og historie logger, overvåke dine trinn, kaloriforbruk, distanse og tid. Som din beste walking kompis, vil StepOn motivere deg til å gå mer! Sett opp ditt daglige mål og steg mot en sunnere deg med StepOn skritt tracker.\n\n
+
+\u2605 StepOn teller skrittene dine uansett hvor du putter telefonen som lommen, midjebelte, eller bag. StepOn er så enkelt! Alt du trenger å gjøre er å trykke på startknappen når du begynner å vandre. Walk 10K skritt om dagen og StepOn mot en sunnere deg.\n\n
+
+\u2605 Viktige funksjoner:\n
+
+\u2022 Kart: daglig, ukentlig, månedlig og årlig skritt teller\n
+\u2022 Daglig logg historie: skritt teller, kaloriforbruk, distanse og tid\n
+\u2022 Nøyaktige skritt teller som bruker intelligente 3D motion tracking algoritmer\n
+\u2022 Del daglig logg på Facebook\n
+\u2022 Google Drive backup\n
+\u2022 Personlige innstillinger: daglig mål, sensitivitet, enhets: metrisk / imperial, skrittlengde, vekt, etc.
+</string>
+    <string name="notes_title">Notater</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Notification</string>
+    <string name="nov">Nov</string>
+    <string name="operation_level_setting">Skjerm på / av</string>
+    <string name="operation_level_setting_details">Skjerm på / av</string>
+    <string name="operation_level_setting_title">Velg skjerm på / av</string>
+    <string name="permission_not_granted">Tillatelser var ikke gitt.</string>
+    <string name="personal_settings_title">Personlige innstillinger</string>
+    <string name="pounds">lbs</string>
+    <string name="power_settings_title">Strømforbruket</string>
+    <string name="power_usage_type_more_accurate">Mer nøyaktig skritt teller</string>
+    <string name="power_usage_type_most_accurate">mest nøyaktige steg teller</string>
+    <string name="power_usage_type_power_balanced">balansert</string>
+    <string name="power_usage_type_power_least">Minimalt strømforbruk</string>
+    <string name="power_usage_type_power_less">Mindre strømforbruk</string>
+    <string name="power_usage_type_power_saving">strømsparing steg teller</string>
+    <string name="power_usage_type_setting">Strøm bruksmodus</string>
+    <string name="power_usage_type_setting_details">Strøm bruksmodus</string>
+    <string name="power_usage_type_setting_title">Velg nøyaktige steg telle eller strømsparing</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: Den stopper å telle skritt</string>
+    <string name="q2">Q: Det teller ikke når skjermen er slått av (standby mode).</string>
+    <string name="q3">Q: Hva er sammenhengende trinn i Innstillinger?</string>
+    <string name="q4">Q: Kan jeg redigere skritt teller?</string>
+    <string name="q5">Q: Hva er Pause modus?</string>
+    <string name="q6">Q: Den lagrer ikke en daglig logg.</string>
+    <string name="q7">Q: Hvordan måle trinnet avstand?</string>
+    <string name="q8">Q: Mitt problem er ikke oppført i FAQ.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Utgang</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Mye innsats og støtte er nødvendig for å utvikle kvalitet Apps. Vennligst legg igjen en positiv vurdering hvis du er fornøyd med StepOn. Det vil oppmuntre oss til å utvikle bedre Apps. Takk.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">Belønning</string>
+    <string name="run_in_background">holde skjermen off</string>
+    <string name="run_length_setting">Steg avstand: Kjøre</string>
+    <string name="run_length_setting_details">Steg avstand: Kjøre</string>
+    <string name="run_length_setting_title">Skriv inn steg avstand: Kjøre</string>
+    <string name="sat">Lør</string>
+    <string name="save">Spare</string>
+    <string name="screen_skin_0">Blå / Mørk</string>
+    <string name="screen_skin_1">Blå / Lys</string>
+    <string name="screen_skin_2">Oransje / Lys</string>
+    <string name="screen_skin_type_setting">Tema farge</string>
+    <string name="screen_skin_type_setting_details">Tema farge</string>
+    <string name="screen_skin_type_setting_title">Velg tema farge</string>
+    <string name="send_cvs">Send CSV fil</string>
+    <string name="sensitivity_setting">Følsomhet</string>
+    <string name="sensitivity_setting_details">Følsomhet</string>
+    <string name="sensitivity_setting_title">Velg følsomhetsnivå</string>
+    <string name="sep">Sep</string>
+    <string name="settings">Innstillinger</string>
+    <string name="share">Dele</string>
+    <string name="share_on_fb">Del på Facebook</string>
+    <string name="speed_type_average">Gjennomsnittlig hastighet</string>
+    <string name="speed_type_realtime">Sanntid hastighet</string>
+    <string name="speed_type_setting">Velocity</string>
+    <string name="speed_type_setting_details">Velocity</string>
+    <string name="speed_type_setting_title">Velg hastighet format</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-nb/values-nb.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">Oppdaterer status.</string>
+    <string name="step_length_setting">Steg avstand: Går</string>
+    <string name="step_length_setting_details">Steg avstand: Går</string>
+    <string name="step_length_setting_title">Skriv inn steg avstand: Går</string>
+    <string name="steps">steg</string>
+    <string name="stop_dialog_nosave">Ikke spar</string>
+    <string name="stop_dialog_save">Spare</string>
+    <string name="success">Suksess</string>
+    <string name="successfully_posted_post">Lagt inn.</string>
+    <string name="sun">Søn</string>
+    <string name="thu">Tor</string>
+    <string name="toast_dbtransfered_message">Daglig logg historie ble overført fra StepOn.</string>
+    <string name="toast_external_storage_not_available">Ekstern lagring er ikke tilgjengelig</string>
+    <string name="toast_external_storage_not_writeable">Ekstern lagring er ikke skrivbar</string>
+    <string name="toast_folder">Kan ikke opprette StepOn mappe</string>
+    <string name="toast_folder_doesnot_exist">StepOn mappen finnes ikke.</string>
+    <string name="toast_need_sdcard">rev en SD-kort for å lagre og sende daglige
+		logger.</string>
+    <string name="toast_save">Lagrede i StepOn mappen</string>
+    <string name="trashcan">Søppelbøtta</string>
+    <string name="trial_expired">Cloud (Google Drive) backup er tilgjengelig i Pro-versjonen.</string>
+    <string name="try_again">Vennligst prøv igjen!</string>
+    <string name="tue">Tir</string>
+    <string name="units_imperial">Engelsk: in, mile, pound</string>
+    <string name="units_metric">Metriske: cm, km, kg</string>
+    <string name="units_setting">Metriske / Engelsk</string>
+    <string name="units_setting_details">Metriske / Engelsk</string>
+    <string name="units_setting_title">Velg din enhet</string>
+    <string name="very_high">mest følsom</string>
+    <string name="very_low">minst følsom</string>
+    <string name="wait_for_data_transfer">Vent til databasen overføring ..</string>
+    <string name="wait_for_exporting_db">Eksportere database..</string>
+    <string name="wait_for_generating_csv">Skrive CSV fil..</string>
+    <string name="wait_for_importing_db">Importerer database..</string>
+    <string name="wake_up">tvunget skjermen på</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-nb/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Kjøp med Google"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nb/strings.xml -->
+    <eat-comment/>
+    <string name="wed">Ons</string>
+    <string name="week">Uke</string>
+    <string name="week_of">Uke</string>
+    <string name="week_type_american">Søndag</string>
+    <string name="week_type_european">Mandag</string>
+    <string name="week_type_setting">Første dag i uken</string>
+    <string name="week_type_setting_details">Første dag i uken</string>
+    <string name="week_type_setting_title">Velg uke format for ukentlige diagram</string>
+    <string name="weekly_total">Uke totalt</string>
+    <string name="widget_expired">Utløpe</string>
+    <string name="widget_paused">Pause...</string>
+    <string name="widget_reset">\u2605 Reset \u2605</string>
+    <string name="widget_skin_0">default</string>
+    <string name="widget_skin_1">svart</string>
+    <string name="widget_skin_2">blå</string>
+    <string name="widget_skin_3">grønt</string>
+    <string name="widget_skin_4">orange</string>
+    <string name="widget_skin_5">rosa</string>
+    <string name="widget_skin_6">gjennomsiktig</string>
+    <string name="widget_skin_type_setting">Widget farge</string>
+    <string name="widget_skin_type_setting_details">Widget farge</string>
+    <string name="widget_skin_type_setting_title">Velg widget farge</string>
+    <string name="widget_steps">steg</string>
+    <string name="year">År</string>
+    <string name="yearly_total">År totalt</string>
+</resources>

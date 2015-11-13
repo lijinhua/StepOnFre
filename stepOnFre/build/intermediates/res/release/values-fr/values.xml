@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">"R: Déplacez Accupedo dans la corbeille, puis relancez-la sous l'écran principal et testez-la à nouveau. Si l'application ne fonctionne toujours pas, déplacez-la dans la corbeille à nouveau, éteignez puis rallumez votre téléphone, relancez puis testez l'application."</string>
+    <string name="a2">"R: Certains téléphones ne supportent pas le G-sensor en mode veille (écran éteint). Ce n'est pas une défaillance de l'application."</string>
+    <string name="a3">"R: Le début du calcul des pas débute après avoir marché le nombre de Pas consécutifs donné. Par exemple, si vous programmez 10 pas consécutifs, vous devrez donc marcher 10 pas non-stop. Si vous marchez moins de 10 pas, ces pas ne seront pas pris en compte."</string>
+    <string name="a4">"R: Allez à la fenêtre Historique. Appuyez sur l'écran pour modifier ou supprimer le nombre de pas pour chaque jour."</string>
+    <string name="a5">"R: Pendant le mode Pause (quand la couleur est bleue), aucun pas n'est comptabilisé. Ce mode Pause ne consomme pas de batterie. Pour reprendre le calcul des pas, repassez en mode Reprise."</string>
+    <string name="a6">"R: La sauvegarde quotidienne intervient à minuit. N'éteignez pas votre téléphone à cet horaire."</string>
+    <string name="a7">"R: De l’orteil (talon) à l’orteil (talon)."</string>
+    <string name="a8">"R: Merci de nous contacter par email, nous vous contacterons afin de vous aider."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="accupedo_settings_about">À propos de StepOn</string>
+    <string name="accupedo_settings_information">Informations</string>
+    <string name="activehours_setting">Heures actives</string>
+    <string name="activehours_setting_details">"Activer/désactiver les heures actives. Les heures non-actives seront en mode Pause pour économiser l'énergie. Quand elle est cochée, réglez l’heure quotidienne de début/fin ci-dessous également."</string>
+    <string name="alert_daily_reset_message">Voulez-vous réinitialiser le nombre de pas par jour?</string>
+    <string name="alert_delete_day_message">Supprimer l\u0027historique de tous les jours?</string>
+    <string name="alert_delete_month_message">Supprimer l\u0027historique mensuel?</string>
+    <string name="alert_history_update_version_401_message">+++ Attention! +++\n Appuyez sur l’écran pour modifier ou supprimer des comptes quotidiens étape. Ou, cliquez sur l’écran pour voir l’histoire en détail de tour.</string>
+    <string name="alert_import_dropbox_message">Fichier de base de données StepOn doit être dans Dropbox. \n\n +++ Attention! +++\n Le fichier importé va remplacer la base de données existante.</string>
+    <string name="alert_import_gdrive_message">Fichier de base de données StepOn doit être dans Google Drive. \n\n +++ Attention! +++\n Le fichier importé va remplacer la base de données existante.</string>
+    <string name="alert_import_message">Le fichier StepOn "StepOn.db" doit être dans le dossier StepOn de la carte SD. Attention ! Le fichier importé va remplacer la base de données existante.</string>
+    <string name="alert_new_installation_message">Fichier StepOn histoire quotidienne a été trouvé. Voulez-vous importer?</string>
+    <string name="alert_next_lap_message">Voulez-vous commencer un tour suivant?</string>
+    <string name="alert_pause_message">Voulez-vous mettre StepOn en pause?</string>
+    <string name="alert_resume_message">Voulez-vous reprendre StepOn?</string>
+    <string name="alert_set_steps_message">Confirmez-vous?</string>
+    <string name="automatic_backup">Sauvegarde automatique</string>
+    <string name="automatic_backup_midnight_sdcard">Enregistrement d’un fichier de base de données dans SD-Card à minuit.</string>
+    <string name="autopause_charging_setting">Pause automatique</string>
+    <string name="autopause_charging_setting_details">Pause automatique au cours de la puissance de charge</string>
+    <string name="ave">moy.</string>
+    <string name="backup">Sauvegarder</string>
+    <string name="birthday">Anniversaire</string>
+    <string name="body_height_setting_title">Saisissez votre taille</string>
+    <string name="body_weight_setting">Le poids corporel</string>
+    <string name="body_weight_setting_details">Le poids corporel</string>
+    <string name="body_weight_setting_title">Saisissez votre poids corporel</string>
+    <string name="button_email">Email</string>
+    <string name="button_manual_steps">Confirmer</string>
+    <string name="button_review">Revue</string>
+    <string name="buy_button">Achat Pro</string>
+    <string name="cal">kcal</string>
+    <string name="cancelled">Annuler</string>
+    <string name="centimeters">centimèt.</string>
+    <string name="chart">Graphi.</string>
+    <string name="chart_no_data">Pas de données disponibles.</string>
+    <string name="chart_statistics">Statistiques</string>
+    <string name="chart_wait">Attendre pour le traitement.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-fr/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Une application nécessite une mise à jour du Bios de l\'application Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas mis à jour l\'application Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Mettre à jour Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Activer services Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Notification issue de l\'application \"<ns1:g id="APP_NAME">%1$s</ns1:g>\""</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installer services Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Cette application ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Cette application ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Le compte indiqué n\'existe pas sur cet appareil. Veuillez sélectionner un autre compte."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Compte erroné"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Une application demande l\'activation des services Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Vous devez disposer d\'une connexion de données pour utiliser les services Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Erreur réseau"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Une application demande l\'installation des services Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Une application demande la mise à jour des services Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Erreur lors de la connexion au compte indiqué. Veuillez en sélectionner un autre."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Échec de la connexion"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problème inconnu avec les services Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Les services Google Play, dont dépendent certaines de vos applications, ne sont pas compatibles avec votre appareil. Veuillez contacter le fabricant pour obtenir de l\'aide."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Services Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Connexion"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Cette application nécessite un ou plusieurs services Google Play qui ne sont pas disponibles actuellement. Veuillez contacter le développeur pour obtenir de l\'aide."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Connectez-vous à MFP</string>
+    <string name="consecutive_setting">Pas consécutifs</string>
+    <string name="consecutive_setting_details">Pas consécutifs</string>
+    <string name="consecutive_setting_title">Les premiers pas de marche consécutifs</string>
+    <string name="daily_end_setting">Heure quotidienne de fin</string>
+    <string name="daily_end_setting_details">Arrêt du comptage de pas</string>
+    <string name="daily_end_setting_title">"Sélectionner l’heure de fin"</string>
+    <string name="daily_goal">Objectif quotidien</string>
+    <string name="daily_goal_title">Object.</string>
+    <string name="daily_start_setting">Heure quotidienne de départ</string>
+    <string name="daily_start_setting_details">Début comptage de pas</string>
+    <string name="daily_start_setting_title">"Choisissez l'heure de début"</string>
+    <string name="daily_step_counts">Comptage quotidien de pas</string>
+    <string name="daily_steps">Pas quotidiens</string>
+    <string name="day">Jour</string>
+    <string name="delete">Supprimer</string>
+    <string name="dialog_no">Non</string>
+    <string name="dialog_yes">Oui</string>
+    <string name="display_settings_title">"Paramètres d'affichage"</string>
+    <string name="dropbox_downloading">Téléchargement ..</string>
+    <string name="dropbox_uploading">Téléchargement ..</string>
+    <string name="editsteps">Modifier pas</string>
+    <string name="email_file_subject">Journaux quotidiens StepOn</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Merci de nous contacter par email en cas de problème ou pour toutes autres questions.</string>
+    <string name="email_title">"Email \u0026 Aidez-nous"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Pas</string>
+    <string name="error">Erreur</string>
+    <string name="exercise_type_running">course</string>
+    <string name="exercise_type_setting">Marche/Course</string>
+    <string name="exercise_type_setting_details">Marche/Course</string>
+    <string name="exercise_type_setting_title">Choisissez votre activité</string>
+    <string name="exercise_type_walking">marche</string>
+    <string name="export_limit_te">Base de données d\u0027importation / exportation pour les fonctions ne sont StepOn-Pro.</string>
+    <string name="export_success_message">Exportation</string>
+    <string name="export_success_message2">Fichier de base de données \u0022StepOn.db\u0022 sera exportée vers StepOn dossier.</string>
+    <string name="export_to_sdcard">Fichier de base de données (StepOn.db) est stocké au niveau du dossier StepOn de carte SD.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">FAQ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Marchez 10000 pas par jour!</string>
+    <string name="fb_updated">Facebook mis à jour!</string>
+    <string name="fb_walk_report">StepOn quotidienne promenade</string>
+    <string name="fri">ven</string>
+    <string name="gender">Sexe</string>
+    <string name="gender_female">Femelle</string>
+    <string name="gender_male">Mâle</string>
+    <string name="goal_achievement_notification">Réalisation de l’objectif quotidien</string>
+    <string name="goal_achievement_notification_details">Notification lorsqu’un objectif est atteint</string>
+    <string name="goal_reward_notification">Objectif quotidien récompense</string>
+    <string name="goal_reward_notification_details">Quand objectif quotidien est atteint ...</string>
+    <string name="goal_steps_setting">Objectif de pas quotidien</string>
+    <string name="goal_steps_setting_details">Objectif de pas quotidien</string>
+    <string name="goal_steps_setting_title">Tapez votre objectif de pas quotidien</string>
+    <string name="google_drive_downloaded">Fichier de base de données (StepOn.db) est téléchargé.</string>
+    <string name="google_drive_file_not_exist">Fichier (StepOn.db) n’existe pas.</string>
+    <string name="google_drive_uploaded">Fichier de base de données (StepOn.db) est téléchargé.</string>
+    <string name="height">Taille</string>
+    <string name="help">Aide</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">"Guide d’utilisation StepOn"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">temps</string>
+    <string name="high">Plus sensibles</string>
+    <string name="history">Histoire</string>
+    <string name="history_management_setting">gestion de l’historique</string>
+    <string name="hour">heure</string>
+    <string name="hourly_step_counts">Pas comptés par heure</string>
+    <string name="import_limit_te">Base de données d\u0027importation / exportation pour les fonctions ne sont StepOn-Pro.</string>
+    <string name="import_success_message">Importation</string>
+    <string name="inches">inch</string>
+    <string name="jan">Jan</string>
+    <string name="jul">Jui</string>
+    <string name="keep_screen_on">"Garder l'écran on"</string>
+    <string name="lap">Tour</string>
+    <string name="locale_0">par défaut</string>
+    <string name="locale_1">anglaise</string>
+    <string name="locale_type_setting">Langue</string>
+    <string name="locale_type_setting_details">Langue</string>
+    <string name="locale_type_setting_title">Sélectionnez la langue</string>
+    <string name="low">Moins sensible</string>
+    <string name="mar">Mar</string>
+    <string name="may">Mai</string>
+    <string name="medium">Standard</string>
+    <string name="minutes">minutes</string>
+    <string name="mon">lun</string>
+    <string name="month">Mois</string>
+    <string name="monthly_average_step_counts">Nombre de pas moyens mensuels</string>
+    <string name="monthly_total">Total mensu.</string>
+    <string name="network_connection">Réseau doit être connecté.</string>
+    <string name="no_ad">Annonce</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn est un podomètre qui permet de suivre vos pas.\n\n 
+
+\u2605 Un algorithme intelligent de reconnaissance de mouvements 3D est intégré afin de filtrer les mouvements qui ne seraient pas liés à des pas. StepOn compte vos pas indépendamment de l’endroit où vous placez votre téléphone (dans votre poche, sur votre ceinture ou dans un sac).\n\n 
+
+\u2605 StepOn est très simple. Tout ce que vous devez faire est d\u0027appuyer sur le bouton de démarrage lorsque vous commencez à marcher.\n\n 
+
+\u2605 Soyez en bonne santé en mettant en définissant votre objectif quotidien et suivez précisément vos pas avec StepOn.\n\n 
+
+\u2605 Les dispositifs principaux incluent:\n 
+
+\u2022 Graphiques : nombre de pas quotidiens, hebdomadaires, mensuels et annuels.\n 
+\u2022 Journal quotidien: le nombre de pas, les calories brûlées, la distance et le temps\n 
+\u2022 Etape précise compte en utilisant des algorithmes de suivi de mouvement 3D intelligents\n 
+\u2022 Facebook publication.\n 
+\u2022 Sauvegarde Google Drive.\n 
+\u2022 Paramètres personnels personnalisés : sensibilité, métrique / anglais, distance de pas, poids corporel, objectif quotidien, etc.
+</string>
+    <string name="notes_title">Note</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Notification</string>
+    <string name="nov">Nov</string>
+    <string name="ok">Bien</string>
+    <string name="operation_level_setting">"Ecran on/off"</string>
+    <string name="operation_level_setting_details">"Ecran on/off"</string>
+    <string name="operation_level_setting_title">"Sélectionnez l'écran on/off"</string>
+    <string name="permission_not_granted">Autorisations n\u0027ont pas été accordée.</string>
+    <string name="personal_settings_title">Paramètres personnels</string>
+    <string name="pounds">livres</string>
+    <string name="power_settings_title">"Consommation d'énergie"</string>
+    <string name="power_usage_type_more_accurate">Le nombre de pas plus précis</string>
+    <string name="power_usage_type_most_accurate">Nombre de pas le plus précis</string>
+    <string name="power_usage_type_power_balanced">Équilibré</string>
+    <string name="power_usage_type_power_least">Consommation d’énergie minimale</string>
+    <string name="power_usage_type_power_less">Moins de puissance consommée</string>
+    <string name="power_usage_type_power_saving">"Nombre de pas avec meilleure autonomie de la batterie"</string>
+    <string name="power_usage_type_setting">"Mode de consommation d’énergie"</string>
+    <string name="power_usage_type_setting_details">"Mode de consommation d’énergie"</string>
+    <string name="power_usage_type_setting_title">"Sélectionnez le nombre de pas exact ou l'économie d'énergie"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: Le téléphone arrête de compter les pas.</string>
+    <string name="q2">"Q: Les pas ne sont pas comptés lorsque l'écran est éteint (mode Standby)."</string>
+    <string name="q3">"Q:Qu'est-ce que Pas consécutifs dans les paramètres?"</string>
+    <string name="q4">"Q: Puis-je modifier le nombre de pas?"</string>
+    <string name="q5">"Q: Qu'est-ce que le mode Pause?"</string>
+    <string name="q6">"Q: Aucune sauvegarde quotidienne dans les dossiers."</string>
+    <string name="q7">"Q:Comment mesurer la distance de pas?"</string>
+    <string name="q8">"Q: Mon problème n'est pas listé dans la FAQ."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Quitter</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Pour améliorer les Apps des efforts et de l\u0027aide sont requis. Merci de poster un avis positif si vous êtes satisfait d\u0027StepOn. Cela nous encouragera à développer de meilleures applications.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">Récompense</string>
+    <string name="run_in_background">"Garder l’écran off"</string>
+    <string name="run_length_setting">Distance de pas: Course</string>
+    <string name="run_length_setting_details">Distance de pas: Course</string>
+    <string name="run_length_setting_title">Tapez votre distance de pas : Course</string>
+    <string name="sat">sam</string>
+    <string name="save">Sauvegarder</string>
+    <string name="screen_skin_0">Bleu / Noir</string>
+    <string name="screen_skin_1">Bleu / Lumière</string>
+    <string name="screen_skin_2">Orange / Lumière</string>
+    <string name="screen_skin_type_setting">Couleur de thème</string>
+    <string name="screen_skin_type_setting_details">Couleur de thème</string>
+    <string name="screen_skin_type_setting_title">Choisissez la couleur du thème</string>
+    <string name="send">Envoyer</string>
+    <string name="send_cvs">Envoyer un fichier CSV</string>
+    <string name="sensitivity_setting">Sensibilité</string>
+    <string name="sensitivity_setting_details">Sensibilité</string>
+    <string name="sensitivity_setting_title">Sélectionnez le niveau de sensibilité</string>
+    <string name="sep">Sep</string>
+    <string name="settings">Paramètres</string>
+    <string name="share">Part</string>
+    <string name="speed_type_average">Vitesse moyenne</string>
+    <string name="speed_type_realtime">Vitesse en temps réel</string>
+    <string name="speed_type_setting">Vitesse</string>
+    <string name="speed_type_setting_details">Vitesse</string>
+    <string name="speed_type_setting_title">Choisissez le format de la vitesse</string>
+    <string name="status_update">Mise à jour de statut.</string>
+    <string name="step_length_setting">Distance de pas : Marche</string>
+    <string name="step_length_setting_details">Distance de pas : Marche</string>
+    <string name="step_length_setting_title">Tapez votre distance de pas: Marche</string>
+    <string name="steps">pas</string>
+    <string name="stop_dialog_nosave">Ne pas enregistrer les</string>
+    <string name="stop_dialog_save">Enregistrer</string>
+    <string name="success">Succès</string>
+    <string name="successfully_posted_post">Posté avec succès.</string>
+    <string name="sun">dim</string>
+    <string name="thu">jeu</string>
+    <string name="toast_dbtransfered_message">"L’historique quotidien a été transféré depuis StepOn."</string>
+    <string name="toast_external_storage_not_available">"Le stockage externe n'est pas disponible."</string>
+    <string name="toast_external_storage_not_writeable">"Le stockage externe n'est pas inscriptible."</string>
+    <string name="toast_folder">Impossible de créer le dossier StepOn.</string>
+    <string name="toast_folder_doesnot_exist">"Le dossier StepOn n'existe pas."</string>
+    <string name="toast_need_sdcard">Une carte SD est requise pour enregistrer et envoyer des journaux quotidiens.</string>
+    <string name="toast_save">Sauvegardé dans le dossier StepOn.</string>
+    <string name="trashcan">Poubelle</string>
+    <string name="trial_expired">Sauvegarde Cloud (Google Drive) est disponible en version Pro.</string>
+    <string name="try_again">S\u0027il vous plaît essayer de nouveau!</string>
+    <string name="tue">mar</string>
+    <string name="units_imperial">Anglais: pouce, mile, livre</string>
+    <string name="units_metric">Metric: cm, km, kg</string>
+    <string name="units_setting">Métrique/Anglais</string>
+    <string name="units_setting_details">Métrique/Anglais</string>
+    <string name="units_setting_title">Sélectionnez votre unité</string>
+    <string name="very_high">Le plus sensible</string>
+    <string name="very_low">Le moins sensible</string>
+    <string name="wait_for_data_transfer">S’il vous plaît attendre pour le transfert de base de données ..</string>
+    <string name="wait_for_exporting_db">Exportation de base de données ..</string>
+    <string name="wait_for_generating_csv">L\u0027écriture du fichier CSV ..</string>
+    <string name="wait_for_importing_db">Importation de base de données ..</string>
+    <string name="wake_up">"Forcer l’écran on"</string>
+    <string name="wed">mer</string>
+    <string name="week">Semaine</string>
+    <string name="week_of">Semaine du</string>
+    <string name="week_type_american">Dimanche</string>
+    <string name="week_type_european">Lundi</string>
+    <string name="week_type_setting">Premier jour de la semaine</string>
+    <string name="week_type_setting_details">Premier jour de la semaine</string>
+    <string name="week_type_setting_title">Choisissez le format de semaine pour le graphique hebdomadaire</string>
+    <string name="weekly_total">Total hebdo.</string>
+    <string name="widget_cal">\u00A0kcal</string>
+    <string name="widget_expired">Expirée</string>
+    <string name="widget_paused">Pause.</string>
+    <string name="widget_reset">\u2605 Réini. \u2605</string>
+    <string name="widget_skin_0">par défaut</string>
+    <string name="widget_skin_1">noir</string>
+    <string name="widget_skin_2">bleu</string>
+    <string name="widget_skin_3">vert</string>
+    <string name="widget_skin_4">orange</string>
+    <string name="widget_skin_5">rose</string>
+    <string name="widget_skin_6">transparent</string>
+    <string name="widget_skin_type_setting">Couleur du Widget</string>
+    <string name="widget_skin_type_setting_details">Couleur du Widget</string>
+    <string name="widget_skin_type_setting_title">Sélectionnez la couleur du widget</string>
+    <string name="widget_st">\u00A0pa</string>
+    <string name="widget_steps">pas</string>
+    <string name="year">Année</string>
+    <string name="yearly_total">Total annuel</string>
+</resources>

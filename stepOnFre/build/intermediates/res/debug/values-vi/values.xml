@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: Đưa Accupedo vào thùng rác sau đó mở nó trên màn hình chủ, và thử nghiệm. Nếu nó vẫn không hoạt động, đưa Accupedo vào Thùng rác một lần nữa và tắt rồi bật lại điện thoại sau đó mở ra và thử nghiệm.</string>
+    <string name="a2">A: Một số điện thoại không hỗ trợ G-sensor ở chế độ ngủ (màn hình tắt). Đó không phải là lỗi của ứng dụng này.</string>
+    <string name="a3">A: Bắt đầu đếm bước sau khi đi một số bước liên tiếp. Ví dụ, nếu các bước liên tiếp là 10 thì bạn cần phải đi bộ 10 bước liên tục. Nếu bạn đi bộ ít hơn 10 bước và dừng lại, thì những bước này sẽ bị hủy.</string>
+    <string name="a4">A: Đi đến cửa sổ lịch sử. Ấn xuống màn hình để chỉnh sửa hoặc xóa số lượng bước cho mỗi ngày.</string>
+    <string name="a5">A: Trong chế độ Dừng (khi có màu xanh dương), sẽ ngừng đếm bước. Chế độ dừng không tiêu thụ pin. Để khởi động lại đếm bước, chuyển sang chế độ Tiếp tục.</string>
+    <string name="a6">A: Nhật ký hằng ngày được lưu lúc nửa đêm. Đừng tắt điện thoại tại thời điểm đó.</string>
+    <string name="a7">A: Từ gót chân đến gót chân</string>
+    <string name="a8">A: Xin vui lòng email cho chúng tôi. Chúng tôi chắc chắn sẽ hỗ trợ bạn.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-vi/values-vi.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Điều hướng về trang chủ"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Điều hướng lên trên"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Thêm tùy chọn"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"TẮT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BẬT"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Tìm kiếm truy vấn"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Chia sẻ với %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">Phiên bản 1.2.5</string>
+    <string name="accupdeo_version_title">Phiên bản StepOn</string>
+    <string name="accupedo_settings_about">Về StepOn</string>
+    <string name="accupedo_settings_information">Thông tin</string>
+    <string name="activehours_setting">Giờ hoạt động</string>
+    <string name="activehours_setting_details">Bật/tắt giờ hoạt động. Thiết bị sẽ được chuyển sang chế độ dừng khi không hoạt động để tiết kiệm pin. Cài đặt thời gian bắt đầu/kết thúc hàng ngày.</string>
+    <string name="alert_daily_reset_message">Bạn có muốn cài đặt lại các bước đếm hàng ngày?</string>
+    <string name="alert_delete_day_message">Xóa lịch sử ngày?</string>
+    <string name="alert_delete_month_message">Xóa lịch sử tháng?</string>
+    <string name="alert_history_update_version_401_message">+++ sự chú ý! +++\n Ấn xuống màn hình để chỉnh sửa hoặc xóa số lượng bước hàng ngày. Hoặc, nhấp vào màn hình để xem chi tiết lịch sử lòng.</string>
+    <string name="alert_import_dropbox_message">StepOn tập tin cơ sở dữ liệu phải được tồn tại trong Dropbox. \n\n +++ Chú ý! +++ \n Các tập tin nhập khẩu sẽ thay thế cơ sở dữ liệu hiện hành.</string>
+    <string name="alert_import_gdrive_message">StepOn tập tin cơ sở dữ liệu phải được tồn tại trong Google Drive. \n\n +++ Chú ý! +++ \n Các tập tin nhập khẩu sẽ thay thế cơ sở dữ liệu hiện hành.</string>
+    <string name="alert_import_message">Tập tin cơ sở dữ liệu (StepOn.db) phải ở trong thư mục StepOn của thẻ SD. Chú ý! Các tập tin nhập vào sẽ thay thế các cơ sở dữ liệu hiện có.</string>
+    <string name="alert_new_installation_message">Tập tin lịch sử ngày của StepOn đã được tìm thấy. Bạn có muốn nhập vào?</string>
+    <string name="alert_next_lap_message">Bạn có muốn bắt đầu một vòng tiếp theo?</string>
+    <string name="alert_pause_message">Bạn có muốn dừng StepOn?</string>
+    <string name="alert_quit_message">Bạn có muốn thoát StepOn?</string>
+    <string name="alert_resume_message">Bạn có muốn tiếp tục StepOn?</string>
+    <string name="alert_set_steps_message">Bạn có chắc chắn?</string>
+    <string name="automatic_backup">Dự phòng tự động</string>
+    <string name="automatic_backup_midnight_sdcard">Lưu một tập tin cơ sở dữ liệu trong SDcard vào lúc nửa đêm.</string>
+    <string name="autopause_charging_setting">Tự động dừng</string>
+    <string name="autopause_charging_setting_details">Tự động dừng khi sạc pin</string>
+    <string name="ave">TB</string>
+    <string name="backup">Dự phòng</string>
+    <string name="birthday">sinh nhật</string>
+    <string name="body_height_setting_title">Nhập chiều cao của bạn</string>
+    <string name="body_weight_setting">Trọng lượng</string>
+    <string name="body_weight_setting_details">Trọng lượng</string>
+    <string name="body_weight_setting_title">Nhập trọng lượng cơ thể</string>
+    <string name="button_email">Email</string>
+    <string name="button_manual_steps">OK</string>
+    <string name="button_review">Phản hồi</string>
+    <string name="buy_button">Mua Pro</string>
+    <string name="cal">kcal</string>
+    <string name="cancelled">Hủy</string>
+    <string name="chart">Biểu đồ</string>
+    <string name="chart_no_data">Không có dữ liệu sẵn ...</string>
+    <string name="chart_statistics">Thống kê</string>
+    <string name="chart_wait">Chờ xử lý ...</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-vi/values-vi.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">Lỗi bất ngờ khi tải ảnh xuống.</string>
+    <string name="com_facebook_internet_permission_error_message">Đăng nhập WebView yêu cầu INTERNET cho phép</string>
+    <string name="com_facebook_internet_permission_error_title">Lỗi AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Đã thích</string>
+    <string name="com_facebook_like_button_not_liked">Thích</string>
+    <string name="com_facebook_loading">Đang tải...</string>
+    <string name="com_facebook_loginview_cancel_action">Hủy</string>
+    <string name="com_facebook_loginview_log_in_button">Đăng nhập</string>
+    <string name="com_facebook_loginview_log_in_button_long">Đăng nhập bằng Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Đăng xuất</string>
+    <string name="com_facebook_loginview_log_out_button">Đăng xuất</string>
+    <string name="com_facebook_loginview_logged_in_as">Đã đăng nhập với tư cách là: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Đã đăng nhập bằng Facebook</string>
+    <string name="com_facebook_send_button_text">Gửi</string>
+    <string name="com_facebook_share_button_text">Chia sẻ</string>
+    <string name="com_facebook_tooltip_default">Mới! Bạn đang có quyền kiểm soát - hãy chọn thông tin bạn muốn chia sẻ với các ứng dụng.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values-vi/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> yêu cầu phải cập nhật lên ứng dụng Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật ứng dụng Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Cập nhật Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> yêu cầu một hoặc nhiều Dịch vụ của Google Play hiện không có sẵn. Vui lòng liên hệ với nhà phát triển để được hỗ trợ."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Bật dịch vụ của Google Play"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không hoạt động trừ khi bạn kích hoạt Dịch vụ của Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Bật dịch vụ của Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Được yêu cầu bởi <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy khi không có Dịch vụ của Google Play bị thiếu trên điện thoại của bạn."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy khi không có Dịch vụ của Google Play bị thiếu trên máy tính bảng của bạn."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Tài khoản đã chỉ định không tồn tại trên thiết bị này. Vui lòng chọn một tài khoản khác."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Tài khoản không hợp lệ"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Một ứng dụng yêu cầu bật các dịch vụ của Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Cần có kết nối dữ liệu để kết nối với các dịch vụ của Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Lỗi mạng"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Một ứng dụng yêu cầu cập nhật đối với các dịch vụ của Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Lỗi dịch vụ của Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Lỗi khi đăng nhập vào tài khoản được chỉ định. Vui lòng chọn một tài khoản khác."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Đăng nhập không thành công"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Sự cố không xác định với dịch vụ của Google Play."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> chạy trên Dịch vụ của Google Play không được thiết bị của bạn hỗ trợ. Liên hệ với nhà sản xuất để được hỗ trợ."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Dịch vụ của Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Cập nhật"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Cập nhật dịch vụ của Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy khi không có Dịch vụ của Google Play đang cập nhật."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Dịch vụ của Google Play đang cập nhật"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Mở trên điện thoại"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/values-vi/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Đăng nhập"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Kết nối với MFP</string>
+    <string name="consecutive_setting">Liên tiếp</string>
+    <string name="consecutive_setting_details">Liên tiếp</string>
+    <string name="consecutive_setting_title">Các bước liên tiếp đầu tiên</string>
+    <string name="daily_end_setting">Thời gian kết thúc hàng ngày</string>
+    <string name="daily_end_setting_details">Dừng đếm bước</string>
+    <string name="daily_end_setting_title">Chọn thời gian kết thúc</string>
+    <string name="daily_goal">Mục tiêu hàng ngày</string>
+    <string name="daily_goal_title">Mục tiêu</string>
+    <string name="daily_start_setting">Thời gian khởi động hàng ngày</string>
+    <string name="daily_start_setting_details">Bắt đầu đếm bước</string>
+    <string name="daily_start_setting_title">Chọn thời gian bắt đầu</string>
+    <string name="daily_step_counts">Đếm bước hàng ngày</string>
+    <string name="daily_steps">Bước hàng ngày</string>
+    <string name="database">Cơ sở dữ liệu</string>
+    <string name="day">Ngày</string>
+    <string name="delete">Xóa</string>
+    <string name="dialog_no">Không</string>
+    <string name="dialog_yes">Có</string>
+    <string name="display_settings_title">Hiện</string>
+    <string name="dropbox_downloading">Đang tải về...</string>
+    <string name="dropbox_uploading">Đang tải lên...</string>
+    <string name="editsteps">Chỉnh các bước</string>
+    <string name="email_file_subject">Nhật ký StepOn</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Xin vui lòng email cho chúng tôi nếu bạn có bất kỳ vấn đề, câu hỏi, hoặc ý kiến nào.</string>
+    <string name="email_title">Email \u0026 hỗ trợ chúng tôi</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Đếm bước</string>
+    <string name="error">Lỗi</string>
+    <string name="exercise_type_running">Chạy bộ</string>
+    <string name="exercise_type_setting">Đi bộ/Chạy bộ</string>
+    <string name="exercise_type_setting_details">Đi bộ/Chạy bộ</string>
+    <string name="exercise_type_setting_title">Chọn hoạt động</string>
+    <string name="exercise_type_walking">Đi bộ</string>
+    <string name="export_limit_te">Chức năng cơ sở dữ liệu nhập khẩu / xuất khẩu chỉ dành cho phiên bản Pro.</string>
+    <string name="export_success_message">Xuất</string>
+    <string name="export_success_message2">Tập tin cơ sở dữ liệu sẽ được xuất sang thư mục StepOn.</string>
+    <string name="export_to_sdcard">Tập dữ liệu (StepOn.db) được lưu trữ tại thư mục StepOn của Thẻ SD.</string>
+    <string name="faq">Hỏi đáp</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">Hỏi đáp</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Walk 10000 steps a day!</string>
+    <string name="fb_updated">Đã cập nhật Facebook!</string>
+    <string name="fb_walk_report">Báo cáo hàng ngày của StepOn </string>
+    <string name="fri">T6</string>
+    <string name="gender">giới tính</string>
+    <string name="gender_female">nữ</string>
+    <string name="gender_male">nam</string>
+    <string name="goal_achievement_notification">Thông báo hoàn thành mục tiêu</string>
+    <string name="goal_achievement_notification_details">Thông báo khi đạt mục tiêu</string>
+    <string name="goal_reward_notification">Phần thưởng mục tiêu hàng ngày</string>
+    <string name="goal_reward_notification_details">Khi mục tiêu hàng ngày được thực hiện ...</string>
+    <string name="goal_steps_setting">Các bước mục tiêu</string>
+    <string name="goal_steps_setting_details">Các bước mục tiêu</string>
+    <string name="goal_steps_setting_title">Nhập các bước mục tiêu hàng ngày</string>
+    <string name="google_drive_downloaded">Tập tin cơ sở dữ liệu (StepOn.db) được tải về.</string>
+    <string name="google_drive_file_not_exist">Tập tin (StepOn.db) không tồn tại.</string>
+    <string name="google_drive_uploaded">Tập tin cơ sở dữ liệu (StepOn.db) được tải lên.</string>
+    <string name="height">cao</string>
+    <string name="help">Trợ giúp</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title" ns1:ignore="MissingTranslation,MissingTranslation,MissingTranslation">StepOn\u00A9 User\u0027s Guide</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">thời gian</string>
+    <string name="high">Nhạy cảm hơn</string>
+    <string name="history">Lịch sử</string>
+    <string name="history_management_setting">Quản lý lịch sử</string>
+    <string name="hm">h:m</string>
+    <string name="hour">Giờ</string>
+    <string name="hourly_step_counts">Đếm bước theo giờ</string>
+    <string name="import_limit_te">Chức năng cơ sở dữ liệu nhập khẩu / xuất khẩu chỉ dành cho phiên bản Pro.</string>
+    <string name="import_success_message">Nhập</string>
+    <string name="inches">inch</string>
+    <string name="jan">Th 1</string>
+    <string name="jul">Th 7</string>
+    <string name="keep_screen_on">Bật màn hình</string>
+    <string name="lap">Vòng</string>
+    <string name="locale_0">Mặc định</string>
+    <string name="locale_1">Tiếng Anh</string>
+    <string name="locale_type_setting">Ngôn ngữ</string>
+    <string name="locale_type_setting_details">Ngôn ngữ</string>
+    <string name="locale_type_setting_title">Chọn ngôn ngữ</string>
+    <string name="low">Ít nhạy cảm hơn</string>
+    <string name="mar">Th 3</string>
+    <string name="may">Th 5</string>
+    <string name="medium">Chuẩn</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-vi/values-vi.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Gửi</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="miles">dặm</string>
+    <string name="min">ph</string>
+    <string name="minutes">phút</string>
+    <string name="mon">T2</string>
+    <string name="month">Tháng</string>
+    <string name="monthly_average_step_counts">Đếm bước trung bình tháng</string>
+    <string name="monthly_total">Tổng tháng</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-vi/values-vi.xml -->
+    <eat-comment/>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Đầu ra phương tiện"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Đang tìm kiếm thiết bị…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Kết nối với thiết bị"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Ngắt kết nối"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Hệ thống"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Thiết bị"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="network_connection">Mạng sẽ được kết nối.</string>
+    <string name="no_ad">quảng cáo</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn là một pedometer theo dõi các bước của bạn.\n\n
+
+\u2605 Dễ dàng để đọc biểu đồ và bản ghi lịch sử, theo dõi các bước của bạn, lượng calo đốt cháy, khoảng cách và thời gian. Như bạn thân đi bộ tốt nhất của bạn, StepOn sẽ thúc đẩy bạn đi bộ nhiều hơn nữa! Thiết lập mục tiêu hàng ngày của bạn và bước hướng tới một khỏe mạnh bạn với StepOn bước theo dõi.\n\n
+
+\u2605 StepOn đếm bước của bạn bất kể nơi bạn đặt điện thoại của bạn như túi, quần, hoặc túi xách. StepOn rất đơn giản! Tất cả bạn cần làm là nhấn nút bắt đầu khi bạn bắt đầu đi bộ. Đi bộ 10K bước mỗi ngày và StepOn hướng tới một bạn khỏe mạnh.\n\n
+
+\u2605 Các tính năng chính:\n
+
+\u2022 Bảng xếp hạng: hàng ngày, hàng tuần, hàng tháng, hàng năm và số lượng bước\n
+\u2022 Lịch sử đăng nhập hàng ngày: đếm bước, lượng calo đốt cháy, khoảng cách và thời gian\n
+\u2022 Đếm bước chính xác bằng cách sử dụng các thuật toán theo dõi chuyển động 3D thông minh\n
+\u2022 Chia sẻ đăng nhập hàng ngày trên Facebook\n
+\u2022 Google Drive sao lưu\n
+\u2022 Thiết lập cá nhân: mục tiêu hàng ngày, nhạy cảm, đơn vị: mét / đế quốc, chiều dài sải chân, trọng lượng, vv
+</string>
+    <string name="notes_title">Ghi chú</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Thông báo</string>
+    <string name="nov">Th 11</string>
+    <string name="operation_level_setting">Bật/tắt màn hình </string>
+    <string name="operation_level_setting_details">Bật/tắt màn hình </string>
+    <string name="operation_level_setting_title">Chọn bật/tắt màn hình </string>
+    <string name="permission_not_granted">Không được cấp phép.</string>
+    <string name="personal_settings_title">Cá nhân</string>
+    <string name="power_settings_title">Dùng pin</string>
+    <string name="power_usage_type_more_accurate">Đếm bước chính xác hơn</string>
+    <string name="power_usage_type_most_accurate">Đếm bước chính xác nhất</string>
+    <string name="power_usage_type_power_balanced">Cân bằng</string>
+    <string name="power_usage_type_power_least">Ít tiêu thụ pin nhất</string>
+    <string name="power_usage_type_power_less">Ít tiêu thụ pin hơn</string>
+    <string name="power_usage_type_power_saving">Đếm bước tiết kiệm pin</string>
+    <string name="power_usage_type_setting">Chế độ dùng pin</string>
+    <string name="power_usage_type_setting_details">Chế độ dùng pin</string>
+    <string name="power_usage_type_setting_title">Chọn số bước đếm chính xác và tiết kiệm pin</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: Máy dừng đếm bước.</string>
+    <string name="q2">Q: Không đếm khi màn hình tắt (chế độ chờ)</string>
+    <string name="q3">Q: Các bước liên tiếp trong Cài đặt là gì?</string>
+    <string name="q4">Q: Tôi có thể sửa tính bước?</string>
+    <string name="q5">Q: Chế độ tạm dừng là gì?</string>
+    <string name="q6">Q: Không lưu nhật ký hàng ngày.</string>
+    <string name="q7">Q: Làm thế nào để đo khoảng cách bước?</string>
+    <string name="q8">Q: Vấn đề của tôi không được liệt kê trong Hỏi đáp.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Thoát</string>
+    <string name="reset">Cài đặt lại</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Cần nhiều nỗ lực và hỗ trợ để phát triển một ứng dụng chất lượng. Vui lòng để lại một đánh giá tích cực nếu bạn hài lòng với StepOn. Điều đó sẽ khuyến khích chúng tôi phát triển ứng dụng tốt hơn. Cảm ơn bạn.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">thưởng</string>
+    <string name="run_in_background">Tắt màn hình</string>
+    <string name="run_length_setting">Khoảng cách bước: Chạy</string>
+    <string name="run_length_setting_details">Khoảng cách bước: Chạy</string>
+    <string name="run_length_setting_title">Nhập khoảng cách bước: Chạy</string>
+    <string name="sat">T7</string>
+    <string name="save">Lưu</string>
+    <string name="screen_skin_0">Xanh / đen</string>
+    <string name="screen_skin_1">Xanh / Ánh sáng</string>
+    <string name="screen_skin_2">Cam / Ánh sáng</string>
+    <string name="screen_skin_type_setting">Chủ đề màu sắc</string>
+    <string name="screen_skin_type_setting_details">Chủ đề màu sắc</string>
+    <string name="screen_skin_type_setting_title">Chọn màu sắc chủ đề</string>
+    <string name="sdcard">Thẻ SD</string>
+    <string name="send">Gửi</string>
+    <string name="send_cvs">Gửi tập tin CSV</string>
+    <string name="sensitivity_setting">Nhạy cảm</string>
+    <string name="sensitivity_setting_details">Nhạy cảm</string>
+    <string name="sensitivity_setting_title">Chọn mức độ nhạy cảm</string>
+    <string name="sep">Th 9</string>
+    <string name="settings">Cài đặt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="speed_type_average">Tốc độ trung bình</string>
+    <string name="speed_type_realtime">Tốc độ thời gian thực</string>
+    <string name="speed_type_setting">Hiện tốc độ</string>
+    <string name="speed_type_setting_details">Hiện tốc độ</string>
+    <string name="speed_type_setting_title">Chọn hiển thị tốc độ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-vi/values-vi.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="status_update">Đang cập nhật trạng thái</string>
+    <string name="step_length_setting">Khoảng cách bước: Đi bộ</string>
+    <string name="step_length_setting_details">Khoảng cách bước: Đi bộ</string>
+    <string name="step_length_setting_title">Nhập khoảng cách bước: Đi bộ</string>
+    <string name="steps">bước</string>
+    <string name="stop_dialog_nosave">Không lưu</string>
+    <string name="stop_dialog_save">Lưu</string>
+    <string name="success">Thành công</string>
+    <string name="successfully_posted_post">Đăng thành công.</string>
+    <string name="sun">CN</string>
+    <string name="thu">T5</string>
+    <string name="toast_dbtransfered_message">Lịch sử hàng ngày được chuyển từ StepOn.</string>
+    <string name="toast_external_storage_not_available">Lưu bộ nhớ ngoài không có sẵn.</string>
+    <string name="toast_external_storage_not_writeable">Lưu bộ nhớ ngoài không thể chỉnh sửa.</string>
+    <string name="toast_folder">Không thể tạo thư mục StepOn.</string>
+    <string name="toast_folder_doesnot_exist">Thư mục StepOn không tồn tại.</string>
+    <string name="toast_need_sdcard">Cần một thẻ SD để lưu và gửi các bảng theo dõi.</string>
+    <string name="toast_save">Lưu trong thư mục StepOn.</string>
+    <string name="trashcan">Thùng rác</string>
+    <string name="trial_expired">Cloud dự phòng có sẵn trong phiên bản Pro.</string>
+    <string name="try_again">Vui lòng thử lại!</string>
+    <string name="tue">T3</string>
+    <string name="units_imperial">Đơn vị Anh: in, dặm, pound</string>
+    <string name="units_metric">Đo lường: cm, km, kg</string>
+    <string name="units_setting">Đo lường/Đơn vị Anh</string>
+    <string name="units_setting_details">Đo lường/Đơn vị Anh</string>
+    <string name="units_setting_title">Chọn đơn vị</string>
+    <string name="very_high">Nhạy cảm nhất</string>
+    <string name="very_low">Ít nhạy cảm nhất</string>
+    <string name="wait_for_data_transfer">Vui lòng chờ chuyển cơ sở dữ liệu...</string>
+    <string name="wait_for_exporting_db">Xuất dữ liệu…</string>
+    <string name="wait_for_generating_csv">Đang viết tập tin CSV…</string>
+    <string name="wait_for_importing_db">Nhập dữ liệu…</string>
+    <string name="wake_up">Buộc màn hình mở</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/res/values-vi/wallet_strings.xml -->
+    <eat-comment/>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Mua hàng bằng Google"</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="wed">T4</string>
+    <string name="week">Tuần</string>
+    <string name="week_of">Tuần</string>
+    <string name="week_type_american">Chủ nhật</string>
+    <string name="week_type_european">Thứ hai</string>
+    <string name="week_type_setting">Ngày đầu tuần</string>
+    <string name="week_type_setting_details">Ngày đầu tuần</string>
+    <string name="week_type_setting_title">Chọn định dạng cho biểu đồ tuần</string>
+    <string name="weekly_total">Tổng hàng tuần</string>
+    <string name="widget_mi">\u00A0dặm</string>
+    <string name="widget_paused">Dừng...</string>
+    <string name="widget_reset">\u2605Cài đặt lại\u2605</string>
+    <string name="widget_skin_0">Mặc định</string>
+    <string name="widget_skin_1">Đen</string>
+    <string name="widget_skin_2">Xanh dương</string>
+    <string name="widget_skin_3">Xanh lá</string>
+    <string name="widget_skin_4">Cam</string>
+    <string name="widget_skin_5">Hồng</string>
+    <string name="widget_skin_6">Trong suốt</string>
+    <string name="widget_skin_type_setting">Màu Widget</string>
+    <string name="widget_skin_type_setting_details">Màu Widget</string>
+    <string name="widget_skin_type_setting_title">Chọn màu Widget</string>
+    <string name="widget_st">\u00A0bước</string>
+    <string name="widget_steps">bước</string>
+    <string name="year">Năm</string>
+    <string name="yearly_total">Tổng năm</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="help_title">StepOn Naudojimo Vadovas</string> 
+
+<string name="email_title">Susisiekite ir Palaikykite mus</string>
+<string name="email_message">\u2605 Susisiekite su mumis, jei turite problemų, klausimų ar komentarų.</string>  
+<string name="review_message">\u2605 Kokybiškoms programėlėms kurti reikalingos didžiulės pastangos ir palaikymas. Prašome palikti teigiamą atsiliepimą, jeigu esate patenkinti programėle StepOn. Tai paskatins mus kurti geresnes Programėles. Ačiū!</string>
+<string name="notes_title">Pastabos</string>
+<string name="notes_message">
+\u2605 StepOn yra žingsniamatis, kuri stebi jūsų veiksmus.\n\n
+
+\u2605 Su lengva skaityti diagramas ir istorija rąstų, stebėti savo veiksmus, sudegintas kalorijas, atstumą ir laiką. , Kaip Jūsų geriausias pėsčiomis bičiulių, StepOn bus motyvuoti jums daugiau vaikščioti! Nustatykite savo dienos tikslą ir žingsnis link sveikesnio jums su StepOn žingsnio tracker.\n\n
+
+\u2605 StepOn skaičiuoja savo veiksmus, nesvarbu, kur jūs įtraukėte savo telefoną kaip kišenėje, juosmens diržo ar maišelį. StepOn yra taip paprasta! Viskas, ką jums reikia padaryti, tai paspauskite paleidimo mygtuką, kai jums pradėti vaikščioti. Pasivaikščiojimas 10K žingsnius dieną ir StepOn link sveikesnio jums.\n\n
+
+\u2605 Pagrindinės funkcijos:\n
+
+\u2022 Grafikai: dienos, savaitės, mėnesio, ir kasmet žingsnis skaičius\n
+\u2022 Dienos žurnaluose: žingsnis skaičiuoja, sudegintas kalorijas, atstumas ir laikas\n
+\u2022 Tikslus žingsnis skaičiuoja, naudojant pažangiąsias 3D judesio sekimo algoritmai\n
+\u2022 Dalytis kasdien Prisijungti Facebook\n
+\u2022 Google Drive atsarginę kopiją\n
+\u2022 Asmeninės nustatymai: dienos tikslas, padidėjęs jautrumas, vieneto: metriniai / imperiniai, žingsnis ilgis, svoris, ir tt
+</string>
+
+</resources>

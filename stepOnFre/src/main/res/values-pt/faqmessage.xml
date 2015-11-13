@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="faq_title">FAQ</string>
+<string name="q1">Q: Ele pára de contar os passos.</string>
+<string name="a1">A: Remover Accupedo para a lixeira, e depois abri-lo na tela inicial, e testá-lo. Se ainda assim não funcionar, remova o Accupedo para a lixeira de novo, e desligar o telefone e e abrir e testá-lo.</string>
+<string name="q2">Q: Não conta quando a tela está desligada (modo de espera).</string>
+<string name="a2">A: Alguns telefones não suportam o G-sensor no modo de espera (tela está desligada) pelos fabricantes de telefone. Não é de defeitos deste aplicativo.</string>
+<string name="q3">Q: O que é etapas consecutivas em Configurações?</string>
+<string name="a3">A: Contagem de passos começa depois de andar o número de etapas consecutivas. Por exemplo, se são 10 etapas consecutivas, então você precisa para andar 10 passos continuamente sem parar. Se você andar menos de 10 passos e parar, então ele descarta esses passos.</string>
+<string name="q4">Q: Posso editar passo conta?</string>
+<string name="a4">A: Vá para a janela da história. Pressione para baixo a tela de editar ou apagar contagem de passos para cada dia.</string>
+<string name="q5">Q: Qual é o modo de Pausa?</string>
+<string name="a5">A: Durante o modo de Pausa (quando a cor é azul), ele pára de contar os passos. Este modo de pausa não consumir a bateria. Para reiniciar a contagem passo, mudar para o modo Reiniciar.</string>
+<string name="q6">Q: Não salvar um log diário.</string>
+<string name="a6">A: Ele salva um registro diário à meia-noite. Não desligar o telefone na época.</string>
+<string name="q7">Q: Como medir a distância passo?</string>
+<string name="a7">A: De dedo do pé (calcanhar) aos pés (calcanhar).</string>
+<string name="q8">Q: Meu problema não está listado no FAQ.</string>
+<string name="a8">A: Por favor, um e-mail. Nós vamos ajudá-lo definitivamente.</string>
+
+</resources>

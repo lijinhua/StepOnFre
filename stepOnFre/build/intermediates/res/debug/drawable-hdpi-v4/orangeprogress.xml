@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@android:id/background">
+    <shape>
+        <corners android:radius="0dp" />
+        <gradient
+                android:startColor="@color/mygray"
+                android:centerColor="@color/mygray"
+                android:centerY="0.5"
+                android:endColor="@color/mygray"
+                android:angle="270"
+        />
+    </shape>
+</item>
+
+<item android:id="@android:id/secondaryProgress">
+    <clip>
+        <shape>
+            <corners android:radius="0dp" />
+            <gradient
+                    android:startColor="#80ffd300"
+                    android:centerColor="#80ffb600"
+                    android:centerY="0.75"
+                    android:endColor="#a0ffcb00"
+                    android:angle="270"
+            />
+        </shape>
+    </clip>
+</item>
+<item
+    android:id="@android:id/progress"
+>
+    <clip>
+        <shape>
+            <corners
+                android:radius="0dp" />
+            <gradient
+                android:startColor="@color/myorange"
+                android:centerColor="@color/myorange"
+                android:centerX="0.5"
+                android:endColor="@color/myorange"
+                android:angle="0" />
+        </shape>
+    </clip>
+</item>
+
+</layer-list>
+<!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/drawable-hdpi/orangeprogress.xml -->

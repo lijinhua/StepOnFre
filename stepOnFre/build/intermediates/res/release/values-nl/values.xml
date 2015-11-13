@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/faqmessage.xml -->
+    <eat-comment/>
+    <string name="a1">A: Verwijder Accupedo naar de prullenbak, en open het opnieuw in het beginscherm. En test de app. Als het dan nog niet werkt, verwijder het dan opnieuw naar de prullenbak. Schakel uw telefoon uit en weer aan. Open Accupedo opnieuw en test het.</string>
+    <string name="a2">A: Bij sommige telefoons werkt de G-sensor niet als het scherm op standy gaat. Dit verschilt per fabrikant. Dit ligt niet aan de applicatie.</string>
+    <string name="a3">A: Als je 4 stappen achter elkaar loopt, gaat de teller beginnen met tellen incl. de 4 genomen stappen. Als je 10 stappen achter elkaar loopt, gaat de teller beginnen met tellen incl de 10 genomen stappen. Blijft je onder de vooraf ingestelde aantal dan zal de stappen niet mee geteld worden.</string>
+    <string name="a4">A: Ga naar Geschiedenis venster. Druk omlaag over het scherm om stap telt voor elke dag bewerken of verwijderen.</string>
+    <string name="a5">A: Als de pauze modus is ingeschakeld (kleur blauw) zal de genomen stappen niet meegeteld worden. De pauze modus verbruikt geen batterij. Om opnieuw te starten, drukt up op de resume modus.</string>
+    <string name="a6">A: Het dagboek wordt eens per dag bijgewerkt om 00:00 uur. Schakelt u de telefoon dan niet uit.</string>
+    <string name="a7">A: Van teen (hiel) tot teen (hiel).</string>
+    <string name="a8">Stuur ons een email met daarin de beschrijving van uw probleem. We zullen u helpen het probleem op te lossen.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="accupdeo_version_summery">Versie 1.2.5</string>
+    <string name="accupdeo_version_title">StepOn versie</string>
+    <string name="accupedo_settings_about">Over StepOn</string>
+    <string name="accupedo_settings_information">Informatie</string>
+    <string name="activehours_setting">Actieve uur</string>
+    <string name="activehours_setting_details">Inschakelen / uitschakelen actieve uren. Niet
+		actieve uren worden in de pauzestand om energie te besparen. Indien
+		aangevinkt, zet dagelijks start / eindtijd zie ook.</string>
+    <string name="alert_daily_reset_message">Wilt u dagelijks het aantal stappen opnieuw in te stellen?</string>
+    <string name="alert_delete_day_message">Verwijder dagelijks de geschiedenis?</string>
+    <string name="alert_delete_month_message">Verwijder maandelijkse geschiedenis?</string>
+    <string name="alert_history_update_version_401_message">+++ Aandacht! +++\n Druk omlaag over het scherm om de dagelijkse stap telt bewerken of verwijderen. Of klik op het scherm voor detail schoot geschiedenis te zien.</string>
+    <string name="alert_import_dropbox_message">StepOn databasebestand moet in Dropbox. \n\n +++ Aandacht! +++\n Het geïmporteerde bestand zal de bestaande database te vervangen.</string>
+    <string name="alert_import_gdrive_message">StepOn databasebestand moet in Google Drive. \n\n +++ Aandacht! +++\n Het geïmporteerde bestand zal de bestaande database te vervangen.</string>
+    <string name="alert_import_message">StepOn \u0022StepOn.db\u0022 bestand moet
+		worden in StepOn map van de SD-kaart. \n\n +++ Aandacht! +++\n Het geïmporteerde
+		bestand vervangt de bestaande database.</string>
+    <string name="alert_new_installation_message">StepOn dagelijkse geschiedenis bestand is gevonden. Wilt u importeren?</string>
+    <string name="alert_next_lap_message">Wilt u een volgende ronde beginnen?</string>
+    <string name="alert_pause_message">Wilt u pauzeren StepOn?</string>
+    <string name="alert_reset_message">Wilt u dagelijks het aantal stappen opnieuw in te stellen?</string>
+    <string name="alert_resume_message">Wilt u StepOn hervatten?</string>
+    <string name="alert_set_steps_message">Heeft u bevestigen?</string>
+    <string name="automatic_backup">Automatische back-up</string>
+    <string name="automatic_backup_midnight_sdcard">Sla een databasebestand in SD-kaart om middernacht.</string>
+    <string name="autopause_charging_setting">Automatische pauze</string>
+    <string name="autopause_charging_setting_details">Automatische pauze tijdens het opladen</string>
+    <string name="ave">gem.</string>
+    <string name="backup">Back-up</string>
+    <string name="birthday">Geboortedatum</string>
+    <string name="body_height_setting_title">Type uw lengte</string>
+    <string name="body_weight_setting">Lichaamsgewicht</string>
+    <string name="body_weight_setting_details">Lichaamsgewicht</string>
+    <string name="body_weight_setting_title">Typ uw lichaamsgewicht</string>
+    <string name="button_email">E-mail</string>
+    <string name="button_manual_steps">Bevestigen</string>
+    <string name="button_review">Herziening</string>
+    <string name="buy_button">Kopen Pro</string>
+    <string name="cal">kcal</string>
+    <string name="cancelled">Annuleren</string>
+    <string name="chart">Grafiek</string>
+    <string name="chart_no_data">Geen gegevens beschikbaar..</string>
+    <string name="chart_statistics">Statistische</string>
+    <string name="chart_wait">Wacht tot de verwerking van..</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-nl/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Er is een update van de Android Wear-app vereist voor een bepaalde app."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Deze app wordt niet uitgevoerd, tenzij u de Android Wear-app updatet."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear updaten"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-services inschak."</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Deze app werkt niet, tenzij u Google Play-services inschakelt."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Aangevraagd door <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-services ophalen"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw telefoon."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ongeldig account"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Google Play-services moet zijn ingeschakeld voor een app."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netwerkfout"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Google Play-services moet zijn geïnstalleerd voor een app."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Google Play-services moet worden geüpdatet voor een app."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Fout bij inloggen op het opgegeven account. Kies een ander account."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Inloggen mislukt"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Onbekend probleem met Google Play-services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Google Play-services, dat vereist is voor een aantal van uw applicaties, wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Updaten"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Deze app kan niet worden uitgevoerd, tenzij u Google Play-services updatet."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Openen op telefoon"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Inloggen"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Inloggen met Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Voor deze app zijn een of meer Google Play-services vereist die momenteel niet beschikbaar zijn. Neem contact op met de ontwikkelaar voor ondersteuning."</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_mfp">Verbinden met MFP</string>
+    <string name="consecutive_setting">Opeenvolgende stappen</string>
+    <string name="consecutive_setting_details">Opeenvolgende stappen</string>
+    <string name="consecutive_setting_title">Eerste opeenvolgende stappen</string>
+    <string name="daily_end_setting">Dagelijkse eindtijd</string>
+    <string name="daily_end_setting_details">stap stopt de teller</string>
+    <string name="daily_end_setting_title">Selecteer eindtijd</string>
+    <string name="daily_goal">Dagelijkse doel</string>
+    <string name="daily_goal_title">Doel</string>
+    <string name="daily_start_setting">Dagelijkse starttijd</string>
+    <string name="daily_start_setting_details">stap tellen start</string>
+    <string name="daily_start_setting_title">Selecteer starttijd</string>
+    <string name="daily_step_counts">Dagelijks stap telt</string>
+    <string name="daily_steps">Dagelijks stap</string>
+    <string name="day">Dag</string>
+    <string name="delete">Slett</string>
+    <string name="dialog_no">Niet</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="display_settings_title">Weergave-instellingen</string>
+    <string name="dropbox_downloading">Downloaden ..</string>
+    <string name="dropbox_uploading">Uploaden ..</string>
+    <string name="editsteps">Bewerk stap</string>
+    <string name="email_file_subject">StepOn dagelijkse logs</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/helpmessage.xml -->
+    <eat-comment/>
+    <string name="email_message">\u2605 Stuur ons een email als u problemen, vragen of opmerkingen.</string>
+    <string name="email_title">E-mail \u0026 Ondersteuning</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="enter_manual_steps">Stap tellen</string>
+    <string name="error">Fout</string>
+    <string name="exercise_type_running">lopen</string>
+    <string name="exercise_type_setting">Wandelen / Lopen</string>
+    <string name="exercise_type_setting_details">Wandelen / Lopen</string>
+    <string name="exercise_type_setting_title">Kies uw activiteit</string>
+    <string name="exercise_type_walking">wandelen</string>
+    <string name="export_limit_te">Database import / export-functies zijn alleen voor StepOn-Pro.</string>
+    <string name="export_success_message">Export.</string>
+    <string name="export_success_message2">Database bestand \u0022StepOn.db\u0022 zal worden geëxporteerd naar de map StepOn.</string>
+    <string name="export_to_sdcard">Databasebestand (StepOn.db) wordt opgeslagen in de StepOn map van SD-Card.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/faqmessage.xml -->
+    <eat-comment/>
+    <string name="faq_title">FAQ</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="fb_lets_walk">Lopen 10000 stappen per dag!</string>
+    <string name="fb_updated">Facebook wordt bijgewerkt!</string>
+    <string name="fb_walk_report">StepOn dagelijkse wandeling</string>
+    <string name="fri">Vri</string>
+    <string name="gender">Geslacht</string>
+    <string name="gender_female">Vrouw</string>
+    <string name="gender_male">Man</string>
+    <string name="goal_achievement_notification">Dagelijks doelbereiking</string>
+    <string name="goal_achievement_notification_details">Melding wanneer doel is bereikt</string>
+    <string name="goal_reward_notification">Dagelijkse doel beloning</string>
+    <string name="goal_reward_notification_details">Wanneer de dagelijkse doel is bereikt ...</string>
+    <string name="goal_steps_setting">Doel stappen</string>
+    <string name="goal_steps_setting_details">Doel stappen</string>
+    <string name="goal_steps_setting_title">Type daily goal steps</string>
+    <string name="google_drive_downloaded">Databasebestand (StepOn.db) wordt gedownload.</string>
+    <string name="google_drive_file_not_exist">File (StepOn.db) bestaat niet.</string>
+    <string name="google_drive_uploaded">Databasebestand (StepOn.db) wordt geupload.</string>
+    <string name="height">Lengte</string>
+    <string name="help">Help</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/helpmessage.xml -->
+    <eat-comment/>
+    <string name="help_title">handleiding StepOn</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="hhmm">tijd</string>
+    <string name="high">gevoeliger</string>
+    <string name="history">Dagboek</string>
+    <string name="history_management_setting">Geschiedenis beheer</string>
+    <string name="hour">Uur</string>
+    <string name="hourly_step_counts">Per uur stap telt</string>
+    <string name="import_limit_te">Database import / export-functies zijn alleen voor StepOn-Pro.</string>
+    <string name="import_success_message">Importeren.</string>
+    <string name="jan">Jan</string>
+    <string name="jul">Jul</string>
+    <string name="keep_screen_on">scherm op te houden</string>
+    <string name="lap">Ronde</string>
+    <string name="locale_0">Default</string>
+    <string name="locale_1">Engels</string>
+    <string name="locale_type_setting">Taal</string>
+    <string name="locale_type_setting_details">Taal</string>
+    <string name="locale_type_setting_title">Selecteer taal</string>
+    <string name="low">minder gevoelig</string>
+    <string name="mar">Maa</string>
+    <string name="may">Kun</string>
+    <string name="medium">standaard</string>
+    <string name="miles">mijl</string>
+    <string name="minutes">notulen</string>
+    <string name="mon">Maa</string>
+    <string name="month">Maand</string>
+    <string name="monthly_average_step_counts">Maands gemi. stap</string>
+    <string name="monthly_total">Maand totaal</string>
+    <string name="network_connection">Netwerk moet worden aangesloten.</string>
+    <string name="no_ad">Advertentie</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/helpmessage.xml -->
+    <eat-comment/>
+    <string name="notes_message">
+\u2605 StepOn is een stappenteller die je stappen bijhoudt.\n\n 
+
+\u2605 Een intelligente 3D motion herkenning algoritme is ingebed om alleen looppatronen spoor door te filteren en uitwerpen uit niet-wandelen-activiteiten. StepOn telt je stappen, ongeacht waar je je telefoon als je zak, taille riem, of tas.\n\n 
+
+\u2605 StepOn is zo simpel. Het enige wat u hoeft te doen is druk op de startknop wanneer u begint te lopen.\n\n 
+
+\u2605 Gezond zijn door het opzetten van je dagelijkse doel en nauwkeurig monitoren van uw stappen met StepOn.\n\n 
+
+\u2605 De belangrijkste kenmerken zijn:\n 
+
+\u2022 Grafieken : dagelijks, wekelijks, maandelijks en jaarlijks stap telt\n 
+\u2022 Dagelijkse log geschiedenis : stap telt, verbrande calorieën, afstand en tijd\n 
+\u2022 Nauwkeurig stap telt met behulp van intelligente 3D motion tracking algoritmen\n 
+\u2022 Deel dagelijks een logboek op Facebook\n 
+\u2022 Google Drive backup\n 
+\u2022 Persoonlijke instellingen: dagelijkse doel, gevoeligheid, eenheid : metrisch / Engels, paslengte, gewicht, enz.
+</string>
+    <string name="notes_title">Opmerkingen</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="notification_settings_title">Notification</string>
+    <string name="nov">Nov</string>
+    <string name="operation_level_setting">Scherm aan / uit</string>
+    <string name="operation_level_setting_details">Scherm aan / uit</string>
+    <string name="operation_level_setting_title">Selecteer het scherm aan / uit</string>
+    <string name="permission_not_granted">Rechten niet werden toegekend.</string>
+    <string name="personal_settings_title">Persoonlijke instellingen</string>
+    <string name="pounds">pond</string>
+    <string name="power_settings_title">Batterij stroomverbruik</string>
+    <string name="power_usage_type_more_accurate">Nauwkeuriger aantal stappen</string>
+    <string name="power_usage_type_most_accurate">meest nauwkeurige aantal stappen</string>
+    <string name="power_usage_type_power_balanced">evenwichtige</string>
+    <string name="power_usage_type_power_least">Minimaal stroomverbruik</string>
+    <string name="power_usage_type_power_less">Minder stroomverbruik</string>
+    <string name="power_usage_type_power_saving">energiebesparing aantal stappen</string>
+    <string name="power_usage_type_setting">Stroomverbruik stand</string>
+    <string name="power_usage_type_setting_details">Stroomverbruik stand</string>
+    <string name="power_usage_type_setting_title">selecteer de juiste stappen tellen of energiebesparing</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/faqmessage.xml -->
+    <eat-comment/>
+    <string name="q1">Q: Het stopt met het tellen van de stappen.</string>
+    <string name="q2">Q: Stappen worden niet geteld als het scherm op standby staat.</string>
+    <string name="q3">Q: Wat betekent de opeenvolgende stappen in het menu intsellingen</string>
+    <string name="q4">Q: Kan ik stap telt bewerken?</string>
+    <string name="q5">Q: Wat betekend de pauze modus.</string>
+    <string name="q6">Q: Het houdt geen dagboek bij gedurende de dag.</string>
+    <string name="q7">Q: Hoe kan ik de stap afstand te meten?</string>
+    <string name="q8">Q: Mijn probleem kan ik niet terugvinden in FAQ.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="quit">Uitgang</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/helpmessage.xml -->
+    <eat-comment/>
+    <string name="review_message">\u2605 Veel inzet en steun is nodig om de kwaliteit Apps te ontwikkelen. Laat een positieve beoordeling als u tevreden bent met StepOn. Het zal moedigen ons aan om beter te Apps te ontwikkelen. Dank u.</string>
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="reward_notification_settings_title">Beloning</string>
+    <string name="run_in_background">te houden scherm uit</string>
+    <string name="run_length_setting">Stap op afstand: Lopen</string>
+    <string name="run_length_setting_details">Stap op afstand: Lopen</string>
+    <string name="run_length_setting_title">Typ uw stap afstand: Lopen</string>
+    <string name="sat">Zat</string>
+    <string name="save">Bespa.</string>
+    <string name="screen_skin_0">Blauw / Donker</string>
+    <string name="screen_skin_1">Blauw / Licht</string>
+    <string name="screen_skin_2">Oranje / Licht</string>
+    <string name="screen_skin_type_setting">Themakleur</string>
+    <string name="screen_skin_type_setting_details">Themakleur</string>
+    <string name="screen_skin_type_setting_title">Selecteer themakleur</string>
+    <string name="send">Sturen</string>
+    <string name="send_cvs">Stuur CSV bestand</string>
+    <string name="sensitivity_setting">Gevoeligheid</string>
+    <string name="sensitivity_setting_details">Gevoeligheid</string>
+    <string name="sensitivity_setting_title">Selecteer gevoeligheid</string>
+    <string name="sep">Sep</string>
+    <string name="settings">Instellingen</string>
+    <string name="share">Aandeel</string>
+    <string name="speed_type_average">Gemiddelde snelheid</string>
+    <string name="speed_type_realtime">Real time snelheid</string>
+    <string name="speed_type_setting">Snelheid</string>
+    <string name="speed_type_setting_details">Snelheid</string>
+    <string name="speed_type_setting_title">Kies snelheid formaat</string>
+    <string name="status_update">Bijwerken status.</string>
+    <string name="step_length_setting">Stap op afstand: Wandelen</string>
+    <string name="step_length_setting_details">Stap op afstand: Wandelen</string>
+    <string name="step_length_setting_title">Typ uw stap afstand: Wandelen</string>
+    <string name="steps">stap</string>
+    <string name="stop_dialog_nosave">Niet Bewaar</string>
+    <string name="stop_dialog_save">Bewaar</string>
+    <string name="success">Succes</string>
+    <string name="successfully_posted_post">Succesvol geplaatst.</string>
+    <string name="sun">Zon</string>
+    <string name="thu">Don</string>
+    <string name="toast_dbtransfered_message">Dagelijks een logboek bij geschiedenis werd
+		overgebracht van StepOn.</string>
+    <string name="toast_external_storage_not_available">Externe opslag is niet beschikbaar</string>
+    <string name="toast_external_storage_not_writeable">Externe opslag is niet beschrijfbaar</string>
+    <string name="toast_folder">Kan geen StepOn map</string>
+    <string name="toast_folder_doesnot_exist">StepOn map bestaat niet.</string>
+    <string name="toast_need_sdcard">Vereisen een SD-kaart opslaan en verzenden
+		dagelijks logs.</string>
+    <string name="toast_save">Opgeslagen in de map StepOn</string>
+    <string name="trashcan">Afvalemmer</string>
+    <string name="trial_expired">Cloud (Google Drive) back-up beschikbaar in Pro-versie.</string>
+    <string name="try_again">Probeer het opnieuw!</string>
+    <string name="tue">Din</string>
+    <string name="units_imperial">Engels: in, mile, lbs</string>
+    <string name="units_metric">Metrische: cm, km, kg</string>
+    <string name="units_setting">Metrische / Engels</string>
+    <string name="units_setting_details">Metrische / Engels</string>
+    <string name="units_setting_title">Kies uw apparaat</string>
+    <string name="very_high">het meest gevoelig</string>
+    <string name="very_low">minst gevoelig</string>
+    <string name="wait_for_data_transfer">Wacht tot de database overdracht ..</string>
+    <string name="wait_for_exporting_db">Exporteren database..</string>
+    <string name="wait_for_generating_csv">Het schrijven van CSV-bestand..</string>
+    <string name="wait_for_importing_db">Importeren database..</string>
+    <string name="wake_up">krachtig scherm op</string>
+    <string name="wed">Woe</string>
+    <string name="week">Week</string>
+    <string name="week_of">Week de</string>
+    <string name="week_type_american">zondag</string>
+    <string name="week_type_european">maandag</string>
+    <string name="week_type_setting">Eerste dag van de week</string>
+    <string name="week_type_setting_details">Eerste dag van de week</string>
+    <string name="week_type_setting_title">Kies een week indeling voor week-Grafiek</string>
+    <string name="weekly_total">Week totaal</string>
+    <string name="widget_expired">Verlopen</string>
+    <string name="widget_paused">Pauze..</string>
+    <string name="widget_skin_0">default</string>
+    <string name="widget_skin_1">zwart</string>
+    <string name="widget_skin_2">blauw</string>
+    <string name="widget_skin_3">groen</string>
+    <string name="widget_skin_4">oranje</string>
+    <string name="widget_skin_5">roze</string>
+    <string name="widget_skin_type_setting">Widget huidskleur</string>
+    <string name="widget_skin_type_setting_details">Widget huidskleur</string>
+    <string name="widget_skin_type_setting_title">Selecteer de widget huidskleur</string>
+    <string name="widget_steps">stap</string>
+    <string name="year">Jaar</string>
+    <string name="yearly_total">Jaar Total</string>
+</resources>
