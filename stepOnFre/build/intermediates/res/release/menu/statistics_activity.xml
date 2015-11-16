@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_to_chart"
-          android:icon="@drawable/chart_ic"
-          android:title="@string/chart_statistics"
-          android:showAsAction="ifRoom|withText" />
-</menu><!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/menu/statistics_activity.xml -->

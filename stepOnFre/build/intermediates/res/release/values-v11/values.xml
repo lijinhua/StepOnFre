@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-v11/themes.xml -->
-    <eat-comment/>
-    <style name="PreferencesTheme" parent="android:style/Theme.Holo">
-<!--     <item name="android:background">@color/mydarkgray</item>
-    <item name="android:textColor">@color/mywhite</item> -->
-</style>
-</resources>

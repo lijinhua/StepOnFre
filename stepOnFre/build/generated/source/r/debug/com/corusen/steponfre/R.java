@@ -2715,7 +2715,7 @@ containing a value of this type.
         public static final int action_mode_close_button=0x7f0b005b;
         public static final int action_settings=0x7f0b0137;
         public static final int activity_chooser_view_content=0x7f0b005c;
-        public static final int adView=0x7f0b009a;
+        public static final int adView=0x7f0b008b;
         public static final int adjust_height=0x7f0b001e;
         public static final int adjust_width=0x7f0b001f;
         public static final int alertTitle=0x7f0b0068;
@@ -2757,14 +2757,14 @@ containing a value of this type.
         public static final int chronometer=0x7f0b012c;
         public static final int classic=0x7f0b0042;
         public static final int collapseActionView=0x7f0b0024;
-        public static final int com_facebook_body_frame=0x7f0b0090;
-        public static final int com_facebook_button_xout=0x7f0b0092;
-        public static final int com_facebook_fragment_container=0x7f0b008e;
-        public static final int com_facebook_login_activity_progress_bar=0x7f0b008f;
-        public static final int com_facebook_tooltip_bubble_view_bottom_pointer=0x7f0b0094;
-        public static final int com_facebook_tooltip_bubble_view_text_body=0x7f0b0093;
-        public static final int com_facebook_tooltip_bubble_view_top_pointer=0x7f0b0091;
-        public static final int company=0x7f0b008d;
+        public static final int com_facebook_body_frame=0x7f0b0092;
+        public static final int com_facebook_button_xout=0x7f0b0094;
+        public static final int com_facebook_fragment_container=0x7f0b0090;
+        public static final int com_facebook_login_activity_progress_bar=0x7f0b0091;
+        public static final int com_facebook_tooltip_bubble_view_bottom_pointer=0x7f0b0096;
+        public static final int com_facebook_tooltip_bubble_view_text_body=0x7f0b0095;
+        public static final int com_facebook_tooltip_bubble_view_top_pointer=0x7f0b0093;
+        public static final int company=0x7f0b008f;
         public static final int connectButton=0x7f0b009b;
         public static final int contentPanel=0x7f0b0069;
         public static final int counter=0x7f0b00f2;
@@ -2775,7 +2775,7 @@ containing a value of this type.
         public static final int daily_percent_value=0x7f0b00cc;
         public static final int dark=0x7f0b002c;
         public static final int date_text_view=0x7f0b00e1;
-        public static final int day=0x7f0b0095;
+        public static final int day=0x7f0b0097;
         public static final int dbaseexportButton=0x7f0b009c;
         public static final int dbaseimportButton=0x7f0b009d;
         public static final int decor_content_parent=0x7f0b0077;
@@ -2826,7 +2826,7 @@ containing a value of this type.
         public static final int lap_title=0x7f0b00b9;
         public static final int lap_value=0x7f0b00ba;
         public static final int large=0x7f0b0057;
-        public static final int layout=0x7f0b008c;
+        public static final int layout=0x7f0b008e;
         public static final int layout_pedometer=0x7f0b00b6;
         public static final int layout_percent_value=0x7f0b00cb;
         public static final int left=0x7f0b0052;
@@ -2841,7 +2841,7 @@ containing a value of this type.
         public static final int linearlayoutstop=0x7f0b00c7;
         public static final int listMode=0x7f0b000b;
         public static final int list_item=0x7f0b0060;
-        public static final int list_slidermenu=0x7f0b008a;
+        public static final int list_slidermenu=0x7f0b008d;
         public static final int lockButton=0x7f0b00c5;
         public static final int login_button=0x7f0b00d4;
         public static final int logo_only=0x7f0b003e;
@@ -2868,7 +2868,7 @@ containing a value of this type.
         public static final int messenger_send_button=0x7f0b0115;
         public static final int middle=0x7f0b001d;
         public static final int monochrome=0x7f0b0047;
-        public static final int month=0x7f0b0097;
+        public static final int month=0x7f0b0099;
         public static final int multiply=0x7f0b0015;
         public static final int never=0x7f0b0026;
         public static final int never_display=0x7f0b0056;
@@ -2885,8 +2885,8 @@ containing a value of this type.
         public static final int number_picker2=0x7f0b00a4;
         public static final int open_graph=0x7f0b0049;
         public static final int page=0x7f0b004a;
-        public static final int pager=0x7f0b008b;
-        public static final int pager_title_strip=0x7f0b0099;
+        public static final int pager=0x7f0b008a;
+        public static final int pager_title_strip=0x7f0b008c;
         public static final int parentPanel=0x7f0b0065;
         public static final int passw_1=0x7f0b00b1;
         public static final int passw_2=0x7f0b00b2;
@@ -2993,7 +2993,7 @@ containing a value of this type.
         public static final int up=0x7f0b000a;
         public static final int useLogo=0x7f0b0014;
         public static final int walk_button=0x7f0b00b8;
-        public static final int week=0x7f0b0096;
+        public static final int week=0x7f0b0098;
         public static final int weekdate_text_view=0x7f0b00e2;
         public static final int wide=0x7f0b002a;
         public static final int widget_calories_units=0x7f0b0110;
@@ -3009,7 +3009,7 @@ containing a value of this type.
         public static final int widget_trainprogressbar=0x7f0b0114;
         public static final int withText=0x7f0b0027;
         public static final int wrap_content=0x7f0b002e;
-        public static final int year=0x7f0b0098;
+        public static final int year=0x7f0b009a;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0c0000;

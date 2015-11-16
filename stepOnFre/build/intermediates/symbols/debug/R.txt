@@ -950,7 +950,7 @@ int id action_mode_bar_stub 0x7f0b0075
 int id action_mode_close_button 0x7f0b005b
 int id action_settings 0x7f0b0137
 int id activity_chooser_view_content 0x7f0b005c
-int id adView 0x7f0b009a
+int id adView 0x7f0b008b
 int id adjust_height 0x7f0b001e
 int id adjust_width 0x7f0b001f
 int id alertTitle 0x7f0b0068
@@ -992,14 +992,14 @@ int id checkbox 0x7f0b0071
 int id chronometer 0x7f0b012c
 int id classic 0x7f0b0042
 int id collapseActionView 0x7f0b0024
-int id com_facebook_body_frame 0x7f0b0090
-int id com_facebook_button_xout 0x7f0b0092
-int id com_facebook_fragment_container 0x7f0b008e
-int id com_facebook_login_activity_progress_bar 0x7f0b008f
-int id com_facebook_tooltip_bubble_view_bottom_pointer 0x7f0b0094
-int id com_facebook_tooltip_bubble_view_text_body 0x7f0b0093
-int id com_facebook_tooltip_bubble_view_top_pointer 0x7f0b0091
-int id company 0x7f0b008d
+int id com_facebook_body_frame 0x7f0b0092
+int id com_facebook_button_xout 0x7f0b0094
+int id com_facebook_fragment_container 0x7f0b0090
+int id com_facebook_login_activity_progress_bar 0x7f0b0091
+int id com_facebook_tooltip_bubble_view_bottom_pointer 0x7f0b0096
+int id com_facebook_tooltip_bubble_view_text_body 0x7f0b0095
+int id com_facebook_tooltip_bubble_view_top_pointer 0x7f0b0093
+int id company 0x7f0b008f
 int id connectButton 0x7f0b009b
 int id contentPanel 0x7f0b0069
 int id counter 0x7f0b00f2
@@ -1010,7 +1010,7 @@ int id daily_goal_value 0x7f0b00cf
 int id daily_percent_value 0x7f0b00cc
 int id dark 0x7f0b002c
 int id date_text_view 0x7f0b00e1
-int id day 0x7f0b0095
+int id day 0x7f0b0097
 int id dbaseexportButton 0x7f0b009c
 int id dbaseimportButton 0x7f0b009d
 int id decor_content_parent 0x7f0b0077
@@ -1061,7 +1061,7 @@ int id lap_hourly 0x7f0b00ca
 int id lap_title 0x7f0b00b9
 int id lap_value 0x7f0b00ba
 int id large 0x7f0b0057
-int id layout 0x7f0b008c
+int id layout 0x7f0b008e
 int id layout_pedometer 0x7f0b00b6
 int id layout_percent_value 0x7f0b00cb
 int id left 0x7f0b0052
@@ -1076,7 +1076,7 @@ int id linearlayoutstart 0x7f0b00c2
 int id linearlayoutstop 0x7f0b00c7
 int id listMode 0x7f0b000b
 int id list_item 0x7f0b0060
-int id list_slidermenu 0x7f0b008a
+int id list_slidermenu 0x7f0b008d
 int id lockButton 0x7f0b00c5
 int id login_button 0x7f0b00d4
 int id logo_only 0x7f0b003e
@@ -1103,7 +1103,7 @@ int id menu_to_statistics 0x7f0b0132
 int id messenger_send_button 0x7f0b0115
 int id middle 0x7f0b001d
 int id monochrome 0x7f0b0047
-int id month 0x7f0b0097
+int id month 0x7f0b0099
 int id multiply 0x7f0b0015
 int id never 0x7f0b0026
 int id never_display 0x7f0b0056
@@ -1120,8 +1120,8 @@ int id number_picker1 0x7f0b00a2
 int id number_picker2 0x7f0b00a4
 int id open_graph 0x7f0b0049
 int id page 0x7f0b004a
-int id pager 0x7f0b008b
-int id pager_title_strip 0x7f0b0099
+int id pager 0x7f0b008a
+int id pager_title_strip 0x7f0b008c
 int id parentPanel 0x7f0b0065
 int id passw_1 0x7f0b00b1
 int id passw_2 0x7f0b00b2
@@ -1228,7 +1228,7 @@ int id unknown 0x7f0b004b
 int id up 0x7f0b000a
 int id useLogo 0x7f0b0014
 int id walk_button 0x7f0b00b8
-int id week 0x7f0b0096
+int id week 0x7f0b0098
 int id weekdate_text_view 0x7f0b00e2
 int id wide 0x7f0b002a
 int id widget_calories_units 0x7f0b0110
@@ -1244,7 +1244,7 @@ int id widget_time_value 0x7f0b0111
 int id widget_trainprogressbar 0x7f0b0114
 int id withText 0x7f0b0027
 int id wrap_content 0x7f0b002e
-int id year 0x7f0b0098
+int id year 0x7f0b009a
 int integer abc_config_activityDefaultDur 0x7f0c0000
 int integer abc_config_activityShortDur 0x7f0c0001
 int integer abc_max_action_buttons 0x7f0c0002

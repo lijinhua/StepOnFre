@@ -97,7 +97,7 @@ public class PedometerSettings {
 		editor.putString("body_weight", String.valueOf(value));
 		editor.commit();
 	}
-	
+
 public float getBodyHeight() {
 		try {
 			return Float.valueOf(mSettings.getString("body_height", "175").trim());
@@ -201,6 +201,11 @@ public float getBodyHeight() {
 		}
 	}
 
+	public boolean isRunning() {
+		String string = mSettings.getString("exercise_type", "walking");
+		return (string != null) && string.equals("running");
+	}
+
 	public void setExerciseType(int exercise) {
 		SharedPreferences.Editor editor = mSettings.edit();
 		editor.putString("exercise_type", String.valueOf(exercise));
@@ -214,7 +219,7 @@ public float getBodyHeight() {
 			return 0;
 		}
 	}
-	
+
 	public boolean isGenderMale() {
 		return mSettings.getString("gender", "male").equals("male");
 	}
@@ -520,9 +525,30 @@ public float getBodyHeight() {
 		editor.putInt("operation_mode", option);
 		editor.commit();
 	}
-	
+
 	public boolean isAutomaticBackupToSDcard() {
 		return mSettings.getBoolean("automtaic_backup", true);
 	}
+
+	public int getAdsClickCount() {
+		try {
+			return Integer.valueOf(mSettings.getString("ads_click_count", "0"));
+		} catch (NumberFormatException e) {
+			return 101;
+		}
+	}
+
+	public void setAdsClickCount(int value) {
+		SharedPreferences.Editor editor = mSettings.edit();
+		editor.putString("ads_click_count", String.valueOf(value));
+		editor.apply(); //commit();
+	}
+
+	public void setPedometerBackButton(boolean value) {
+		SharedPreferences.Editor editor = mSettings.edit();
+		editor.putBoolean("pedometer_back_button", value);
+		editor.apply(); //commit();
+	}
+
 
 }

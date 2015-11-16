@@ -2,23 +2,23 @@
  *  AccuPedo - Android App
  *  Copyright (C) 2011 Corusen, LLC.
  *  http://stackoverflow.com/questions/3748568/how-can-i-launch-androids-email-activity-with-an-attachment-attached-in-the-emai
- *  
+ *
  *   *  AccuPedo - Android App
  *  Copyright (C) 2011 Corusen, LLC.
  *  Cleaned step detection algorithm
  *  Sensitivity 0.1, 0.11, 0.12, 0.14, 0.18
  *  Added Pause/resume buttons
- *  Check mIsSensorRegisterd for pause/resume buttons 
+ *  Check mIsSensorRegisterd for pause/resume buttons
  *  Commented LE version functions: limited count,days, link to the market, expiration message
- *  
+ *
  *  updateWidget at TripA mode 5/18/2011
  *  category.LAUNCHER property at .Settings in Manifest xml
  *  Added Help information (link to video instruction) in the setting screen
  *  Set "singleInstance" property for Activity in Manifest xml. Allows "back" and "home" buttons
  *  http://stackoverflow.com/questions/2264874/android-changing-locale-within-the-app-itself
- *  
+ *
  *  Key hash for android-Fabcebook app
- *  use this command to generate key hash: 
+ *  use this command to generate key hash:
  *  go to the AndroidMarketUpload folder, then
  *  keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
  *  or
@@ -237,7 +237,7 @@ public class FragmentPedometer extends Fragment {
 		// .addTestDevice("bd0d08d5").addTestDevice("038d2d940b35a5ce").addTestDevice("TA648014AN").
 		adView.loadAd(adRequest);
 		setPedometer();
-		
+
 //		if (Pedometer.mPedometerSettings.isNewInstallation()) {
 //			if (!Pedometer.mPedometerSettings.isHistoryImported117()) {
 //				if (checkDBfileExist()) {
@@ -251,7 +251,7 @@ public class FragmentPedometer extends Fragment {
 
 		return mView;
 	}
-	
+
 //	public void openNewInstallationAlertDialog() {
 //		new AlertDialog.Builder(Pedometer.getInstance())
 //				// .setTitle(R.string.alert_pause_title)
@@ -1199,7 +1199,7 @@ public class FragmentPedometer extends Fragment {
 		mX.add(x);
 		mValues.add(delSteps);
 	}
-	
+
 	public boolean checkDBfileExist() {
 
 		boolean fileExists;

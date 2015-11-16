@@ -121,7 +121,7 @@ public class AccuService extends Service {
 	private PowerManager.WakeLock mWakeLock;
 
 	public int mOperationMode;
-	public int mOperationModePast = FragmentPedometer.STOP_MODE_SAVE;
+	public int mOperationModePast = Pedometer.STOP_MODE_SAVE;
 	private int mOldSteps;
 	private int mSession;
 	private int mLap = 1;
@@ -574,7 +574,7 @@ public class AccuService extends Service {
 		mOperationMode = mode;
 
 		switch (mOperationMode) {
-		case FragmentPedometer.START_MODE:
+		case Pedometer.START_MODE:
 			setPowerMode();
 			registerDetectorGame();
 			acquireWakeLock();
@@ -582,21 +582,21 @@ public class AccuService extends Service {
 			setLapDataSaveAlarms(); // this will save initial data with
 									// indicator 1
 			saveToDBForLapStartStop(); // this will save data with indicator 2
-			mPedometerSettings.setOperationMode(FragmentPedometer.START_MODE);
+			mPedometerSettings.setOperationMode(Pedometer.START_MODE);
 			break;
 
-		case FragmentPedometer.STOP_MODE_NOSAVE:
-			mOperationModePast = FragmentPedometer.STOP_MODE_NOSAVE;
+		case Pedometer.STOP_MODE_NOSAVE:
+			mOperationModePast = Pedometer.STOP_MODE_NOSAVE;
 			removeWakeAlarm();
 			unregisterDetector();
 			releaseWakeLock();
 			removeLapDataSaveAlarms();
 			cancelNewLap();
-			mPedometerSettings.setOperationMode(FragmentPedometer.STOP_MODE_SAVE);
+			mPedometerSettings.setOperationMode(Pedometer.STOP_MODE_SAVE);
 			break;
 
-		case FragmentPedometer.STOP_MODE_SAVE:
-			mOperationModePast = FragmentPedometer.STOP_MODE_NOSAVE;
+		case Pedometer.STOP_MODE_SAVE:
+			mOperationModePast = Pedometer.STOP_MODE_NOSAVE;
 			// saveToDBForLap(); // // this will save data with indicator 1
 			saveToDBForLapStartStop(); // this will save data with indicator 2
 			deleteOldHistory();
@@ -604,13 +604,13 @@ public class AccuService extends Service {
 			unregisterDetector();
 			releaseWakeLock();
 			removeLapDataSaveAlarms();
-			mPedometerSettings.setOperationMode(FragmentPedometer.STOP_MODE_SAVE);
+			mPedometerSettings.setOperationMode(Pedometer.STOP_MODE_SAVE);
 			break;
 
-		case FragmentPedometer.PAUSE_MODE:
+		case Pedometer.PAUSE_MODE:
 			break;
 
-		case FragmentPedometer.RESUME_MODE:
+		case Pedometer.RESUME_MODE:
 			break;
 		}
 	}
@@ -1404,7 +1404,7 @@ public class AccuService extends Service {
 			String string = intent.getAction();
 			if (string.equals(Intent.ACTION_SCREEN_OFF)) {
 				mFlagScreenOn = false;
-				if (!mPedometerSettings.isPause() && ((mOperationMode == FragmentPedometer.START_MODE) || (mOperationMode == FragmentPedometer.RESUME_MODE))) {
+				if (!mPedometerSettings.isPause() && ((mOperationMode == Pedometer.START_MODE) || (mOperationMode == Pedometer.RESUME_MODE))) {
 					unregisterDetector();
 					releaseWakeLock();
 					acquireWakeLock();
@@ -1417,7 +1417,7 @@ public class AccuService extends Service {
 
 			} else if (string.equals(Intent.ACTION_SCREEN_ON)) {
 				mFlagScreenOn = true;
-				if (!mPedometerSettings.isPause() && ((mOperationMode == FragmentPedometer.START_MODE) || (mOperationMode == FragmentPedometer.RESUME_MODE))) {
+				if (!mPedometerSettings.isPause() && ((mOperationMode == Pedometer.START_MODE) || (mOperationMode == Pedometer.RESUME_MODE))) {
 					registerDetectorGame();
 					mStepDetector.setWakeMode();
 				}
@@ -1441,7 +1441,7 @@ public class AccuService extends Service {
 				// }
 				deleteOldHistory();
 				resetValues();
-				if ((mOperationMode == FragmentPedometer.START_MODE) || (mOperationMode == FragmentPedometer.RESUME_MODE)) {
+				if ((mOperationMode == Pedometer.START_MODE) || (mOperationMode == Pedometer.RESUME_MODE)) {
 					mLap = 1;
 				}
 				mIsAchievementNotificationFiredToday = false;
@@ -1476,7 +1476,7 @@ public class AccuService extends Service {
 
 				// sensor registration, Samsung S4 does not detect sometime
 				// while service is alive
-				if (!mPedometerSettings.isPause() && ((mOperationMode == FragmentPedometer.START_MODE) || (mOperationMode == FragmentPedometer.RESUME_MODE))) {
+				if (!mPedometerSettings.isPause() && ((mOperationMode == Pedometer.START_MODE) || (mOperationMode == Pedometer.RESUME_MODE))) {
 					unregisterDetector();
 					registerDetectorGame();
 				}
@@ -1485,7 +1485,7 @@ public class AccuService extends Service {
 				//Log.i("OnSensorChangedA", "Wake up alarm");
 
 				// if (mFlagPowerMode <= FLAG_MODE_POWER_BALANCED) {
-				if (!mPedometerSettings.isPause() && ((mOperationMode == FragmentPedometer.START_MODE) || (mOperationMode == FragmentPedometer.RESUME_MODE))) {
+				if (!mPedometerSettings.isPause() && ((mOperationMode == Pedometer.START_MODE) || (mOperationMode == Pedometer.RESUME_MODE))) {
 
 					acquireWakeLock();
 					registerDetectorGame();

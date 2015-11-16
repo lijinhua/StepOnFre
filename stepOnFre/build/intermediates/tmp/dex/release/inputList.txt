@@ -1,1 +1,0 @@
-/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/classes-proguard/release/classes.jar
