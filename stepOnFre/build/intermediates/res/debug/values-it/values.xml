@@ -10,7 +10,7 @@
     <string name="a6">"R: Accupedo salva il diario giornaliero alle 24. Non spegnere il dispositivo a quell'ora."</string>
     <string name="a7">R: Dalla punta (tallone) alla punta (tallone).</string>
     <string name="a8">R: Mandaci una mail. Ti aiuteremo in dettaglio.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-it/values-it.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-it/values-it.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -129,6 +129,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Accedi con Google"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-it/strings.xml -->
     <eat-comment/>
+    <string name="connect">collegare</string>
     <string name="connect_to_mfp">Connettersi a MFP</string>
     <string name="consecutive_setting">Passi consecutivi</string>
     <string name="consecutive_setting_details">Passi consecutivi</string>
@@ -330,7 +331,7 @@
     <string name="speed_type_setting">Velocità</string>
     <string name="speed_type_setting_details">Velocità</string>
     <string name="speed_type_setting_title">Scegli il formato di velocità</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-it/values-it.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-it/values-it.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-it/strings.xml -->
@@ -345,6 +346,7 @@
     <string name="success">Successo</string>
     <string name="successfully_posted_post">Inviato con successo.</string>
     <string name="sun">Dom</string>
+    <string name="switch_account">Cambia account</string>
     <string name="thu">Gio</string>
     <string name="toast_dbtransfered_message">Il diario quotidiano è stato trasferito da StepOn.</string>
     <string name="toast_external_storage_not_available">L’archivio esterno non è disponibile</string>

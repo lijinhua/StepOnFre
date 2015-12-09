@@ -16,15 +16,18 @@
     <string name="app_name4_pro">StepOn-Pro 4x1</string>
 
     <string name="accupedo">StepOn</string>
+    <string name="widget_daily">StepOn</string>
     <string name="accupedo_settings_about">About StepOn</string>
     <string name="accupdeo_version_title">StepOn version</string>
     <string name="actionbar_for_accupedo_pro">StepOn-Pro</string>
     <string name="accupdeo_version_summery">@string/version_number</string>
 
 
-    <!-- V231 -->
+    <!-- V131 -->
     <string name="connect">Connect</string>
     <string name="switch_account">Switch account</string>
+    <string name="facebook">Facebook</string>
+    <string name="email">Email</string>
 
     <!-- V123 -->
     <string name="automatic_backup">Automatic backup</string>

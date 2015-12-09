@@ -117,7 +117,7 @@ public class MyDB {
 			Cursor c = mDB.rawQuery(where, whereArgs);
 
 			if (c != null) {
-				c.moveToFirst();
+				c.moveToLast(); //V131   c.moveToFirst);
 			}
 			return c;
 		} catch (SQLiteException ex) {
@@ -407,14 +407,14 @@ public class MyDB {
 			String where = "SELECT " + Constants.KEY_ID + ", " + Constants.KEY_HOUR + ", " + Constants.KEY_MINUTE + ", " + Constants.KEY_LAPSTEPS + ", "
 					+ Constants.KEY_LAPDISTANCE + ", " + Constants.KEY_LAPCALORIES + ", " + Constants.KEY_LAPSTEPTIME + " FROM " + Constants.TABLE_NAME
 					+ " WHERE " + Constants.KEY_YEAR + " = ?" + " AND " + Constants.KEY_MONTH + " = ?" + " AND " + Constants.KEY_DAY + " = ?" + " AND "
-					+ Constants.KEY_LAP + " = ?" + " AND " + Constants.KEY_INDICATOR + " = ?";
+					+ Constants.KEY_LAP + " = ?"; // + " AND " + Constants.KEY_INDICATOR + " = ?"; //V131
 
-			String[] whereArgs = { ((Integer) year).toString(), ((Integer) month).toString(), ((Integer) day).toString(), ((Integer) lap).toString(), "1" };
+			String[] whereArgs = { ((Integer) year).toString(), ((Integer) month).toString(), ((Integer) day).toString(), ((Integer) lap).toString() }; //, "1" };  //V131
 
 			Cursor c = mDB.rawQuery(where, whereArgs);
 
 			if (c != null) {
-				c.moveToFirst();
+				c.moveToLast(); //V131  c.moveToFirst()
 			}
 			return c;
 		} catch (SQLiteException ex) {
@@ -516,15 +516,25 @@ public class MyDB {
 	public Cursor queryLapNumber(int year, int month, int day) throws SQLException {
 
 		try {
-			String where = "SELECT " + Constants.KEY_LAP + ", " + "MAX(" + Constants.KEY_ID + ") as " + Constants.KEY_ID + " FROM " + Constants.TABLE_NAME
-					+ " WHERE " + Constants.KEY_YEAR + " = ?" + " AND " + Constants.KEY_MONTH + " = ?" + " AND " + Constants.KEY_DAY + " = ?";
+			String where = "SELECT " + Constants.KEY_LAP + ", "
+//					+ "MAX(" + Constants.KEY_ID + ") as "
+//					+ Constants.KEY_ID + " FROM "
+
+					+ "MAX(" + Constants.KEY_LAP + ") as "
+					+ Constants.KEY_LAP + " FROM "
+					+ Constants.TABLE_NAME
+					+ " WHERE " + Constants.KEY_YEAR + " = ?"
+					+ " AND " + Constants.KEY_MONTH + " = ?"
+					+ " AND " + Constants.KEY_DAY + " = ?";
 
 			String[] whereArgs = { ((Integer) year).toString(), ((Integer) month).toString(), ((Integer) day).toString() };
 
 			Cursor c = mDB.rawQuery(where, whereArgs);
-
+			int a, b;
 			if (c != null) {
-				c.moveToLast();
+				c.moveToFirst();
+				a = c.getCount();
+				b= a;
 			}
 			return c;
 		} catch (SQLiteException ex) {

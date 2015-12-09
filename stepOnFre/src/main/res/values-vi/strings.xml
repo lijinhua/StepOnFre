@@ -7,6 +7,10 @@
     <string name="accupdeo_version_title">Phiên bản StepOn</string>
     <string name="accupdeo_version_summery">Phiên bản 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">kết nối</string>
+    <string name="switch_account">Chuyển tài khoản</string>
+
     <!-- V123 -->
     <string name="automatic_backup">Dự phòng tự động</string>
     <string name="automatic_backup_midnight_sdcard">Lưu một tập tin cơ sở dữ liệu trong SDcard vào lúc nửa đêm.</string>

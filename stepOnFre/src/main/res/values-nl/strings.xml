@@ -8,6 +8,10 @@
     <string name="accupdeo_version_title">StepOn versie</string>
     <string name="accupdeo_version_summery">Versie 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">aansluiten</string>
+    <string name="switch_account">Schakelen rekening</string>
+
     <!-- V123 -->
     <string name="automatic_backup">Automatische back-up</string>
     <string name="automatic_backup_midnight_sdcard">Sla een databasebestand in SD-kaart om middernacht.</string>

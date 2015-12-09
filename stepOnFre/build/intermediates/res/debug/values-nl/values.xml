@@ -10,7 +10,7 @@
     <string name="a6">A: Het dagboek wordt eens per dag bijgewerkt om 00:00 uur. Schakelt u de telefoon dan niet uit.</string>
     <string name="a7">A: Van teen (hiel) tot teen (hiel).</string>
     <string name="a8">Stuur ons een email met daarin de beschrijving van uw probleem. We zullen u helpen het probleem op te lossen.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-nl/values-nl.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-nl/values-nl.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -133,6 +133,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Inloggen met Google"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
     <eat-comment/>
+    <string name="connect">aansluiten</string>
     <string name="connect_to_mfp">Verbinden met MFP</string>
     <string name="consecutive_setting">Opeenvolgende stappen</string>
     <string name="consecutive_setting_details">Opeenvolgende stappen</string>
@@ -331,7 +332,7 @@
     <string name="speed_type_setting">Snelheid</string>
     <string name="speed_type_setting_details">Snelheid</string>
     <string name="speed_type_setting_title">Kies snelheid formaat</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-nl/values-nl.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-nl/values-nl.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-nl/strings.xml -->
@@ -346,6 +347,7 @@
     <string name="success">Succes</string>
     <string name="successfully_posted_post">Succesvol geplaatst.</string>
     <string name="sun">Zon</string>
+    <string name="switch_account">Schakelen rekening</string>
     <string name="thu">Don</string>
     <string name="toast_dbtransfered_message">Dagelijks een logboek bij geschiedenis werd
 		overgebracht van StepOn.</string>

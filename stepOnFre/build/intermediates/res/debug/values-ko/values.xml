@@ -10,7 +10,7 @@
     <string name="a6">A: 하루의 데이타 기록은 자정에 합니다. 자정에 전화기를 켜 두세요.</string>
     <string name="a7">A: 발끝에서 발끝까지의 거리입니다.</string>
     <string name="a8">A: 저희에게 이메일을 보내주시면 도움을 드리겠습니다.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ko/values-ko.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -137,6 +137,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
     <eat-comment/>
+    <string name="connect">접속</string>
     <string name="connect_to_mfp">MFP에 연결</string>
     <string name="consecutive_setting">연속적 걸음 횟수</string>
     <string name="consecutive_setting_details">연속적 걸음 횟수 선택</string>
@@ -160,6 +161,7 @@
     <string name="dropbox_downloading">다운로드 ..</string>
     <string name="dropbox_uploading">업로드 ..</string>
     <string name="editsteps">걸음변경</string>
+    <string name="email">이메일</string>
     <string name="email_file_subject">스텝온 일일 기록</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/helpmessage.xml -->
     <eat-comment/>
@@ -183,6 +185,7 @@
     <string name="export_success_message">출력</string>
     <string name="export_success_message2">데이터베이스 파일 \u0022StepOn.db\u0022이 스텝온 폴더에 출력됩니다.</string>
     <string name="export_to_sdcard">데이터베이스 파일 (StepOn.db)은 SD-카드의 StepOn 폴더에 저장됩니다.</string>
+    <string name="facebook">페이스북</string>
     <string name="faq">질문/응답</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/faqmessage.xml -->
     <eat-comment/>
@@ -345,7 +348,7 @@
     <string name="speed_type_setting">속도</string>
     <string name="speed_type_setting_details">속도</string>
     <string name="speed_type_setting_title">속도 형식을 선택</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ko/values-ko.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ko/strings.xml -->
@@ -360,6 +363,7 @@
     <string name="success">성공</string>
     <string name="successfully_posted_post">성공적으로 게시되었습니다.</string>
     <string name="sun">일</string>
+    <string name="switch_account">계정 전환</string>
     <string name="thu">목</string>
     <string name="toast_dbtransfered_message">일일 로그 기록이 스텝온에서 전송되었습니다.</string>
     <string name="toast_external_storage_not_available">외부저장 기기를 이용할수 없음</string>

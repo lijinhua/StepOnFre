@@ -10,7 +10,7 @@
     <string name="a6">"! Der Tagesbericht wird automatisch um Mitternacht gespeichert. Achten Sie also darauf, dass Ihr Smartphone dann eingeschaltet ist."</string>
     <string name="a7">"! Machen Sie einen Schritt. Messen Sie entweder von den Zehen zu den Zehen oder von der Ferse zur Ferse."</string>
     <string name="a8">"! Schreiben Sie mir bitte eine E-Mail. Wir werden Ihnen auf jeden Fall helfen."</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-de/values-de.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
@@ -125,6 +125,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Über Google anmelden"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
     <eat-comment/>
+    <string name="connect">verbinden</string>
     <string name="connect_to_mfp">Verbinden mit MFP</string>
     <string name="consecutive_setting">Zähler aktiv nach … Schritten</string>
     <string name="consecutive_setting_details">Zähler aktiv nach … Schritten</string>
@@ -148,6 +149,7 @@
     <string name="dropbox_downloading">Herunterladen ..</string>
     <string name="dropbox_uploading">Hochladen ..</string>
     <string name="editsteps">Ändern Schritte</string>
+    <string name="email">E-mail</string>
     <string name="email_file_subject">StepOn Tagesberichte</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/helpmessage.xml -->
     <eat-comment/>
@@ -326,7 +328,7 @@
     <string name="speed_type_setting">Geschwindigkeit</string>
     <string name="speed_type_setting_details">Geschwindigkeit</string>
     <string name="speed_type_setting_title">Wählen Geschwindigkeit Format</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-de/values-de.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-de/strings.xml -->
@@ -341,6 +343,7 @@
     <string name="success">Erfolg</string>
     <string name="successfully_posted_post">Erfolgreich geschrieben.</string>
     <string name="sun">So</string>
+    <string name="switch_account">Switch Konto</string>
     <string name="thu">Do</string>
     <string name="toast_dbtransfered_message">Der Tagesbericht wurde von StepOn übertragen.</string>
     <string name="toast_external_storage_not_available">Externer Speicher ist nicht verfügbar.</string>

@@ -10,7 +10,7 @@
     <string name="a6">A: Det sparar din dagliga logg vid midnatt. Stäng inte av telefonen vid den tiden.</string>
     <string name="a7">A: Från tå (häl) till tå (häl).</string>
     <string name="a8">A: Skicka ett mail till oss. Vi kommer definitivt att hjälpa dig.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-sv/values-sv.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sv/values-sv.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Visa startsidan"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -132,6 +132,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Logga in med Google"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-sv/strings.xml -->
     <eat-comment/>
+    <string name="connect">anslut</string>
     <string name="connect_to_mfp">Anslut till MFP</string>
     <string name="consecutive_setting">På varandra följande steg</string>
     <string name="consecutive_setting_details">På varandra följande steg</string>
@@ -333,7 +334,7 @@
     <string name="speed_type_setting">Hastighet</string>
     <string name="speed_type_setting_details">Hastighet</string>
     <string name="speed_type_setting_title">Välj hastighet format</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-sv/values-sv.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-sv/values-sv.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-sv/strings.xml -->
@@ -348,6 +349,7 @@
     <string name="success">Framgång</string>
     <string name="successfully_posted_post">Har lagts upp.</string>
     <string name="sun">Sön</string>
+    <string name="switch_account">Växla konto</string>
     <string name="thu">Tor</string>
     <string name="toast_dbtransfered_message">Dagligen loggar historia flyttades från
 		StepOn.</string>

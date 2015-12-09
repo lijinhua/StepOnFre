@@ -16,6 +16,12 @@
     <string name="app_name4">스텝온 4x1</string>
     <string name="actionbar_for_accupedo_pro">스텝온-프로</string>
 
+    <!-- V131 -->
+    <string name="connect">접속</string>
+    <string name="switch_account">계정 전환</string>
+    <string name="facebook">페이스북</string>
+    <string name="email">이메일</string>
+
     <!-- 123 -->
     <string name="automatic_backup">자동백업</string>
     <string name="automatic_backup_midnight_sdcard">자정에 데이터베이스 파일을 SD-Card에 저장.</string>

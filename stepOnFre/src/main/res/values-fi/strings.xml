@@ -8,6 +8,10 @@
     <string name="accupdeo_version_title">StepOn versio</string>
     <string name="accupdeo_version_summery">Versio 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">kytkeä</string>
+    <string name="switch_account">Vaihda tiliä</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Automaattinen varmuuskopiointi</string>
     <string name="automatic_backup_midnight_sdcard">Säästä tietokantaan tiedosto vuonna SD-kortti keskiyöllä.</string>

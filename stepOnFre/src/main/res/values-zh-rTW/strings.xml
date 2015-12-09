@@ -8,6 +8,11 @@
     <string name="accupdeo_version_title">StepOn版本</string>
     <string name="accupdeo_version_summery">版本1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">接通</string>
+    <string name="switch_account">Switch account</string>
+    <string name="email">電子郵件</string>
+
     <!-- V123 -->
     <string name="automatic_backup">自動保存</string>
     <string name="automatic_backup_midnight_sdcard">午夜Micro-SD卡存儲數據庫文件。</string>

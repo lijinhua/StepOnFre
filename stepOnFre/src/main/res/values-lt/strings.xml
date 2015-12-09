@@ -7,6 +7,10 @@
     <string name="accupdeo_version_title">StepOn versija</string>
     <string name="accupdeo_version_summery">Versija 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">prisijungti</string>
+    <string name="switch_account">Perjungti paskyrą</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Automatinis išsaugoti</string>
     <string name="automatic_backup_midnight_sdcard">Išsaugoti duomenų bazės failą į SD-kortele vidurnaktį. </string>

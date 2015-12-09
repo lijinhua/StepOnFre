@@ -6,6 +6,10 @@
     <string name="trial_expired">Sauvegarde Cloud (Google Drive) est disponible en version Pro.</string>
     <string name="accupedo_settings_about">À propos de StepOn</string>
 
+    <!-- V131 -->
+    <string name="connect">relier</string>
+    <string name="switch_account">Changer de compte</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Sauvegarde automatique</string>
     <string name="automatic_backup_midnight_sdcard">Enregistrement d’un fichier de base de données dans SD-Card à minuit.</string>

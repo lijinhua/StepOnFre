@@ -10,7 +10,7 @@
     <string name="a6">C: Günlük kayıtlar geceyarısı saklanır. Lütfen telefonunuzun geceyarısı açık olduğundan emin olun.</string>
     <string name="a7">C: Topuktan topuğa.</string>
     <string name="a8">C: Lütfen bize e-posta atın. Size kesinlikle yardımcı olacağız.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-tr/values-tr.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-tr/values-tr.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -129,6 +129,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
     <eat-comment/>
+    <string name="connect">bağlamak</string>
     <string name="connect_to_mfp">MFP’a bağlanmak</string>
     <string name="consecutive_setting">Ardarda atılan adımlar</string>
     <string name="consecutive_setting_details">Ardarda atılan adımlar</string>
@@ -333,7 +334,7 @@
     <string name="speed_type_setting">Hız</string>
     <string name="speed_type_setting_details">Hız</string>
     <string name="speed_type_setting_title">Hız biçimi seçin</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-tr/values-tr.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-tr/values-tr.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-tr/strings.xml -->
@@ -348,6 +349,7 @@
     <string name="success">Başarı</string>
     <string name="successfully_posted_post">Başarıyla gönderdi.</string>
     <string name="sun">Paz</string>
+    <string name="switch_account">Hesap değiştir</string>
     <string name="thu">Per</string>
     <string name="toast_dbtransfered_message">Günlük kayıt geçmişi StepOn\u0027dan aktarıldı.</string>
     <string name="toast_external_storage_not_available">Dış bellek mevcut değil.</string>

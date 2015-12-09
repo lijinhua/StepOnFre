@@ -44,6 +44,13 @@
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-6b07c13b1b7e7e3e113671c5b81eb6d96da329a4.jar" />
     </item>
     <item
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-4a21f1842b68c45e4989b4e7b1368d0ac7ec9a16.jar" />
+    </item>
+    <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.3.0/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -72,18 +79,11 @@
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-2869d28a0e665951a4c2c42fee880ba78bc50a93.jar" />
     </item>
     <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/libs/internal_impl-23.1.0.jar"
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-8a4f97feaced42b5e44df05822272d7744684c51.jar" />
-    </item>
-    <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-a785fe4be64920c1279b7af88af049a6c3c3e40f.jar" />
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-2657444a7f5dc8cc63b93d1d9d879876f8b0cccc.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.3.0/classes.jar"
@@ -170,11 +170,25 @@
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-91db31e2393ea4c40ead4ea6dfcd2dca63ab310e.jar" />
     </item>
     <item
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-55b5ef0063c27d0d8f7ea209121482a4d4804a0c.jar" />
+    </item>
+    <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/libs/achartengine-1.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/achartengine-1.1.0-b6bf5b371510b4e5548b7c37a053ac608cae108e.jar" />
+    </item>
+    <item
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-fab5d292c08e3d2c1a3675ba8fc1a8747d0273db.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/classes.jar"
@@ -212,18 +226,25 @@
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-d960a9f387df3dc180bcd42cc4e4e357b21d7006.jar" />
     </item>
     <item
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-9767b8f5a7b687dc7b0d932b2ce2408f65a771d4.jar" />
+    </item>
+    <item
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-5e8f9ca98b338e0f407d5e27dea371ca11a00df2.jar" />
+    </item>
+    <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-8d2fc42e0278db1c4338cb526a93b60eb52e9ce7.jar" />
-    </item>
-    <item
-        jar="/Users/John1/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-13984cbde6f45df5acd732a604387c35464d2baa.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.3.0/classes.jar"
@@ -245,13 +266,6 @@
         revision="22.0.1"
         sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-9c4ec2c73e32992c41c0705820a58bce10ca23ef.jar" />
-    </item>
-    <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-0cb1d5be6fed5c11973f2a8049b9ad6e794f9aac.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/classes.jar"
@@ -282,20 +296,6 @@
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-63b00d52b7e80c14f95e70307e183edd13f75c14.jar" />
     </item>
     <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/libs/internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-3dab291def27e3083073486fe5647cf5ca85a643.jar" />
-    </item>
-    <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-c30f445e9fd7ebf50c924a37c42daa7383c81cd5.jar" />
-    </item>
-    <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -308,13 +308,6 @@
         revision="23.0.1"
         sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-d66e6db1df375036768d51cb7358858754c7b661.jar" />
-    </item>
-    <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-96f7c66b53d67227b997290577579d81c1aa93eb.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/classes.jar"
@@ -336,13 +329,6 @@
         revision="23.0.1"
         sha1="71eda10e33212e44245524b5087366ff8d805825">
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-e7fed99c5824224917d6324636e454809d679874.jar" />
-    </item>
-    <item
-        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-e7f2d1398dc60d6b4a60767cad3ade2f9bcf933d.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/classes.jar"
@@ -387,11 +373,25 @@
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-56e10cac674e23da9f623b964363b7c7d32e8786.jar" />
     </item>
     <item
+        jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-9ce98aebc1b47b55948c092db2485047d57aa98d.jar" />
+    </item>
+    <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.3.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2c6fcd6267cbac6509a2e72a61127534a1d616cf">
         <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/classes-85408d0ab152fd1cbf6600068f1bfe9ed373241c.jar" />
+    </item>
+    <item
+        jar="/Users/John1/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-9d4bafad0d91853b4d817f270b0a13c993769b0f.jar" />
     </item>
     <item
         jar="/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.3.0/classes.jar"
