@@ -56,6 +56,7 @@
     <string name="chart_no_data">没有可提供的数据</string>
     <string name="chart_statistics">统计</string>
     <string name="chart_wait">等候处理。</string>
+    <string name="connect">接通</string>
     <string name="connect_to_mfp">连接到MFP</string>
     <string name="consecutive_setting">连续步骤</string>
     <string name="consecutive_setting_details">连续步骤</string>
@@ -78,6 +79,7 @@
     <string name="dropbox_downloading">下载..</string>
     <string name="dropbox_uploading">上传..</string>
     <string name="editsteps">编辑步</string>
+    <string name="email">电子邮件</string>
     <string name="email_file_subject">StepOn 每天记录</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-zh/helpmessage.xml -->
     <eat-comment/>
@@ -257,6 +259,7 @@
     <string name="success">成功</string>
     <string name="successfully_posted_post">发布成功。</string>
     <string name="sun">周天</string>
+    <string name="switch_account">切换帐户</string>
     <string name="thu">周四</string>
     <string name="toast_dbtransfered_message">每天记录历史从 StepOn 传输。</string>
     <string name="toast_external_storage_not_available">不提供外部存储</string>

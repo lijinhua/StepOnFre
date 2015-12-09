@@ -89,7 +89,7 @@
             android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.corusen.steponfre.base.ActivityShareTabs"
+            android:name="com.corusen.steponfre.base.ActivityShare"
             android:finishOnTaskLaunch="true"
             android:label="@string/share"
             android:screenOrientation="portrait" />

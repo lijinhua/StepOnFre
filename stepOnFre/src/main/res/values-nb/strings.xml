@@ -8,7 +8,11 @@
     <string name="accupedo_settings_about">Om StepOn</string>
     <string name="accupdeo_version_title">StepOn versjon</string>
     <string name="accupdeo_version_summery">Versjon 1.2.5</string>
-    
+
+    <!-- V131 -->
+    <string name="connect">koble</string>
+    <string name="switch_account">Bryteren konto</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Automatisk lagring</string>
     <string name="automatic_backup_midnight_sdcard">Lagre en databasefil i SD-kortet ved midnatt.</string>

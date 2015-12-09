@@ -7,6 +7,10 @@
     <string name="accupedo_settings_about">Om StepOn</string>
     <string name="accupdeo_version_summery">Version 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">anslut</string>
+    <string name="switch_account">Växla konto</string>
+
     <!-- V123 -->
     <string name="automatic_backup">Automatisk spara</string>
     <string name="automatic_backup_midnight_sdcard">Spara en databasfil i SD-kort vid midnatt.</string>

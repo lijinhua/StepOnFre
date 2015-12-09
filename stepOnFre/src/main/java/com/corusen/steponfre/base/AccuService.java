@@ -90,7 +90,7 @@ public class AccuService extends Service {
 	public static final String ACCUPEDO_WAKE_ALARM 						= "com.corusen.steponfre.ACCUPEDO_WAKE_ALARM";
 	public static final String ACCUPEDO_CONTENT_PROVIDER_DIARIES 		= "content://com.corusen.steponfre.provider/diaries";
 	public static final String ACCUPEDO_WIDGET_PAUSE 					= "com.corusen.steponfre.ACCUPEDO_WIDGET_PAUSE";
-	public static final String ACCUPEDO_SET_INITIAL_DATA 				= "com.corusen.steponfre.ACCUPEDO_SET_INITIAL_DATA";
+	//public static final String ACCUPEDO_SET_INITIAL_DATA 				= "com.corusen.steponfre.ACCUPEDO_SET_INITIAL_DATA";
 	public static final String ACCUPEDO_SAVE_DB_REQUEST 				= "com.corusen.steponfre.ACCUPEDO_SAVE_DB_REQUEST";
 	public static final String ACCUPEDO_EDITSTEPS_REQUEST 				= "com.corusen.steponfre.ACCUPEDO_EDITSTEPS_REQUEST";
 	public static final String ACCUPEDO_EDITSTEPS_TODAY_REQUEST 		= "com.corusen.steponfre.ACCUPEDO_EDITSTEPS_TODAY_REQUEST";
@@ -124,7 +124,7 @@ public class AccuService extends Service {
 	public int mOperationModePast = Pedometer.STOP_MODE_SAVE;
 	private int mOldSteps;
 	private int mSession;
-	private int mLap = 1;
+	private int mLap = 0;
 	private int mLapsteps;
 	private float mLapdistance;
 	private float mLapcalories;
@@ -336,7 +336,7 @@ public class AccuService extends Service {
 		filter.addAction(ACCUPEDO_WIDGET_PAUSE);
 		filter.addAction(Intent.ACTION_POWER_CONNECTED);
 		filter.addAction(Intent.ACTION_POWER_DISCONNECTED);
-		filter.addAction(ACCUPEDO_SET_INITIAL_DATA);
+		//filter.addAction(ACCUPEDO_SET_INITIAL_DATA);
 		filter.addAction(ACCUPEDO_SAVE_DB_REQUEST);
 		filter.addAction(ACCUPEDO_EDITSTEPS_REQUEST);
 		filter.addAction(ACCUPEDO_EDITSTEPS_TODAY_REQUEST);
@@ -361,7 +361,7 @@ public class AccuService extends Service {
 		mPaceNotifier.addListener(mPaceListener);
 		mPaceNotifier.addListener(mSpeedNotifier);
 
-		loadStates();
+		//loadStatesFromDB();
 		reloadSettings();
 
 		// daily logging alarm
@@ -400,8 +400,10 @@ public class AccuService extends Service {
 		mAlarmManager.setRepeating(AlarmManager.RTC, everyhour.getTimeInMillis(), 60 * ALARM_DATABASE_CYCLE_MINUTES * 1000, mpIntentRestart);
 
 		mDB = new MyDB(this);
-		saveToDBForDaily();
+		//saveToDBForDaily();
 		mDB.open();
+
+		loadStatesFromDB();
 
 		/**
 		 * LOCATION SERVICE
@@ -533,7 +535,7 @@ public class AccuService extends Service {
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		// Log.i("ServieRestart", "onStartCommand");
 		if (intent == null) {
-			loadStates();
+			loadStatesFromDB();
 			reloadSettings();
 		}
 		return START_STICKY;
@@ -644,6 +646,10 @@ public class AccuService extends Service {
 					mSteptime, mGoalSteps, indicator, mFlagExerciseMode);
 			mDB.close();
 		}
+
+		if (mSteps == 0) {
+			int a = 1;
+		}
 	}
 
 	private void saveToDBForLap() {
@@ -665,6 +671,11 @@ public class AccuService extends Service {
 		mDB.saveStepsToDatabase(mSession, mLap, mLapsteps, mLapdistance, mLapcalories, mLapsteptime, mSteps, mDistance, mCalories, mSpeed, mPace, mSteptime,
 				mGoalSteps, 1, mFlagExerciseMode);
 		mDB.close();
+
+		if (mSteps == 0) {
+			int a = 1;
+		}
+
 		if (mCallback != null) {
 			mCallback.hourlyChartChanged(0);
 		}
@@ -675,6 +686,11 @@ public class AccuService extends Service {
 		mDB.saveStepsToDatabase(mSession, mLap, mLapsteps, mLapdistance, mLapcalories, mLapsteptime, mSteps, mDistance, mCalories, mSpeed, mPace, mSteptime,
 				mGoalSteps, 2, mFlagExerciseMode);
 		mDB.close();
+
+		if (mSteps == 0) {
+			int a = 1;
+		}
+
 		if (mCallback != null) {
 			mCallback.hourlyChartChanged(0);
 		}
@@ -692,34 +708,89 @@ public class AccuService extends Service {
 		mDB.close();
 	}
 
-	private void loadStates() {
-		mLap = mPedometerStates.getLapNumberState();
-		mLapsteps = mPedometerStates.getLapStepsState();
-		mLapdistance = mPedometerStates.getLapDistanceState();
-		mLapcalories = mPedometerStates.getLapCaloriesState();
-		mLapsteptime = mPedometerStates.getLapStepTimeState();
-		// mCity = mPedometerStates.getCityState();
-		// mTemp = mPedometerStates.getTemperatureState();
+//	private void loadStates() {
+//		mLap = mPedometerStates.getLapNumberState();
+//		mLapsteps = mPedometerStates.getLapStepsState();
+//		mLapdistance = mPedometerStates.getLapDistanceState();
+//		mLapcalories = mPedometerStates.getLapCaloriesState();
+//		mLapsteptime = mPedometerStates.getLapStepTimeState();
+//		// mCity = mPedometerStates.getCityState();
+//		// mTemp = mPedometerStates.getTemperatureState();
+//
+//		mSteps = mPedometerStates.getStepsState();
+//		mDistance = mPedometerStates.getDistanceState();
+//		mCalories = mPedometerStates.getCaloriesState();
+//		mSteptime = mPedometerStates.getStepTimeState();
+//
+//		mStepDisplayer.setSteps(mLapsteps, mSteps);
+//		mDistanceNotifier.setDistance(mLapdistance, mDistance);
+//		mCaloriesNotifier.setCalories(mLapcalories, mCalories);
+//		mSteptimeNotifier.setSteptime(mLapsteptime, mSteptime);
+//
+//		if (mCallback != null) {
+//			mCallback.lapnumberChanged(mLap);
+//			// mCallback.weatherChanged(mTemp);
+//		}
+//
+//		if (mPedometerSettings.isNewDate()) {
+//			resetValues();
+//		}
+//	}
 
-		mSteps = mPedometerStates.getStepsState();
-		mDistance = mPedometerStates.getDistanceState();
-		mCalories = mPedometerStates.getCaloriesState();
-		mSteptime = mPedometerStates.getStepTimeState();
+	private void loadStatesFromDB() {
 
-		mStepDisplayer.setSteps(mLapsteps, mSteps);
-		mDistanceNotifier.setDistance(mLapdistance, mDistance);
-		mCaloriesNotifier.setCalories(mLapcalories, mCalories);
-		mSteptimeNotifier.setSteptime(mLapsteptime, mSteptime);
+		int year, month, day;
+		Calendar today = Calendar.getInstance();
+		year 	= today.get(Calendar.YEAR);
+		month 	= today.get(Calendar.MONTH) + 1;
+		day 	= today.get(Calendar.DATE);
 
-		if (mCallback != null) {
-			mCallback.lapnumberChanged(mLap);
-			// mCallback.weatherChanged(mTemp);
+		mDB.open();
+		Cursor c0 = mDB.queryLapNumber(year, month, day);
+		//Cursor c0 = mDB.queryLapMaxStepsForDay(year, month, day);
+
+		if (c0.moveToFirst()) {
+			mLap = c0.getInt(c0.getColumnIndex(Constants.KEY_LAP));
+			c0.close();
 		}
 
-		if (mPedometerSettings.isNewDate()) {
-			resetValues();
+		if (mLap != 0) {
+			Cursor c = mDB.queryLapStepsForDay(year, month, day, mLap);
+
+			//mLap = mPedometerStates.getLapNumberState();
+			c.isAfterLast();
+			mLapsteps = c.getInt(c.getColumnIndex(Constants.KEY_LAPSTEPS));
+			mLapdistance = c.getFloat(c.getColumnIndex(Constants.KEY_LAPDISTANCE));
+			mLapcalories = c.getFloat(c.getColumnIndex(Constants.KEY_LAPCALORIES));
+			mLapsteptime = c.getLong(c.getColumnIndex(Constants.KEY_LAPSTEPTIME));
+			c.close();
+			// mCity = mPedometerStates.getCityState();
+			// mTemp = mPedometerStates.getTemperatureState();
+
+			Cursor c1 = mDB.queryDayAll(year, month, day);
+			c1.isAfterLast();
+			mSteps = c1.getInt(c1.getColumnIndex(Constants.KEY_STEPS));
+			mDistance = c1.getFloat(c1.getColumnIndex(Constants.KEY_DISTANCE));
+			mCalories = c1.getFloat(c1.getColumnIndex(Constants.KEY_CALORIES));
+			mSteptime = c1.getLong(c1.getColumnIndex(Constants.KEY_STEPTIME));
+
+
+			mStepDisplayer.setSteps(mLapsteps, mSteps);
+			mDistanceNotifier.setDistance(mLapdistance, mDistance);
+			mCaloriesNotifier.setCalories(mLapcalories, mCalories);
+			mSteptimeNotifier.setSteptime(mLapsteptime, mSteptime);
+
+			if (mCallback != null) {
+				mCallback.lapnumberChanged(mLap);
+				// mCallback.weatherChanged(mTemp);
+			}
+
+			if (mPedometerSettings.isNewDate()) {
+				resetValues();
+			}
 		}
 	}
+
 
 	@Override
 	public IBinder onBind(Intent intent) {
@@ -963,32 +1034,33 @@ public class AccuService extends Service {
 		// break;
 		// }
 
-		switch (mPedometerSettings.getWidgetSkinType()) {
-		case 0:
-			mWidgetSkinColor = R.color.mywidgetltblack;
-			break;
-		case 1:
-			mWidgetSkinColor = R.color.mywidgetblack;
-			break;
-		case 2:
-			mWidgetSkinColor = R.color.mywidgetblue;
-			break;
-		case 3:
-			mWidgetSkinColor = R.color.mywidgetgreen;
-			break;
-		case 4:
-			mWidgetSkinColor = R.color.mywidgetorange;
-			break;
-		case 5:
-			mWidgetSkinColor = R.color.mywidgetpink;
-			break;
-		case 6:
-			mWidgetSkinColor = R.color.mywidgettransparent;
-			break;
-		default:
-			mWidgetSkinColor = R.color.mywidgetblack;
-			break;
-		}
+		setWidgetSkinColor();
+//		switch (mPedometerSettings.getWidgetSkinType()) {
+//		case 0:
+//			mWidgetSkinColor = R.color.mywidgetltblack;
+//			break;
+//		case 1:
+//			mWidgetSkinColor = R.color.mywidgetblack;
+//			break;
+//		case 2:
+//			mWidgetSkinColor = R.color.mywidgetblue;
+//			break;
+//		case 3:
+//			mWidgetSkinColor = R.color.mywidgetgreen;
+//			break;
+//		case 4:
+//			mWidgetSkinColor = R.color.mywidgetorange;
+//			break;
+//		case 5:
+//			mWidgetSkinColor = R.color.mywidgetpink;
+//			break;
+//		case 6:
+//			mWidgetSkinColor = R.color.mywidgettransparent;
+//			break;
+//		default:
+//			mWidgetSkinColor = R.color.mywidgetblack;
+//			break;
+//		}
 
 		Locale locale;
 		switch (mPedometerSettings.getLocaleType()) {
@@ -1011,6 +1083,20 @@ public class AccuService extends Service {
 			mCallback.updateDisplay(0); // dummy call to update the main screen
 										// with new color
 		updateWidget();
+	}
+
+
+	public void setWidgetSkinColor() {
+		switch (mPedometerSettings.getWidgetSkinType()) {
+			case 0: mWidgetSkinColor = R.color.mywidgetltblack; break;
+			case 1: mWidgetSkinColor = R.color.mywidgetblack; break;
+			case 2: mWidgetSkinColor = R.color.mywidgetblue; break;
+			case 3: mWidgetSkinColor = R.color.mywidgetgreen; break;
+			case 4: mWidgetSkinColor = R.color.mywidgetorange; break;
+			case 5: mWidgetSkinColor = R.color.mywidgetpink; break;
+			case 6: mWidgetSkinColor = R.color.mywidgettransparent; break;
+			default: mWidgetSkinColor = R.color.mywidgetblack; break;
+		}
 	}
 
 	private void setPowerMode() {
@@ -1461,24 +1547,39 @@ public class AccuService extends Service {
 				}
 
 			} else if (string.equals(ACCUPEDO_SAVESTATES_ALARM)) {
-				mNow = Calendar.getInstance();
-				if ((mNow.get(Calendar.HOUR_OF_DAY) == 0) && (mNow.get(Calendar.MINUTE) < 5)) {
-					// do nothing, skip at midnight
-				} else if ((mNow.get(Calendar.HOUR_OF_DAY) == 23) && (mNow.get(Calendar.MINUTE) > 55)) {
-					// do nothing, skip at midnight
-				} else {
-					// if (mNetworkEnabled) {
-					// updateWeather();
-					// }
-					saveStates();
-					saveToDBForDaily();
-				}
+
+//				mNow = Calendar.getInstance();
+//				if ((mNow.get(Calendar.HOUR_OF_DAY) == 0) && (mNow.get(Calendar.MINUTE) < 5)) {
+//					// do nothing, skip at midnight
+//				} else if ((mNow.get(Calendar.HOUR_OF_DAY) == 23) && (mNow.get(Calendar.MINUTE) > 55)) {
+//					// do nothing, skip at midnight
+//				} else {
+//					// if (mNetworkEnabled) {
+//					// updateWeather();
+//					// }
+//					saveStates();
+//					saveToDBForDaily();
+//				}  //V131
+
 
 				// sensor registration, Samsung S4 does not detect sometime
 				// while service is alive
 				if (!mPedometerSettings.isPause() && ((mOperationMode == Pedometer.START_MODE) || (mOperationMode == Pedometer.RESUME_MODE))) {
 					unregisterDetector();
 					registerDetectorGame();
+
+					mNow = Calendar.getInstance();
+					if ((mNow.get(Calendar.HOUR_OF_DAY) == 0) && (mNow.get(Calendar.MINUTE) < 5)) {
+						// do nothing, skip at midnight
+					} else if ((mNow.get(Calendar.HOUR_OF_DAY) == 23) && (mNow.get(Calendar.MINUTE) > 55)) {
+						// do nothing, skip at midnight
+					} else {
+						// if (mNetworkEnabled) {
+						// updateWeather();
+						// }
+						saveStates();
+						saveToDBForDaily();
+					}
 				}
 			} else if (string.equals(ACCUPEDO_WAKE_ALARM)) {
 
@@ -1561,8 +1662,8 @@ public class AccuService extends Service {
 						setAccupedoResume();
 					}
 				}
-			} else if (string.equals(ACCUPEDO_SET_INITIAL_DATA)) {
-				setInitialData();
+//			} else if (string.equals(ACCUPEDO_SET_INITIAL_DATA)) {
+//				setInitialData();
 			} else if (string.equals(ACCUPEDO_SAVE_DB_REQUEST)) {
 				saveToDBForDaily();
 			} else if (string.equals(ACCUPEDO_EDITSTEPS_REQUEST)) {

@@ -142,7 +142,7 @@ public final class R {
 		public static final int com_facebook_send_button_text = 0x7f0d0063;
 		public static final int com_facebook_share_button_text = 0x7f0d0064;
 		public static final int com_facebook_tooltip_default = 0x7f0d0065;
-		public static final int messenger_send_button_text = 0x7f0d00f1;
+		public static final int messenger_send_button_text = 0x7f0d00f3;
 	}
 	public static final class style {
 		public static final int MessengerButton = 0x7f0e0087;

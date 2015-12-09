@@ -10,7 +10,7 @@
     <string name="a6">A: Es guarda el registre diari a Mitjanit. No apaguis el telèfon a aquesta hora.</string>
     <string name="a7">A: Del taló d’un peu al taló de l’altre.</string>
     <string name="a8">A: Si us plau envia’ns un correu-e. T’ajudarem definitivament.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ca/values-ca.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ca/values-ca.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -108,6 +108,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Inicia la sessió amb Google"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
     <eat-comment/>
+    <string name="connect">connectar</string>
     <string name="connect_to_mfp">Connecta’t a MFP</string>
     <string name="consecutive_setting">Passos consecutius</string>
     <string name="consecutive_setting_details">Passos consecutius</string>
@@ -302,7 +303,7 @@ Si us plau deixa una valoració positiva si estàs satisfet amb StepOn. Ens enco
     <string name="speed_type_setting">Velocitat</string>
     <string name="speed_type_setting_details">Velocitat</string>
     <string name="speed_type_setting_title">Trieu el format de velocitat</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ca/values-ca.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ca/values-ca.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ca/strings.xml -->
@@ -317,6 +318,7 @@ Si us plau deixa una valoració positiva si estàs satisfet amb StepOn. Ens enco
     <string name="success">èxit</string>
     <string name="successfully_posted_post">Publicat correctament.</string>
     <string name="sun">Diu</string>
+    <string name="switch_account">Canviar compte</string>
     <string name="thu">Dj</string>
     <string name="toast_dbtransfered_message">Registre històric diari ha estat transferit des de StepOn.</string>
     <string name="toast_external_storage_not_available">Emmagatzematge Extern no està disponible.</string>

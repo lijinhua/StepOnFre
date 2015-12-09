@@ -7,6 +7,10 @@
     <string name="accupdeo_version_title">StepOn versionen</string>
     <string name="accupdeo_version_summery">Versionen 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">forbinde</string>
+    <string name="switch_account">Skift konto</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Automatisk backup</string>
     <string name="automatic_backup_midnight_sdcard">Gemme en databasefil i SD-kort ved midnat.</string>

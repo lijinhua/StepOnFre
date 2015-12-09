@@ -191,7 +191,7 @@ public class ChartActivity extends FragmentActivity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.chart_activity, menu);
+		//getMenuInflater().inflate(R.menu.chart_activity, menu);
 		return true;
 	}
 
@@ -495,8 +495,10 @@ public class ChartActivity extends FragmentActivity {
 			// JS added for test
 			double[] dHours = new double[25];
 			double[] dSteps = new double[25];
+			double[] hSteps = new double[25];
 			double[] dGoalHours = new double[25];
 			double[] dGoalSteps = new double[25];
+			boolean[] bMinute = new boolean[25];
 
 			goalSteps = mPedometerSettings.getGoalSteps();
 			for (int k = 0; k <= 24; k++) {
@@ -504,6 +506,7 @@ public class ChartActivity extends FragmentActivity {
 				dSteps[k] = MathHelper.NULL_VALUE;
 				dGoalHours[k] = k + 1;
 				dGoalSteps[k] = (double) goalSteps;
+				bMinute[k] = false;
 			}
 
 			if (Pedometer.mDB != null) {
@@ -516,8 +519,8 @@ public class ChartActivity extends FragmentActivity {
 					mToday = Calendar.getInstance();
 				}
 
-				Cursor c = Pedometer.mDB.queryDaySteps(mCurrent.get(Calendar.YEAR), mCurrent.get(Calendar.MONTH) + 1, mCurrent.get(Calendar.DATE));
-
+				//Cursor c = Pedometer.mDB.queryDaySteps(mCurrent.get(Calendar.YEAR), mCurrent.get(Calendar.MONTH) + 1, mCurrent.get(Calendar.DATE)); //V131
+				Cursor c = Pedometer.mDB.queryDayAll(mCurrent.get(Calendar.YEAR), mCurrent.get(Calendar.MONTH) + 1, mCurrent.get(Calendar.DATE));
 				// JS added to check if c== null :V351
 				if (c != null) {
 					if (c.getCount() > 0) {
@@ -527,13 +530,45 @@ public class ChartActivity extends FragmentActivity {
 								minute = c.getInt(c.getColumnIndex(Constants.KEY_MINUTE));
 								steps = c.getInt(c.getColumnIndex(Constants.KEY_STEPS));
 
-								if ((hour == 23) & (minute == 59)) {
-									dHours[24] = ((Integer) 24).doubleValue();
-									dSteps[24] = ((Integer) steps).doubleValue();
-								} else if (minute == 0) { // discard 30min data
-									dHours[hour] = ((Integer) hour).doubleValue();
-									dSteps[hour] = ((Integer) steps).doubleValue();
+//								if ((hour == 23) & (minute == 59)) {
+//									dHours[24] = ((Integer) 24).doubleValue();
+//									dSteps[24] = ((Integer) steps).doubleValue();
+//								} else if (minute == 0) { // discard 30min data
+//									dHours[hour] = ((Integer) hour).doubleValue();
+//									dSteps[hour] = ((Integer) steps).doubleValue();
+//								}  //V131
+
+
+								if ((hour >= 0) && (hour < 25)) { // V423
+									if ((hour == 23) & (minute > 30)) { //V501, V541
+										dHours[24] = ((Integer) 24).doubleValue();
+										dSteps[24] = ((Integer) steps).doubleValue();
+									} else if ((minute >= 0) || (minute <= 30) ) { // discard 30min data, V541
+										dHours[hour] = ((Integer) hour).doubleValue();
+										dSteps[hour] = ((Integer) steps).doubleValue();
+										bMinute[hour] = true;
+									} else { // JS V436
+										if (!bMinute[hour]) {
+											dHours[hour] = ((Integer) hour).doubleValue();
+											dSteps[hour] = ((Integer) steps).doubleValue();
+											bMinute[hour] = true;
+										}
+									}
 								}
+
+
+//								if ((hour == 23) & (minute > 30)) { //V501, V541
+//									dSteps[24] = ((Integer) steps).doubleValue();
+//								} else if ( (minute >=0) || (minute <= 30) ) { // discard 30min data, //V541
+//									dSteps[hour] = ((Integer) steps).doubleValue();
+//									bMinute[hour] = true;
+//								} else { //JS V436
+//									if (!bMinute[hour]) {
+//										dSteps[hour] = ((Integer) steps).doubleValue();
+//										bMinute[hour] = true;
+//									}
+//								}
+
 							} while (c.moveToNext());
 							c.close();
 						}
@@ -545,17 +580,40 @@ public class ChartActivity extends FragmentActivity {
 				currentHour = hour;
 				currentSteps = steps;
 
-				if (mCurrent.compareTo(mToday) == 0) { // add current step
-														// counts
-					dHours[currentHour] = ((Integer) currentHour).doubleValue();
-					dSteps[currentHour] = ((Integer) currentSteps).doubleValue();
-				}
+//				if (mCurrent.compareTo(mToday) == 0) { // add current step
+//														// counts
+//					dHours[currentHour] = ((Integer) currentHour).doubleValue();
+//					dSteps[currentHour] = ((Integer) currentSteps).doubleValue();
+//				}
 
-				for (int k = 1; k <= hour; k++) {
-					if (dSteps[k] == MathHelper.NULL_VALUE) {
-						dSteps[k] = dSteps[k - 1];
+				if ((hour > 0) && (hour < 25)) { // V423
+					currentHour = hour;
+					currentSteps = steps;
+					if (mCurrent.compareTo(mToday) == 0) { // add current step counts
+						dHours[currentHour] = ((Integer) currentHour).doubleValue();
+						dSteps[currentHour] = ((Integer) currentSteps).doubleValue();
 					}
 				}
+
+//				for (int k = 1; k <= hour; k++) {
+//					if (dSteps[k] == MathHelper.NULL_VALUE) {
+//						dSteps[k] = dSteps[k - 1];
+//					}
+//				}
+
+//				for (int i = 0; i <= 24; i++) {
+//					if (i == 0) {
+//						hSteps[i] = 0.0;
+//					} else {
+//						if (dSteps[i] < dSteps[i - 1]) { // in case there are missing steps
+//							//dSteps[i] = dSteps[i - 1]; // V541 when previous day's 0:15 step is big, it affects the whole day
+//							hSteps[i - 1] = 0.0;
+//						} else {
+//							hSteps[i - 1] = (dSteps[i] - dSteps[i - 1]);
+//						}
+//					}
+//				}
+
 			}
 
 			mX.clear();

@@ -7,6 +7,10 @@
     <string name="accupdeo_version_summery">Versió 1.2.5</string>
     <string name="trial_expired">Núvol de còpia de seguretat (Google Drive) està disponible a la versió PRO.</string>
 
+    <!-- V131 -->
+    <string name="connect">connectar</string>
+    <string name="switch_account">Canviar compte</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Guardat automàtic</string>
     <string name="automatic_backup_midnight_sdcard">Guardar un fitxer de base de dades en SD-Card a mitjanit.</string>

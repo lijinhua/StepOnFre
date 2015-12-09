@@ -224,13 +224,13 @@
             android:title="@string/automatic_backup" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/notification_settings_title" >
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="goal_reward_notification"-->
+            <!--android:summary="@string/goal_reward_notification_details"-->
+            <!--android:title="@string/goal_reward_notification" />-->
         <CheckBoxPreference
             android:defaultValue="true"
-            android:key="goal_reward_notification"
-            android:summary="@string/goal_reward_notification_details"
-            android:title="@string/goal_reward_notification" />
-        <CheckBoxPreference
-            android:defaultValue="false"
             android:key="goal_achievement_notification"
             android:summary="@string/goal_achievement_notification_details"
             android:title="@string/goal_achievement_notification" />

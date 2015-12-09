@@ -10,7 +10,7 @@
     <string name="a6">O: Accupedo сохраняет журнал событий в полночь. Не выключайте телефон в это время.</string>
     <string name="a7">O: С носка (пятки) до носка (пятки).</string>
     <string name="a8">O: Пожалуйста, напишите нам. Мы, безусловно, поможет вам.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ru/values-ru.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -134,6 +134,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
+    <string name="connect">Подключить</string>
     <string name="connect_to_mfp">Подключение к MFP</string>
     <string name="consecutive_setting">Последовательных шагов</string>
     <string name="consecutive_setting_details">Последовательных шагов</string>
@@ -342,7 +343,7 @@
     <string name="speed_type_setting">скорость</string>
     <string name="speed_type_setting_details">скорость</string>
     <string name="speed_type_setting_title">Выберите скорость формате</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ru/values-ru.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-ru/strings.xml -->
@@ -357,6 +358,7 @@
     <string name="success">успех</string>
     <string name="successfully_posted_post">Готово!</string>
     <string name="sun">вс</string>
+    <string name="switch_account">Сменить аккаунт</string>
     <string name="thu">чт</string>
     <string name="toast_dbtransfered_message">Ежедневный журнал событий был переведен из
 		StepOn.</string>

@@ -349,7 +349,7 @@ public class ActivityBackup extends ActivityDriveBase { //FragmentActivity {
 //            }
 //        };
 
-		Query query = new Query.Builder().addFilter(Filters.eq(SearchableField.TITLE, "Accupedo.db")).build();
+		Query query = new Query.Builder().addFilter(Filters.eq(SearchableField.TITLE, Constants.DATABASE_FILENAME)).build();
 		Drive.DriveApi.query(getGoogleApiClient(), query) .setResultCallback(metadataCallback);
 	}
 

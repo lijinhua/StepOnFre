@@ -173,6 +173,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -181,7 +182,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.corusen.steponfre.chart.HourBarChart2;
 import com.corusen.steponfre.chart.HourBarChartForMain;
+import com.corusen.steponfre.chart.IChart2;
 import com.corusen.steponfre.chart.IChartForMain;
 import com.corusen.steponfre.database.Constants;
 import com.corusen.steponfre.database.MyDB;
@@ -202,101 +205,84 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
 public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompatActivity
 
-	private InterstitialAd      mInterstitialAd;
-	public AdRequest            mAdRequest;
-	private AdView              mAdView;
-	private static int          mAdsClickCount = 0;
+	private InterstitialAd mInterstitialAd;
+	public AdRequest mAdRequest;
+	private AdView mAdView;
+	private static int mAdsClickCount = 0;
 
-	public static final int NUM_HOURLY_BARS 	= 60;
-	public static final int STOP_MODE_NOSAVE 	= 0; // when stop button pressed
-	public static final int STOP_MODE_SAVE 		= 1; // when stop button pressed
-	public static final int START_MODE 			= 2; // when start button pressed
-	public static final int RESUME_MODE 		= 3; // when resume button pressed
-	public static final int PAUSE_MODE 			= 4; // when pause button pressed
+	public static final int NUM_HOURLY_BARS = 60;
+	public static final int STOP_MODE_NOSAVE = 0; // when stop button pressed
+	public static final int STOP_MODE_SAVE = 1; // when stop button pressed
+	public static final int START_MODE = 2; // when start button pressed
+	public static final int RESUME_MODE = 3; // when resume button pressed
+	public static final int PAUSE_MODE = 4; // when pause button pressed
 
 	public static int mOperationMode = STOP_MODE_NOSAVE;
 
-	private static Pedometer        mInstance = null;
+	private static Pedometer mInstance = null;
 	public static PedometerSettings mPedometerSettings;
-	public static MyDB              mDB;
+	public static MyDB mDB;
 
-	private DrawerLayout        mDrawerLayout;
-	private ListView            mDrawerList;
+	private DrawerLayout mDrawerLayout;
+	private ListView mDrawerList;
 	private ActionBarDrawerToggle mDrawerToggle;
-	private CharSequence        mDrawerTitle;
-	private CharSequence        mTitle;
-	private String[]            navMenuTitles;
+	private CharSequence mDrawerTitle;
+	private CharSequence mTitle;
+	private String[] navMenuTitles;
 
 
-	public static final int SPINNER_ITEM_SETTINGSFIRST 	= 11;
-	public static final int SPINNER_ITEM_PEDOMETER 		= 0;
-	public static final int SPINNER_ITEM_CHART 			= 1;
-	public static final int SPINNER_ITEM_HISTORY 		= 2;
-	public static final int SPINNER_ITEM_SHARE 			= 3;
-	public static final int SPINNER_ITEM_EDITSTEPS 		= 4;
-	public static final int SPINNER_ITEM_BACKUP 		= 5;
-	public static final int SPINNER_ITEM_SETTINGS 		= 6;
-	public static final int SPINNER_ITEM_HELP 			= 7;
-	public static final int SPINNER_ITEM_QUIT 			= 8;
-	public static final int SPINNER_ITEM_PURCHASE 		= 9;
+	public static final int SPINNER_ITEM_SETTINGSFIRST = 11;
+	public static final int SPINNER_ITEM_PEDOMETER = 0;
+	public static final int SPINNER_ITEM_CHART = 1;
+	public static final int SPINNER_ITEM_HISTORY = 2;
+	public static final int SPINNER_ITEM_SHARE = 3;
+	public static final int SPINNER_ITEM_EDITSTEPS = 4;
+	public static final int SPINNER_ITEM_BACKUP = 5;
+	public static final int SPINNER_ITEM_SETTINGS = 6;
+	public static final int SPINNER_ITEM_HELP = 7;
+	public static final int SPINNER_ITEM_QUIT = 8;
+	public static final int SPINNER_ITEM_PURCHASE = 9;
 
-	private static final int DIALOG_FRAGMENT_PAUSE       = 1;
-	private static final int DIALOG_FRAGMENT_RESUME      = 2;
-	private static final int DIALOG_FRAGMENT_NEXT_LAP    = 3;
+	private static final int DIALOG_FRAGMENT_PAUSE = 1;
+	private static final int DIALOG_FRAGMENT_RESUME = 2;
+	private static final int DIALOG_FRAGMENT_NEXT_LAP = 3;
 	private static final int DIALOG_FRAGMENT_DAILY_RESET = 4;
-
-
-//	private static final int SPINNER_ITEM_SETTINGSFIRST  = 11;
-//	public static final int SPINNER_ITEM_PEDOMETER       = 0;
-//	private static final int SPINNER_ITEM_CHART          = 1;
-//	private static final int SPINNER_ITEM_HISTORY        = 2;
-//	private static final int SPINNER_ITEM_SHARE          = 3;
-//	private static final int SPINNER_ITEM_EDITSTEPS      = 4;
-//	private static final int SPINNER_ITEM_BACKUP         = 5;
-//	private static final int SPINNER_ITEM_DELETE_HISTORY = 6;
-//	public static final int SPINNER_ITEM_SETTINGS        = 7;
-//	private static final int SPINNER_ITEM_HELP           = 8;
-//	private static final int SPINNER_ITEM_QUIT           = 9;
-//	private static final int SPINNER_ITEM_PURCHASE       = 10;
-//
-//	private static final int DIALOG_FRAGMENT_PAUSE       = 1;
-//	private static final int DIALOG_FRAGMENT_RESUME      = 2;
-//	private static final int DIALOG_FRAGMENT_NEXT_LAP    = 3;
-//	private static final int DIALOG_FRAGMENT_DAILY_RESET = 4;
 
 	private static int mSpinnerPosition = 0;
 
-	private CollectionPagerAdapter  mCollectionPagerAdapter;  //V451
+	private CollectionPagerAdapter mCollectionPagerAdapter;  //V451
 	//private ViewPager               mViewPager;
-	private MyViewPager               mViewPager;
+	private MyViewPager mViewPager;
 
 
 	private static Calendar mCurrent;
 	private static Calendar mToday;
 	private static Calendar mFirstDay;
 	private static GraphicalView mChartView;
-	private static int      mNumberDays;
-	private static int      mWeekFormat;
+	private static int mNumberDays;
+	private static int mWeekFormat;
 	//private static Boolean  mIsMetric;
-	private static float    mfDistanceFactor;
-	private static float    mfCalorieFactor;
-	private static String    msDistanceUnit;
-	private static String    msCalorieUnit;
-	private static String    msSpeedUnit;
+	private static float mfDistanceFactor;
+	private static float mfCalorieFactor;
+	private static String msDistanceUnit;
+	private static String msCalorieUnit;
+	private static String msSpeedUnit;
 
 	private static final List<double[]> mX = new ArrayList<>();
 	private static final List<double[]> mValues = new ArrayList<>();
+	private static final List<double[]> mX2 = new ArrayList<>();
+	private static final List<double[]> mValues2 = new ArrayList<>();
+
 
 	private boolean mIsRunning;
 	private boolean mIsBound;
 
-	private static boolean  mToggleHourlyChart;
-	private static View     mHourlyChart;
-	private static View     mHourlyLap;
+	private static boolean mToggleHourlyChart;
+	private static View mHourlyChart;
+	private static View mHourlyLap;
 
 	private static TextView mLapTextView;
 	private static TextView mSpeedValueView;
@@ -307,20 +293,44 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 	private static TextView mSteptimeValueView;
 	private static TextView mDailyPercentValueView;
 	private static TextView mDailyGoalValueView;
+	private static TextView mLapTitleTextView;
 	private static ProgressBar mProgressBar;
 
-	private static int      mLap;
-	private static int      mStepValue;
-	private static int      mTripaStepValue;
-	private static int      mSteptimeValue;
-	private static int      mGoal;
-	private static float    mDistanceValue;
-	private static float    mSpeedValue;
-	private static float    mCaloriesValue;
-	private static float    mPercent;
+	private static int mLap;
+	private static int mLapStepValue;
+	private static int mStepValue;
+	private static int mTripaStepValue;
+	private static int mLapSteptimeValue;
+	private static int mSteptimeValue;
+	private static int mGoal;
+	private static float mLapDistanceValue;
+	private static float mDistanceValue;
+	private static float mSpeedValue;
+	private static float mLapCaloriesValue;
+	private static float mCaloriesValue;
+	private static float mPercent;
 
-	private static ImageButton mPauseImageButton;
+//	private static ImageButton mPauseImageButton;
+//	private static ImageButton mWalkButton;
+
+	private static LinearLayout mLayoutStart;
+	private static LinearLayout mLayoutPause;
+	private static LinearLayout.LayoutParams mLayoutParamsVisible = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 1.0f);
+	private static LinearLayout.LayoutParams mLayoutParamsHide = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 0.0f);
+
+	private static ImageButton mStartButton;
+	private static ImageButton mPauseButton;
+	private static ImageButton mStopButton;
+	private static ImageButton mLockButton;
 	private static ImageButton mWalkButton;
+	private static ImageButton mNextButton;
+
+	private int mSelectedItem;
+
+	private static LinearLayout mLayout2;
+	private static IChart2 mChart2;
+
+	private static ObjectFragment msFragment;
 
 	//private ActionBar       mActionBar;
 
@@ -341,8 +351,10 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 			@Override
 			public void uncaughtException(Thread thread, Throwable ex) {
-				if (defaultHandler != null) { defaultHandler.uncaughtException(thread, ex);
-				} else { throw new RuntimeException("No default uncaught exception handler.", ex);
+				if (defaultHandler != null) {
+					defaultHandler.uncaughtException(thread, ex);
+				} else {
+					throw new RuntimeException("No default uncaught exception handler.", ex);
 				} // if (thread.getName().startsWith("AdWorker")) {
 			}
 		});
@@ -355,10 +367,10 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 		mWeekFormat = mPedometerSettings.getWeekFormat();  //V451
 
 		mTitle = mDrawerTitle = getTitle();
-		navMenuTitles   = getResources().getStringArray(R.array.nav_drawer_items);
+		navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
 		TypedArray navMenuIcons = getResources().obtainTypedArray(R.array.nav_drawer_icons);
-		mDrawerLayout   = (DrawerLayout) findViewById(R.id.drawer_layout);
-		mDrawerList     = (ListView) findViewById(R.id.list_slidermenu);
+		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+		mDrawerList = (ListView) findViewById(R.id.list_slidermenu);
 
 		ArrayList<NavDrawerItem> navDrawerItems = new ArrayList<>();
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[0], navMenuIcons.getResourceId(0, -1)));
@@ -372,7 +384,9 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[8], navMenuIcons.getResourceId(8, -1)));
 
 
-		if (Constants.IS_VERSION_TE) { navDrawerItems.add(new NavDrawerItem(navMenuTitles[9], navMenuIcons.getResourceId(9, -1))); }
+		if (Constants.IS_VERSION_TE) {
+			navDrawerItems.add(new NavDrawerItem(navMenuTitles[9], navMenuIcons.getResourceId(9, -1)));
+		}
 
 		navMenuIcons.recycle();
 
@@ -437,12 +451,16 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 		}
 
 		mAdView.loadAd(mAdRequest);
-		if (Constants.IS_ADMOB_INTERSTITIAL) { mInterstitialAd.loadAd(mAdRequest); }
+		if (Constants.IS_ADMOB_INTERSTITIAL) {
+			mInterstitialAd.loadAd(mAdRequest);
+		}
 	}
 
 	private boolean isTimeForInterstitial() {
 		boolean a;
-		if (Constants.IS_ADMOB_INTERSTITIAL) { a = mInterstitialAd.isLoaded(); }
+		if (Constants.IS_ADMOB_INTERSTITIAL) {
+			a = mInterstitialAd.isLoaded();
+		}
 
 		boolean b = mAdsClickCount == 2;
 		boolean c = (mAdsClickCount > 2) && ((mAdsClickCount % 8) == 0);
@@ -521,10 +539,10 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 			//mAdsClickCount++;
 
-			if ( (position == SPINNER_ITEM_CHART)   ||
+			if ((position == SPINNER_ITEM_CHART) ||
 					(position == SPINNER_ITEM_HISTORY) ||
-					(position == SPINNER_ITEM_SHARE)   ||
-					(position == SPINNER_ITEM_BACKUP)  ) {
+					(position == SPINNER_ITEM_SHARE) ||
+					(position == SPINNER_ITEM_BACKUP)) {
 
 				mAdsClickCount++;
 
@@ -562,9 +580,11 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 		if (id == R.id.menu_chart) {
 //            AnalyticsApp.tracker().setScreenName("Chart541-M");
 //            AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
-			if (Constants.IS_VERSION_TE && isTimeForInterstitial())  {
+			if (Constants.IS_VERSION_TE && isTimeForInterstitial()) {
 				mSpinnerPosition = SPINNER_ITEM_CHART;
-				if (Constants.IS_ADMOB_INTERSTITIAL) { mInterstitialAd.show(); }
+				if (Constants.IS_ADMOB_INTERSTITIAL) {
+					mInterstitialAd.show();
+				}
 			} else {
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
 				intent = new Intent(getBaseContext(), com.corusen.steponfre.chart.ChartActivity.class);
@@ -578,7 +598,9 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 //            AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 			if (Constants.IS_VERSION_TE && isTimeForInterstitial()) {
 				mSpinnerPosition = SPINNER_ITEM_HISTORY;
-				if (Constants.IS_ADMOB_INTERSTITIAL) { mInterstitialAd.show(); }
+				if (Constants.IS_ADMOB_INTERSTITIAL) {
+					mInterstitialAd.show();
+				}
 			} else {
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
 				intent = new Intent(getBaseContext(), com.corusen.steponfre.database.History.class);
@@ -602,14 +624,13 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				break;
 
 			case SPINNER_ITEM_PEDOMETER:
-//                AnalyticsApp.tracker().setScreenName("Pedometer541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
-
-				//fragment = new FragmentPedometer(); //V561
-
 				mGoal = mPedometerSettings.getGoalSteps();
-				if (mGoal != 0) { mPercent = mStepValue * 100 / mGoal; } //V551
-				else { mPercent = 0; }
+				if (mGoal != 0) {
+					mPercent = mStepValue * 100 / mGoal;
+				} //V551
+				else {
+					mPercent = 0;
+				}
 
 				Boolean isMetric = mPedometerSettings.isMetric();
 				if (isMetric) {
@@ -622,6 +643,8 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 					msSpeedUnit = getString(R.string.miles_per_hour);
 				}
 
+				msCalorieUnit = getString(R.string.calories_burned);
+				mfCalorieFactor = 1.0f;
 //				if (mPedometerSettings.isCalories()) {
 //					msCalorieUnit = getString(R.string.calories_burned);
 //					mfCalorieFactor = 1.0f;
@@ -632,8 +655,6 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				break;
 
 			case SPINNER_ITEM_CHART:
-//                AnalyticsApp.tracker().setScreenName("Chart541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
 				intent = new Intent(getBaseContext(), com.corusen.steponfre.chart.ChartActivity.class);
 				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -642,8 +663,6 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				break;
 
 			case SPINNER_ITEM_HISTORY:
-//                AnalyticsApp.tracker().setScreenName("History541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
 				intent = new Intent(getBaseContext(), com.corusen.steponfre.database.History.class);
 				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -652,25 +671,19 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				break;
 
 			case SPINNER_ITEM_SHARE:
-				//AnalyticsApp.tracker().setScreenName("Share541");
-				//AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
-				intent = new Intent(getBaseContext(), ActivityShareTabs.class);
+				intent = new Intent(getBaseContext(), ActivityShare.class);
 				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				startActivity(intent);
 				break;
 
 			case SPINNER_ITEM_EDITSTEPS:
-//                AnalyticsApp.tracker().setScreenName("Edit541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
 				fragment = new FragmentEditsteps();
 				break;
 
 			case SPINNER_ITEM_BACKUP:
-				//AnalyticsApp.tracker().setScreenName("Backup541");
-				//AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
 				intent = new Intent(getBaseContext(), ActivityBackup.class);
 				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -678,28 +691,15 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				startActivity(intent);
 				break;
 
-//			case SPINNER_ITEM_DELETE_HISTORY:
-////                AnalyticsApp.tracker().setScreenName("DeleteHistory541");
-////                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
-//				//sendBroadcast(new Intent(AccuService.ACCUPEDO_SAVE_DB_REQUEST));
-//				fragment = new FragmentDeleteHistory();
-//				break;
-
 			case SPINNER_ITEM_SETTINGS:
-//                AnalyticsApp.tracker().setScreenName("Settings541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				fragment = new FragmentSettings();
 				break;
 
 			case SPINNER_ITEM_HELP:
-//                AnalyticsApp.tracker().setScreenName("Help541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				fragment = new FragmentHelp();
 				break;
 
 			case SPINNER_ITEM_PURCHASE:
-//                AnalyticsApp.tracker().setScreenName("Pro541");
-//                AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 				fragment = new FragmentAccupedoPro();
 				break;
 
@@ -733,14 +733,18 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 				transaction.hide(fragment);
 				Fragment fr = fragmentManager.findFragmentById(R.id.frame_container);
-				if ((fr != null) && (fr.getView() != null)) { fr.getView().setVisibility(View.GONE); }
+				if ((fr != null) && (fr.getView() != null)) {
+					fr.getView().setVisibility(View.GONE);
+				}
 
 				mDrawerList.setItemChecked(position, true);
 				mDrawerList.setSelection(position);
 				setTitle(navMenuTitles[position]);
 				mDrawerLayout.closeDrawer(mDrawerList);
 				mViewPager.setVisibility(View.VISIBLE);
-				if (Constants.IS_VERSION_TE) { mAdView.setVisibility(View.VISIBLE); }
+				if (Constants.IS_VERSION_TE) {
+					mAdView.setVisibility(View.VISIBLE);
+				}
 
 			} else {
 				transaction.replace(R.id.frame_container, fragment).commit();
@@ -749,7 +753,9 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				setTitle(navMenuTitles[position]);
 				mDrawerLayout.closeDrawer(mDrawerList);
 				mViewPager.setVisibility(View.GONE);
-				if (Constants.IS_VERSION_TE) { mAdView.setVisibility(View.GONE); }
+				if (Constants.IS_VERSION_TE) {
+					mAdView.setVisibility(View.GONE);
+				}
 			}
 
 		} else { //V561
@@ -789,7 +795,9 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 	public void setTitle(CharSequence title) {
 		mTitle = title;
 		ActionBar actionBar = getActionBar();
-		if (actionBar != null) { actionBar.setTitle(mTitle); }
+		if (actionBar != null) {
+			actionBar.setTitle(mTitle);
+		}
 	}
 
 	//When using the ActionBarDrawerToggle, you must call it during onPostCreate() and onConfigurationChanged()...
@@ -833,10 +841,14 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 	}
 
 	@Override
-	public void onSaveInstanceState(Bundle savedInstanceState) { super.onSaveInstanceState(savedInstanceState); }
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+		super.onSaveInstanceState(savedInstanceState);
+	}
 
 	@Override
-	public void onRestoreInstanceState(@NonNull Bundle savedInstanceState) { super.onRestoreInstanceState(savedInstanceState); }
+	public void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+		super.onRestoreInstanceState(savedInstanceState);
+	}
 
 	@Override
 	protected void onStart() {
@@ -844,7 +856,9 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 	}
 
 	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) { super.onActivityResult(requestCode, resultCode, data); }
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+	}
 
 	@Override
 	protected void onResume() {
@@ -898,7 +912,8 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 	@Override
 	public void onPause() {
 		mPedometerSettings.setAdsClickCount(mAdsClickCount);
-		if (mIsRunning) unbindStepService(); // this causes problem of sudden stop as it kills service
+		if (mIsRunning)
+			unbindStepService(); // this causes problem of sudden stop as it kills service
 		super.onPause();
 	}
 
@@ -937,10 +952,18 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 		@Override
 		public android.support.v4.app.Fragment getItem(int i) {
-			android.support.v4.app.Fragment fragment = new ObjectFragment();
+
+			ObjectFragment objectFragment = new ObjectFragment();
+
+			android.support.v4.app.Fragment fragment = objectFragment;
 			Bundle args = new Bundle();
 			args.putInt(ObjectFragment.ARG_OBJECT, i); // i+1 Our object is just an integer :-P
 			fragment.setArguments(args);
+
+			if (Utils.isSameDate(mCurrent, mToday)) {
+				msFragment = objectFragment;
+			}
+
 			return fragment;
 		}
 
@@ -973,6 +996,103 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 	}
 
+	private void updateHourlyChart2Dynamic() {
+		setDayHourData2Dynamic();
+		if (mChartView != null) {
+			mLayout2.removeView(mChartView);
+		}
+		mChartView = mChart2.graphicalView(Pedometer.getInstance(), mX2, mValues2, true);
+		mLayout2.addView(mChartView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
+	}
+
+	private void setDayHourData2Dynamic() {
+
+		int i, j, year, month, day, count = 0, startIndex = 0;
+		int[] sumSteps = new int[NUM_HOURLY_BARS + 1];
+		double[] delSteps = new double[NUM_HOURLY_BARS + 1];
+		double[] x = new double[7];
+
+		for(i=0;i<7;i++) { x[i] = 0.0; }
+
+		for(i=0;i<=NUM_HOURLY_BARS;i++)
+		{
+			sumSteps[i] = 0;
+			delSteps[i] = 0.0;
+		}
+
+		Calendar today = Calendar.getInstance();
+		year=today.get(Calendar.YEAR);
+		month=today.get(Calendar.MONTH)+1;
+		day=today.get(Calendar.DATE);
+
+		Pedometer.mDB.open();
+
+		Cursor c0 = Pedometer.mDB.queryLapNumber(year, month, day);
+		//Cursor c0 = Pedometer.mDB.queryLapMaxStepsForDay(year, month, day);
+		if(c0!=null)
+		{
+			mLap = c0.getInt(c0.getColumnIndex(Constants.KEY_LAP));
+			c0.close();
+		}
+
+		Cursor c = Pedometer.mDB.queryLapStepsForDay(year, month, day, mLap);
+
+		if(c==null) { count = 0; }
+		else { count = c.getCount(); } // it can be zero
+
+		if(count==0) {
+			x[0] = (double) startIndex;
+			x[1] = x[0] + 10.0;
+			x[2] = x[0] + 20.0;
+			x[3] = x[0] + 30.0;
+			x[4] = x[0] + 40.0;
+			x[5] = x[0] + 50.0;
+			x[6] = x[0] + 60.0;
+		} else  {
+			if (count < NUM_HOURLY_BARS) {
+				startIndex = 0;
+			} else {
+				startIndex = count - NUM_HOURLY_BARS;
+				count = NUM_HOURLY_BARS;
+			}
+
+			if (c.moveToFirst()) {
+				i = 0;
+				do {
+					j = i - startIndex;
+					if (j >= 0) {
+						sumSteps[j] = c.getInt(c.getColumnIndex(Constants.KEY_LAPSTEPS));
+					}
+					i++;
+				} while (c.moveToNext());
+			}
+			c.close();
+			Pedometer.mDB.close();
+
+			if (count > 1) {
+				for (i = 1; i <= count; i++) {
+					j = i - 1;
+					delSteps[j] = (double) (sumSteps[i] - sumSteps[i - 1]);
+					if (delSteps[j] < 0.0) {
+						delSteps[j] = 0.0;
+					}
+				}
+			}
+
+			x[0] = (double) startIndex;
+			x[1] = x[0] + 10.0;
+			x[2] = x[0] + 20.0;
+			x[3] = x[0] + 30.0;
+			x[4] = x[0] + 40.0;
+			x[5] = x[0] + 50.0;
+			x[6] = x[0] + 60.0;
+		}
+
+		mX2.clear();
+		mX2.add(x);
+		mValues2.clear();
+		mValues2.add(delSteps);
+	}
 
 
 	public static class ObjectFragment extends android.support.v4.app.Fragment {
@@ -988,9 +1108,16 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 			mToday = Calendar.getInstance(); //V503 to remove some crashes as it is null
 			mCurrent = (Calendar) mToday.clone();
 			mCurrent.add(Calendar.DATE, -(mNumberDays - 1 - position));
-			updateHourlyChart();
+
+			if(Utils.isSameDate(mCurrent, mToday)) {
+				updateHourlyChart2();
+			} else {
+				updateHourlyChart();
+			}
+
 			return mRootView;
 		}
+
 
 		private void updateHourlyChart() {
 			LinearLayout layout = (LinearLayout) mRootView.findViewById(R.id.chart_hourly);
@@ -1002,58 +1129,135 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 			layout.addView(mChartView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
 		}
 
+
+		private void updateHourlyChart2() {
+			mLayout2 = (LinearLayout) mRootView.findViewById(R.id.chart_hourly);
+			mChart2 = new HourBarChart2();
+
+			boolean mScreenLarge = true;
+			setDayHourData();
+			if (mChartView != null) { mLayout2.removeView(mChartView); }
+			mChartView = mChart2.graphicalView(Pedometer.getInstance(), mX2, mValues2,  mScreenLarge);
+			mLayout2.addView(mChartView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
+		}
+
 		public void setDayHourData() {
-			int i, steps, hour, minute, goalsteps;
-			float calories, distance, percent;
-			long steptime;
-			double[] dSteps = new double[25];
-			double[] hSteps = new double[25];
-			boolean[] bMinute = new boolean[25];
-			for (i = 0; i <= 24; i++) {
-				dSteps[i] = 0.0;
-				hSteps[i] = 0.0;
-				bMinute[i] = false;
-			}
-
-			Pedometer.mDB.open();
-			Cursor c = Pedometer.mDB.queryDayAll(mCurrent.get(Calendar.YEAR), mCurrent.get(Calendar.MONTH) + 1, mCurrent.get(Calendar.DATE));
-
-			if (c == null) return; //V511
-
-			if (c.moveToFirst()) {
-				do {
-					hour = c.getInt(c.getColumnIndex(Constants.KEY_HOUR));
-					minute = c.getInt(c.getColumnIndex(Constants.KEY_MINUTE));
-					steps = c.getInt(c.getColumnIndex(Constants.KEY_STEPS));
-					if ((hour == 23) & (minute > 30)) { //V501, V541
-						dSteps[24] = ((Integer) steps).doubleValue();
-					} else if ( (minute >=0) || (minute <= 30) ) { // discard 30min data, //V541
-						dSteps[hour] = ((Integer) steps).doubleValue();
-						bMinute[hour] = true;
-					} else { //JS V436
-						if (!bMinute[hour]) {
-							dSteps[hour] = ((Integer) steps).doubleValue();
-							bMinute[hour] = true;
-						}
-					}
-				} while (c.moveToNext());
-			}
-
-			if (c.moveToLast()) {
-				hour = c.getInt(c.getColumnIndex(Constants.KEY_HOUR));
-				steps = c.getInt(c.getColumnIndex(Constants.KEY_STEPS));
-				dSteps[hour] = steps; // this is the last data, i.e. current steps
-			}
-
-			goalsteps = 10000;
-			steps     = 0;
-			distance = 0.00f;
-			calories = 0.0f;
-			steptime = 0l;
 
 			if(Utils.isSameDate(mCurrent, mToday)) {
-				mPauseImageButton = (ImageButton) mRootView.findViewById(R.id.pauseButton);
-				mPauseImageButton.setOnClickListener(new View.OnClickListener() {
+				int 	i, j, year, month, day, count = 0, startIndex = 0;
+				int[] 	sumSteps = new int[NUM_HOURLY_BARS + 1];
+				double[] delSteps = new double[NUM_HOURLY_BARS + 1];
+				double[] x = new double[7];
+
+				for (i = 0; i < 7; i++) { x[i] = 0.0; }
+
+				for (i = 0; i <= NUM_HOURLY_BARS; i++) {
+					sumSteps[i] = 0;
+					delSteps[i] = 0.0;
+				}
+
+				Calendar today = Calendar.getInstance();
+				year 	= today.get(Calendar.YEAR);
+				month 	= today.get(Calendar.MONTH) + 1;
+				day 	= today.get(Calendar.DATE);
+
+
+				Pedometer.mDB.open();
+
+				Cursor c0 = Pedometer.mDB.queryLapNumber(year, month, day);
+				if (c0.moveToLast()) {
+					mLap = c0.getInt(c0.getColumnIndex(Constants.KEY_LAP));
+					c0.close();
+				}
+
+				Cursor c = Pedometer.mDB.queryLapStepsForDay(year, month, day, mLap);
+
+				if (c == null) { count = 0; }
+				else { count = c.getCount(); } // it can be zero
+
+				if (count == 0) {
+					x[0] = (double) startIndex;
+					x[1] = x[0] + 10.0;
+					x[2] = x[0] + 20.0;
+					x[3] = x[0] + 30.0;
+					x[4] = x[0] + 40.0;
+					x[5] = x[0] + 50.0;
+					x[6] = x[0] + 60.0;
+				} else {
+
+					if (count < NUM_HOURLY_BARS) { startIndex = 0; }
+					else {
+						startIndex = count - NUM_HOURLY_BARS;
+						count = NUM_HOURLY_BARS;
+					}
+
+					if (c.moveToFirst()) {
+						i = 0;
+						do {
+							j = i - startIndex;
+							if (j >= 0) { sumSteps[j] = c.getInt(c .getColumnIndex(Constants.KEY_LAPSTEPS)); }
+							i++;
+						} while (c.moveToNext());
+					}
+					c.close();
+					Pedometer.mDB.close();
+
+					if (count > 1) {
+						for (i = 1; i <= count; i++) {
+							j = i - 1;
+							delSteps[j] = (double) (sumSteps[i] - sumSteps[i - 1]);
+							if (delSteps[j] < 0.0) { delSteps[j] = 0.0; }
+						}
+					}
+
+					x[0] = (double) startIndex;
+					x[1] = x[0] + 10.0;
+					x[2] = x[0] + 20.0;
+					x[3] = x[0] + 30.0;
+					x[4] = x[0] + 40.0;
+					x[5] = x[0] + 50.0;
+					x[6] = x[0] + 60.0;
+				}
+
+				mX2.clear();
+				mX2.add(x);
+				mValues2.clear();
+				mValues2.add(delSteps);
+
+
+				mLayoutStart = (LinearLayout) mRootView.findViewById(R.id.linearlayoutstart);
+				mLayoutPause = (LinearLayout) mRootView.findViewById(R.id.linearlayoutpause);
+				mLayoutStart.setLayoutParams(mLayoutParamsVisible);
+				mLayoutPause.setLayoutParams(mLayoutParamsHide);
+
+				mStartButton = (ImageButton) mRootView.findViewById(R.id.startButton);
+				mPauseButton = (ImageButton) mRootView.findViewById(R.id.pauseButton);
+				mStopButton = (ImageButton) mRootView.findViewById(R.id.stopButton);
+				mLockButton = (ImageButton) mRootView.findViewById(R.id.lockButton);
+				mWalkButton = (ImageButton) mRootView.findViewById(R.id.walk_button);
+				mNextButton = (ImageButton) mRootView.findViewById(R.id.next_ic_button);
+
+				mStartButton.setOnClickListener(new View.OnClickListener() {
+					public void onClick(View v) {
+						mOperationMode = START_MODE;
+						mService.setOperationMode(mOperationMode);
+
+						Pedometer.mPedometerSettings.setLockStatus(true);
+						((Pedometer)getActivity()).updateModeDisplay();
+						((Pedometer)getActivity()).displayLockState();
+						((Pedometer)getActivity()).updateHourlyChart2Dynamic();
+
+					}
+				});
+
+				mStopButton.setOnClickListener(new View.OnClickListener() {
+					public void onClick(View v) {
+						((Pedometer)getActivity()).openStopAlertDialog();
+					}
+				});
+
+
+				mPauseButton.setOnClickListener(new View.OnClickListener() {
 					public void onClick(View v) {
 						if (Pedometer.mPedometerSettings.isPause()) {
 							((Pedometer)getActivity()).showMyDialog(DIALOG_FRAGMENT_RESUME);
@@ -1063,46 +1267,37 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 					}
 				});
 
-//				ImageButton lapImageButton = (ImageButton) mRootView.findViewById(R.id.TripAButton);
-//				lapImageButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.reset_imagebutton));
-//				lapImageButton.setOnClickListener(new View.OnClickListener() {
-//					public void onClick(View v) {
-//						((Pedometer)getActivity()).showMyDialog(DIALOG_FRAGMENT_NEXT_LAP);
-//					}
-//				});
-
-//				ImageButton dailyResetButton = (ImageButton) mRootView.findViewById(R.id.daily_reset_button);
-//				dailyResetButton.setOnClickListener(new View.OnClickListener() {
-//					public void onClick(View v) {
-//						//((Pedometer)getActivity()).showMyDialog(DIALOG_FRAGMENT_DAILY_RESET);
-//						//V553 ArrayQueue
-//						mService.saveTestCsvFile();
-//						Toast.makeText(Pedometer.getInstance(), "Saved!!!", Toast.LENGTH_SHORT).show();
-//					}
-//				});
-
-				mWalkButton = (ImageButton) mRootView.findViewById(R.id.walk_button);
-				if (Pedometer.mPedometerSettings.isRunning()) {
-					mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.run_ic));
-				} else {
-					mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.walk_ic));
-				}
-				mWalkButton.setOnClickListener(new View.OnClickListener() {
+				mLockButton.setOnClickListener(new View.OnClickListener() {
 					public void onClick(View v) {
-						((Pedometer)getActivity()).openWalkRunAlertDialog();
+						if (Pedometer.mPedometerSettings.isLocked()) {
+							Pedometer.mPedometerSettings.setLockStatus(false);
+						} else {
+							Pedometer.mPedometerSettings.setLockStatus(true);
+						}
+						((Pedometer)getActivity()).displayLockState();
 					}
 				});
 
-				mHourlyChart = mRootView.findViewById(R.id.chart_hourly);
-				mHourlyLap = mRootView.findViewById(R.id.lap_hourly);
+
+				mWalkButton.setOnClickListener(new View.OnClickListener() {
+					public void onClick(View v) {
+						((Pedometer) getActivity()).openWalkRunAlertDialog();
+					}
+				});
+
+				//((Pedometer)getActivity()).updateExerciseModeDisplay(Pedometer.mPedometerSettings.getExerciseType());
+
+				mHourlyChart 	= mRootView.findViewById(R.id.chart_hourly);
+				mHourlyLap 		= mRootView.findViewById(R.id.lap_hourly);
 
 				mToggleHourlyChart = true;
 				mHourlyChart.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
 				mHourlyLap.getLayoutParams().height = 0;
 
-				ImageButton nextButton = (ImageButton) mRootView.findViewById(R.id.next_ic_button);
-				nextButton.setOnClickListener(new View.OnClickListener() {
+
+				mNextButton.setOnClickListener(new View.OnClickListener() {
 					public void onClick(View v) {
+
 						if (mToggleHourlyChart) {
 							mHourlyChart.getLayoutParams().height = 0;
 							mHourlyLap.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
@@ -1111,51 +1306,49 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 							mHourlyLap.getLayoutParams().height = 0;
 							mHourlyChart.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
 							mToggleHourlyChart = true;
+							mCurrent = (Calendar) mToday.clone();
+							updateHourlyChart2();
 						}
-						mLapTextView.setText(((Integer) mLap).toString()); // this will refresh the screen
+						mTripaStepValueView.setText(((Integer) mStepValue).toString()); // this will refresh the screen
 					}
 				});
 
-				mPauseImageButton.setContentDescription(getString(R.string.widget_paused));
-//				lapImageButton.setContentDescription(getString(R.string.lap));
-//				dailyResetButton.setContentDescription(getString(R.string.reset));
-				mWalkButton.setContentDescription(getString(R.string.exercise_type_setting)); // Walking
-				nextButton.setContentDescription(getString(R.string.enter_manual_steps)); // Step
+				mStepValueView 		= (TextView) mRootView.findViewById(R.id.step_value);
+				mTripaStepValueView = (TextView) mRootView.findViewById(R.id.tripa_step_value);
+				mDistanceValueView 	= (TextView) mRootView.findViewById(R.id.distance_value);
+				mSpeedValueView 	= (TextView) mRootView.findViewById(R.id.speed_value);
+				mCaloriesValueView 	= (TextView) mRootView.findViewById(R.id.calories_value);
+				mSteptimeValueView 	= (TextView) mRootView.findViewById(R.id.time_value);
+				mDailyPercentValueView = (TextView) mRootView.findViewById(R.id.daily_percent_value);
+				mDailyGoalValueView = (TextView) mRootView.findViewById(R.id.daily_goal_value);
+				mLapTitleTextView 	= (TextView) mRootView.findViewById(R.id.lap_title);
+				mLapTextView 		= (TextView) mRootView.findViewById(R.id.lap_value);
+				mProgressBar 		= (ProgressBar) mRootView.findViewById(R.id.trainprogressbar);
 
-				mTripaStepValueView     = (TextView) mRootView.findViewById(R.id.tripa_step_value);
-				mStepValueView          = (TextView) mRootView.findViewById(R.id.step_value);
-				mDistanceValueView      = (TextView) mRootView.findViewById(R.id.distance_value);
-				mCaloriesValueView      = (TextView) mRootView.findViewById(R.id.calories_value);
-				mSteptimeValueView      = (TextView) mRootView.findViewById(R.id.time_value);
-				mDailyPercentValueView  = (TextView) mRootView.findViewById(R.id.daily_percent_value);
-				mDailyGoalValueView     = (TextView) mRootView.findViewById(R.id.daily_goal_value);
 				TextView distanceUnitView       = (TextView) mRootView.findViewById(R.id.distance_units);
 				TextView calorieUnitView        = (TextView) mRootView.findViewById(R.id.calories_units);
-				mSpeedValueView         = (TextView) mRootView.findViewById(R.id.speed_value);
 				TextView speedUnitView          = (TextView) mRootView.findViewById(R.id.speed_units);
-				mLapTextView            = (TextView) mRootView.findViewById(R.id.lap_value);
-				mProgressBar            = (ProgressBar) mRootView.findViewById(R.id.trainprogressbar);
+
+				((TextView) mRootView.findViewById(R.id.distance_units)).setText(getString(Pedometer.mPedometerSettings.isMetric() ? R.string.km : R.string.miles));
+				((TextView) mRootView.findViewById(R.id.speed_units)).setText(getString(Pedometer.mPedometerSettings.isMetric() ? R.string.kilometers_per_hour : R.string.miles_per_hour));
+
+				if (Pedometer.mPedometerSettings.isMetric()) { mfDistanceFactor = Utils.MILE2KM; } //mTempUnit = "C";
+				else { mfDistanceFactor = 1.0f; } //mTempUnit = "F";
 
 				mTripaStepValueView.setText("" + mTripaStepValue);
-				mStepValueView.setText("" + mStepValue);
+				mStepValueView.setText("" + mLapStepValue);
 
-				if (mDistanceValue <= 0) {
-					mDistanceValueView.setText(String.format("%.2f", 0.00f));
+				if (mLapDistanceValue <= 0) { mDistanceValueView.setText(String.format("%.2f", 0.00f)); }
+				else { mDistanceValueView.setText(String.format("%.2f", mLapDistanceValue * mfDistanceFactor)); }
+
+				if (mLapCaloriesValue < 1000f) {
+					if (mLapCaloriesValue <= 0) { mCaloriesValueView.setText(String.format("%.1f", 0.00f)); }
+					else { mCaloriesValueView.setText(String.format("%.1f",mLapCaloriesValue)); }
 				} else {
-					mDistanceValueView.setText(String.format("%.2f", mDistanceValue * mfDistanceFactor));
+					mCaloriesValueView.setText(String.format("%d",(int) mLapCaloriesValue));
 				}
 
-				if (mCaloriesValue < 1000f) {
-					if (mCaloriesValue <= 0) {
-						mCaloriesValueView.setText(String.format("%.1f", 0.00f));
-					} else {
-						mCaloriesValueView.setText(String.format("%.1f",mCaloriesValue *mfCalorieFactor));
-					}
-				} else {
-					mCaloriesValueView.setText(String.format("%d",(int) mCaloriesValue));
-				}
-
-				mSteptimeValueView.setText(Utils.getHoursMinutesSecondsString(mSteptimeValue));
+				mSteptimeValueView.setText(Utils.getHoursMinutesSecondsString(mLapSteptimeValue));
 				mDailyGoalValueView.setText(((Integer) mGoal).toString());
 				mDailyPercentValueView.setText(((Integer) (int) mPercent).toString() + "%");
 				mProgressBar.setProgress((int) mPercent);
@@ -1168,10 +1361,56 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 				mLapTextView.setText(((Integer) mLap).toString());
 
-				if (Pedometer.mPedometerSettings.isPause()) ((Pedometer)getActivity()).displayPauseMode();
-				else ((Pedometer)getActivity()).displayResumeMode();
+//				if (Pedometer.mPedometerSettings.isPause()) ((Pedometer)getActivity()).displayPauseMode();
+//				else ((Pedometer)getActivity()).displayResumeMode();
 
-			} else {
+				((Pedometer)getActivity()).updateModeDisplay();
+				((Pedometer)getActivity()).displayLockState();
+			}
+
+			else {
+				int i, steps, hour, minute, goalsteps;
+				float calories, distance, percent;
+				long steptime;
+				double[] dSteps = new double[25];
+				double[] hSteps = new double[25];
+				boolean[] bMinute = new boolean[25];
+				for (i = 0; i <= 24; i++) {
+					dSteps[i] = 0.0;
+					hSteps[i] = 0.0;
+					bMinute[i] = false;
+				}
+
+				Pedometer.mDB.open();
+				Cursor c = Pedometer.mDB.queryDayAll(mCurrent.get(Calendar.YEAR), mCurrent.get(Calendar.MONTH) + 1, mCurrent.get(Calendar.DATE));
+
+				if (c == null) return; //V511
+
+				if (c.moveToFirst()) {
+					do {
+						hour = c.getInt(c.getColumnIndex(Constants.KEY_HOUR));
+						minute = c.getInt(c.getColumnIndex(Constants.KEY_MINUTE));
+						steps = c.getInt(c.getColumnIndex(Constants.KEY_STEPS));
+						if ((hour == 23) & (minute > 30)) { //V501, V541
+							dSteps[24] = ((Integer) steps).doubleValue();
+						} else if ( (minute >=0) || (minute <= 30) ) { // discard 30min data, //V541
+							dSteps[hour] = ((Integer) steps).doubleValue();
+							bMinute[hour] = true;
+						} else { //JS V436
+							if (!bMinute[hour]) {
+								dSteps[hour] = ((Integer) steps).doubleValue();
+								bMinute[hour] = true;
+							}
+						}
+					} while (c.moveToNext());
+				}
+
+				goalsteps = 10000;
+				steps     = 0;
+				distance = 0.00f;
+				calories = 0.0f;
+				steptime = 0l;
+
 				if (c.moveToLast()) {
 					hour = c.getInt(c.getColumnIndex(Constants.KEY_HOUR));
 					steps = c.getInt(c.getColumnIndex(Constants.KEY_STEPS));
@@ -1182,21 +1421,46 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 					goalsteps   = c.getInt(c.getColumnIndex(Constants.KEY_ACHIEVEMENT));
 				}
 
+				c.close();
+				Pedometer.mDB.close();
+
+				for (i = 0; i <= 24; i++) {
+					if (i == 0) {
+						hSteps[i] = 0.0;
+					} else {
+						if (dSteps[i] < dSteps[i - 1]) { // in case there are missing steps
+							//dSteps[i] = dSteps[i - 1]; // V541 when previous day's 0:15 step is big, it affects the whole day
+							hSteps[i - 1] = 0.0;
+						} else {
+							hSteps[i - 1] = (dSteps[i] - dSteps[i - 1]);
+						}
+					}
+				}
+
+				mX.clear();
+				mValues.clear();
+				mValues.add(hSteps);
+
 				if (goalsteps == 0) percent = 0.0f;
 				else percent = ((float) steps / (float) goalsteps) * 100.0f;
 
-				ImageButton mmPauseImageButton  = (ImageButton) mRootView.findViewById(R.id.pauseButton);
-//				ImageButton mmLapImageButton    = (ImageButton) mRootView.findViewById(R.id.TripAButton);
-//				ImageButton mmDailyResetButton  = (ImageButton) mRootView.findViewById(R.id.daily_reset_button);
-				ImageButton mmWalkButton        = (ImageButton) mRootView.findViewById(R.id.walk_button);
-				ImageButton mmNextButton        = (ImageButton) mRootView.findViewById(R.id.next_ic_button);
 
-				mmPauseImageButton.setEnabled(false);
-				mmPauseImageButton.setColorFilter(Color.GRAY);
-//				mmLapImageButton.setVisibility(View.GONE);
-//				mmDailyResetButton.setVisibility(View.GONE);
+
+				LinearLayout mmLayoutStart = (LinearLayout) mRootView.findViewById(R.id.linearlayoutstart);
+				LinearLayout mmLayoutPause = (LinearLayout) mRootView.findViewById(R.id.linearlayoutpause);
+				mmLayoutStart.setLayoutParams(mLayoutParamsVisible);
+				mmLayoutPause.setLayoutParams(mLayoutParamsHide);
+
+
+				ImageButton mmStartButton = (ImageButton) mRootView.findViewById(R.id.startButton);
+				ImageButton mmWalkButton = (ImageButton) mRootView.findViewById(R.id.walk_button);
+				ImageButton mmNextButton = (ImageButton) mRootView.findViewById(R.id.next_ic_button);
+
 				mmWalkButton.setVisibility(View.GONE);
 				mmNextButton.setVisibility(View.GONE);
+
+				mmStartButton.setEnabled(false);
+				mmStartButton.setColorFilter(Color.GRAY);
 
 				View mmHourlyChart  = mRootView.findViewById(R.id.chart_hourly);
 				View mmHourlyLap    = mRootView.findViewById(R.id.lap_hourly);
@@ -1213,6 +1477,7 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				TextView mmCalorieUnitView      = (TextView) mRootView.findViewById(R.id.calories_units);
 				TextView mmSpeedUnitView        = (TextView) mRootView.findViewById(R.id.speed_units);
 				TextView mmSpeedValueView       = (TextView) mRootView.findViewById(R.id.speed_value);
+				TextView mmLapTitleTextView 	= (TextView) mRootView.findViewById(R.id.lap_title);
 				ProgressBar mmProgressBar       = (ProgressBar) mRootView.findViewById(R.id.trainprogressbar);
 
 				mmDailyGoalValueView.setText("" + goalsteps);
@@ -1225,6 +1490,7 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				mmDistanceUnitView.setText(msDistanceUnit);
 				mmCalorieUnitView.setText(msCalorieUnit);
 				mmSpeedUnitView.setText(msSpeedUnit);
+				mmLapTitleTextView.setVisibility(View.GONE);
 
 				double speed;
 				String string;
@@ -1237,26 +1503,6 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 				}
 				mmSpeedValueView.setText(string);
 			}
-
-			c.close();
-			Pedometer.mDB.close();
-
-			for (i = 0; i <= 24; i++) {
-				if (i == 0) {
-					hSteps[i] = 0.0;
-				} else {
-					if (dSteps[i] < dSteps[i - 1]) { // in case there are missing steps
-						//dSteps[i] = dSteps[i - 1]; // V541 when previous day's 0:15 step is big, it affects the whole day
-						hSteps[i - 1] = 0.0;
-					} else {
-						hSteps[i - 1] = (dSteps[i] - dSteps[i - 1]);
-					}
-				}
-			}
-
-			mX.clear();
-			mValues.clear();
-			mValues.add(hSteps);
 		}
 	}
 
@@ -1340,40 +1586,40 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 	private void doNegativeClick() { }
 
-	private void openWalkRunAlertDialog() {
-		AlertDialog.Builder builder = new AlertDialog.Builder(Pedometer.getInstance());
-		builder.setTitle(R.string.exercise_type_setting_title);
-		builder.setItems(R.array.exercise_type_preference, new DialogInterface.OnClickListener() {
-			public void onClick(DialogInterface dialog, int which) {
-				switch (which) {
-					case 0:
-						Pedometer.mPedometerSettings.setExerciseType(0);
-						mService.reloadSettings();
-						mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.run_ic));
-						break;
-					case 1:
-						Pedometer.mPedometerSettings.setExerciseType(1);
-						mService.reloadSettings();
-						mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.walk_ic));
-						break;
-				}
-			}
-		});
-		AlertDialog dialog = builder.create();
-		dialog.show();
-	}
+//	private void openWalkRunAlertDialog() {
+//		AlertDialog.Builder builder = new AlertDialog.Builder(Pedometer.getInstance());
+//		builder.setTitle(R.string.exercise_type_setting_title);
+//		builder.setItems(R.array.exercise_type_preference, new DialogInterface.OnClickListener() {
+//			public void onClick(DialogInterface dialog, int which) {
+//				switch (which) {
+//					case 0:
+//						Pedometer.mPedometerSettings.setExerciseType(0);
+//						mService.reloadSettings();
+//						mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.run_ic));
+//						break;
+//					case 1:
+//						Pedometer.mPedometerSettings.setExerciseType(1);
+//						mService.reloadSettings();
+//						mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.walk_ic));
+//						break;
+//				}
+//			}
+//		});
+//		AlertDialog dialog = builder.create();
+//		dialog.show();
+//	}
 
-	private void displayPauseMode() {
-		mStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(R.color.mygray));
-		mPauseImageButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.start_imagebutton));
-		mTripaStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(R.color.myblue));
-	}
+//	private void displayPauseMode() {
+//		mStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(R.color.mygray));
+//		mPauseImageButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.start_imagebutton));
+//		mTripaStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(R.color.myblue));
+//	}
 
-	private void displayResumeMode() {
-		mStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(AccuService.mScreenStepTextColor));
-		mPauseImageButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.stop_imagebutton));
-		mTripaStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(AccuService.mScreenLapStepTextColor));
-	}
+//	private void displayResumeMode() {
+//		mStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(AccuService.mScreenStepTextColor));
+//		mPauseImageButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.stop_imagebutton));
+//		mTripaStepValueView.setTextColor(Pedometer.getInstance().getResources().getColor(AccuService.mScreenLapStepTextColor));
+//	}
 
 	private void initializeDateFormat() {
 		mToday = Calendar.getInstance();
@@ -1538,7 +1784,7 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 
 		public void hourlyChartChanged(int value) {
 			//mHandler.sendMessage(mHandler.obtainMessage(HOURLYCHART_MSG, 0, 0));
-			//msFragment.updateHourlyChart2();
+			updateHourlyChart2Dynamic();
 		}
 
 	};
@@ -1562,38 +1808,38 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 				case STEPS_MSG:
-					int lapStepValue 	= msg.arg1;
+					mLapStepValue 	= msg.arg1;
 					mStepValue 			= msg.arg2;
-					mStepValueView.setText("" + lapStepValue);
+					mStepValueView.setText("" + mLapStepValue);
 					mTripaStepValueView.setText("" + mStepValue);
 					break;
 
 				case DISTANCE_MSG:
-					float lapDistanceValue = msg.arg1 / 1000f;
-					if (lapDistanceValue <= 0) {
+					mLapDistanceValue = msg.arg1 / 1000f;
+					if (mLapDistanceValue <= 0) {
 						mDistanceValueView.setText(String.format("%.2f", 0.00f));
 					} else {
-						mDistanceValueView.setText(String.format("%.2f", lapDistanceValue * mfDistanceFactor));
+						mDistanceValueView.setText(String.format("%.2f", mLapDistanceValue * mfDistanceFactor));
 					}
 					break;
 
 				case CALORIES_MSG:
-					float lapCaloriesValue = msg.arg1 / 1000f;
+					mLapCaloriesValue = msg.arg1 / 1000f;
 					mCaloriesValue = msg.arg2 / 1000f;
 					if (mCaloriesValue < 1000f) {
-						if (lapCaloriesValue <= 0) {
+						if (mLapCaloriesValue <= 0) {
 							mCaloriesValueView.setText(String.format("%.1f", 0.00f));
 						} else {
-							mCaloriesValueView.setText(String.format("%.1f", lapCaloriesValue));
+							mCaloriesValueView.setText(String.format("%.1f", mLapCaloriesValue));
 						}
 					} else {
-						mCaloriesValueView.setText(String.format("%d", (int) lapCaloriesValue));
+						mCaloriesValueView.setText(String.format("%d", (int) mLapCaloriesValue));
 					}
 					break;
 
 				case STEPTIME_MSG:
-					int lapSteptimeValue = msg.arg1; // msg.arg1 is in second now
-					mSteptimeValueView.setText(Utils.getHoursMinutesSecondsString(lapSteptimeValue));
+					mLapSteptimeValue = msg.arg1; // msg.arg1 is in second now
+					mSteptimeValueView.setText(Utils.getHoursMinutesSecondsString(mLapSteptimeValue));
 					break;
 
 				case UPDATE_MSG:
@@ -1667,154 +1913,7 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 			}
 		}
 
-	};
-
-
-
-//	private final AccuService.ICallback mCallback = new AccuService.ICallback() {
-//		public void stepsChanged(int lapsteps, int steps) {
-//			//V511 if (mHandler != null) is removed
-//			//V551 if (mHandler != null) is added again
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(STEPS_MSG, lapsteps, steps));
-//		}
-//
-//		public void distanceChanged(float lapdistance, float distance) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(DISTANCE_MSG, (int) (lapdistance * 1000), (int) (distance * 1000)));
-//		}
-//
-//		public void paceChanged(int value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(PACE_MSG, value, 0));
-//		}
-//
-//		public void speedChanged(float value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(SPEED_MSG, (int) (value * 1000), 0));
-//		}
-//
-//		public void caloriesChanged(float lapcalories, float calories) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(CALORIES_MSG, (int) (lapcalories * 1000), (int) (calories * 1000)));
-//		}
-//
-//		public void steptimeChanged(long lapsteptime, long steptime) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(STEPTIME_MSG, (int) (lapsteptime / 1000), (int) (steptime / 1000)));
-//		}
-//
-//		public void updateDisplay(int value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(UPDATE_MSG, value, 0));
-//		}
-//
-//		public void goalChanged(int value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(GOAL_MSG, value, 0));
-//		}
-//
-//		public void percentChanged(float value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(PERCENT_MSG, (int) (value * 1000), 0));
-//		}
-//
-//		public void lapnumberChanged(int value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(LAPNUMBER_MSG, value, 0));
-//		}
-//
-//		public void resetAdsClickCount(int value) {
-//			if (mHandler != null) mHandler.sendMessage(mHandler.obtainMessage(ADS_RESET_MSG, value, 0));
-//		}
-//	};
-//
-//	private static final int STEPS_MSG      = 1;
-//	private static final int DISTANCE_MSG   = 2;
-//	private static final int CALORIES_MSG   = 3;
-//	private static final int STEPTIME_MSG   = 4;
-//	private static final int UPDATE_MSG     = 5;
-//	private static final int GOAL_MSG       = 6;
-//	private static final int PERCENT_MSG    = 7;
-//	private static final int SPEED_MSG      = 8;
-//	private static final int PACE_MSG       = 9;
-//	private static final int LAPNUMBER_MSG  = 10;
-//	private static final int ADS_RESET_MSG  = 11;
-//
-//
-//	final static MessageHandler mHandler = new MessageHandler(); //V551 changed to static
-//	static class MessageHandler extends Handler {
-//		@Override
-//		public void handleMessage(Message msg)
-//		{
-//			switch (msg.what) {
-//				case STEPS_MSG:
-//					mTripaStepValue = msg.arg1;
-//					mTripaStepValueView.setText("" + mTripaStepValue);
-//					mStepValue = msg.arg2;
-//					mStepValueView.setText("" + mStepValue);
-//					break;
-//
-//				case DISTANCE_MSG:
-//					mDistanceValue = msg.arg2 / 1000f;
-//					if (mDistanceValue <= 0) {
-//						mDistanceValueView.setText(String.format("%.2f", 0.00f));
-//					} else {
-//						mDistanceValueView.setText(String.format("%.2f", mDistanceValue * mfDistanceFactor));
-//					}
-//					break;
-//
-//				case CALORIES_MSG:
-//					mCaloriesValue = msg.arg2 / 1000f;
-//					if (mCaloriesValue < 1000f) {
-//						if (mCaloriesValue <= 0) {
-//							mCaloriesValueView.setText(String.format("%.1f", 0.00f));
-//						} else {
-//							mCaloriesValueView.setText(String.format("%.1f", mCaloriesValue *mfCalorieFactor));
-//						}
-//					} else {
-//						mCaloriesValueView.setText(String.format("%d", (int) mCaloriesValue));
-//					}
-//					break;
-//
-//				case STEPTIME_MSG:
-//					mSteptimeValue = msg.arg2;
-//					mSteptimeValueView.setText(Utils.getHoursMinutesSecondsString(mSteptimeValue));
-//					break;
-//
-//				case GOAL_MSG:
-//					mGoal = msg.arg1;
-//					mDailyGoalValueView.setText(((Integer) mGoal).toString());
-//					break;
-//
-//				case PERCENT_MSG:
-//					mPercent = msg.arg1 / 1000f;
-//					mDailyPercentValueView.setText(((Integer) (int) mPercent).toString() + "%");
-//					mProgressBar.setProgress((int) mPercent);
-//					break;
-//
-//				case PACE_MSG:
-//					// mPaceValue = msg.arg1;
-//					// if (mPaceValue <= 0) mSpeedValueView.setText("0");
-//					// else mSpeedValueView.setText("" + ((Integer) mPaceValue).toString());
-//					break;
-//
-//				case SPEED_MSG:
-//					mSpeedValue = msg.arg1 * mfDistanceFactor / 1000f;
-//					if (mSpeedValue <= 0) {
-//						mSpeedValueView.setText("0");
-//					} else {
-//						mSpeedValueView.setText(("" + (mSpeedValue + 0.000001f)).substring(0, 4));
-//					}
-//					break;
-//				case LAPNUMBER_MSG:
-//					mLap = msg.arg1;
-//					mLapTextView.setText(((Integer) mLap).toString());
-//					break;
-//
-//				case ADS_RESET_MSG:
-//					mAdsClickCount = 0;
-//					mPedometerSettings.setAdsClickCount(0);
-//					break;
-//
-//
-//				default:
-//					//super.handleMessage(msg); V505
-//					break;
-//
-//			}
-//		}
-//	}
+	}
 
 	private boolean checkDBfileExist() {
 
@@ -1838,6 +1937,238 @@ public class Pedometer extends FragmentActivity { //FragmentActivity { AppCompat
 			}
 		}
 		return false;
+	}
+
+		private void openStopAlertDialog() {
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(
+				Pedometer.getInstance());
+
+		final CharSequence[] items = { getString(R.string.stop_dialog_nosave),
+				getString(R.string.stop_dialog_save)
+				// getString(R.string.stop_dialog_save_fb),
+		};
+		// final CharSequence[] items = { "yes",
+		// "yest",
+		// "no"};
+
+		mSelectedItem = Pedometer.mPedometerSettings.getSaveOption();
+		builder.setSingleChoiceItems(items, mSelectedItem,
+				new DialogInterface.OnClickListener() {
+					// When you click the radio button
+					@Override
+					public void onClick(DialogInterface dialog, int item) {
+
+						mSelectedItem = item;
+					}
+				});
+
+		builder.setPositiveButton(getString(R.string.ok),
+				new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int item) {
+
+						switch (mSelectedItem) {
+							case STOP_MODE_NOSAVE:
+								mOperationMode = STOP_MODE_NOSAVE;
+								mService.setOperationMode(mOperationMode);
+								updateModeDisplay();
+								break;
+							case STOP_MODE_SAVE:
+								mOperationMode = STOP_MODE_SAVE;
+								mService.setOperationMode(mOperationMode);
+								updateModeDisplay();
+								break;
+							default:
+								// Log.i(TAG, "Facebook mode3");
+								break;
+
+						}
+						Pedometer.mPedometerSettings.setSaveOption(mSelectedItem);
+					}
+				});
+		builder.setNegativeButton(getString(R.string.cancelled),
+				new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int id) {
+					}
+				});
+		AlertDialog alert = builder.create();
+		alert.show();
+
+	}
+
+
+	private void updateExerciseModeDisplay(int mode) {
+		switch (mode) {
+			case AccuService.FLAG_MODE_WALK:
+				mWalkButton.setImageDrawable(getResources().getDrawable(
+						R.drawable.walk_ic));
+				break;
+			case AccuService.FLAG_MODE_RUN:
+				mWalkButton.setImageDrawable(getResources().getDrawable(
+						R.drawable.run_ic));
+				break;
+			case AccuService.FLAG_MODE_HIKE:
+				mWalkButton.setImageDrawable(getResources().getDrawable(
+						R.drawable.hiking_ic));
+				break;
+			case AccuService.FLAG_MODE_STAIRWAY:
+				mWalkButton.setImageDrawable(getResources().getDrawable(
+						R.drawable.stair_ic));
+				break;
+		}
+	}
+
+	public void updateModeDisplay() {
+		if (Pedometer.mPedometerSettings.isPause()) {
+			displayPauseMode();
+		} else {
+			switch (mOperationMode) {
+				case STOP_MODE_NOSAVE:
+				case STOP_MODE_SAVE:
+					displayStopMode();
+					break;
+				case START_MODE:
+				case RESUME_MODE:
+					displayResumeMode();
+					break;
+				case PAUSE_MODE:
+					displayPauseMode();
+					break;
+				default:
+			}
+
+		}
+	}
+
+	private void displayPauseMode() {
+		mStepValueView.setTextColor(Pedometer.getInstance().getResources()
+				.getColor(R.color.mygray));
+
+		// mStepValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myblue));
+		// mDistanceValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myblue));
+		// mSpeedValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myblue));
+		// mCaloriesValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myblue));
+		// mSteptimeValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myblue));
+
+		// mLayoutPause.setBackgroundColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.mygray));
+		// mPauseButton.setImageDrawable(Pedometer.getInstance()
+		// .getResources().getDrawable(R.drawable.start_imagebutton));
+
+		mTripaStepValueView.setTextColor(Pedometer.getInstance().getResources()
+				.getColor(R.color.mygray));
+
+		// mStartButton.setVisibility(View.GONE);
+		// mStopButton.setVisibility(View.VISIBLE);
+		// mPauseButton.setVisibility(View.VISIBLE);
+		// mPauseButton.setText(R.string.resume);
+		// mLockButton.setVisibility(View.VISIBLE);
+		mPauseButton.setImageDrawable(Pedometer.getInstance().getResources()
+				.getDrawable(R.drawable.resumebutton));
+		mLayoutStart.setLayoutParams(mLayoutParamsHide);
+		mLayoutPause.setLayoutParams(mLayoutParamsVisible);
+	}
+
+	private void displayResumeMode() {
+		mStepValueView.setTextColor(Pedometer.getInstance().getResources()
+				.getColor(AccuService.mScreenStepTextColor));
+
+		// mStepValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myorange));
+		// mDistanceValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myorange));
+		// mSpeedValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myorange));
+		// mCaloriesValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myorange));
+		// mSteptimeValueView.setTextColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myorange));
+
+		// mLayoutPause.setBackgroundColor(Pedometer.getInstance().getResources()
+		// .getColor(R.color.myorange));
+		// mPauseButton.setImageDrawable(Pedometer.getInstance().getResources()
+		// .getDrawable(R.drawable.stop_imagebutton));
+
+		mTripaStepValueView.setTextColor(Pedometer.getInstance().getResources()
+				.getColor(R.color.mywhite));
+		// mStartButton.setVisibility(View.GONE);
+		// mStopButton.setVisibility(View.VISIBLE);
+		// mPauseButton.setVisibility(View.VISIBLE);
+		// mPauseButton.setText(R.string.pause);
+		// mLockButton.setVisibility(View.VISIBLE);
+		mPauseButton.setImageDrawable(Pedometer.getInstance().getResources()
+				.getDrawable(R.drawable.pausebutton));
+		mLayoutStart.setLayoutParams(mLayoutParamsHide);
+		mLayoutPause.setLayoutParams(mLayoutParamsVisible);
+
+
+	}
+
+	private void openWalkRunAlertDialog() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(Pedometer.getInstance());
+		builder.setTitle(R.string.exercise_type_setting_title);
+		builder.setItems(R.array.exercise_type_preference, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+
+				mService.setExerciseMode(which);
+				Pedometer.mPedometerSettings.setExerciseType(which);
+				updateExerciseModeDisplay(which);
+//				switch (which) {
+//					case 0:
+//						Pedometer.mPedometerSettings.setExerciseType("running");
+//						mService.reloadSettings();
+//						mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.run_ic));
+//						break;
+//					case 1:
+//						Pedometer.mPedometerSettings.setExerciseType("walking");
+//						mService.reloadSettings();
+//						mWalkButton.setImageDrawable(ContextCompat.getDrawable(Pedometer.getInstance(), R.drawable.walk_ic));
+//						break;
+//				}
+			}
+		});
+		AlertDialog dialog = builder.create();
+		dialog.show();
+	}
+
+	private void displayStopMode() {
+		// mStartButton.setVisibility(View.VISIBLE);
+		// mStopButton.setVisibility(View.GONE);
+		// mPauseButton.setVisibility(View.GONE);
+		// mLockButton.setVisibility(View.GONE);
+		mLayoutStart.setLayoutParams(mLayoutParamsVisible);
+		mLayoutPause.setLayoutParams(mLayoutParamsHide);
+	}
+
+	private void displayLockState() {
+		if (Pedometer.mPedometerSettings.isLocked()) {
+			mLockButton.setImageDrawable(getResources().getDrawable(R.drawable.unlocked_ic));
+			AlphaAnimation alpha = new AlphaAnimation(0.25F, 0.25F);
+			alpha.setDuration(0); // Make animation instant
+			alpha.setFillAfter(true); // Tell it to persist after
+			mStopButton.startAnimation(alpha);
+			mPauseButton.startAnimation(alpha);
+
+			mStopButton.setEnabled(false);
+			mPauseButton.setEnabled(false);
+
+		} else {
+			mLockButton.setImageDrawable(getResources().getDrawable(R.drawable.locked_ic));
+			AlphaAnimation alpha = new AlphaAnimation(1.0F, 1.0F);
+			alpha.setDuration(0); // Make animation instant
+			alpha.setFillAfter(true); // Tell it to persist after
+			mStopButton.startAnimation(alpha);
+			mPauseButton.startAnimation(alpha);
+			mStopButton.setEnabled(true);
+			mPauseButton.setEnabled(true);
+		}
 	}
 
 

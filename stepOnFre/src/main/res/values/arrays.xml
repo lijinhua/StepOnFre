@@ -125,8 +125,8 @@
         <item>@string/backup</item>
         <item>@string/settings</item>
         <item>@string/help</item>
-        <item>@string/actionbar_for_accupedo_pro</item>
         <item>@string/quit</item>
+        <item>@string/actionbar_for_accupedo_pro</item>
     </string-array>
 
     <array name="nav_drawer_icons">
@@ -138,8 +138,8 @@
         <item>@drawable/backup_ic</item>
         <item>@drawable/settings_ic</item>
         <item>@drawable/help_ic</item>
-        <item>@drawable/stepon_pro_activebar</item>
         <item>@drawable/exit_ic</item>
+        <item>@drawable/stepon_pro_activebar</item>
     </array>
 
     <string-array name="gender_preference">

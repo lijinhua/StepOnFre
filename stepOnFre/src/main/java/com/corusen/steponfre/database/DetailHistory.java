@@ -43,7 +43,7 @@ public class DetailHistory extends FragmentActivity implements ActionBar.TabList
 	public static String msDistanceUnit;
 	public static float mfDistanceFactor;
 
-	private ActionBar actionBar;
+	private ActionBar mActionBar;
 
 	DetailHistoryPagerAdapter mDetailHistoryPagerAdapter;
 	ViewPager mViewPager;
@@ -87,12 +87,20 @@ public class DetailHistory extends FragmentActivity implements ActionBar.TabList
 		mDetailHistoryPagerAdapter = new DetailHistoryPagerAdapter(
 				getSupportFragmentManager());
 
-		actionBar = getActionBar();
-		actionBar.setDisplayHomeAsUpEnabled(true);
-		actionBar.setDisplayShowTitleEnabled(true);
-		// actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-		actionBar.setBackgroundDrawable(new ColorDrawable(getResources()
-				.getColor(AccuService.mScreenAcitionBarColor)));
+
+		mActionBar = getActionBar();
+		if (mActionBar != null) {
+			mActionBar.setDisplayHomeAsUpEnabled(true);
+			mActionBar.setDisplayShowTitleEnabled(true);
+			mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
+		}
+
+//		actionBar = getActionBar();
+//		actionBar.setDisplayHomeAsUpEnabled(true);
+//		actionBar.setDisplayShowTitleEnabled(true);
+//		// actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+//		actionBar.setBackgroundDrawable(new ColorDrawable(getResources()
+//				.getColor(AccuService.mScreenAcitionBarColor)));
 
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mViewPager.setAdapter(mDetailHistoryPagerAdapter);
@@ -105,7 +113,7 @@ public class DetailHistory extends FragmentActivity implements ActionBar.TabList
 						// We can also use ActionBar.Tab#select() to do this if
 						// we have a reference to the
 						// Tab.
-						actionBar.setSelectedNavigationItem(position);
+						mActionBar.setSelectedNavigationItem(position);
 					}
 				});
 
@@ -116,7 +124,7 @@ public class DetailHistory extends FragmentActivity implements ActionBar.TabList
 			// Also specify this Activity object, which implements the
 			// TabListener interface, as the
 			// listener for when this tab is selected.
-			actionBar.addTab(actionBar.newTab()
+			mActionBar.addTab(mActionBar.newTab()
 					.setText(mDetailHistoryPagerAdapter.getPageTitle(i))
 					.setTabListener(this));
 		}

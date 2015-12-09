@@ -80,7 +80,7 @@ public class History extends FragmentActivity {
 
 	private int mItem;
 
-	private ActionBar actionBar;
+	private ActionBar mActionBar;
 	private static Handler mHandler;
 
 	public static final int MESSAGE_DELETE_DAY = 1;
@@ -88,7 +88,7 @@ public class History extends FragmentActivity {
 	HistoryCollectionPagerAdapter mHistoryCollectionPagerAdapter;
 	static ViewPager mViewPager;
 
-	private AdView adView;
+	//private AdView adView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -98,11 +98,19 @@ public class History extends FragmentActivity {
 
 		mHistoryCollectionPagerAdapter = new HistoryCollectionPagerAdapter(getSupportFragmentManager());
 
-		actionBar = getActionBar();
-		actionBar.setDisplayHomeAsUpEnabled(true);
-		actionBar.setHomeButtonEnabled(true);
-		actionBar.setDisplayShowTitleEnabled(true);
-		actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
+		mActionBar = getActionBar();
+		if (mActionBar != null) {
+			mActionBar.setTitle(R.string.history);
+			mActionBar.setDisplayHomeAsUpEnabled(true);
+			mActionBar.setDisplayShowTitleEnabled(true);
+			mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
+		}
+
+//		actionBar = getActionBar();
+//		actionBar.setDisplayHomeAsUpEnabled(true);
+//		actionBar.setHomeButtonEnabled(true);
+//		actionBar.setDisplayShowTitleEnabled(true);
+//		actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
 
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mViewPager.setAdapter(mHistoryCollectionPagerAdapter);
@@ -141,7 +149,8 @@ public class History extends FragmentActivity {
 				}
 			}
 		});
-		
+
+		AdView adView;
 		if (Pedometer.getInstance() != null) {
 			LocationManager coarseLocationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 			Location coarseLocation = coarseLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);

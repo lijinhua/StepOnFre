@@ -80,10 +80,10 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 //		t.send(new HitBuilders.AppViewBuilder().build());
 	}
 
-	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
-	}
+//	@Override  //V131
+//	public void onAttach(Activity activity) {
+//		super.onAttach(activity);
+//	}
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -189,6 +189,14 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 		getActivity().sendBroadcast(new Intent(ACCUPEDO_SETTINGS_RELOAD));
 	}
 
+	@Override
+	public void onDetach() {  //V131
+		super.onDetach();
+		getPreferenceScreen().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
+		getActivity().sendBroadcast(new Intent(AccuService.ACCUPEDO_SETTINGS_RELOAD));
+	}
+
+
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 
 		float length, weight, runlength, height;
@@ -231,6 +239,8 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 			updateBodyWeightSummary();
 			updateStepLengthSummary();
 			updateRunLengthSummary();
+		} else if (key.equals("widget_skin_type") ) {
+			Pedometer.mService.setWidgetSkinColor();
 		}
 
 		// if (key.equals(KEY_A_CHECKBOX_PREFERENCE)) {

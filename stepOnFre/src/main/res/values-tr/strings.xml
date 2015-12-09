@@ -8,6 +8,10 @@
     <string name="accupdeo_version_title">StepOn sürümü</string>
     <string name="accupdeo_version_summery">Sürüm 1.2.5</string>
 
+    <!-- V131 -->
+    <string name="connect">bağlamak</string>
+    <string name="switch_account">Hesap değiştir</string>
+
     <!-- V123 -->
     <string name="automatic_backup">Kurtarmak otomatik</string>
     <string name="automatic_backup_midnight_sdcard">Gece yarısı bir veritabanı dosyası SD-karta kaydedin.</string>

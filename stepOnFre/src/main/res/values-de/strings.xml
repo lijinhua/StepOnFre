@@ -6,6 +6,11 @@
     <string name="trial_expired">Cloud (Google Drive) Sicherung vorhanden ist in der Pro-Version.</string>
     <string name="accupedo_settings_about">Über StepOn</string>
 
+    <!-- V131 -->
+    <string name="connect">verbinden</string>
+    <string name="switch_account">Switch Konto</string>
+    <string name="email">E-mail</string>
+
     <!-- 123 -->
     <string name="automatic_backup">Automatische Sicherung</string>
     <string name="automatic_backup_midnight_sdcard">Speichern Sie eine Datenbankdatei in SD-Karte um Mitternacht.</string>

@@ -627,17 +627,17 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f0d0018;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f0d0019;
 		public static final int abc_toolbar_collapse_description = 0x7f0d001a;
-		public static final int mr_media_route_button_content_description = 0x7f0d00fa;
-		public static final int mr_media_route_chooser_searching = 0x7f0d00fb;
-		public static final int mr_media_route_chooser_title = 0x7f0d00fc;
-		public static final int mr_media_route_controller_disconnect = 0x7f0d00fd;
-		public static final int mr_media_route_controller_pause = 0x7f0d00fe;
-		public static final int mr_media_route_controller_play = 0x7f0d00ff;
-		public static final int mr_media_route_controller_settings_description = 0x7f0d0100;
-		public static final int mr_media_route_controller_stop = 0x7f0d0101;
-		public static final int mr_system_route_name = 0x7f0d0102;
-		public static final int mr_user_route_category_name = 0x7f0d0103;
-		public static final int status_bar_notification_info_overflow = 0x7f0d0143;
+		public static final int mr_media_route_button_content_description = 0x7f0d00fc;
+		public static final int mr_media_route_chooser_searching = 0x7f0d00fd;
+		public static final int mr_media_route_chooser_title = 0x7f0d00fe;
+		public static final int mr_media_route_controller_disconnect = 0x7f0d00ff;
+		public static final int mr_media_route_controller_pause = 0x7f0d0100;
+		public static final int mr_media_route_controller_play = 0x7f0d0101;
+		public static final int mr_media_route_controller_settings_description = 0x7f0d0102;
+		public static final int mr_media_route_controller_stop = 0x7f0d0103;
+		public static final int mr_system_route_name = 0x7f0d0104;
+		public static final int mr_user_route_category_name = 0x7f0d0105;
+		public static final int status_bar_notification_info_overflow = 0x7f0d0145;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f0e0000;

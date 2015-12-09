@@ -10,7 +10,7 @@
     <string name="a6">A: Nhật ký hằng ngày được lưu lúc nửa đêm. Đừng tắt điện thoại tại thời điểm đó.</string>
     <string name="a7">A: Từ gót chân đến gót chân</string>
     <string name="a8">A: Xin vui lòng email cho chúng tôi. Chúng tôi chắc chắn sẽ hỗ trợ bạn.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-vi/values-vi.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-vi/values-vi.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Điều hướng về trang chủ"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -129,6 +129,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
     <eat-comment/>
+    <string name="connect">kết nối</string>
     <string name="connect_to_mfp">Kết nối với MFP</string>
     <string name="consecutive_setting">Liên tiếp</string>
     <string name="consecutive_setting_details">Liên tiếp</string>
@@ -331,7 +332,7 @@
     <string name="speed_type_setting">Hiện tốc độ</string>
     <string name="speed_type_setting_details">Hiện tốc độ</string>
     <string name="speed_type_setting_title">Chọn hiển thị tốc độ</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-vi/values-vi.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-vi/values-vi.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-vi/strings.xml -->
@@ -346,6 +347,7 @@
     <string name="success">Thành công</string>
     <string name="successfully_posted_post">Đăng thành công.</string>
     <string name="sun">CN</string>
+    <string name="switch_account">Chuyển tài khoản</string>
     <string name="thu">T5</string>
     <string name="toast_dbtransfered_message">Lịch sử hàng ngày được chuyển từ StepOn.</string>
     <string name="toast_external_storage_not_available">Lưu bộ nhớ ngoài không có sẵn.</string>

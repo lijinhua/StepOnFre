@@ -10,7 +10,7 @@
     <string name="a6">A: Programėlė išsaugo visus buvusios dienos įrašus vidurnaktį. Neišjunkite tuo metu savo telefono.</string>
     <string name="a7">A: Nuo pėdos piršto (kulno) iki kitos pėdos piršto (kulno).</string>
     <string name="a8">A: Rašykite mums el. laiškus. Būtinai padėsime.</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-lt/values-lt.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-lt/values-lt.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Eiti į pagrindinį puslapį"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -110,6 +110,7 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Prisijungti naudojant „Google“"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
     <eat-comment/>
+    <string name="connect">prisijungti</string>
     <string name="connect_to_mfp">Prisijunkite prie MFP</string>
     <string name="consecutive_setting">Nuoseklieji žingsniai</string>
     <string name="consecutive_setting_details">Nuoseklieji žingsniai</string>
@@ -305,7 +306,7 @@
     <string name="speed_type_setting">Greitis</string>
     <string name="speed_type_setting_details">Greitis</string>
     <string name="speed_type_setting_title">Pasirinkite greičio formatą</string>
-    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-lt/values-lt.xml -->
+    <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-lt/values-lt.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <!-- From: file:/Users/John1/Documents/2015/Android/workspace_studio/StepOnFre/stepOnFre/src/main/res/values-lt/strings.xml -->
@@ -320,6 +321,7 @@
     <string name="success">Atlikta</string>
     <string name="successfully_posted_post">Sėkmingai paskelbta.</string>
     <string name="sun">S</string>
+    <string name="switch_account">Perjungti paskyrą</string>
     <string name="thu">Kt</string>
     <string name="toast_dbtransfered_message">Dienos įrašai buvo perkelti iš StepOn.</string>
     <string name="toast_external_storage_not_available">Išorinė talpykla negalima.</string>
