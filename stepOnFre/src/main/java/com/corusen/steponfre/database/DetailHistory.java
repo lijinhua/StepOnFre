@@ -278,134 +278,141 @@ public class DetailHistory extends FragmentActivity implements ActionBar.TabList
 				year = mCurrent.get(Calendar.YEAR);
 				month = mCurrent.get(Calendar.MONTH) + 1;
 				day = mCurrent.get(Calendar.DAY_OF_MONTH);
-				Cursor c = mDB.queryLapMaxStepsForDay(year, month, day);
-				Cursor c2 = mDB.queryLapStartTimeForDay(year, month, day);
 
-				// Log.i("DetailHistory", ((Integer)year).toString() + ","
-				// +((Integer)month).toString() +
-				// ","+((Integer)day).toString());
-				lap = 0;
-				if (c != null) {
-					if (c.moveToFirst()) {
-						do {
-							year = c.getInt(c
-									.getColumnIndex(Constants.KEY_YEAR));
-							month = c.getInt(c
-									.getColumnIndex(Constants.KEY_MONTH));
-							day = c.getInt(c.getColumnIndex(Constants.KEY_DAY));
+				if (mDB != null) {  //V551
+					mDB.open(); // a few NullPointerException errors
+					Cursor c = mDB.queryLapMaxStepsForDay(year, month, day);
+					Cursor c2 = mDB.queryLapStartTimeForDay(year, month, day);
 
-							hour = c.getInt(c
-									.getColumnIndex(Constants.KEY_HOUR));
-							min = c.getInt(c
-									.getColumnIndex(Constants.KEY_MINUTE));
+					// Log.i("DetailHistory", ((Integer)year).toString() + ","
+					// +((Integer)month).toString() +
+					// ","+((Integer)day).toString());
+					lap = 0;
+					if (c != null) {
+						if (c.moveToFirst()) {
+							do {
+								year = c.getInt(c
+										.getColumnIndex(Constants.KEY_YEAR));
+								month = c.getInt(c
+										.getColumnIndex(Constants.KEY_MONTH));
+								day = c.getInt(c.getColumnIndex(Constants.KEY_DAY));
 
-							lap = c.getInt(c.getColumnIndex(Constants.KEY_LAP));
-							steps = c.getInt(c
-									.getColumnIndex(Constants.KEY_LAPSTEPS));
-							distance = c.getFloat(c
-									.getColumnIndex(Constants.KEY_LAPDISTANCE));
-							calories = c.getFloat(c
-									.getColumnIndex(Constants.KEY_LAPCALORIES));
-							elapsedtime = c.getLong(c
-									.getColumnIndex(Constants.KEY_LAPSTEPTIME));
-							goal = c.getInt(c
-									.getColumnIndex(Constants.KEY_ACHIEVEMENT));
-							exercise = c.getInt(c
-									.getColumnIndex(Constants.KEY_EXERCISE));
+								hour = c.getInt(c
+										.getColumnIndex(Constants.KEY_HOUR));
+								min = c.getInt(c
+										.getColumnIndex(Constants.KEY_MINUTE));
 
-							if (lap > 0) {
-								MyLapDiary temp = new MyLapDiary(year, month,
-										day, lap, steps, distance, calories,
-										elapsedtime, goal, hour, min, exercise);
-								diaries.add(0, temp);
-							}
+								lap = c.getInt(c.getColumnIndex(Constants.KEY_LAP));
+								steps = c.getInt(c
+										.getColumnIndex(Constants.KEY_LAPSTEPS));
+								distance = c.getFloat(c
+										.getColumnIndex(Constants.KEY_LAPDISTANCE));
+								calories = c.getFloat(c
+										.getColumnIndex(Constants.KEY_LAPCALORIES));
+								elapsedtime = c.getLong(c
+										.getColumnIndex(Constants.KEY_LAPSTEPTIME));
+								goal = c.getInt(c
+										.getColumnIndex(Constants.KEY_ACHIEVEMENT));
+								exercise = c.getInt(c
+										.getColumnIndex(Constants.KEY_EXERCISE));
 
-						} while (c.moveToNext());
-					}
-
-					// if (lap > 0) {
-					// c = mDB.queryLapCurrentStepsForDay(year, month, day,
-					// lap);
-					// int i = lap - 1;
-					// if (c.moveToLast()) {
-					// year = c.getInt(c
-					// .getColumnIndex(Constants.KEY_YEAR));
-					// month = c.getInt(c
-					// .getColumnIndex(Constants.KEY_MONTH));
-					// day = c.getInt(c.getColumnIndex(Constants.KEY_DAY));
-					//
-					// hour = c.getInt(c
-					// .getColumnIndex(Constants.KEY_HOUR));
-					// min = c.getInt(c
-					// .getColumnIndex(Constants.KEY_MINUTE));
-					//
-					// lap = c.getInt(c.getColumnIndex(Constants.KEY_LAP));
-					// steps = c.getInt(c
-					// .getColumnIndex(Constants.KEY_LAPSTEPS));
-					// distance = c.getFloat(c
-					// .getColumnIndex(Constants.KEY_LAPDISTANCE));
-					// calories = c.getFloat(c
-					// .getColumnIndex(Constants.KEY_LAPCALORIES));
-					// elapsedtime = c.getLong(c
-					// .getColumnIndex(Constants.KEY_LAPSTEPTIME));
-					// goal = c.getInt(c
-					// .getColumnIndex(Constants.KEY_ACHIEVEMENT));
-					// exercise = c.getInt(c
-					// .getColumnIndex(Constants.KEY_EXERCISE));
-					//
-					// if (steps > diaries.get(i).steps) {
-					// diaries.get(i).year = year;
-					// diaries.get(i).month = month;
-					// diaries.get(i).day = day;
-					// diaries.get(i).start_hour = hour;
-					// diaries.get(i).start_min = min;
-					// diaries.get(i).lap = lap;
-					// diaries.get(i).steps = steps;
-					// diaries.get(i).distance = distance;
-					// diaries.get(i).calories = calories;
-					// diaries.get(i).steptime = elapsedtime;
-					// diaries.get(i).achievement = goal;
-					// diaries.get(i).exercise = exercise;
-					// }
-					// }
-					// }
-
-					if (c2 != null) {
-						if (c2.getCount() == c.getCount()) {
-							int i = 0;
-							if (c2 != null) {
-								if (c2.moveToLast()) {
-									do {
-
-										lap = c2.getInt(c
-												.getColumnIndex(Constants.KEY_LAP));
-										hour = c2
-												.getInt(c2
-														.getColumnIndex(Constants.KEY_HOUR));
-										min = c2.getInt(c2
-												.getColumnIndex(Constants.KEY_MINUTE));
-
-										if (lap > 0) {
-											diaries.get(i).start_hour = hour;
-											diaries.get(i).start_min = min;
-											i++;
-										}
-
-										// Log.i("DetailHistory",
-										// ((Integer) hour).toString()
-										// + ","
-										// + ((Integer) min)
-										// .toString());
-
-									} while (c2.moveToPrevious());
+								if (lap > 0) {
+									MyLapDiary temp = new MyLapDiary(year, month,
+											day, lap, steps, distance, calories,
+											elapsedtime, goal, hour, min, exercise);
+									diaries.add(0, temp);
 								}
-							}
-						} else {
 
+							} while (c.moveToNext());
 						}
-					}
-				}
 
+						// if (lap > 0) {
+						// c = mDB.queryLapCurrentStepsForDay(year, month, day,
+						// lap);
+						// int i = lap - 1;
+						// if (c.moveToLast()) {
+						// year = c.getInt(c
+						// .getColumnIndex(Constants.KEY_YEAR));
+						// month = c.getInt(c
+						// .getColumnIndex(Constants.KEY_MONTH));
+						// day = c.getInt(c.getColumnIndex(Constants.KEY_DAY));
+						//
+						// hour = c.getInt(c
+						// .getColumnIndex(Constants.KEY_HOUR));
+						// min = c.getInt(c
+						// .getColumnIndex(Constants.KEY_MINUTE));
+						//
+						// lap = c.getInt(c.getColumnIndex(Constants.KEY_LAP));
+						// steps = c.getInt(c
+						// .getColumnIndex(Constants.KEY_LAPSTEPS));
+						// distance = c.getFloat(c
+						// .getColumnIndex(Constants.KEY_LAPDISTANCE));
+						// calories = c.getFloat(c
+						// .getColumnIndex(Constants.KEY_LAPCALORIES));
+						// elapsedtime = c.getLong(c
+						// .getColumnIndex(Constants.KEY_LAPSTEPTIME));
+						// goal = c.getInt(c
+						// .getColumnIndex(Constants.KEY_ACHIEVEMENT));
+						// exercise = c.getInt(c
+						// .getColumnIndex(Constants.KEY_EXERCISE));
+						//
+						// if (steps > diaries.get(i).steps) {
+						// diaries.get(i).year = year;
+						// diaries.get(i).month = month;
+						// diaries.get(i).day = day;
+						// diaries.get(i).start_hour = hour;
+						// diaries.get(i).start_min = min;
+						// diaries.get(i).lap = lap;
+						// diaries.get(i).steps = steps;
+						// diaries.get(i).distance = distance;
+						// diaries.get(i).calories = calories;
+						// diaries.get(i).steptime = elapsedtime;
+						// diaries.get(i).achievement = goal;
+						// diaries.get(i).exercise = exercise;
+						// }
+						// }
+						// }
+
+						if (c2 != null) {
+							if (c2.getCount() == c.getCount()) {
+								int i = 0;
+								if (c2 != null) {
+									if (c2.moveToLast()) {
+										do {
+
+											lap = c2.getInt(c
+													.getColumnIndex(Constants.KEY_LAP));
+											hour = c2
+													.getInt(c2
+															.getColumnIndex(Constants.KEY_HOUR));
+											min = c2.getInt(c2
+													.getColumnIndex(Constants.KEY_MINUTE));
+
+											if (lap > 0) {
+												diaries.get(i).start_hour = hour;
+												diaries.get(i).start_min = min;
+												i++;
+											}
+
+											// Log.i("DetailHistory",
+											// ((Integer) hour).toString()
+											// + ","
+											// + ((Integer) min)
+											// .toString());
+
+										} while (c2.moveToPrevious());
+									}
+								}
+							} else {
+
+							}
+						}
+
+
+					}
+
+					mDB.close();
+				}
 			}
 
 			@Override

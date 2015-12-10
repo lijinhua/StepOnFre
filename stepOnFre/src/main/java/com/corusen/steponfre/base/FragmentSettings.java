@@ -113,9 +113,9 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 		}
 
 		Preference p = findPreference("birthday");
-		int year = Pedometer.mPedometerSettings.getBirthYear();
-		int month = Pedometer.mPedometerSettings.getBirthMonth();
-		int day = Pedometer.mPedometerSettings.getBirthDay();
+		int year = mPedometerSettings.getBirthYear();
+		int month = mPedometerSettings.getBirthMonth();
+		int day = mPedometerSettings.getBirthDay();
 		StringBuilder birthday = new StringBuilder().append(year).append("-").append(month).append("-").append(day).append(" ");
 		p.setSummary(birthday);
 
@@ -351,7 +351,7 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 
 	void updateBodyHeightSummary() {
 		Preference p = findPreference("body_height");
-		float value = Pedometer.mPedometerSettings.getBodyHeight();
+		float value = mPedometerSettings.getBodyHeight();
 		String string;
 		if (mPedometerSettings.isMetric()) {
 			string = String.format("%d", (int) value) + getString(R.string.centimeters);
@@ -365,7 +365,7 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 
 	void updateBodyWeightSummary() {
 		Preference p = findPreference("body_weight");
-		float value = Pedometer.mPedometerSettings.getBodyWeight();
+		float value = mPedometerSettings.getBodyWeight();
 		String string;
 		if (mPedometerSettings.isMetric()) {
 			string = String.format("%d", (int) value) + getString(R.string.kilograms);
@@ -377,7 +377,7 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 
 	void updateStepLengthSummary() {
 		Preference p = findPreference("step_length");
-		float value = Pedometer.mPedometerSettings.getStepLength();
+		float value = mPedometerSettings.getStepLength();
 		String string;
 		if (mPedometerSettings.isMetric()) {
 			string = String.format("%d", (int) value) + getString(R.string.centimeters);
@@ -389,7 +389,7 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 
 	void updateRunLengthSummary() {
 		Preference p = findPreference("run_length");
-		float value = Pedometer.mPedometerSettings.getRunLength();
+		float value = mPedometerSettings.getRunLength();
 		String string;
 		if (mPedometerSettings.isMetric()) {
 			string = String.format("%d", (int) value) + getString(R.string.centimeters);
@@ -405,9 +405,9 @@ public class FragmentSettings extends PreferenceFragment implements OnSharedPref
 		case DIALOG_FRAGMENT_DATE_PIKCER:
 			if (resultCode == Activity.RESULT_OK) {
 				Preference p = findPreference("birthday");
-				int year = Pedometer.mPedometerSettings.getBirthYear();
-				int month = Pedometer.mPedometerSettings.getBirthMonth();
-				int day = Pedometer.mPedometerSettings.getBirthDay();
+				int year = mPedometerSettings.getBirthYear();
+				int month = mPedometerSettings.getBirthMonth();
+				int day = mPedometerSettings.getBirthDay();
 				StringBuilder birthday = new StringBuilder().append(year).append("-").append(month).append("-").append(day).append(" ");
 				p.setSummary(birthday);
 			} else if (resultCode == Activity.RESULT_CANCELED) {
