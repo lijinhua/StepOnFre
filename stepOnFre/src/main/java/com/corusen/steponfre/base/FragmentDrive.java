@@ -29,8 +29,6 @@
 
 package com.corusen.steponfre.base;
 
-
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -52,9 +50,6 @@ public class FragmentDrive extends Fragment implements ActivityBackup.Connection
 	private Button mButtonConnect;
 	private TextView mSdcardText;
 
-	//private ProgressDialog mProgressDialog;
-	//private Handler mHandler;
-
 	@Override
 	public void onSaveInstanceState(Bundle savedInstanceState) {
 		super.onSaveInstanceState(savedInstanceState);
@@ -63,18 +58,11 @@ public class FragmentDrive extends Fragment implements ActivityBackup.Connection
 	@Override
 	public void onStart() {
 		super.onStart();
-//		AnalyticsApp.tracker().setScreenName("BackupDrive541");
-//		AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
-	}
-
-	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		View view = inflater.inflate(AccuService.mScreenFragmentBackupGdrive, container, false);
+		View view = inflater.inflate(R.layout.dark_fragment_backup_gdrive, container, false);
 		mButtonExport = (ImageButton) view.findViewById(R.id.dbaseexportButton);
 		mButtonImport = (ImageButton) view.findViewById(R.id.dbaseimportButton);
 		mButtonConnect = (Button) view.findViewById(R.id.connectButton);
@@ -153,8 +141,8 @@ public class FragmentDrive extends Fragment implements ActivityBackup.Connection
 	private void updateDisplay() {
 		mSdcardText.setText(R.string.network_connection);
 		if (ActivityBackup.getInstance().isConnected()) {
-			mButtonExport.setImageDrawable(ContextCompat.getDrawable(getActivity(), AccuService.mScreenBackupDBExport));
-			mButtonImport.setImageDrawable(ContextCompat.getDrawable(getActivity(), AccuService.mScreenBackupDBImport));
+			mButtonExport.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.blue_dbase_export_ic));
+			mButtonImport.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.blue_dbase_import_ic));
 			mButtonExport.setEnabled(true);
 			mButtonImport.setEnabled(true);
 			mButtonConnect.setText(R.string.switch_account);

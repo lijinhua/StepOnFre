@@ -9,8 +9,8 @@ package com.corusen.steponfre.base;
 public class DistanceNotifier implements StepListener {
 
 	public interface Listener {
-		public void valueChanged(float lapdistance, float distance);
-		public void passValue();
+		void valueChanged(float lapdistance, float distance);
+		void passValue();
 	}
 
 	private PedometerSettings mSettings;
@@ -51,16 +51,16 @@ public class DistanceNotifier implements StepListener {
 		
 		switch (exercise) {
 		case AccuService.FLAG_MODE_WALK:
-			mIncrementalLength = (float) (stepLength * Utils.INCH2MILE);
+			mIncrementalLength = stepLength * Utils.INCH2MILE;
 			break;
 		case AccuService.FLAG_MODE_RUN:
-			mIncrementalLength = (float) (runLength * Utils.INCH2MILE);
+			mIncrementalLength = runLength * Utils.INCH2MILE;
 			break;
 		case AccuService.FLAG_MODE_HIKE:
-			mIncrementalLength = (float) (stepLength * Utils.INCH2MILE);
+			mIncrementalLength = stepLength * Utils.INCH2MILE;
 			break;
 		case AccuService.FLAG_MODE_STAIRWAY:
-			mIncrementalLength = (float) (stepLength * Utils.INCH2MILE);
+			mIncrementalLength = stepLength * Utils.INCH2MILE;
 			break;
 		}
 		

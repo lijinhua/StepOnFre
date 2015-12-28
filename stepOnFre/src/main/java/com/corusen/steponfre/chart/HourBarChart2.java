@@ -22,8 +22,11 @@ import org.achartengine.GraphicalView;
 import org.achartengine.chart.BarChart.Type;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation;
+
+import com.corusen.steponfre.R;
 import com.corusen.steponfre.base.AccuService;
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.view.Display;
 import android.view.WindowManager;
@@ -53,7 +56,7 @@ public class HourBarChart2 extends AbstractDemoChart2 {
 	public GraphicalView graphicalView(Context context, List<double[]> x, List<double[]> values, boolean screenLarge) {
 		String[] titles = new String[] { "" }; // WL change
 
-		int[] colors = new int[] { context.getResources().getColor(AccuService.mScreenChartDayLineRender1) };
+		int[] colors = new int[] { context.getResources().getColor(R.color.myblue) };
 
 		double maxStep = 0.0;
 		// int totalSteps = 0;
@@ -182,7 +185,7 @@ public class HourBarChart2 extends AbstractDemoChart2 {
 			// renderer.setShowLegend(false);
 		}
 
-		setChartSettings(renderer, "", "", "", 0.0, 60.0, 0, maxY, AccuService.mScreenChartDayLineSetting, AccuService.mScreenChartDayLineSetting); // x-axis
+		setChartSettings(renderer, "", "", "", 0.0, 60.0, 0, maxY, Color.WHITE, Color.WHITE); // x-axis
 																																					// title,
 																																					// y-axis
 																																					// title
@@ -223,8 +226,8 @@ public class HourBarChart2 extends AbstractDemoChart2 {
 
 		renderer.setXLabelsAlign(Align.CENTER);
 		renderer.setYLabelsAlign(Align.RIGHT, 0);
-		renderer.setXLabelsColor(AccuService.mScreenChartDayLineSetting); // WL 1/23/12
-		renderer.setYLabelsColor(0, AccuService.mScreenChartDayLineSetting); // WL 1/23/12
+		renderer.setXLabelsColor(Color.WHITE); // WL 1/23/12
+		renderer.setYLabelsColor(0, Color.WHITE); // WL 1/23/12
 
 		renderer.setShowGrid(false);
 
@@ -232,9 +235,9 @@ public class HourBarChart2 extends AbstractDemoChart2 {
 		// SimpleSeriesRenderer.setDisplayChartValues(false);
 
 		renderer.setApplyBackgroundColor(true);
-		renderer.setBackgroundColor(context.getResources().getColor(AccuService.mScreenChartBackground));
+		renderer.setBackgroundColor(context.getResources().getColor(R.color.myddarkgray));
 
-		renderer.setMarginsColor(context.getResources().getColor(AccuService.mScreenChartDayLineRenderMargin));
+		renderer.setMarginsColor(context.getResources().getColor(R.color.myddarkgray));
 		renderer.setPanEnabled(false, false);
 		renderer.setZoomEnabled(false, false);
 		return ChartFactory.getBarChartView(context, buildBarDataset(titles, values), renderer, Type.DEFAULT);

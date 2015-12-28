@@ -34,8 +34,8 @@ import java.util.Calendar;
 
 import com.corusen.steponfre.R;
 import com.corusen.steponfre.database.Constants;
+import com.corusen.steponfre.database.MyDB;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.database.Cursor;
@@ -59,6 +59,8 @@ public class FragmentEditsteps extends Fragment {
 	private NumberPicker mNP4;
 	private NumberPicker mNP5;
 
+	private Pedometer mPedometer;
+
 	@Override
 	public void onSaveInstanceState(Bundle savedInstanceState) {
 		super.onSaveInstanceState(savedInstanceState);
@@ -70,26 +72,30 @@ public class FragmentEditsteps extends Fragment {
 	}
 
 	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		mPedometer = (Pedometer) getActivity();
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
-		View view = inflater.inflate(AccuService.mScreenFragmentEditSteps, container, false);
+		View view = inflater.inflate(R.layout.dark_fragment_editsteps, container, false);
+
+		MyDB mDB = new MyDB(mPedometer);
+
 		Calendar today = Calendar.getInstance();
 
 		int year = today.get(Calendar.YEAR);
 		int month = today.get(Calendar.MONTH) + 1;
 		int day = today.get(Calendar.DATE);
 
-		Pedometer.mDB.open();
-		Cursor c = Pedometer.mDB.queryDayMaxSteps(year, month, day);
+		mDB.open();
+		Cursor c = mDB.queryDayMaxSteps(year, month, day);
 		int columnIndexSteps = c.getColumnIndex(Constants.KEY_STEPS);
 		mCount = c.getInt(columnIndexSteps);
 		c.close();
-		Pedometer.mDB.close();
+		mDB.close();
 
 		if (mCount >= 100000) { mCount = 99999; }
 
@@ -136,8 +142,8 @@ public class FragmentEditsteps extends Fragment {
 			public void onClick(View v) {
 				updateStatus();
 				mNewCount = mCount;
-				Pedometer.getInstance().sendBroadcast(new Intent(AccuService.ACCUPEDO_EDITSTEPS_REQUEST));
-				Pedometer.getInstance().displayView(Pedometer.SPINNER_ITEM_PEDOMETER);
+				mPedometer.sendBroadcast(new Intent(AccuService.ACCUPEDO_EDITSTEPS_REQUEST));
+				mPedometer.displayView(Constants.SPINNER_PEDOMETER);
 			}
 		});
 

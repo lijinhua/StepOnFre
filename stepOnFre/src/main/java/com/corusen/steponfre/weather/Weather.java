@@ -43,7 +43,7 @@ package com.corusen.steponfre.weather;
 //		private int weatherId;
 //		private String condition;
 //		private String descr;
-//		private String icon;
+//		private String icon_te;
 //		
 //		
 //		private float pressure;
@@ -68,10 +68,10 @@ package com.corusen.steponfre.weather;
 //			this.descr = descr;
 //		}
 //		public String getIcon() {
-//			return icon;
+//			return icon_te;
 //		}
-//		public void setIcon(String icon) {
-//			this.icon = icon;
+//		public void setIcon(String icon_te) {
+//			this.icon_te = icon_te;
 //		}
 //		public float getPressure() {
 //			return pressure;

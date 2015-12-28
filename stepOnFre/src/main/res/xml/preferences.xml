@@ -3,22 +3,22 @@
 
     <!--
          <PreferenceScreen
-        android:icon="@drawable/power_ic"
+        android:icon_te="@drawable/power_ic"
         android:title="@string/power_settings_title" >
          </PreferenceScreen> 
          
              <PreferenceScreen
-        android:icon="@drawable/personal_ic"
+        android:icon_te="@drawable/personal_ic"
         android:title="@string/personal_settings_title" >
         
             </PreferenceScreen>
     <PreferenceScreen
-        android:icon="@drawable/display_ic"
+        android:icon_te="@drawable/display_ic"
         android:title="@string/display_settings_title" >
         
         </PreferenceScreen>
     <PreferenceScreen
-        android:icon="@drawable/notification_ic"
+        android:icon_te="@drawable/notification_ic"
         android:title="@string/notification_settings_title" >
     -->
 

@@ -28,6 +28,7 @@ import com.corusen.steponfre.base.AccuService;
 import com.corusen.steponfre.chart.ChartActivity.DemoObjectFragment;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.view.Display;
 import android.view.WindowManager;
@@ -61,7 +62,7 @@ public class MonthBarChart extends AbstractDemoChart {
 				.getString(R.string.monthly_total) + ": " }; // WL change
 
 		int[] colors = new int[] { demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRender1) };
+				R.color.myblue) };
 
 		double maxStep = 0.0;
 		int totalSteps = 0;
@@ -163,7 +164,7 @@ public class MonthBarChart extends AbstractDemoChart {
 		}
 		
 		setChartSettings(renderer, demoObjectFragment.getString(R.string.daily_step_counts), demoObjectFragment.getString(R.string.day), "", 0.0, 32.0,
-				0, maxY, AccuService.mScreenChartDayLineSetting, AccuService.mScreenChartDayLineSetting);
+				0, maxY, Color.WHITE, Color.WHITE);
 
 		if (maxY < 12000) {
 			maxY = 12000;
@@ -241,17 +242,17 @@ public class MonthBarChart extends AbstractDemoChart {
 
 		renderer.setXLabelsAlign(Align.CENTER);
 		renderer.setYLabelsAlign(Align.RIGHT);
-		renderer.setXLabelsColor(AccuService.mScreenChartDayLineSetting);	//WL 1/23/12
-		renderer.setYLabelsColor(0, AccuService.mScreenChartDayLineSetting);	//WL 1/23/12
+		renderer.setXLabelsColor(Color.WHITE);	//WL 1/23/12
+		renderer.setYLabelsColor(0, Color.WHITE);	//WL 1/23/12
 		renderer.setShowGrid(true);
 
 		renderer.setDisplayChartValues(false);
 //		SimpleSeriesRenderer.setDisplayChartValues(false);
 		
 		renderer.setApplyBackgroundColor(true);
-		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartBackground));
+		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(R.color.myddarkgray));
 		renderer.setMarginsColor(demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRenderMargin));
+				R.color.myddarkgray));
 
 		renderer.setPanEnabled(false, false);
 		renderer.setZoomEnabled(false, false);

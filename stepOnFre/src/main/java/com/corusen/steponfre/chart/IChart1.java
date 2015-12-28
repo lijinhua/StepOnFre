@@ -13,37 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.corusen.steponfre.chart;
-
-import java.util.List;
-import org.achartengine.GraphicalView;
-
-import com.corusen.steponfre.chart.StatisticsActivity.DemoObjectFragment;
-
-
-/**
- * Defines the demo charts.
- */
-public interface IChart1 {
-  /** A constant for the name field in a list activity. */
-  String NAME = "name";
-  /** A constant for the description field in a list activity. */
-  String DESC = "desc";
-
-  /**
-   * Returns the chart name.
-   * 
-   * @return the chart name
-   */
-  String getName();
-
-  /**
-   * Returns the chart description.
-   * 
-   * @return the chart description
-   */
-  String getDesc();
-  
-  GraphicalView graphicalView(DemoObjectFragment demoObjectFragment, List<double[]> x, List<double[]> values, boolean screenLarge);
-
-}
+//package com.corusen.steponfre.chart;
+//
+//import java.util.List;
+//import org.achartengine.GraphicalView;
+//
+//import com.corusen.steponfre.chart.StatisticsActivity.DemoObjectFragment;
+//
+//
+///**
+// * Defines the demo charts.
+// */
+//public interface IChart1 {
+//  /** A constant for the name field in a list activity. */
+//  String NAME = "name";
+//  /** A constant for the description field in a list activity. */
+//  String DESC = "desc";
+//
+//  /**
+//   * Returns the chart name.
+//   *
+//   * @return the chart name
+//   */
+//  String getName();
+//
+//  /**
+//   * Returns the chart description.
+//   *
+//   * @return the chart description
+//   */
+//  String getDesc();
+//
+//  GraphicalView graphicalView(DemoObjectFragment demoObjectFragment, List<double[]> x, List<double[]> values, boolean screenLarge);
+//
+//}

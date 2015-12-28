@@ -23,6 +23,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -41,18 +42,22 @@ import java.util.ArrayList;
 public class ActivityShare extends FragmentActivity {
     private TabHost mTabHost;
 
+    private static ActivityShare mInstance = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_tabhost);
 
+        ActivityShare.mInstance = this;
+
         ActionBar actionBar;
         actionBar = getActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowTitleEnabled(true);
-            actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
+            actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.mydarkblue)));
         }
 
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
@@ -62,9 +67,7 @@ public class ActivityShare extends FragmentActivity {
         mTabsAdapter.addTab(mTabHost.newTabSpec(getString(R.string.facebook)).setIndicator(getString(R.string.facebook)), FragmentFacebook.class, null);
         mTabsAdapter.addTab(mTabHost.newTabSpec(getString(R.string.email)).setIndicator(getString(R.string.email)), FragmentCSV.class, null);
 
-        if (savedInstanceState != null) {
-            mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
-        }
+        if (savedInstanceState != null) mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
 
 //        // only for API <== 10
 //        if (android.os.Build.VERSION.SDK_INT <= 10) {
@@ -77,10 +80,10 @@ public class ActivityShare extends FragmentActivity {
         TextView tv;  // for all API
         for (int i = 0; i < mTabHost.getTabWidget().getChildCount(); i++) {
             tv = (TextView) mTabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
-            tv.setTextColor(getResources().getColor(R.color.mydarkgray));
+            tv.setTextColor(ContextCompat.getColor(this, R.color.mydarkgray));
         }
         tv = (TextView) mTabHost.getTabWidget().getChildAt(mTabHost.getCurrentTab()).findViewById(android.R.id.title);
-        tv.setTextColor(getResources().getColor(AccuService.mScreenStepTextColor));
+        tv.setTextColor(ContextCompat.getColor(this, R.color.myblue));
     }
 
     @Override
@@ -114,6 +117,10 @@ public class ActivityShare extends FragmentActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public static ActivityShare getInstance() {
+        return mInstance;
+    }
+
     private static void setTabColor(TabHost tabhost) { // static does not work?
 
         TextView tv;
@@ -127,11 +134,11 @@ public class ActivityShare extends FragmentActivity {
 
         for (int i = 0; i < tabhost.getTabWidget().getChildCount(); i++) { // for all API
             tv = (TextView) tabhost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
-            tv.setTextColor(Pedometer.getInstance().getResources().getColor(R.color.mydarkgray));
+            tv.setTextColor(ContextCompat.getColor(getInstance(), R.color.mydarkgray));
         }
 
         tv = (TextView) tabhost.getTabWidget().getChildAt(tabhost.getCurrentTab()).findViewById(android.R.id.title);
-        tv.setTextColor(Pedometer.getInstance().getResources().getColor(AccuService.mScreenStepTextColor));
+        tv.setTextColor(ContextCompat.getColor(getInstance(), R.color.myblue));
     }
 
     @Override

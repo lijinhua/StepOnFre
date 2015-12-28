@@ -30,24 +30,14 @@
 package com.corusen.steponfre.base;
 
 
-//import com.actionbarsherlock.app.SherlockFragment;
 import com.corusen.steponfre.R;
-import com.corusen.steponfre.base.AnalyticsSampleApp.TrackerName;
 import com.corusen.steponfre.database.Constants;
-import com.google.android.gms.analytics.HitBuilders;
-import com.google.android.gms.analytics.Tracker;
 
-//import com.google.ads.AdRequest;
-//import com.google.ads.AdSize;
-//import com.google.ads.AdView;
-
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-//import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,9 +45,6 @@ import android.widget.Button;
 
 
 public class FragmentHelp extends Fragment {
-
-	private View mView;
-	// private AdView adView;
 
 	@Override
 	public void onSaveInstanceState(Bundle savedInstanceState) {
@@ -67,21 +54,28 @@ public class FragmentHelp extends Fragment {
 	@Override
 	public void onStart() {
 		super.onStart();
-		Tracker t = ((AnalyticsSampleApp) Pedometer.getInstance().getApplication()).getTracker(TrackerName.APP_TRACKER);
-		t.setScreenName("Help");
-		t.send(new HitBuilders.AppViewBuilder().build());
 	}
 
 	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
-	}
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		mView = inflater.inflate(R.layout.light_help, container, false);
-		 final Button emailbutton = (Button) mView.findViewById(R.id.emailButton);
+		View view;
+		if (Constants.IS_GOOGLE_PLAY) {
+			view = inflater.inflate(R.layout.light_help, container, false);
+			final Button button = (Button) view.findViewById(R.id.reviewButton);
+			button.setOnClickListener(new View.OnClickListener() {
+				public void onClick(View v) {
+					Intent intent = new Intent(Intent.ACTION_VIEW);
+					intent.setData(Uri.parse("market://details?id=com.corusen.steponfre"));
+					startActivity(intent);
+				}
+			});
+		}
+		else {
+			view = inflater.inflate(R.layout.light_help_samsung, container, false);
+		}
+
+		 final Button emailbutton = (Button) view.findViewById(R.id.emailButton);
 	        emailbutton.setOnClickListener(new View.OnClickListener() {
 	            public void onClick(View v) {         	
 	            	Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:stepontrack@gmail.com"));
@@ -96,17 +90,8 @@ public class FragmentHelp extends Fragment {
 					startActivity(intent);
 	            }
 	        });
-	        
-	        final Button button = (Button) mView.findViewById(R.id.reviewButton);
-	        button.setOnClickListener(new View.OnClickListener() {
-	            public void onClick(View v) {   
-	            	
-	            	Intent intent = new Intent(Intent.ACTION_VIEW);
-					intent.setData(Uri.parse("market://details?id=com.corusen.steponfre"));
-					startActivity(intent);
-	            }
-	        });
-		return mView;
+
+		return view;
 	}
 
 }

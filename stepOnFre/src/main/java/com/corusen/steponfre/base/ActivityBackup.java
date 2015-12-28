@@ -37,6 +37,7 @@ import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -92,7 +93,7 @@ public class ActivityBackup extends ActivityDriveBase { //FragmentActivity {
 		if (actionBar != null) {
 			actionBar.setDisplayHomeAsUpEnabled(true);
 			actionBar.setDisplayShowTitleEnabled(true);
-			actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
+			actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.mydarkblue)));
 		}
 
 		mTabHost = (TabHost) findViewById(android.R.id.tabhost);
@@ -118,10 +119,10 @@ public class ActivityBackup extends ActivityDriveBase { //FragmentActivity {
 		TextView tv; // for all API
 		for (int i = 0; i < mTabHost.getTabWidget().getChildCount(); i++) {
 			tv = (TextView) mTabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
-			tv.setTextColor(getResources().getColor(R.color.mydarkgray));
+			tv.setTextColor(ContextCompat.getColor(this, R.color.mydarkgray));
 		}
 		tv = (TextView) mTabHost.getTabWidget().getChildAt(mTabHost.getCurrentTab()).findViewById(android.R.id.title);
-		tv.setTextColor(getResources().getColor(AccuService.mScreenStepTextColor));
+		tv.setTextColor(ContextCompat.getColor(this, R.color.myblue));
 	}
 
 	@Override
@@ -171,11 +172,11 @@ public class ActivityBackup extends ActivityDriveBase { //FragmentActivity {
 
 		for (int i = 0; i < tabhost.getTabWidget().getChildCount(); i++) { // for all API
 			tv = (TextView) tabhost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
-			tv.setTextColor(Pedometer.getInstance().getResources().getColor(R.color.mydarkgray));
+			tv.setTextColor(ContextCompat.getColor(getInstance(), R.color.mydarkgray));
 		}
 
 		tv = (TextView) tabhost.getTabWidget().getChildAt(tabhost.getCurrentTab()).findViewById(android.R.id.title);
-		tv.setTextColor(Pedometer.getInstance().getResources().getColor(AccuService.mScreenStepTextColor));
+		tv.setTextColor(ContextCompat.getColor(getInstance(), R.color.myblue));
 	}
 
 	@Override
@@ -591,11 +592,11 @@ public class ActivityBackup extends ActivityDriveBase { //FragmentActivity {
 //		mAdapter = new NavDrawerListAdapter(getApplicationContext(), navDrawerItems);
 //		mDrawerList.setAdapter(mAdapter);
 //
-//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon and behaving it as toggle button
+//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon_te and behaving it as toggle button
 //		getActionBar().setHomeButtonEnabled(true);
 //		getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
 //
-//		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, // nav menu toggle icon
+//		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, // nav menu toggle icon_te
 //				R.string.app_name, // nav drawer open - description for accessibility
 //				R.string.app_name // nav drawer close - description for accessibility
 //		) {
@@ -685,7 +686,7 @@ public class ActivityBackup extends ActivityDriveBase { //FragmentActivity {
 ////
 ////	@Override
 ////	public boolean onOptionsItemSelected(MenuItem item) {
-////		// toggle nav drawer on selecting action bar app icon/title
+////		// toggle nav drawer on selecting action bar app icon_te/title
 ////		if (mDrawerToggle.onOptionsItemSelected(item)) {
 ////			return true;
 ////		}

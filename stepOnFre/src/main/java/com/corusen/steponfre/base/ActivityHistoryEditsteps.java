@@ -49,6 +49,7 @@ import android.widget.NumberPicker;
 
 import com.corusen.steponfre.R;
 import com.corusen.steponfre.database.Constants;
+import com.corusen.steponfre.database.MyDB;
 
 import java.util.Calendar;
 
@@ -69,16 +70,20 @@ public class ActivityHistoryEditsteps extends Activity {
 	private NumberPicker mNP4;
 	private NumberPicker mNP5;
 
+	private MyDB mDB;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(AccuService.mScreenFragmentEditSteps);
+		setContentView(R.layout.dark_fragment_editsteps);
+
+		mDB = new MyDB(this);
 
 		ActionBar actionBar = getActionBar();
 		if (actionBar != null) {
 			actionBar.setDisplayHomeAsUpEnabled(true);
 			actionBar.setDisplayShowTitleEnabled(true);
-			actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(AccuService.mScreenAcitionBarColor)));
+			actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.mydarkblue)));
 		}
 
 		Calendar today = Calendar.getInstance();
@@ -106,12 +111,12 @@ public class ActivityHistoryEditsteps extends Activity {
 			}
 		}
 
-		Pedometer.mDB.open();
-		Cursor c = Pedometer.mDB.queryDayMaxSteps(mYear, mMonth, mDay);
+		mDB.open();
+		Cursor c = mDB.queryDayMaxSteps(mYear, mMonth, mDay);
 		int columnIndexSteps = c.getColumnIndex(Constants.KEY_STEPS);
 		mCount = c.getInt(columnIndexSteps);
 		c.close();
-		Pedometer.mDB.close();
+		mDB.close();
 
 		if (mCount >= 100000) {
 			mCount = 99999;
@@ -283,7 +288,7 @@ public class ActivityHistoryEditsteps extends Activity {
 //		super.onCreate(savedInstanceState);
 //		setContentView(AccuService.mScreenFragmentEditStepsDetail);
 //
-//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon and behaving it as toggle button
+//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon_te and behaving it as toggle button
 //		getActionBar().setHomeButtonEnabled(true);
 //		getActionBar().setBackgroundDrawable(new ColorDrawable(getResources()
 //				.getColor(AccuService.mScreenAcitionBarColor)));

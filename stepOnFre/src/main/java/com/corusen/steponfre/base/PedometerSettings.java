@@ -9,15 +9,16 @@ import java.util.Calendar;
 import java.util.Date;
 
 import android.content.SharedPreferences;
+import android.text.format.DateFormat;
 import android.text.format.Time;
 
 public class PedometerSettings {
 
 	SharedPreferences mSettings;
 
-	public static int M_NONE = 1;
-	public static int M_PACE = 2;
-	public static int M_SPEED = 3;
+//	public static int M_NONE = 1;
+//	public static int M_PACE = 2;
+//	public static int M_SPEED = 3;
 
 	public PedometerSettings(SharedPreferences settings) {
 		mSettings = settings;
@@ -185,13 +186,13 @@ public float getBodyHeight() {
 		}
 	}
 
-	public int getScreenSkinType() {
-		try {
-			return Integer.valueOf(mSettings.getString("screen_skin_type", "0"));
-		} catch (NumberFormatException e) {
-			return 0;
-		}
-	}
+//	public int getScreenSkinType() {
+//		try {
+//			return Integer.valueOf(mSettings.getString("screen_skin_type", "0"));
+//		} catch (NumberFormatException e) {
+//			return 0;
+//		}
+//	}
 
 	public int getLocaleType() {
 		try {
@@ -201,10 +202,10 @@ public float getBodyHeight() {
 		}
 	}
 
-	public boolean isRunning() {
-		String string = mSettings.getString("exercise_type", "walking");
-		return (string != null) && string.equals("running");
-	}
+//	public boolean isRunning() {
+//		String string = mSettings.getString("exercise_type", "walking");
+//		return (string != null) && string.equals("running");
+//	}
 
 	public void setExerciseType(int exercise) {
 		SharedPreferences.Editor editor = mSettings.edit();
@@ -372,25 +373,25 @@ public float getBodyHeight() {
 		editor.commit();
 	}
 
-	public boolean isNewInstallation117() {
-		return mSettings.getBoolean("new_installation_version_117", true);
-	}
-
-	public void setNewInstallationStatusFalse117() {
-		SharedPreferences.Editor editor = mSettings.edit();
-		editor.putBoolean("new_installation_version_117", false);
-		editor.commit();
-	}
-
-	public boolean isHistoryImported117() {
-		return mSettings.getBoolean("history_imported_117", false);
-	}
-
-	public void setHistoryImportedStatusTrue117() {
-		SharedPreferences.Editor editor = mSettings.edit();
-		editor.putBoolean("history_imported_117", true);
-		editor.commit();
-	}
+//	public boolean isNewInstallation117() {
+//		return mSettings.getBoolean("new_installation_version_117", true);
+//	}
+//
+//	public void setNewInstallationStatusFalse117() {
+//		SharedPreferences.Editor editor = mSettings.edit();
+//		editor.putBoolean("new_installation_version_117", false);
+//		editor.commit();
+//	}
+//
+//	public boolean isHistoryImported117() {
+//		return mSettings.getBoolean("history_imported_117", false);
+//	}
+//
+//	public void setHistoryImportedStatusTrue117() {
+//		SharedPreferences.Editor editor = mSettings.edit();
+//		editor.putBoolean("history_imported_117", true);
+//		editor.commit();
+//	}
 
 	public int getScreenOperationLevel() {
 		return (Integer.valueOf(mSettings.getString("operation_level", "0")));
@@ -412,9 +413,9 @@ public float getBodyHeight() {
 		return mSettings.getBoolean("goal_achievement_notification", false);
 	}
 
-	public boolean isGoalAchievementSound() {
-		return mSettings.getBoolean("goal_achievement_sound", false);
-	}
+//	public boolean isGoalAchievementSound() {
+//		return mSettings.getBoolean("goal_achievement_sound", false);
+//	}
 
 	public int getHistoryEditOption() {
 		return mSettings.getInt("history_edit_option", 0);
@@ -446,15 +447,15 @@ public float getBodyHeight() {
 		editor.commit();
 	}
 
-	public boolean isGoalRewardFired() {
-		return mSettings.getBoolean("goal_reward_fired", false);
-	}
-
-	public void setGoalRewardFired(boolean noti) {
-		SharedPreferences.Editor editor = mSettings.edit();
-		editor.putBoolean("goal_reward_fired", noti);
-		editor.commit();
-	}
+//	public boolean isGoalRewardFired() {
+//		return mSettings.getBoolean("goal_reward_fired", false);
+//	}
+//
+//	public void setGoalRewardFired(boolean noti) {
+//		SharedPreferences.Editor editor = mSettings.edit();
+//		editor.putBoolean("goal_reward_fired", noti);
+//		editor.commit();
+//	}
 
 	public boolean isOpenHistoryUpdateVersion401() {
 		return mSettings.getBoolean("history_update_version_401", false);
@@ -466,35 +467,35 @@ public float getBodyHeight() {
 		editor.commit();
 	}
 
-	void setMyfitnesspalAuthoCode(String value) {
-		SharedPreferences.Editor editor = mSettings.edit();
-		editor.putString("myfitnesspal_autho_code", value);
-		editor.commit();
-	}
-
-	void setMyfitnesspalAccessToken(String value) {
-		SharedPreferences.Editor editor = mSettings.edit();
-		editor.putString("myfitnesspal_access_token", value);
-		editor.commit();
-	}
-
-	void setMyfitnesspalRefreshToken(String value) {
-		SharedPreferences.Editor editor = mSettings.edit();
-		editor.putString("myfitnesspal_refresh_token", value);
-		editor.commit();
-	}
-
-	public String getMyfitnesspalAuthoCode() {
-		return mSettings.getString("myfitnesspal_autho_code", null);
-	}
-
-	public String getMyfitnesspalAccessToken() {
-		return mSettings.getString("myfitnesspal_access_token", null);
-	}
-
-	public String getMyfitnesspalRefreshToken() {
-		return mSettings.getString("myfitnesspal_refresh_token", null);
-	}
+//	void setMyfitnesspalAuthoCode(String value) {
+//		SharedPreferences.Editor editor = mSettings.edit();
+//		editor.putString("myfitnesspal_autho_code", value);
+//		editor.commit();
+//	}
+//
+//	void setMyfitnesspalAccessToken(String value) {
+//		SharedPreferences.Editor editor = mSettings.edit();
+//		editor.putString("myfitnesspal_access_token", value);
+//		editor.commit();
+//	}
+//
+//	void setMyfitnesspalRefreshToken(String value) {
+//		SharedPreferences.Editor editor = mSettings.edit();
+//		editor.putString("myfitnesspal_refresh_token", value);
+//		editor.commit();
+//	}
+//
+//	public String getMyfitnesspalAuthoCode() {
+//		return mSettings.getString("myfitnesspal_autho_code", null);
+//	}
+//
+//	public String getMyfitnesspalAccessToken() {
+//		return mSettings.getString("myfitnesspal_access_token", null);
+//	}
+//
+//	public String getMyfitnesspalRefreshToken() {
+//		return mSettings.getString("myfitnesspal_refresh_token", null);
+//	}
 
 	public boolean isLocked() {
 		return mSettings.getBoolean("lock_status", true);
@@ -516,9 +517,9 @@ public float getBodyHeight() {
 		editor.commit();
 	}
 
-	public int getOperationMode() {
-		return mSettings.getInt("operation_mode", 0); // stop no save mode
-	}
+//	public int getOperationMode() {
+//		return mSettings.getInt("operation_mode", 0); // stop no save mode
+//	}
 
 	public void setOperationMode(int option) {
 		SharedPreferences.Editor editor = mSettings.edit();
@@ -548,6 +549,17 @@ public float getBodyHeight() {
 		SharedPreferences.Editor editor = mSettings.edit();
 		editor.putBoolean("pedometer_back_button", value);
 		editor.apply(); //commit();
+	}
+
+	public void setResetToday(Calendar now) {
+		SharedPreferences.Editor editor = mSettings.edit();
+		editor.putString("reset_today", DateFormat.format("yyyy-MM-dd", now).toString());
+		editor.apply(); //commit();
+	}
+
+	public boolean isResetToday(Calendar now) {
+		String string = mSettings.getString("reset_today", "2000-01-01");
+		return string.equals(DateFormat.format("yyyy-MM-dd", now).toString());
 	}
 
 

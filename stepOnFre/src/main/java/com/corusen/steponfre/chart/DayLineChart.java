@@ -29,6 +29,7 @@ import com.corusen.steponfre.base.AccuService;
 import com.corusen.steponfre.chart.ChartActivity.DemoObjectFragment;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.view.Display;
 import android.view.WindowManager;
@@ -57,8 +58,8 @@ public class DayLineChart extends AbstractDemoChart {
 
 	public GraphicalView graphicalView(DemoObjectFragment demoObjectFragment, List<double[]> x, List<double[]> values, boolean screenLarge) {
 		String[] titles = new String[] { demoObjectFragment.getString(R.string.daily_steps) + ":  ", demoObjectFragment.getString(R.string.daily_goal) + ":  ", }; // WL
-		int[] colors = new int[] { demoObjectFragment.getResources().getColor(AccuService.mScreenChartDayLineRender1),
-				demoObjectFragment.getResources().getColor(AccuService.mScreenChartDayLineRender2) };
+		int[] colors = new int[] { demoObjectFragment.getResources().getColor(R.color.myblue),
+				demoObjectFragment.getResources().getColor(R.color.mygreen) };
 		PointStyle[] styles = new PointStyle[] { PointStyle.CIRCLE, PointStyle.POINT };
 		XYMultipleSeriesRenderer renderer = buildRenderer(colors, styles, screenLarge);
 
@@ -217,19 +218,19 @@ public class DayLineChart extends AbstractDemoChart {
 		}
 
 		setChartSettings(renderer, demoObjectFragment.getString(R.string.hourly_step_counts), demoObjectFragment.getString(R.string.hour), "", 0.0, 24.0, 0,
-				maxY, AccuService.mScreenChartDayLineSetting, AccuService.mScreenChartDayLineSetting);
+				maxY, Color.WHITE, Color.WHITE);
 
 		renderer.setShowGrid(true);
 		renderer.setXLabelsAlign(Align.CENTER);
 		renderer.setYLabelsAlign(Align.RIGHT);
-		renderer.setXLabelsColor(AccuService.mScreenChartDayLineSetting); // WL 1/23/12
-		renderer.setYLabelsColor(0, AccuService.mScreenChartDayLineSetting); // WL 1/23/12
+		renderer.setXLabelsColor(Color.WHITE); // WL 1/23/12
+		renderer.setYLabelsColor(0, Color.WHITE); // WL 1/23/12
 		renderer.setPanLimits(new double[] { 0.0, 24.0, 0, 30 });
 		renderer.setZoomLimits(new double[] { 0.0, 24.0, 0, 30 });
 
 		renderer.setApplyBackgroundColor(true);
-		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartBackground));
-		renderer.setMarginsColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartDayLineRenderMargin));
+		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(R.color.myddarkgray));
+		renderer.setMarginsColor(demoObjectFragment.getResources().getColor(R.color.myddarkgray));
 
 		renderer.setPanEnabled(false, false);
 		renderer.setZoomEnabled(false, false);
@@ -237,7 +238,7 @@ public class DayLineChart extends AbstractDemoChart {
 		for (int i = 0; i < length; i++) {
 			XYSeriesRenderer seriesRenderer = (XYSeriesRenderer) renderer.getSeriesRendererAt(i);
 			seriesRenderer.setFillBelowLine(i == length - 2);
-			seriesRenderer.setFillBelowLineColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartDayLineRender3));
+			seriesRenderer.setFillBelowLineColor(demoObjectFragment.getResources().getColor(R.color.myltblue));
 			seriesRenderer.setLineWidth(3.5f);
 		}
 

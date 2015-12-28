@@ -33,25 +33,30 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
-//import android.support.v4.app.DialogFragment;
+import android.preference.PreferenceManager;
 import android.widget.DatePicker;
 
 public class FragmentDialogBirthDatePicker extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {
-		int year = Pedometer.mPedometerSettings.getBirthYear();
-		int month = Pedometer.mPedometerSettings.getBirthMonth();
-		int day = Pedometer.mPedometerSettings.getBirthDay();
+		SharedPreferences mSettings = PreferenceManager.getDefaultSharedPreferences(getActivity());
+		PedometerSettings pedometerSettings = new PedometerSettings(mSettings);
+		int year =  pedometerSettings.getBirthYear();
+		int month = pedometerSettings.getBirthMonth();
+		int day =   pedometerSettings.getBirthDay();
 
 		return new DatePickerDialog(getActivity(), this, year, month-1, day);
 	}
 
 	public void onDateSet(DatePicker view, int year, int month, int day) {
-		Pedometer.mPedometerSettings.setBirthYear(year);
-		Pedometer.mPedometerSettings.setBirthMonth(month+1);
-		Pedometer.mPedometerSettings.setBirthDay(day);
+		SharedPreferences mSettings = PreferenceManager.getDefaultSharedPreferences(getActivity());
+		PedometerSettings pedometerSettings = new PedometerSettings(mSettings);
+		pedometerSettings.setBirthYear(year);
+		pedometerSettings.setBirthMonth(month+1);
+		pedometerSettings.setBirthDay(day);
 		getTargetFragment().onActivityResult(getTargetRequestCode(), Activity.RESULT_OK, getActivity().getIntent());
 	}
 

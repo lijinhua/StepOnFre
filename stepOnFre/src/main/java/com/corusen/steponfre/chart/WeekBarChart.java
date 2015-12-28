@@ -29,6 +29,7 @@ import com.corusen.steponfre.chart.ChartActivity.DemoObjectFragment;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.preference.PreferenceManager;
 import android.view.Display;
@@ -63,8 +64,7 @@ public class WeekBarChart extends AbstractDemoChart {
 		String[] titles = new String[] { demoObjectFragment
 				.getString(R.string.weekly_total) + ": " }; // WL // change
 
-		int[] colors = new int[] { demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRender1) };
+		int[] colors = new int[] { demoObjectFragment.getResources().getColor(R.color.myblue) };
 
 		double maxStep = 0.0;
 		int totalSteps = 0;
@@ -110,7 +110,7 @@ public class WeekBarChart extends AbstractDemoChart {
 
 		renderer.setOrientation(Orientation.HORIZONTAL);
 		setChartSettings(renderer, demoObjectFragment.getString(R.string.daily_step_counts), demoObjectFragment.getString(R.string.day), "", 0.5, 7.5, 0,
-				maxY, AccuService.mScreenChartDayLineSetting, AccuService.mScreenChartDayLineSetting);
+				maxY, Color.WHITE, Color.WHITE);
 
 
 		if (maxY < 12000) {
@@ -266,16 +266,16 @@ public class WeekBarChart extends AbstractDemoChart {
 		
 		renderer.setXLabelsAlign(Align.CENTER);
 		renderer.setYLabelsAlign(Align.RIGHT);
-		renderer.setXLabelsColor(AccuService.mScreenChartDayLineSetting);	//WL 1/23/12
-		renderer.setYLabelsColor(0, AccuService.mScreenChartDayLineSetting);	//WL 1/23/12
+		renderer.setXLabelsColor(Color.WHITE);	//WL 1/23/12
+		renderer.setYLabelsColor(0, Color.WHITE);	//WL 1/23/12
 		renderer.setShowGrid(true);
 
 		renderer.setDisplayChartValues(true);
 
 		renderer.setApplyBackgroundColor(true);
-		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartBackground));
+		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(R.color.myddarkgray));
 		renderer.setMarginsColor(demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRenderMargin));
+				R.color.myddarkgray));
 
 		renderer.setPanEnabled(false, false);
 		renderer.setZoomEnabled(false, false);

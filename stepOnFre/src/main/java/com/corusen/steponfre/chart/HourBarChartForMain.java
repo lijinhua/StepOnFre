@@ -16,11 +16,13 @@
 package com.corusen.steponfre.chart;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.graphics.Point;
 import android.view.Display;
 import android.view.WindowManager;
 
+import com.corusen.steponfre.R;
 import com.corusen.steponfre.base.AccuService;
 import com.corusen.steponfre.base.Pedometer.ObjectFragment;
 
@@ -58,8 +60,7 @@ public class HourBarChartForMain extends AbstractDemoChartForMain {
 			List<double[]> xx, List<double[]> values, boolean screenLarge) {
 		String[] titles = new String[] { "" }; // WL change
 
-		int[] colors = new int[] { demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRender1) };
+		int[] colors = new int[] { demoObjectFragment.getResources().getColor(R.color.myblue) };
 
 		double maxStep = 0.0;
 		//int totalSteps = 0;
@@ -204,8 +205,8 @@ public class HourBarChartForMain extends AbstractDemoChartForMain {
 			// renderer.setShowLegend(false);
 		}
 
-		setChartSettings(renderer, "", "", "", 0.0, 24.0, 0, maxY, AccuService.mScreenChartDayLineSetting,
-				AccuService.mScreenChartDayLineSetting);
+		setChartSettings(renderer, "", "", "", 0.0, 24.0, 0, maxY, Color.WHITE,
+				Color.WHITE);
 		renderer.setXLabels(1);
 		renderer.setYLabels(1); // WL change
 		renderer.addXTextLabel(0, "0");
@@ -278,8 +279,8 @@ public class HourBarChartForMain extends AbstractDemoChartForMain {
 		renderer.setBarSpacing(0.2f); // WL 1/23/12
 		renderer.setXLabelsAlign(Align.CENTER);
 		renderer.setYLabelsAlign(Align.RIGHT, 0);
-		renderer.setXLabelsColor(AccuService.mScreenChartDayLineSetting); // WL 1/23/12
-		renderer.setYLabelsColor(0, AccuService.mScreenChartDayLineSetting); // WL 1/23/12
+		renderer.setXLabelsColor(Color.WHITE); // WL 1/23/12
+		renderer.setYLabelsColor(0, Color.WHITE); // WL 1/23/12
 
 		renderer.setShowGrid(false);
 
@@ -287,10 +288,10 @@ public class HourBarChartForMain extends AbstractDemoChartForMain {
 		// SimpleSeriesRenderer.setDisplayChartValues(false);
 
 		renderer.setApplyBackgroundColor(true);
-		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartBackground));
+		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(R.color.myddarkgray));
 
 		renderer.setMarginsColor(demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRenderMargin));
+				R.color.myddarkgray));
 
 		renderer.setPanEnabled(false, false);
 		renderer.setZoomEnabled(false, false);

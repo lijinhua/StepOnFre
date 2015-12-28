@@ -33,8 +33,6 @@ public class FragmentBackup extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-//		AnalyticsApp.tracker().setScreenName("BackupMemory541");
-//		AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
     }
 
 
@@ -45,7 +43,7 @@ public class FragmentBackup extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(AccuService.mScreenFragmentBackupSdcard, container, false);
+        View view = inflater.inflate(R.layout.dark_fragment_backup_sdcard, container, false);
         mButtonExport = (ImageButton) view.findViewById(R.id.dbaseexportButton);
         mButtonImport = (ImageButton) view.findViewById(R.id.dbaseimportButton);
         mSdcardText = (TextView) view.findViewById(R.id.export_to_sdcard);
@@ -101,8 +99,8 @@ public class FragmentBackup extends Fragment {
         Resources res = this.getResources();
         if (res != null) { // java.lang.NullPointerException in TE
             mSdcardText.setText(R.string.export_to_sdcard);
-            mButtonExport.setImageDrawable(ContextCompat.getDrawable(getActivity(), AccuService.mScreenBackupDBExport));
-            mButtonImport.setImageDrawable(ContextCompat.getDrawable(getActivity(), AccuService.mScreenBackupDBImport));
+            mButtonExport.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.blue_dbase_export_ic));
+            mButtonImport.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.blue_dbase_import_ic));
             mButtonExport.setEnabled(true);
             mButtonImport.setEnabled(true);
         }

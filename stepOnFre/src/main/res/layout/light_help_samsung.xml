@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" android:layout_gravity="center_horizontal" 
+    android:background="@color/mylightgray">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ 	android:orientation="vertical">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/mywhite"
+	    android:orientation="horizontal"
+	    android:padding="5dip" >
+		 
+		<Button
+			android:id="@+id/emailButton"
+			android:layout_height="wrap_content"
+			android:text="@string/button_email" android:layout_weight="1" 
+			android:layout_width="match_parent"/>
+		  
+	     <LinearLayout
+	         android:layout_width="10dp"
+	         android:layout_height="wrap_content">
+	     </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mywhite"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/my99black"
+     android:gravity="center_horizontal"
+     android:text="@string/email_title"
+     android:textColor="@color/myllightgray"
+     android:textStyle="bold" >
+</TextView>
+
+ <TextView  
+    android:layout_width="match_parent" 
+    android:text="@string/email_message" android:textColor="@color/mydarkgray" 
+    android:layout_height="wrap_content"></TextView>
+
+ <TextView  
+    android:layout_width="match_parent" 
+    android:text="@string/review_message" android:textColor="@color/myddarkred"  android:textStyle="bold"
+    android:layout_height="wrap_content" ></TextView>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mywhite"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/my99black"
+     android:gravity="center_horizontal"
+     android:text="@string/notes_title"
+     android:textColor="@color/myllightgray"
+     android:textStyle="bold" >
+</TextView>
+ <TextView  
+    android:layout_width="match_parent" 
+    android:text="@string/notes_message" android:textColor="@color/mydarkgray" 
+    android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+ 
+
+</LinearLayout> 
+
+</ScrollView>
+

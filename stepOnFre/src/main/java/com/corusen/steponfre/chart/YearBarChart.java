@@ -28,6 +28,7 @@ import com.corusen.steponfre.base.AccuService;
 import com.corusen.steponfre.chart.ChartActivity.DemoObjectFragment;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.view.Display;
 import android.view.WindowManager;
@@ -69,8 +70,7 @@ public class YearBarChart extends AbstractDemoChart {
 //		if (width > 240)
 //			large = true;
 
-		int[] colors = new int[] { demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRender1) };
+		int[] colors = new int[] { demoObjectFragment.getResources().getColor(R.color.myblue) };
 
 		int totalSteps = 0;
 		int aveTotalAveSteps = 0;
@@ -169,7 +169,7 @@ public class YearBarChart extends AbstractDemoChart {
 		setChartSettings(renderer,
 				demoObjectFragment.getString(R.string.monthly_average_step_counts),
 				demoObjectFragment.getString(R.string.month), "", 0.5, 12.5, 0, maxY,
-				AccuService.mScreenChartDayLineSetting, AccuService.mScreenChartDayLineSetting);
+				Color.WHITE, Color.WHITE);
 
 		if (maxY < 12000) {
 			maxY = 12000;
@@ -246,14 +246,14 @@ public class YearBarChart extends AbstractDemoChart {
 		
 		renderer.setXLabelsAlign(Align.CENTER);
 		renderer.setYLabelsAlign(Align.RIGHT);
-		renderer.setXLabelsColor(AccuService.mScreenChartDayLineSetting);	//WL 1/23/12
-		renderer.setYLabelsColor(0, AccuService.mScreenChartDayLineSetting);	//WL 1/23/12
+		renderer.setXLabelsColor(Color.WHITE);	//WL 1/23/12
+		renderer.setYLabelsColor(0, Color.WHITE);	//WL 1/23/12
 		renderer.setShowGrid(true);
 
 		renderer.setApplyBackgroundColor(true);
-		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(AccuService.mScreenChartBackground));
+		renderer.setBackgroundColor(demoObjectFragment.getResources().getColor(R.color.myddarkgray));
 		renderer.setMarginsColor(demoObjectFragment.getResources().getColor(
-				AccuService.mScreenChartDayLineRenderMargin));
+				R.color.myddarkgray));
 
 		renderer.setPanEnabled(false, false);
 		renderer.setZoomEnabled(false, false);

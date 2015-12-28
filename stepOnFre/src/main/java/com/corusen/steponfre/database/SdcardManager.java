@@ -45,8 +45,8 @@ import android.widget.Toast;
 
 public class SdcardManager {
 	private ProgressDialog mProgressDialog;
-	public boolean mExternalStorageAvailable = false;
-	public boolean mExternalStorageWriteable = false;
+	private boolean mExternalStorageAvailable = false;
+	private boolean mExternalStorageWriteable = false;
 	private Context mContext;
 
 	public SdcardManager(Context context) {
@@ -99,14 +99,11 @@ public class SdcardManager {
 								src.close();
 								dst.close();
 							}
-						} else {
 						}
 					}
 
 				} catch (Exception e) {
 					e.printStackTrace();
-				} finally {
-
 				}
 			}
 		};
@@ -132,8 +129,8 @@ public class SdcardManager {
 				File folder;
 				checkExternalStorage();
 
-				FileInputStream fileInputStream = null;
-				FileOutputStream fileOutputStream = null;
+				FileInputStream fileInputStream;
+				FileOutputStream fileOutputStream;
 				try {
 
 					if (mExternalStorageAvailable && mExternalStorageWriteable) {
@@ -182,8 +179,6 @@ public class SdcardManager {
 
 				} catch (Exception e) {
 					e.printStackTrace();
-				} finally {
-
 				}
 				handlerExport.sendEmptyMessage(0);
 			}
@@ -192,7 +187,7 @@ public class SdcardManager {
 	}
 
 	public void importDatabase() throws IOException {
-		mProgressDialog = new ProgressDialog(Pedometer.getInstance());
+		mProgressDialog = new ProgressDialog(mContext);
 		mProgressDialog.setMessage(mContext
 				.getString(R.string.wait_for_importing_db));
 		mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
@@ -206,8 +201,8 @@ public class SdcardManager {
 
 		Thread importDBfile = new Thread() {
 			public void run() {
-				FileInputStream fileInputStream = null;
-				FileOutputStream fileOutputStream = null;
+				FileInputStream fileInputStream;
+				FileOutputStream fileOutputStream;
 				try {
 					File sd = new File(
 							Environment.getExternalStorageDirectory()
@@ -233,17 +228,12 @@ public class SdcardManager {
 							dst.close();
 							showToast(mContext
 									.getString(R.string.import_success_message));
-						} else {
-
 						}
 					} else {
-						showToast(mContext
-								.getString(R.string.toast_folder_doesnot_exist));
+						showToast(mContext.getString(R.string.toast_folder_doesnot_exist));
 					}
 				} catch (Exception e) {
 					// throw new Error("Unable to create database");
-				} finally {
-
 				}
 				handler.sendEmptyMessage(0);
 			}
@@ -271,8 +261,7 @@ public class SdcardManager {
 		((Activity) mContext).runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				Toast.makeText(Pedometer.getInstance(), toast,
-						Toast.LENGTH_SHORT).show();
+				Toast.makeText(mContext, toast, Toast.LENGTH_SHORT).show();
 			}
 		});
 	}

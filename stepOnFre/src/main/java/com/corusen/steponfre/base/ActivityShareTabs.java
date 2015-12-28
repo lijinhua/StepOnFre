@@ -13,38 +13,38 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.corusen.steponfre.base;
+//package com.corusen.steponfre.base;
+//
+//import com.corusen.steponfre.R;
+//
+//import java.util.ArrayList;
+//
+//import android.content.Context;
+//import android.content.Intent;
+//import android.content.res.Configuration;
+//import android.content.res.TypedArray;
+//import android.graphics.drawable.ColorDrawable;
+//import android.os.Bundle;
+//import android.support.v4.app.ActionBarDrawerToggle;
+//import android.support.v4.app.Fragment;
+//import android.support.v4.app.FragmentActivity;
+//import android.support.v4.app.FragmentPagerAdapter;
+//import android.support.v4.view.ViewPager;
+//import android.support.v4.widget.DrawerLayout;
+//import android.view.KeyEvent;
+//import android.view.Menu;
+//import android.view.MenuInflater;
+//import android.view.MenuItem;
+//import android.view.View;
+//import android.view.ViewGroup;
+//import android.widget.AdapterView;
+//import android.widget.ListView;
+//import android.widget.TabHost;
+//import android.widget.TabWidget;
+//import android.widget.TextView;
 
-import com.corusen.steponfre.R;
 
-import java.util.ArrayList;
-
-import android.content.Context;
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.TypedArray;
-import android.graphics.drawable.ColorDrawable;
-import android.os.Bundle;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.DrawerLayout;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ListView;
-import android.widget.TabHost;
-import android.widget.TabWidget;
-import android.widget.TextView;
-
-
-public class ActivityShareTabs extends FragmentActivity {
+//public class ActivityShareTabs extends FragmentActivity {
 //	TabHost mTabHost;
 //	ViewPager mViewPager;
 //	public TabsAdapter mTabsAdapter;
@@ -87,12 +87,12 @@ public class ActivityShareTabs extends FragmentActivity {
 //		mAdapter = new NavDrawerListAdapter(getApplicationContext(), navDrawerItems);
 //		mDrawerList.setAdapter(mAdapter);
 //
-//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon and behaving it as toggle button
+//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon_te and behaving it as toggle button
 //		getActionBar().setHomeButtonEnabled(true);
 //		getActionBar().setBackgroundDrawable(new ColorDrawable(getResources()
 //				.getColor(AccuService.mScreenAcitionBarColor)));
 //
-//		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, // nav menu toggle icon
+//		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, // nav menu toggle icon_te
 //				R.string.app_name, // nav drawer open - description for accessibility
 //				R.string.app_name // nav drawer close - description for accessibility
 //		) {
@@ -178,7 +178,7 @@ public class ActivityShareTabs extends FragmentActivity {
 ////
 ////	@Override
 ////	public boolean onOptionsItemSelected(MenuItem item) {
-////		// toggle nav drawer on selecting action bar app icon/title
+////		// toggle nav drawer on selecting action bar app icon_te/title
 ////		if (mDrawerToggle.onOptionsItemSelected(item)) {
 ////			return true;
 ////		}
@@ -439,5 +439,5 @@ public class ActivityShareTabs extends FragmentActivity {
 //		}
 //		return super.onKeyDown(keyCode, event);
 //	}
-
-}
+//
+//}

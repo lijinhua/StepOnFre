@@ -37,7 +37,6 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.NumberPicker;
@@ -46,22 +45,16 @@ import com.corusen.steponfre.R;
 
 public class FragmentDialogBodyHeight extends DialogFragment {
 
-	private SharedPreferences mSettings;
 	private PedometerSettings mPedometerSettings;
 	private boolean mIsMetric;
-	// private String mUnitText;
 	private float mValue;
 	private int mFeet;
 	private int mInch;
 
-	private NumberPicker mNumberPicker = null;
-	private NumberPicker mNumberPicker1 = null;
-	private NumberPicker mNumberPicker2 = null;
-
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {
-		mSettings = PreferenceManager.getDefaultSharedPreferences(this.getActivity());
-		mPedometerSettings = new PedometerSettings(mSettings);
+		SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this.getActivity());
+		mPedometerSettings = new PedometerSettings(settings);
 		mValue = mPedometerSettings.getBodyHeight();
 		mIsMetric = mPedometerSettings.isMetric();
 
@@ -69,6 +62,9 @@ public class FragmentDialogBodyHeight extends DialogFragment {
 		LayoutInflater inflater = getActivity().getLayoutInflater();
 
 		View view;
+		NumberPicker mNumberPicker;
+		NumberPicker mNumberPicker1;
+		NumberPicker mNumberPicker2;
 
 		if (mIsMetric) {
 			// mUnitText = getString(R.string.kilograms);
@@ -118,11 +114,9 @@ public class FragmentDialogBodyHeight extends DialogFragment {
 		builder.setView(view).setTitle(getString(R.string.body_height_setting_title))
 				.setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
-						if (mIsMetric) {
-							mPedometerSettings.setBodyHeight(mValue);
-						} else {
-							mPedometerSettings.setBodyHeight(mFeet * 12 + mInch);
-						}
+						if (mIsMetric) mPedometerSettings.setBodyHeight(mValue);
+						else mPedometerSettings.setBodyHeight(mFeet * 12 + mInch);
+
 						getTargetFragment().onActivityResult(getTargetRequestCode(), Activity.RESULT_OK, getActivity().getIntent());
 					}
 				}).setNegativeButton(getString(R.string.cancelled), new DialogInterface.OnClickListener() {

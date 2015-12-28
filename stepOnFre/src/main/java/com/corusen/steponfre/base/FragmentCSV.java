@@ -35,12 +35,14 @@ import java.io.IOException;
 import java.util.Calendar;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -49,10 +51,9 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.corusen.steponfre.R;
-import com.corusen.steponfre.base.AnalyticsSampleApp.TrackerName;
 import com.corusen.steponfre.database.Constants;
-import com.google.android.gms.analytics.HitBuilders;
-import com.google.android.gms.analytics.Tracker;
+import com.corusen.steponfre.database.MyDB;
+
 
 public class FragmentCSV extends Fragment {
 
@@ -70,8 +71,8 @@ public class FragmentCSV extends Fragment {
 	private int mColumnIndexDistance;
 	private int mColumnIndexCalories;
 	private int mColumnIndexSteptime;
-	private ImageButton sendcvsButton;
-	private View mView;
+
+	private static MyDB mDB;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -81,16 +82,21 @@ public class FragmentCSV extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-		mView = inflater.inflate(AccuService.mScreenFragmentShareCSVemail, container, false);
+		View view = inflater.inflate(R.layout.dark_fragment_share_csvemail, container, false);
 
-		sendcvsButton = (ImageButton) mView.findViewById(R.id.sendcvsButton);
+		mDB = new MyDB(getActivity());
+
+		SharedPreferences mSettings = PreferenceManager.getDefaultSharedPreferences(getContext());
+		PedometerSettings pedometerSettings = new PedometerSettings(mSettings);
+
+		ImageButton sendcvsButton = (ImageButton) view.findViewById(R.id.sendcvsButton);
 		sendcvsButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				sendCSVfile();
 			}
 		});
 
-		if (Pedometer.mPedometerSettings.isMetric()) {
+		if (pedometerSettings.isMetric()) {
 			mfDistanceFactor = 1.60934f;
 			getString(R.string.widget_km);
 		} else {
@@ -103,8 +109,8 @@ public class FragmentCSV extends Fragment {
 		int month = today.get(Calendar.MONTH) + 1;
 		int day = today.get(Calendar.DATE);
 
-		Pedometer.mDB.open();
-		Cursor c = Pedometer.mDB.queryDayMaxSteps(year, month, day);
+		mDB.open();
+		Cursor c = mDB.queryDayMaxSteps(year, month, day);
 
 		mColumnIndexYear = c.getColumnIndex(Constants.KEY_YEAR);
 		mColumnIndexMonth = c.getColumnIndex(Constants.KEY_MONTH);
@@ -115,17 +121,14 @@ public class FragmentCSV extends Fragment {
 		mColumnIndexSteptime = c.getColumnIndex(Constants.KEY_STEPTIME);
 
 		c.close();
-		Pedometer.mDB.close();
+		mDB.close();
 
-		return mView;
+		return view;
 	}
 	
 	@Override
 	public void onStart() {
 		super.onStart();
-		Tracker t = ((AnalyticsSampleApp) Pedometer.getInstance().getApplication()).getTracker(TrackerName.APP_TRACKER);
-		t.setScreenName("EmailCSV");
-		t.send(new HitBuilders.AppViewBuilder().build());
 	}
 
 	@Override
@@ -153,149 +156,149 @@ public class FragmentCSV extends Fragment {
 		super.onDestroy();
 	}
 
-	public void generateCsvFile() {
-		boolean success = true;
-		File folder;
-		String folderName = Constants.ACCUPEDO_FOLDERNAME;
-		String fileName = Constants.ACCUPEDO_CSV_FILENAME; 
-		checkExternalStorage();
-
-		try {
-			// File root = Environment.getExternalStorageDirectory();
-			if (mExternalStorageAvailable && mExternalStorageWriteable) {
-				folder = new File(Environment.getExternalStorageDirectory() + folderName);
-				if (!folder.exists()) {
-					success = folder.mkdirs();
-				}
-			} else {
-				Toast.makeText(getActivity(), getString(R.string.toast_need_sdcard), Toast.LENGTH_SHORT).show();
-				return;
-			}
-
-			if (success) {
-				File gpxfile = new File(folder, fileName);
-				FileWriter writer = new FileWriter(gpxfile);
-
-				Pedometer.mDB.open();
-				Cursor c = Pedometer.mDB.queryAllDayMaxSteps();
-				if (c.moveToFirst()) {
-					do {
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_YEAR))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_MONTH))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_DAY))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_STEPS))));
-						writer.append(',');
-						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_DISTANCE)) * mfDistanceFactor));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_CALORIES))));
-						writer.append(',');
-						writer.append(Utils.getHoursMinutesString((int) c.getLong(c.getColumnIndex(Constants.KEY_STEPTIME)) / 1000));
-						writer.append("\r\n");
-					} while (c.moveToNext());
-					c.close();
-					Pedometer.mDB.close();
-				}
-				writer.flush();
-				writer.close();
-				Toast.makeText(getActivity(), getString(R.string.toast_save), Toast.LENGTH_SHORT).show();
-			} else {
-				Toast.makeText(getActivity(), getString(R.string.toast_folder), Toast.LENGTH_SHORT).show();
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void generateAllCsvFile() {
-		boolean success = true;
-		File folder;
-		String folderName = Constants.ACCUPEDO_FOLDERNAME;
-		String fileName = Constants.ACCUPEDO_CSV_FILENAME;
-		checkExternalStorage();
-
-		try {
-			// File root = Environment.getExternalStorageDirectory();
-			if (mExternalStorageAvailable && mExternalStorageWriteable) {
-				folder = new File(Environment.getExternalStorageDirectory() + folderName);
-				if (!folder.exists()) {
-					success = folder.mkdirs();
-				}
-			} else {
-				Toast.makeText(getActivity(), getString(R.string.toast_need_sdcard), Toast.LENGTH_SHORT).show();
-				return;
-			}
-
-			if (success) {
-				File gpxfile = new File(folder, fileName);
-				FileWriter writer = new FileWriter(gpxfile);
-
-				Pedometer.mDB.open();
-				Cursor c = Pedometer.mDB.queryDataBase();
-				writer.append("ID, Lap, Year, Month, Day, Hour, Minute, LapSteps, LapDistance, LapCalories, LapStepTime, Steps, Distance, Caloires, Speed, Pace, StepTime, Acheivement");
-				writer.append("\r\n");
-
-				if (c.moveToFirst()) {
-					do {
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_ID))));
-						writer.append(',');
-
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_LAP))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_YEAR))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_MONTH))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_DAY))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_HOUR))));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_MINUTE))));
-						writer.append(',');
-
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_LAPSTEPS))));
-						writer.append(',');
-						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_LAPDISTANCE)) * mfDistanceFactor));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_LAPCALORIES))));
-						writer.append(',');
-						writer.append(Utils.getHoursMinutesString((int) c.getLong(c.getColumnIndex(Constants.KEY_LAPSTEPTIME)) / 1000));
-						writer.append(',');
-
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_STEPS))));
-						writer.append(',');
-						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_DISTANCE)) * mfDistanceFactor));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_CALORIES))));
-						writer.append(',');
-						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_SPEED)) * mfDistanceFactor));
-						writer.append(',');
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_PACE))));
-						writer.append(',');
-
-						writer.append(Utils.getHoursMinutesString((int) c.getLong(c.getColumnIndex(Constants.KEY_STEPTIME)) / 1000));
-						writer.append(',');
-
-						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_ACHIEVEMENT))));
-
-						writer.append("\r\n");
-
-					} while (c.moveToNext());
-					c.close();
-					Pedometer.mDB.close();
-				}
-				writer.flush();
-				writer.close();
-				Toast.makeText(getActivity(), getString(R.string.toast_save), Toast.LENGTH_SHORT).show();
-			} else {
-				Toast.makeText(getActivity(), getString(R.string.toast_folder), Toast.LENGTH_SHORT).show();
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+//	public void generateCsvFile() {
+//		boolean success = true;
+//		File folder;
+//		String folderName = Constants.ACCUPEDO_FOLDERNAME;
+//		String fileName = Constants.ACCUPEDO_CSV_FILENAME;
+//		checkExternalStorage();
+//
+//		try {
+//			// File root = Environment.getExternalStorageDirectory();
+//			if (mExternalStorageAvailable && mExternalStorageWriteable) {
+//				folder = new File(Environment.getExternalStorageDirectory() + folderName);
+//				if (!folder.exists()) {
+//					success = folder.mkdirs();
+//				}
+//			} else {
+//				Toast.makeText(getActivity(), getString(R.string.toast_need_sdcard), Toast.LENGTH_SHORT).show();
+//				return;
+//			}
+//
+//			if (success) {
+//				File gpxfile = new File(folder, fileName);
+//				FileWriter writer = new FileWriter(gpxfile);
+//
+//				mDB.open();
+//				Cursor c = mDB.queryAllDayMaxSteps();
+//				if (c.moveToFirst()) {
+//					do {
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_YEAR))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_MONTH))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_DAY))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_STEPS))));
+//						writer.append(',');
+//						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_DISTANCE)) * mfDistanceFactor));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_CALORIES))));
+//						writer.append(',');
+//						writer.append(Utils.getHoursMinutesString((int) c.getLong(c.getColumnIndex(Constants.KEY_STEPTIME)) / 1000));
+//						writer.append("\r\n");
+//					} while (c.moveToNext());
+//					c.close();
+//					mDB.close();
+//				}
+//				writer.flush();
+//				writer.close();
+//				Toast.makeText(getActivity(), getString(R.string.toast_save), Toast.LENGTH_SHORT).show();
+//			} else {
+//				Toast.makeText(getActivity(), getString(R.string.toast_folder), Toast.LENGTH_SHORT).show();
+//			}
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//	}
+//
+//	public void generateAllCsvFile() {
+//		boolean success = true;
+//		File folder;
+//		String folderName = Constants.ACCUPEDO_FOLDERNAME;
+//		String fileName = Constants.ACCUPEDO_CSV_FILENAME;
+//		checkExternalStorage();
+//
+//		try {
+//			// File root = Environment.getExternalStorageDirectory();
+//			if (mExternalStorageAvailable && mExternalStorageWriteable) {
+//				folder = new File(Environment.getExternalStorageDirectory() + folderName);
+//				if (!folder.exists()) {
+//					success = folder.mkdirs();
+//				}
+//			} else {
+//				Toast.makeText(getActivity(), getString(R.string.toast_need_sdcard), Toast.LENGTH_SHORT).show();
+//				return;
+//			}
+//
+//			if (success) {
+//				File gpxfile = new File(folder, fileName);
+//				FileWriter writer = new FileWriter(gpxfile);
+//
+//				mDB.open();
+//				Cursor c = mDB.queryDataBase();
+//				writer.append("ID, Lap, Year, Month, Day, Hour, Minute, LapSteps, LapDistance, LapCalories, LapStepTime, Steps, Distance, Caloires, Speed, Pace, StepTime, Acheivement");
+//				writer.append("\r\n");
+//
+//				if (c.moveToFirst()) {
+//					do {
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_ID))));
+//						writer.append(',');
+//
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_LAP))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_YEAR))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_MONTH))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_DAY))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_HOUR))));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_MINUTE))));
+//						writer.append(',');
+//
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_LAPSTEPS))));
+//						writer.append(',');
+//						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_LAPDISTANCE)) * mfDistanceFactor));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_LAPCALORIES))));
+//						writer.append(',');
+//						writer.append(Utils.getHoursMinutesString((int) c.getLong(c.getColumnIndex(Constants.KEY_LAPSTEPTIME)) / 1000));
+//						writer.append(',');
+//
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_STEPS))));
+//						writer.append(',');
+//						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_DISTANCE)) * mfDistanceFactor));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_CALORIES))));
+//						writer.append(',');
+//						writer.append(String.format("%5.2f", c.getFloat(c.getColumnIndex(Constants.KEY_SPEED)) * mfDistanceFactor));
+//						writer.append(',');
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_PACE))));
+//						writer.append(',');
+//
+//						writer.append(Utils.getHoursMinutesString((int) c.getLong(c.getColumnIndex(Constants.KEY_STEPTIME)) / 1000));
+//						writer.append(',');
+//
+//						writer.append(String.format("%5d", c.getInt(c.getColumnIndex(Constants.KEY_ACHIEVEMENT))));
+//
+//						writer.append("\r\n");
+//
+//					} while (c.moveToNext());
+//					c.close();
+//					mDB.close();
+//				}
+//				writer.flush();
+//				writer.close();
+//				Toast.makeText(getActivity(), getString(R.string.toast_save), Toast.LENGTH_SHORT).show();
+//			} else {
+//				Toast.makeText(getActivity(), getString(R.string.toast_folder), Toast.LENGTH_SHORT).show();
+//			}
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//	}
 
 	public void checkExternalStorage() {
 		String string = Environment.getExternalStorageState();
@@ -323,7 +326,7 @@ public class FragmentCSV extends Fragment {
 		final Handler handler = new Handler() {
 			public void handleMessage(Message msg) {
 				mCursorThread.close();
-				Pedometer.mDB.close();
+				mDB.close();
 				mProgressDialog.dismiss();
 				emailCSVfile();
 			}
@@ -391,8 +394,8 @@ public class FragmentCSV extends Fragment {
 				File gpxfile = new File(folder, fileName);
 				mWriter = new FileWriter(gpxfile);
 
-				Pedometer.mDB.open();
-				mCursorThread = Pedometer.mDB.queryAllDayMaxSteps();
+				mDB.open();
+				mCursorThread = mDB.queryAllDayMaxSteps();
 				mColumnIndexYear = mCursorThread.getColumnIndex(Constants.KEY_YEAR);
 				mColumnIndexMonth = mCursorThread.getColumnIndex(Constants.KEY_MONTH);
 				mColumnIndexDay = mCursorThread.getColumnIndex(Constants.KEY_DAY);

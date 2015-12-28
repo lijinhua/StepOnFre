@@ -72,7 +72,7 @@
 //		super.onCreate(savedInstanceState);
 //		setContentView(R.layout.light_fragment_accupedopro);
 //		
-//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon and behaving it as toggle button
+//		getActionBar().setDisplayHomeAsUpEnabled(true); // enabling action bar app icon_te and behaving it as toggle button
 //		getActionBar().setHomeButtonEnabled(true);
 //		getActionBar().setBackgroundDrawable(new ColorDrawable(getResources()
 //				.getColor(AccuService.mScreenAcitionBarColor)));

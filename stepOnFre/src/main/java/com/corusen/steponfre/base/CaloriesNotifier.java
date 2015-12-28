@@ -9,9 +9,8 @@ package com.corusen.steponfre.base;
 public class CaloriesNotifier implements StepListener {
 
 	public interface Listener {
-		public void valueChanged(float lapcalories, float calories);
-
-		public void passValue();
+		void valueChanged(float lapcalories, float calories);
+		void passValue();
 	}
 
 	private Listener mListener;

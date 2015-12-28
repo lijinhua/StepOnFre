@@ -31,15 +31,16 @@ package com.corusen.steponfre.base;
 
 
 
-//import java.util.Arrays;
+
 import java.util.Calendar;
-//import java.util.Collections;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -52,6 +53,7 @@ import android.widget.TextView;
 import com.corusen.steponfre.R;
 import com.corusen.steponfre.database.Constants;
 
+import com.corusen.steponfre.database.MyDB;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookAuthorizationException;
@@ -87,6 +89,8 @@ public class FragmentFacebook extends Fragment {
 	private CallbackManager callbackManager;
 	private ProfileTracker profileTracker;
 	private ShareDialog shareDialog;
+
+	private MyDB mDB;
 
 	private final FacebookCallback<Sharer.Result> shareCallback = new FacebookCallback<Sharer.Result>() {
 		@Override
@@ -129,6 +133,8 @@ public class FragmentFacebook extends Fragment {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+		mDB = new MyDB(getActivity());
 
 		FacebookSdk.sdkInitialize(this.getActivity().getApplicationContext());
 
@@ -196,7 +202,7 @@ public class FragmentFacebook extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-		View mView = inflater.inflate(AccuService.mScreenFragmentShareFacebook, container, false);
+		View mView = inflater.inflate(R.layout.dark_fragment_share_facebook, container, false);
 
 		postStatusUpdateButton = (ImageButton) mView.findViewById(R.id.postStatusUpdateButton);
 		postStatusUpdateButton.setOnClickListener(new View.OnClickListener() {
@@ -231,7 +237,11 @@ public class FragmentFacebook extends Fragment {
 
 		float mfDistanceFactor;
 		String mDistanceUnit;
-		if (Pedometer.mPedometerSettings.isMetric()) {
+
+		SharedPreferences mSettings = PreferenceManager.getDefaultSharedPreferences(getContext());
+		PedometerSettings pedometerSettings = new PedometerSettings(mSettings);
+
+		if (pedometerSettings.isMetric()) {
 			mfDistanceFactor = 1.60934f;
 			mDistanceUnit = getString(R.string.widget_km);
 		} else {
@@ -244,8 +254,8 @@ public class FragmentFacebook extends Fragment {
 		int month = today.get(Calendar.MONTH) + 1;
 		int day = today.get(Calendar.DATE);
 
-		Pedometer.mDB.open();
-		Cursor c = Pedometer.mDB.queryDayMaxSteps(year, month, day);
+		mDB.open();
+		Cursor c = mDB.queryDayMaxSteps(year, month, day);
 
 		int mColumnIndexSteps, mColumnIndexDistance, mColumnIndexCalories, mColumnIndexSteptime;
 		mColumnIndexSteps = c.getColumnIndex(Constants.KEY_STEPS);
@@ -258,13 +268,13 @@ public class FragmentFacebook extends Fragment {
 		mMessageStep3 = " \u2022 " + String.format("%.1f", c.getFloat(mColumnIndexCalories)) + " " + getString(R.string.cal);
 		mMessageStep4 = " \u2022 " + Utils.getHoursMinutesString((int) c.getLong(mColumnIndexSteptime) / 1000) + " " + getString(R.string.hhmm);
 		c.close();
-		Pedometer.mDB.close();
+		mDB.close();
 
 		TextView textStep1, textStep2;
 		textStep1 = (TextView) mView.findViewById(R.id.textStep1);
 		textStep2 = (TextView) mView.findViewById(R.id.textStep2);
-		textStep1.setText(mMessageStep1 + " " + mMessageStep2);
-		textStep2.setText(mMessageStep3 + " " + mMessageStep4);
+		textStep1.setText(String.format("%s%s%s", mMessageStep1, " ",mMessageStep2));
+		textStep2.setText(String.format("%s%s%s", mMessageStep3, " ",mMessageStep4));
 
 		postStatusUpdateButton.setContentDescription(getString(R.string.send));
 
@@ -275,12 +285,7 @@ public class FragmentFacebook extends Fragment {
 	@Override
 	public void onResume() {
 		super.onResume();
-
-		// Call the 'activateApp' method to log an app event for use in analytics and advertising
-		// reporting.  Do so in the onResume methods of the primary Activities that an app may be
-		// launched into.
 		AppEventsLogger.activateApp(getActivity());
-
 		updateUI();
 	}
 
@@ -293,8 +298,6 @@ public class FragmentFacebook extends Fragment {
 	@Override
 	public void onStart() {
 		super.onStart();
-//        AnalyticsApp.tracker().setScreenName("Facebook541");
-//        AnalyticsApp.tracker().send(new HitBuilders.ScreenViewBuilder().build());
 	}
 
 
@@ -325,7 +328,7 @@ public class FragmentFacebook extends Fragment {
 		Profile profile = Profile.getCurrentProfile();
 
 		if (enableButtons) {
-			postStatusUpdateButton.setImageDrawable(ContextCompat.getDrawable(getActivity(), AccuService.mScreenShareFBSend));
+			postStatusUpdateButton.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.blue_fbsend_ic));
 		} else {
 			postStatusUpdateButton.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.fbsend_off_ic));
 		}

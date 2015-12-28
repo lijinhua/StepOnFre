@@ -64,7 +64,7 @@ package com.corusen.steponfre.weather;
 //		weather.currentCondition.setWeatherId(getInt("id", JSONWeather));
 //		weather.currentCondition.setDescr(getString("description", JSONWeather));
 //		weather.currentCondition.setCondition(getString("main", JSONWeather));
-//		weather.currentCondition.setIcon(getString("icon", JSONWeather));
+//		weather.currentCondition.setIcon(getString("icon_te", JSONWeather));
 //		
 //		JSONObject mainObj = getObject("main", jObj);
 //		weather.currentCondition.setHumidity(getInt("humidity", mainObj));
@@ -82,7 +82,7 @@ package com.corusen.steponfre.weather;
 //		JSONObject cObj = getObject("clouds", jObj);
 //		weather.clouds.setPerc(getInt("all", cObj));
 //		
-//		// We download the icon to show
+//		// We download the icon_te to show
 //		
 //		
 //		return weather;
